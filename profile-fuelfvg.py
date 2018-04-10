@@ -10,7 +10,7 @@ dataset_id = 'mise'
 query = [('amenity', 'fuel','in','Friuli Venezia Giulia')]
 bbox = [45.5809,12.3214,46.648,13.9187]
 
-# tags to replace on matched OSm objects
+# tags to replace on matched OSM objects
 master_tags = ('operator', 'brand', 'description', 'addr:postcode', 'addr:city', 'source:date')
 
 delete_unmatched = False
