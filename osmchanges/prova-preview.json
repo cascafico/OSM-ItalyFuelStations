@@ -1,0 +1,519 @@
+{
+ "features": [
+  {
+   "geometry": {
+    "coordinates": [
+     12.9191631,
+     46.4162521
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 3728234291,
+    "osm_type": "node",
+    "ref_coords": [
+     12.919171857008337,
+     46.41625017521785
+    ],
+    "ref_distance": 0.7,
+    "ref_id": "14798",
+    "tags.amenity": "fuel",
+    "tags.name": "Agip",
+    "tags_new.addr:city": "Villa Santina",
+    "tags_new.addr:postcode": "Ezzo",
+    "tags_new.brand": "Esso",
+    "tags_new.description": "Statale 52 Carnica  Km. 19  Dir. Ampezzo",
+    "tags_new.operator": "Centro Auto Di Polonia Valerio",
+    "tags_new.source:date": "2018-04-09"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.134113,
+     46.3267802
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 188918886,
+    "osm_type": "way",
+    "ref_coords": [
+     13.134094397622675,
+     46.32679469957625
+    ],
+    "ref_distance": 2.2,
+    "ref_id": "9038",
+    "tags.amenity": "fuel",
+    "tags.building": "roof",
+    "tags.layer": "2",
+    "tags.name": "Eni",
+    "tags_changed.brand": "Eni -> Agip Eni",
+    "tags_changed.operator": "Eni -> Di Bernardo Delia & Alba S.N.C.",
+    "tags_new.addr:city": "Venzone",
+    "tags_new.addr:postcode": "33010",
+    "tags_new.description": "Via Pontebbana 26 33010",
+    "tags_new.source:date": "2018-04-09"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.928011,
+     46.415538
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 228275446,
+    "osm_type": "node",
+    "ref_coords": [
+     12.927969503239524,
+     46.415549233702016
+    ],
+    "ref_distance": 3.4,
+    "ref_id": "4595",
+    "tags.amenity": "fuel",
+    "tags.name": "Agip",
+    "tags_changed.brand": "Agip -> Agip Eni",
+    "tags_changed.operator": "Agip -> Gesticarb Snc Di Lucchini Gian Pietro E Luca Sonia",
+    "tags_new.addr:city": "Villa Santina",
+    "tags_new.addr:postcode": "33029",
+    "tags_new.description": "Statale 52 Carnica  Km. 19+041  Dir. Udine 33029",
+    "tags_new.source:date": "2018-04-09"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.1354547,
+     46.3629018
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 1995519428,
+    "osm_type": "node",
+    "ref_coords": [
+     13.135422617197037,
+     46.36292743135437
+    ],
+    "ref_distance": 3.8,
+    "ref_id": "26568",
+    "tags.amenity": "fuel",
+    "tags.brand": "Oil Italia",
+    "tags.name": "Oil Italia",
+    "tags_changed.operator": "Oil Italia -> Oil Italia Srl",
+    "tags_new.addr:city": "Venzone",
+    "tags_new.addr:postcode": "33010",
+    "tags_new.description": "Via Pontebbana 61 33010",
+    "tags_new.source:date": "2018-04-09"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.253045,
+     46.039764
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 228090953,
+    "osm_type": "node",
+    "ref_coords": [
+     13.252983838319778,
+     46.039744810616895
+    ],
+    "ref_distance": 5.2,
+    "ref_id": "6987",
+    "tags.amenity": "fuel",
+    "tags.name": "Total",
+    "tags_changed.brand": "Total -> Api-Ip",
+    "tags_changed.operator": "Total -> Jetrent S.R.L.",
+    "tags_new.addr:city": "Udine",
+    "tags_new.addr:postcode": "33100",
+    "tags_new.description": "Viale Palmanova 293 33100",
+    "tags_new.source:date": "2018-04-09"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.2386537,
+     46.0751168
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 377953344,
+    "osm_type": "way",
+    "ref_coords": [
+     13.238671253967254,
+     46.07516278628746
+    ],
+    "ref_distance": 5.3,
+    "ref_id": "11913",
+    "tags.amenity": "fuel",
+    "tags.building": "yes",
+    "tags_new.addr:city": "Udine",
+    "tags_new.addr:postcode": "33100",
+    "tags_new.brand": "Q8",
+    "tags_new.description": "Via General Cantore 40 33100",
+    "tags_new.operator": "Servizi & Gestioni Italia S.R.L.",
+    "tags_new.source:date": "2018-04-09"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.9313779,
+     46.4148157
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 227715541,
+    "osm_type": "node",
+    "ref_coords": [
+     12.931395744705242,
+     46.414766285897215
+    ],
+    "ref_distance": 5.7,
+    "ref_id": "11906",
+    "tags.amenity": "fuel",
+    "tags.name": "Shell",
+    "tags_changed.brand": "Shell -> Q8",
+    "tags_changed.operator": "Shell -> Servizi & Gestioni Italia S.R.L.",
+    "tags_new.addr:city": "Villa Santina",
+    "tags_new.addr:postcode": "33029",
+    "tags_new.description": "Ss. 52 Km.18+760 S/N 33029",
+    "tags_new.source:date": "2018-04-09"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.202514,
+     46.073994
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 227513490,
+    "osm_type": "node",
+    "ref_coords": [
+     13.202449038028703,
+     46.073968367658104
+    ],
+    "ref_distance": 5.8,
+    "ref_id": "25830",
+    "tags.amenity": "fuel",
+    "tags.name": "Api",
+    "tags_changed.brand": "api -> Api-Ip",
+    "tags_changed.operator": "Api -> Ip Services S.R.L.",
+    "tags_new.addr:city": "Udine",
+    "tags_new.addr:postcode": "33100",
+    "tags_new.description": "Via Martignacco 248 33100",
+    "tags_new.source:date": "2018-04-09"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.234862,
+     46.078913
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 228092279,
+    "osm_type": "node",
+    "ref_coords": [
+     13.23479999999995,
+     46.07888186473828
+    ],
+    "ref_distance": 5.9,
+    "ref_id": "25829",
+    "tags.amenity": "fuel",
+    "tags.name": "IP",
+    "tags_changed.brand": "IP -> Api-Ip",
+    "tags_changed.operator": "IP -> Ip Services S.R.L.",
+    "tags_new.addr:city": "Udine",
+    "tags_new.addr:postcode": "33100",
+    "tags_new.description": "Piazzale Chiavris  33100",
+    "tags_new.source:date": "2018-04-09"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.2039611,
+     46.0495565
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 377840207,
+    "osm_type": "way",
+    "ref_coords": [
+     13.203900754451752,
+     46.049589555386284
+    ],
+    "ref_distance": 5.9,
+    "ref_id": "26566",
+    "tags.amenity": "fuel",
+    "tags.building": "yes",
+    "tags_changed.operator": "Shell -> Oil Italia Srl",
+    "tags_new.addr:city": "Udine",
+    "tags_new.addr:postcode": "33100",
+    "tags_new.brand": "Oil Italia",
+    "tags_new.description": "Viale Venezia 504 33100",
+    "tags_new.source:date": "2018-04-09"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.229027,
+     46.056728
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 227031828,
+    "osm_type": "node",
+    "ref_coords": [
+     13.22894952394256,
+     46.05669526226935
+    ],
+    "ref_distance": 7.0,
+    "ref_id": "38811",
+    "tags.amenity": "fuel",
+    "tags.name": "Agip",
+    "tags_changed.brand": "Agip -> Agip Eni",
+    "tags_changed.operator": "Agip -> Poci Hekuran",
+    "tags_new.addr:city": "Udine",
+    "tags_new.addr:postcode": "33100",
+    "tags_new.description": "Viale Duodo 20 33100",
+    "tags_new.source:date": "2018-04-09"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.246706,
+     46.053483
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 227715109,
+    "osm_type": "node",
+    "ref_coords": [
+     13.246617609786995,
+     46.053450570524525
+    ],
+    "ref_distance": 7.7,
+    "ref_id": "11910",
+    "tags.amenity": "fuel",
+    "tags.brand": "Q8",
+    "tags.name": "Q8",
+    "tags.wheelchair": "yes",
+    "tags_changed.operator": "Q8 -> Servizi & Gestioni Italia S.R.L.",
+    "tags_new.addr:city": "Udine",
+    "tags_new.addr:postcode": "33100",
+    "tags_new.description": "Viale Palmanova 77 33100",
+    "tags_new.source:date": "2018-04-09"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.226434,
+     46.075415
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 227715536,
+    "osm_type": "node",
+    "ref_coords": [
+     13.226345948409971,
+     46.07537070585658
+    ],
+    "ref_distance": 8.4,
+    "ref_id": "11912",
+    "tags.amenity": "fuel",
+    "tags.name": "Shell",
+    "tags_changed.brand": "Shell -> Q8",
+    "tags_changed.operator": "Shell -> Servizi & Gestioni Italia S.R.L.",
+    "tags_new.addr:city": "Udine",
+    "tags_new.addr:postcode": "33100",
+    "tags_new.description": "Via Pieri 18 33100",
+    "tags_new.source:date": "2018-04-09"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.217102,
+     46.085904
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 228092114,
+    "osm_type": "node",
+    "ref_coords": [
+     13.217086645506583,
+     46.08582806191254
+    ],
+    "ref_distance": 8.5,
+    "ref_id": "25027",
+    "tags.amenity": "fuel",
+    "tags.name": "IP",
+    "tags_changed.brand": "IP -> Api-Ip",
+    "tags_changed.operator": "IP -> Pallini Maurizio",
+    "tags_new.addr:city": "Udine",
+    "tags_new.addr:postcode": "33100",
+    "tags_new.description": "Via Colugna 175 33100",
+    "tags_new.source:date": "2018-04-09"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.2331517,
+     46.0875212
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 228090776,
+    "osm_type": "node",
+    "ref_coords": [
+     13.233024179935455,
+     46.08751860182019
+    ],
+    "ref_distance": 9.8,
+    "ref_id": "18579",
+    "tags.amenity": "fuel",
+    "tags.name": "Agip",
+    "tags_changed.brand": "Agip -> Agip Eni",
+    "tags_changed.operator": "Agip -> Troina Massimo",
+    "tags_new.addr:city": "Udine",
+    "tags_new.addr:postcode": "33100",
+    "tags_new.description": "Viale Tricesimo 93 33100",
+    "tags_new.source:date": "2018-04-09"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.247023,
+     46.037664
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 227715535,
+    "osm_type": "node",
+    "ref_coords": [
+     13.246912245369003,
+     46.037603178567025
+    ],
+    "ref_distance": 10.9,
+    "ref_id": "11914",
+    "tags.amenity": "fuel",
+    "tags.name": "Shell",
+    "tags_changed.brand": "Shell -> Q8",
+    "tags_changed.operator": "Shell -> Servizi & Gestioni Italia S.R.L.",
+    "tags_new.addr:city": "Udine",
+    "tags_new.addr:postcode": "33100",
+    "tags_new.description": "Via Adenauer Area Z.A.U. S/N 33100",
+    "tags_new.source:date": "2018-04-09"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.3909882,
+     45.8062286
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 231899864,
+    "osm_type": "way",
+    "ref_coords": [
+     13.390892297029495,
+     45.80644742271518
+    ],
+    "ref_distance": 25.5,
+    "ref_id": "28059",
+    "tags.amenity": "fuel",
+    "tags.brand": "Esso",
+    "tags.building": "yes",
+    "tags.name": "Esso",
+    "tags_new.addr:city": "Villa Vicentina",
+    "tags_new.addr:postcode": "33059",
+    "tags_new.description": "Statale 14 Della Venezia Giulia  Km. 115+050  Dir. Trieste 33059",
+    "tags_new.operator": "A. & B. Sas Di Alvaro Alessandro & C.",
+    "tags_new.source:date": "2018-04-09"
+   },
+   "type": "Feature"
+  }
+ ],
+ "type": "FeatureCollection"
+}
