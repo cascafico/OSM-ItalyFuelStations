@@ -4,7 +4,7 @@
 
 ADESSO=`date +"%Y-%m-%d"`
 echo "prefisso file: " $ADESSO
-cd /tmp
+cd tmp
 
 #wget -O $ADESSO.csv "http://www.sviluppoeconomico.gov.it/images/exportCSV/anagrafica_impianti_attivi.csv" --header="User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:23.0) Gecko/20100101 Firefox/23.0"
 
