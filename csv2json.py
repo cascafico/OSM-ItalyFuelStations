@@ -137,4 +137,4 @@ elif childCount < 0:
     
 f.close()
 
-raw_input("\n Done.")
+raw_input("\n Done. \n\n Hit enter to go on with conflation")

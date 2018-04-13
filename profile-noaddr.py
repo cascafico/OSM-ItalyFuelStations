@@ -1,16 +1,23 @@
 # value for OSM tag source
 source = 'Mise'
+#add_source = True
 
 # do not add unique reference IDs to OSM?
 
+#no_dataset_id = True
 no_dataset_id = False
 dataset_id = 'mise'
 
 # Overpass query to use when searching OSM for data
-#query = [('amenity', 'fuel'),('waterway', '~fuel')]
-query = [('amenity', 'fuel'),('waterway', 'fuel')]
+#query = [('amenity', 'fuel'),('waterway', 'fuel')] questa chiede entrambe le condizioni
+query = [('amenity', 'fuel')]
+
+# attenzione, coord errate possono rendere enorme il bbox
+# vantaggio: fa richieste multiple ad overpass
+bbox = True
+
+# italia
 #bbox = [35.28,6.62,47.1,18.79]
-#bbox = [45.28,13,47.1,14]
 
 # tags to replace on matched OSM objects
 master_tags = ('operator', 'brand', 'source:date')
