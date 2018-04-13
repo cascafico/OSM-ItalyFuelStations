@@ -104,7 +104,7 @@ for x in range(1, len(bigArray)):      #Loops through the rows in bigArray
             except ValueError:
                 check = str(bigArray[x][i])
         if isinstance(check, numbers.Number) or bigArray[x][i] == 'true' or bigArray[x][i] == 'false' or bigArray[x][i] == 'null':
-            speechMarks = ''
+            speechMarks = '' 
         else:
             speechMarks = '"'
 
