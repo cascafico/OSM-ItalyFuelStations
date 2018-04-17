@@ -9,8 +9,11 @@ no_dataset_id = False
 dataset_id = 'mise'
 
 # Overpass query to use when searching OSM for data
+#overpass_timeout = 120 default
+overpass_timeout = 180
 #query = [('amenity', 'fuel'),('waterway', 'fuel')] questa chiede entrambe le condizioni
-query = [('amenity', 'fuel')]
+#query = [('amenity', 'fuel'),('disused:amenity','fuel')] i namespace disused ed abandoned sono impliciti
+query = [('amenity', 'fuel')],[('waterway', 'fuel')] 
 
 # attenzione, coord errate possono rendere enorme il bbox
 # vantaggio: fa richieste multiple ad overpass
@@ -24,7 +27,7 @@ master_tags = ('operator', 'brand', 'source:date')
 
 delete_unmatched = False
 #tag_unmatched = { 
-#'fixme':'non presente nel dataset MISE' 
+#'fixme':'This object might have been dismantled, please check' 
 #'amenity':None,
 #'disused:amenity':'fuel'
 #}
