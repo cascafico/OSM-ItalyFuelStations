@@ -61,3 +61,6 @@ echo "Eseguo conflation"
 cd ..
 conflate -i tmp/ITALY$ADESSO.csv.json -v --changes osmchanges/ITALY$ADESSO.json -o osm/ITALY$ADESSO.osm -c osmchanges/ITALY$ADESSO-preview.json profile-noaddr.py
 
+# dopo audit:
+# conflate -i tmp/ITALY$ADESSO.csv.json -v -a audit_IFS.json  --changes osmchanges/audit$ADESSO.json -o osm/audit$ADESSO.osm -c osmchanges/audit$ADESSO-preview.json profile-noaddr.py
+
