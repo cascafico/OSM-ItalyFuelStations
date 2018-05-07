@@ -2,7 +2,8 @@
 Procedure to generate osm-changes maps and osm-ready files for importing fuel stations in Italy
 
 ## download and adapt source csv file
-fvgfuel.sh (regional test)
+fvgfuel.sh (optional - regional test)
+italyfuel_noaddr.sh
 
 ## convert to json for conflator
 csv2json.py
