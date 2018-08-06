@@ -19,7 +19,8 @@ conflate -i original.csv.json -v -a audit_IFS.json  --changes osmchanges/audit.j
 
 
 ## audited adjustments
-- source:date should be removed from nodes by JOSM (added later in changeset upload)
+- source:date should be removed from nodes (JOSM) (added later in changeset upload)
 - new POIs don't have amenity=fuel tag (fix profile?), added by JOSM to the following selection:
-amenity="" and waterway=""
+   amenity="" and waterway=""
+- add brand:en=Independent when brand=Pompe Bianche (JOSM)
 
