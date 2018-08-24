@@ -1,5 +1,5 @@
 # OSM-ItalyFuelStations
-Procedure to generate osm-changes maps and osm-ready files for importing fuel stations in Italy
+Procedure to generate osm-changes maps and osm-ready files for importing fuel stations in Italy. Please refer to import wiki page: https://wiki.openstreetmap.org/wiki/Import/Catalogue/ItalyFuelStations
 
 ## download and adapt source csv file
 fvgfuel.sh (optional - regional test)
