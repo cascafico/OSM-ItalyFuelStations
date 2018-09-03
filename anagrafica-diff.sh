@@ -36,5 +36,6 @@ echo "comparing short_$NEWANA short_$OLDANA... "
 # using fgrep instead (regexp not needed) to speed up process
 fgrep -v -f short_$NEWANA short_$OLDANA > updates_$NEWANA
 
-echo "aggiungo header per umap "
+echo "umap adjustments "
 sed -i '1 i\ref:mise;operator;brand;lat;lon' updates_$NEWANA       
+sed -i -e 's/,/ /g' -e 's/;/,/g' updates_$NEWANA
