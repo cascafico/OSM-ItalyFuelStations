@@ -9,6 +9,11 @@ fi
 
 OLDANA=$1
 NEWANA=`date +"%Y-%m-%d"`.csv
+LASTOLD=sort -n -k1,1 $1 | tail -1
+
+echo "New fuel stations after"
+echo $LASTOLD"
+
 
 wget -nc -O $NEWANA "http://www.sviluppoeconomico.gov.it/images/exportCSV/anagrafica_impianti_attivi.csv" --header="User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:23.0) Gecko/20100101 Firefox/23.0"
 
