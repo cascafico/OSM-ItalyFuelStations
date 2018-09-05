@@ -11,8 +11,7 @@ OLDANA=$1
 NEWANA=`date +"%Y-%m-%d"`.csv
 LASTOLD=sort -n -k1,1 $1 | tail -1
 
-echo "New fuel stations after"
-echo $LASTOLD"
+echo "New fuel stations ref:mise\>$LASTOLD"
 
 
 wget -nc -O $NEWANA "http://www.sviluppoeconomico.gov.it/images/exportCSV/anagrafica_impianti_attivi.csv" --header="User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:23.0) Gecko/20100101 Firefox/23.0"
@@ -37,9 +36,12 @@ awk -F ";" '{ printf("%s;%s;%s;%2.5f;%2.5f\n",$1,$2,$3,$9,$10) }' $OLDANA > shor
 
 echo "comparing short_$NEWANA short_$OLDANA... "
 
-#grep -v -f short_$NEWANA short_$OLDANA > updates.csva
+#grep -v -f short_$NEWANA short_$OLDANA > updates.csv
 # using fgrep instead (regexp not needed) to speed up process
 fgrep -v -f short_$NEWANA short_$OLDANA > updates_$NEWANA
+
+# join
+#join -t";" short*
 
 echo "umap adjustments "
 sed -i '1 i\ref:mise;operator;brand;lat;lon' updates_$NEWANA       
