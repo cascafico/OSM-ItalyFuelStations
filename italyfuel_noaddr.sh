@@ -46,6 +46,10 @@ awk -v source_date="$SOURCEDATE" -F ";" '{print ";"$1";"$9";"$10";;"$2";"$3";" s
 echo "metto iniziali maiuscole"
 sed -i -e 's/.*/\L&/' -e 's/[a-z]*/\u&/g' ITALY$ADESSO.csv
 
+# da testare
+#sed -e '/ Di Di / di Di /g
+#sed -e '/ di Di /! s/ Di / di /g'
+
 echo "aggiungo header per csv2json"
 sed -i '1 i\{;id;lat;lon;tags{;operator;brand;source:date;};}' ITALY$ADESSO.csv
 echo "tolgo virgole e sostituisco puntoevirgola originle con virgola"

@@ -2,14 +2,12 @@
 
 # script lanciato periodicamente per aggiornare il layer Anagrafica distributori
 
+cd tmp
 ADESSO=prezzi-`date +"%Y-%m-%d"`
 echo "prefisso file: " $ADESSO
 
+#wget -O $ADESSO.csv "http://www.sviluppoeconomico.gov.it/images/exportCSV/prezzo_alle_8.csv" --header="User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:23.0) Gecko/20100101 Firefox/23.0"
 
-# wget -O $ADESSO.csv "http://www.sviluppoeconomico.gov.it/images/exportCSV/prezzo_alle_8.csv" --header="User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:23.0) Gecko/20100101 Firefox/23.0"
-
-cp $ADESSO.csv tmp/$ADESSO.csv
-cd tmp
 
 SOURCEDATE=`head -1 $ADESSO.csv | awk ' {print $3 }'`
 echo "data dei dataset: " $SOURCEDATE
@@ -69,16 +67,22 @@ mv -f $ADESSO.csv.tmp $ADESSO.csv
 echo "uniq solo sul campo id impianto"
 echo "i csv prodotti sono da agganciare con join al layer anagrafica (qgis)"
 
-awk -F ";" '{ if (match($2, "benzina") > 0 ) { print $1";yes" } }' $ADESSO.csv | sort -u -t";" -k1,1 > benzina.csv
-awk -F ";" '{ if ( (match($2, "diesel") > 0) || (match($2, "gasolio")) > 0)  { print $1";yes" } }' $ADESSO.csv | sort -u -t";" -k1,1  > diesel.csv
-awk -F ";" '{ if (match($2, "metano") > 0 ) { print $1";yes" } }' $ADESSO.csv | sort -u -t";" -k1,1 > cng.csv
-awk -F ";" '{ if (match($2, "gpl") > 0 ) { print $1";yes" } }' $ADESSO.csv | sort -u -t";" -k1,1 > lpg.csv
+awk -F ";" '{ if (match($2, "benzina") > 0 ) { print $1";yes" } }' $ADESSO.csv | sort -n -u -t";" -k1,1 > benzina.csv
+awk -F ";" '{ if ( (match($2, "diesel") > 0) || (match($2, "gasolio")) > 0)  { print $1";yes" } }' $ADESSO.csv | sort -n -u -t";" -k1,1  > diesel.csv
+awk -F ";" '{ if (match($2, "metano") > 0 ) { print $1";yes" } }' $ADESSO.csv | sort -n -u -t";" -k1,1 > cng.csv
+awk -F ";" '{ if (match($2, "gpl") > 0 ) { print $1";yes" } }' $ADESSO.csv | sort -n -u -t";" -k1,1 > lpg.csv
 
-#awk -F ";" '{print $1";"$2}' $ADESSO.csv | grep 'diesel\|gasolio' | sort -u -t";" -k1,1 > diesel.csv
-#awk -F ";" '{print $1";"$2}' $ADESSO.csv | grep 'benzina\|super' | sort -u -t";" -k1,1 > benzina.csv
-#awk -F ";" '{print $1";"$2}' $ADESSO.csv | grep 'metano' | sort -u -t";" -k1,1 > metano.csv
-#awk -F ";" '{print $1";"$2}' $ADESSO.csv | grep 'gpl' | sort -u -t";" -k1,1 > gpl.csv
 
+# genero liste di ref:mise con varie tipologie
+awk -F ";" '{ if (match($2, "metano") > 0 ) { print $1 } }' $ADESSO.csv | sort -n -u -t";" -k1,1 > ref.metano
+awk -F ";" '{ if (match($2, "gpl") > 0 ) { print $1 } }' $ADESSO.csv | sort -n -u -t";" -k1,1 > ref.gpl
+
+# aggiungo colonne tipologie
+# vedi https://unix.stackexchange.com/questions/269513/merge-files-based-on-matching-of-first-column
+
+awk -F";" 'FNR==NR{a[$1]=$2 FS $3;next} $1 in a {print $0";yes"}' ref.metano ../2018-09-03.csv > 2018-09-03.csv.2
+awk -F";" 'FNR==NR{a[$1]=$2 FS $3;next} $1 in a {print $0";yes"}' ref.gpl 2018-09-03.csv.2 > 2018-09-03.csv.3
+awk 'BEGIN {print "ref:mise;operator;fuel:lpg;fuel:cng"}; {print}' 2018-09-03.csv.3 > 2018-09-03.csv.4
 
 echo "aggiungo headers fuel:"
 sed -i '1 i\id;fuel:diesel' diesel.csv
