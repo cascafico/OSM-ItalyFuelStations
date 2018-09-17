@@ -5,8 +5,9 @@ source = 'Mise'
 # do not add unique reference IDs to OSM?
 
 #no_dataset_id = True
-no_dataset_id = False
-dataset_id = 'mise'
+#no_dataset_id = False poipoi
+no_dataset_id = True
+#dataset_id = 'mise'
 
 # Overpass query to use when searching OSM for data
 #overpass_timeout = 120 default
@@ -28,8 +29,8 @@ bbox = True
 master_tags = ('fuel:lpg', 'fuel:cng')
 #master_tags = ('fuel:lpg')
 
-#delete_unmatched = False poipoi
-delete_unmatched = True
+delete_unmatched = False
+#delete_unmatched = True
 #tag_unmatched = { 
 #'fixme':'This object might have been dismantled, please check' 
 #'amenity':None,
