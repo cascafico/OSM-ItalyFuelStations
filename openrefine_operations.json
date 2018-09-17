@@ -319,6 +319,29 @@
   },
   {
     "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression grel:replace(value, \" Di \", \" di \")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "regex",
+          "invert": false,
+          "caseSensitive": true,
+          "query": "\\w*(?<! di Di ) Di",
+          "name": "operator",
+          "type": "text",
+          "columnName": "operator"
+        }
+      ]
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value, \" Di \", \" di \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
     "description": "Text transform on cells in column operator using expression grel:replace(value, \" Di De \", \" di De \")",
     "engineConfig": {
       "mode": "row-based",

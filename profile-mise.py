@@ -28,7 +28,8 @@ bbox = True
 master_tags = ('fuel:lpg', 'fuel:cng')
 #master_tags = ('fuel:lpg')
 
-delete_unmatched = False
+#delete_unmatched = False poipoi
+delete_unmatched = True
 #tag_unmatched = { 
 #'fixme':'This object might have been dismantled, please check' 
 #'amenity':None,
