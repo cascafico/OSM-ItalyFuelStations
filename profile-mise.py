@@ -4,9 +4,9 @@ source = 'MiseGas'
 
 # do not add unique reference IDs to OSM?
 
-# aggiunge tag ref:misegas=<id del MISE>
+# aggiunge tag ref:<dataset_id>=<id del MISE>
 no_dataset_id = True
-#dataset_id = 'misegas'
+#dataset_id = 'mise'
 
 # Overpass query to use when searching OSM for data
 #overpass_timeout = 120 default
@@ -14,7 +14,8 @@ overpass_timeout = 180
 #query = [('amenity', 'fuel'),('waterway', 'fuel')] questa chiede entrambe le condizioni
 #query = [('amenity', 'fuel'),('disused:amenity','fuel')] i namespace disused ed abandoned sono impliciti
 #query = [('amenity', 'fuel')],[('waterway', 'fuel')] 
-query = [('amenity', 'fuel'),('ref:mise')] 
+#query = [('amenity', 'fuel'),('ref:mise')] 
+query = [('amenity', 'fuel')] 
 
 # attenzione, coord errate possono rendere enorme il bbox
 # vantaggio: fa richieste multiple ad overpass
@@ -29,9 +30,7 @@ master_tags = ('fuel:lpg', 'fuel:cng')
 #master_tags = ('fuel:lpg')
 
 delete_unmatched = False
-tag_unmatched = { 
-'fixme':'This object might have been dismantled, please check' 
-}
+#tag_unmatched = { 'fixme':'This object might have been dismantled, please check' }
 
 
 # max distance to search for a match in meters
