@@ -26,48 +26,6 @@
     "repeatCount": 10
   },
   {
-    "op": "core/row-removal",
-    "description": "Remove rows",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": [
-        {
-          "selectNumeric": true,
-          "expression": "value",
-          "selectBlank": true,
-          "selectNonNumeric": true,
-          "selectError": true,
-          "name": "lon",
-          "from": -90,
-          "to": 1,
-          "type": "range",
-          "columnName": "lon"
-        }
-      ]
-    }
-  },
-  {
-    "op": "core/row-removal",
-    "description": "Remove rows",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": [
-        {
-          "selectNumeric": true,
-          "expression": "value",
-          "selectBlank": true,
-          "selectNonNumeric": true,
-          "selectError": true,
-          "name": "lat",
-          "from": -90,
-          "to": 30,
-          "type": "range",
-          "columnName": "lat"
-        }
-      ]
-    }
-  },
-  {
     "op": "core/text-transform",
     "description": "Text transform on cells in column operator using expression value.trim()",
     "engineConfig": {
@@ -95,13 +53,13 @@
   },
   {
     "op": "core/text-transform",
-    "description": "Text transform on cells in column operator using expression grel:replace(value, \"*\", \"\")",
+    "description": "removing asterisks",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
     },
     "columnName": "operator",
-    "expression": "grel:replace(value, \"*\", \"\")",
+    "expression": "grel:replace(value, \"*\", \"\")",       
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10
@@ -120,140 +78,56 @@
     "repeatCount": 10
   },
   {
-    "op": "core/mass-edit",
-    "description": "Mass edit cells in column operator",
+    "op": "core/row-removal",
+    "description": "Remove rows",
     "engineConfig": {
       "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "operator",
-    "expression": "value",
-    "edits": [
-      {
-        "fromBlank": false,
-        "fromError": false,
-        "from": [
-          "Nuova Sidap S.R.L.",
-          "Nuova Sidap Srl"
-        ],
-        "to": "Nuova Sidap S.R.L."
-      },
-      {
-        "fromBlank": false,
-        "fromError": false,
-        "from": [
-          "Totalerg Spa",
-          "Totalerg S.P.A."
-        ],
-        "to": "Totalerg S.p.A."
-      },
-      {
-        "fromBlank": false,
-        "fromError": false,
-        "from": [
-          "Servizi & Gestioni Italia S.R.L.",
-          "Servizi & Gestioni Italia Srl"
-        ],
-        "to": "Servizi & Gestioni Italia S.R.L."
-      },
-      {
-        "fromBlank": false,
-        "fromError": false,
-        "from": [
-          "Baiguera Marco & C Snc",
-          "Baiguera Marco & C. S.N.C."
-        ],
-        "to": "Baiguera Marco & C. S.N.C."
-      },
-      {
-        "fromBlank": false,
-        "fromError": false,
-        "from": [
-          "Pit Stop - S.R.L.",
-          "Pit Stop S.R.L."
-        ],
-        "to": "Pit Stop S.R.L."
-      },
-      {
-        "fromBlank": false,
-        "fromError": false,
-        "from": [
-          "Drive Service S.R.L.",
-          "Drive Service Srl"
-        ],
-        "to": "Drive Service S.R.L."
-      }
-    ]
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "value",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "name": "lat",
+          "from": 0,
+          "to": 34,
+          "type": "range",
+          "columnName": "lat"
+        }
+      ]
+    }
   },
   {
-    "op": "core/mass-edit",
-    "description": "Mass edit cells in column operator",
+    "op": "core/row-removal",
+    "description": "Remove rows",
     "engineConfig": {
       "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "operator",
-    "expression": "value",
-    "edits": [
-      {
-        "fromBlank": false,
-        "fromError": false,
-        "from": [
-          "Due Bi Di Bertoldo Costantino E Paolo Snc",
-          "Due Bi Due Di Bertoldo Costantino E Paolo S.N.C."
-        ],
-        "to": "Due Bi Di Bertoldo Costantino E Paolo Snc"
-      }
-    ]
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "value",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "name": "lon",
+          "from": -90,
+          "to": 0,
+          "type": "range",
+          "columnName": "lon"
+        }
+      ]
+    }
   },
   {
     "op": "core/text-transform",
-    "description": "Text transform on cells in column operator using expression grel:replace(value, \"F.Lli \", \"F.lli \")",
+    "description": "Text transform on cells in column operator using expression grel:replace(value, \"Spa\", \"S.p.A.\")",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
     },
     "columnName": "operator",
-    "expression": "grel:replace(value, \"F.Lli \", \"F.lli \")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column operator using expression grel:replace(value, \"Societa'\", \"Società\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "operator",
-    "expression": "grel:replace(value, \"Societa'\", \"Società\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column operator using expression grel:replace(value, \"S.P.A.\", \"S.p.A.\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "operator",
-    "expression": "grel:replace(value, \"S.P.A.\", \"S.p.A.\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column operator using expression grel:replace(value, \" E \", \" e \")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "operator",
-    "expression": "grel:replace(value, \" E \", \" e \")",
+    "expression": "grel:replace(value, \"Spa\", \"S.p.A.\")",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10
@@ -272,47 +146,27 @@
     "repeatCount": 10
   },
   {
-    "op": "core/mass-edit",
-    "description": "Mass edit cells in column operator",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "operator",
-    "expression": "value",
-    "edits": [
-      {
-        "fromBlank": false,
-        "fromError": false,
-        "from": [
-          "Eos Services S.R.L. A Socio Unico"
-        ],
-        "to": "Eos Services S.R.L. a Socio Unico"
-      }
-    ]
-  },
-  {
     "op": "core/text-transform",
-    "description": "Text transform on cells in column operator using expression grel:replace(value, \" A \", \" a \")",
+    "description": "Text transform on cells in column operator using expression grel:replace(value, \"Sas\", \"S.A.S.\")",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
     },
     "columnName": "operator",
-    "expression": "grel:replace(value, \" A \", \" a \")",
+    "expression": "grel:replace(value, \"Sas\", \"S.A.S.\")",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10
   },
   {
     "op": "core/text-transform",
-    "description": "Text transform on cells in column operator using expression grel:replace(value, \" Di Di \", \" di Di \")",
+    "description": "Text transform on cells in column operator using expression grel:replace(value, \"Snc\", \"S.N.C.\")",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
     },
     "columnName": "operator",
-    "expression": "grel:replace(value, \" Di Di \", \" di Di \")",
+    "expression": "grel:replace(value, \"Snc\", \"S.N.C.\")",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10
@@ -327,7 +181,7 @@
           "mode": "regex",
           "invert": false,
           "caseSensitive": true,
-          "query": "\\w*(?<! di Di ) Di",
+          "query": "\\w*(?<! di ) Di ",
           "name": "operator",
           "type": "text",
           "columnName": "operator"
@@ -342,26 +196,130 @@
   },
   {
     "op": "core/text-transform",
-    "description": "Text transform on cells in column operator using expression grel:replace(value, \" Di De \", \" di De \")",
+    "description": "Text transform on cells in column operator using expression grel:replace(value, \"Societa' \", \"Società \")",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
     },
     "columnName": "operator",
-    "expression": "grel:replace(value, \" Di De \", \" di De \")",
+    "expression": "grel:replace(value, \"Societa' \", \"Società \")",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10
   },
   {
     "op": "core/text-transform",
-    "description": "Text transform on cells in column operator using expression grel:replace(value, \" In Sigla \", \" in sigla \")",
+    "description": "Text transform on cells in column operator using expression grel:replace(value, \"Responsabilita' \", \"Responsabilità \")",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
     },
     "columnName": "operator",
-    "expression": "grel:replace(value, \" In Sigla \", \" in sigla \")",
+    "expression": "grel:replace(value, \"Responsabilita' \", \"Responsabilità \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression grel:replace(value, \" In \", \" in \")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value, \" In \", \" in \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "A>a",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value, \" A \", \" a \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "E>e",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value, \" E \", \" e \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Sigla>sigla",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value, \" Sigla \", \" sigla \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "F.Lli>f.lli",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value, \" F.Lli \", \" f.lli \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Dei>dei",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value, \" Dei \", \" dei \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "S.P.A>S.p.A.",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value, \"S.P.A.\", \"S.p.A.\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+ {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column brand using expression grel:replace(value, \"Pompe Bianche\", \"\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "brand",
+    "expression": "grel:replace(value, \"Pompe Bianche\", \"\")",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10
@@ -380,124 +338,10 @@
         "fromBlank": false,
         "fromError": false,
         "from": [
-          "Rametta Car Service Società In Nome Collettivo Di Rametta Giuseppe & C ."
+          "Totalerg S.p.A.",
+          "Totalerg S.p.A.."
         ],
-        "to": "Rametta Car Service S.N.C di Rametta Giuseppe & C ."
-      }
-    ]
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column operator using expression grel:replace(value, \"Società In Nome Collettivo\", \"S.N.C.\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "operator",
-    "expression": "grel:replace(value, \"Società In Nome Collettivo\", \"S.N.C.\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/mass-edit",
-    "description": "Mass edit cells in column operator",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "operator",
-    "expression": "value",
-    "edits": [
-      {
-        "fromBlank": false,
-        "fromError": false,
-        "from": [
-          "Eliogest Di Traina Marcello e Giambrone Ausilia & C. Società In In Accomandita Semplice."
-        ],
-        "to": "Eliogest di Traina Marcello e Giambrone Ausilia & C. S.A.S."
-      }
-    ]
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column operator using expression grel:replace(value, \"Società In Accomandita Semplice\", \"S.A.S.\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "operator",
-    "expression": "grel:replace(value, \"Società In Accomandita Semplice\", \"S.A.S.\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column operator using expression grel:replace(value, \"F.Lli\", \"F.lli\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "operator",
-    "expression": "grel:replace(value, \"F.Lli\", \"F.lli\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/column-addition",
-    "description": "Create column fuel:cng at index 1 based on column ref:mise using expression grel:cell.cross(\"cng\", \"ref:mise\").cells[\"fuel:cng\"].value[0]",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "newColumnName": "fuel:cng",
-    "columnInsertIndex": 1,
-    "baseColumnName": "ref:mise",
-    "expression": "grel:cell.cross(\"cng\", \"ref:mise\").cells[\"fuel:cng\"].value[0]",
-    "onError": "set-to-blank"
-  },
-  {
-    "op": "core/column-addition",
-    "description": "Create column fuel:lpg at index 1 based on column ref:mise using expression grel:cell.cross(\"lpg\", \"ref:mise\").cells[\"fuel:lpg\"].value[0]",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "newColumnName": "fuel:lpg",
-    "columnInsertIndex": 1,
-    "baseColumnName": "ref:mise",
-    "expression": "grel:cell.cross(\"lpg\", \"ref:mise\").cells[\"fuel:lpg\"].value[0]",
-    "onError": "set-to-blank"
-  },
-  {
-    "op": "core/mass-edit",
-    "description": "Mass edit cells in column operator",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "operator",
-    "expression": "value",
-    "edits": [
-      {
-        "fromBlank": false,
-        "fromError": false,
-        "from": [
-          "Sape S.R.L.",
-          "Sa.Pe. S.R.L."
-        ],
-        "to": "Sa.Pe. S.R.L."
-      },
-      {
-        "fromBlank": false,
-        "fromError": false,
-        "from": [
-          "D.G. Service S.R.L.",
-          "Dg Service S.R.L."
-        ],
-        "to": "D.G. Service S.R.L."
+        "to": "Totalerg S.p.A."
       },
       {
         "fromBlank": false,
@@ -521,10 +365,10 @@
         "fromBlank": false,
         "fromError": false,
         "from": [
-          "Food & Fuel S.R.L.",
-          "Fuel & Food S.R.L."
+          "Pit Stop S.R.L.",
+          "Pit Stop - S.R.L."
         ],
-        "to": "Food & Fuel S.R.L."
+        "to": "Pit Stop S.R.L."
       },
       {
         "fromBlank": false,
@@ -548,10 +392,19 @@
         "fromBlank": false,
         "fromError": false,
         "from": [
+          "Baiguera Marco & C S.N.C.",
+          "Baiguera Marco & C. S.N.C."
+        ],
+        "to": "Baiguera Marco & C S.N.C."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
           "Metancar - S.R.L.",
           "Metancar S.R.L."
         ],
-        "to": "Metancar - S.R.L."
+        "to": "Metancar S.R.L."
       },
       {
         "fromBlank": false,
@@ -566,33 +419,11 @@
         "fromBlank": false,
         "fromError": false,
         "from": [
-          "G. & G. Petroli S.R.L.",
-          "G. G. Petroli S.R.L."
-        ],
-        "to": "G. & G. Petroli S.R.L."
-      },
-      {
-        "fromBlank": false,
-        "fromError": false,
-        "from": [
           "Isola Gas Società a Responsabilità Limitata Con Denominazione Abbreviata Isola Gas S.R.L.",
           "Isola Gas Societã? a Responsabilitã? Limitata Con Denominazione Abbreviata Isola Gas S.R.L."
         ],
         "to": "Isola Gas Società a Responsabilità Limitata Con Denominazione Abbreviata Isola Gas S.R.L."
       }
     ]
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column brand using expression grel:replace(value, \"Pompe Bianche\", \"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "brand",
-    "expression": "grel:replace(value, \"Pompe Bianche\", \"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
   }
 ]
