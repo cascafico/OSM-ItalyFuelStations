@@ -1,11 +1,12 @@
-# value for OSM tag source
+# aggiunge tag source=MiseGas
+add_source = False
 source = 'MiseGas'
-add_source = True
 
 # do not add unique reference IDs to OSM?
 
-no_dataset_id = False
-dataset_id = 'misegas'
+# aggiunge tag ref:misegas=<id del MISE>
+no_dataset_id = True
+#dataset_id = 'misegas'
 
 # Overpass query to use when searching OSM for data
 #overpass_timeout = 120 default
