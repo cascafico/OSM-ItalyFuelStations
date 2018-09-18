@@ -1,6 +1,7 @@
+# LPG and CNG integration for Italy fuel stations
 # aggiunge tag source=MiseGas
 add_source = False
-source = 'MiseGas'
+source = 'Mise'
 
 # do not add unique reference IDs to OSM?
 
@@ -11,13 +12,19 @@ no_dataset_id = True
 # Overpass query to use when searching OSM for data
 #overpass_timeout = 120 default
 overpass_timeout = 180
-#query = [('amenity', 'fuel'),('waterway', 'fuel')] questa chiede entrambe le condizioni
-#query = [('amenity', 'fuel'),('disused:amenity','fuel')] i namespace disused ed abandoned sono impliciti
-#query = [('amenity', 'fuel')],[('waterway', 'fuel')] 
+#query = [('amenity', 'fuel'),('waterway', 'fuel')] both conditions
+#query = [('amenity', 'fuel')],[('waterway', 'fuel')]  or condition
+#query = [('amenity', 'fuel'),('disused:amenity','fuel')]  namespace disused and abandoned are implicit
 #query = [('amenity', 'fuel'),('ref:mise')] 
 query = [('amenity', 'fuel')] 
 
+# parameter --osm will use indipendently generated queries, ie:
+# http://overpass-turbo.eu/s/BZq
+# http://overpass-turbo.eu/s/BZM (amenity=fuel and fuel:cng or fuel:lpg not "yes" 
+# use wget -O manual-query.osm <http_addr obtained exporting compact query>
+
 # attenzione, coord errate possono rendere enorme il bbox
+# use openrefine for lat lon ranges
 # vantaggio: fa richieste multiple ad overpass
 bbox = True
 
@@ -25,9 +32,7 @@ bbox = True
 #bbox = [35.28,6.62,47.1,18.79]
 
 # tags to replace on matched OSM objects
-#master_tags = ('ref:mise', 'operator', 'brand', 'fuel:lpg', 'fuel:cng')
 master_tags = ('fuel:lpg', 'fuel:cng')
-#master_tags = ('fuel:lpg')
 
 delete_unmatched = False
 #tag_unmatched = { 'fixme':'This object might have been dismantled, please check' }
