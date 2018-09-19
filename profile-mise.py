@@ -16,8 +16,8 @@ overpass_timeout = 300
 #query = [('amenity', 'fuel'),('waterway', 'fuel')] both conditions
 #query = [('amenity', 'fuel')],[('waterway', 'fuel')]  or condition
 #query = [('amenity', 'fuel'),('disused:amenity','fuel')]  namespace disused and abandoned are implicit
-query = [('amenity', 'fuel'),('ref:mise','.*')] 
-#query = [('amenity', 'fuel')] 
+#query = [('amenity', 'fuel'),('ref:mise','.*')] 
+query = [('amenity', 'fuel')] 
 
 # parameter --osm will use indipendently generated queries, ie:
 # http://overpass-turbo.eu/s/BZq
