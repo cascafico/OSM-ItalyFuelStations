@@ -1595,7 +1595,6 @@
     <tag k='fuel:cng' v='yes' />
     <tag k='operator' v='D&apos;elia Giovanni' />
     <tag k='ref:mise' v='5581' />
-    <tag k='source:date' v='2018-04-16' />
   </node>
   <node id='226998595' action='modify' version='6' lat='44.9047674' lon='8.177874'>
     <tag k='amenity' v='fuel' />
@@ -6417,7 +6416,6 @@
     <tag k='name' v='Eni' />
     <tag k='operator' v='Servizi e Gestioni Zenit S.R.L. in sigla - Zenit S.R.L.' />
     <tag k='ref:mise' v='22384' />
-    <tag k='source:date' v='2018-08-31' />
   </node>
   <node id='5042150355' action='modify' version='4' lat='45.3696839' lon='11.0490915'>
     <tag k='amenity' v='fuel' />
