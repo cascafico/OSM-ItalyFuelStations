@@ -1,4 +1,5 @@
 # LPG and CNG integration for Italy fuel stations
+
 # aggiunge tag source=MiseGas
 add_source = False
 source = 'Mise'
@@ -11,12 +12,12 @@ no_dataset_id = True
 
 # Overpass query to use when searching OSM for data
 #overpass_timeout = 120 default
-overpass_timeout = 180
+overpass_timeout = 300
 #query = [('amenity', 'fuel'),('waterway', 'fuel')] both conditions
 #query = [('amenity', 'fuel')],[('waterway', 'fuel')]  or condition
 #query = [('amenity', 'fuel'),('disused:amenity','fuel')]  namespace disused and abandoned are implicit
-#query = [('amenity', 'fuel'),('ref:mise')] 
-query = [('amenity', 'fuel')] 
+query = [('amenity', 'fuel'),('ref:mise','.*')] 
+#query = [('amenity', 'fuel')] 
 
 # parameter --osm will use indipendently generated queries, ie:
 # http://overpass-turbo.eu/s/BZq
@@ -32,7 +33,7 @@ bbox = True
 #bbox = [35.28,6.62,47.1,18.79]
 
 # tags to replace on matched OSM objects
-master_tags = ('fuel:lpg', 'fuel:cng')
+master_tags = ('ref:mise', 'operator', 'fuel:lpg', 'fuel:cng')
 
 delete_unmatched = False
 #tag_unmatched = { 'fixme':'This object might have been dismantled, please check' }
