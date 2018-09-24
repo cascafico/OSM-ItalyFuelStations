@@ -2,25 +2,27 @@
 Procedure to generate osm-changes maps and osm-ready files for importing fuel stations in Italy. Please refer to import wiki page: https://wiki.openstreetmap.org/wiki/Import/Catalogue/ItalyFuelStations
 
 ## download and adapt source csv file
-fvgfuel.sh (optional - regional test)
-italyfuel_noaddr.sh
+run.sh
 
 ## convert to json for conflator
-csv2json.py
+openrefine
+### operations to be performed
+file: openrefine_operations.json
+### export template
+file: openrefine_export.template
+housekeeping: sed -i -e '/\"fuel:cng\" : null/d'  -e '/\"fuel:lpg\" : null/d' -e '/\"brand\" : \"\",/d' <json to be conflated>
 
 ## conflate profile
-File profile-fuelfvg.py will be used by 
-conflate -i <input json file>  -v --changes changes.json -o result.osm -c preview.json profile-fuelfvg.py
+file: profile-mise.py used by... 
+conflate -i <input json file>  -v --changes osmchanges/changes.json -o osm/result.osm -c preview/preview.json profile-mise.py
 
-## Audit.....
-
-## audit applied to new osm:
-conflate -i original.csv.json -v -a audit_IFS.json  --changes osmchanges/audit.json -o osm/audit.osm -c osmchanges/audit-preview.json profile-noaddr.py
+## Audit
+file to be uploaded: preview/preview.json 
 
 
 ## audited adjustments
 - source:date should be removed from nodes (JOSM) (added later in changeset upload)
 - new POIs don't have amenity=fuel tag (fix profile?), added by JOSM to the following selection:
    amenity="" and waterway=""
-- add brand:en=Independent when brand=Pompe Bianche (JOSM)
+- remove any reference to brand:en=Independent or brand=Pompe Bianche (JOSM)
 

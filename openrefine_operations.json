@@ -280,7 +280,7 @@
       "facets": []
     },
     "columnName": "operator",
-    "expression": "grel:replace(value, \" F.Lli \", \" f.lli \")",
+    "expression": "grel:replace(value, \"F.Lli \", \"f.lli \")",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10
