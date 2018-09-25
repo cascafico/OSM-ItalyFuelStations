@@ -7,8 +7,9 @@ source = 'Mise'
 # do not add unique reference IDs to OSM?
 
 # aggiunge tag ref:<dataset_id>=<id del MISE>
+# True -> relying only on geometric matching every time
 no_dataset_id = True
-#dataset_id = 'mise'
+dataset_id = 'mise'
 
 # Overpass query to use when searching OSM for data
 #overpass_timeout = 120 default
