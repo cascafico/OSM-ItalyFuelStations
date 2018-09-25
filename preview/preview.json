@@ -9987,12 +9987,12 @@
      45.55141
     ],
     "ref_distance": 0.3,
-    "ref_id": "34644",
+    "ref_id": "39141",
     "tags.amenity": "fuel",
     "tags.brand": "Esso",
     "tags_changed.operator": "Retitalia S.P.A. -> Retitalia S.p.A.",
-    "tags_changed.ref:mise": "30033 -> 34644",
-    "tags_new.fuel:lpg": "yes"
+    "tags_changed.ref:mise": "30033 -> 39141",
+    "tags_new.fuel:cng": "yes"
    },
    "type": "Feature"
   },
@@ -22974,13 +22974,12 @@
      45.18598
     ],
     "ref_distance": 0.5,
-    "ref_id": "29885",
+    "ref_id": "10824",
     "tags.amenity": "fuel",
     "tags.fuel:cng": "yes",
     "tags.name": "Metano",
-    "tags.ref:mise": "29885",
     "tags_changed.operator": "Azienda Ricompressione Metano A.R.M. Srl -> Azienda Ricompressione Metano A.R.M. S.R.L.",
-    "tags_new.fuel:lpg": "yes"
+    "tags_changed.ref:mise": "29885 -> 10824"
    },
    "type": "Feature"
   },
@@ -79157,12 +79156,11 @@
      43.26329
     ],
     "ref_distance": 11.2,
-    "ref_id": "34699",
+    "ref_id": "34700",
     "tags.amenity": "fuel",
     "tags.nobrand": "yes",
+    "tags.ref:mise": "34700",
     "tags_changed.operator": "Autogrill B.D.S. di Bagnerini Dolores Sandra & C. Snc con Sigla Autogrill B.D.S. Snc -> Autogrill B.D.S. di Bagnerini Dolores, Sandra & C. S.N.C. Con sigla Autogrill B.D.S. S.N.C.",
-    "tags_changed.ref:mise": "34700 -> 34699",
-    "tags_new.brand": "Agip Eni",
     "tags_new.fuel:lpg": "yes"
    },
    "type": "Feature"
@@ -90809,12 +90807,12 @@
      45.96978
     ],
     "ref_distance": 16.9,
-    "ref_id": "41204",
+    "ref_id": "19489",
     "tags.amenity": "fuel",
     "tags.brand": "Api-Ip",
     "tags.name": "IP",
-    "tags.operator": "Oberai Kapil",
-    "tags.ref:mise": "41204",
+    "tags_changed.operator": "Oberai Kapil -> Eredi Cinello Renato S.A.S. di Cinello Franco & C.",
+    "tags_changed.ref:mise": "41204 -> 19489",
     "tags_new.fuel:lpg": "yes"
    },
    "type": "Feature"
@@ -98777,7 +98775,7 @@
      44.53105
     ],
     "ref_distance": 26.6,
-    "ref_id": "24441",
+    "ref_id": "24442",
     "tags.amenity": "fuel",
     "tags.brand": "Q8",
     "tags.fuel:1_25": "no",
@@ -98791,15 +98789,15 @@
     "tags.fuel:electricity": "no",
     "tags.fuel:gtl_diesel": "no",
     "tags.fuel:hgv_diesel": "no",
-    "tags.fuel:lpg": "no",
     "tags.fuel:octane_100": "no",
     "tags.fuel:octane_91": "no",
     "tags.fuel:octane_95": "no",
     "tags.fuel:octane_98": "no",
     "tags.name": "Metano Maranello",
     "tags.operator": "Metano Maranello S.R.L.",
+    "tags.ref:mise": "24442",
     "tags.source:date": "2018-04-16",
-    "tags_changed.ref:mise": "24442 -> 24441"
+    "tags_changed.fuel:lpg": "no -> yes"
    },
    "type": "Feature"
   },
@@ -102437,15 +102435,13 @@
      44.53105
     ],
     "ref_distance": 38.3,
-    "ref_id": "24442",
-    "ref_unused_tags.brand": "Q8",
+    "ref_id": "24441",
     "tags.amenity": "fuel",
     "tags.brand": "Pompe Bianche",
     "tags.fuel:1_25": "no",
     "tags.fuel:1_50": "no",
     "tags.fuel:biodiesel": "no",
     "tags.fuel:biogas": "no",
-    "tags.fuel:cng": "no",
     "tags.fuel:diesel": "yes",
     "tags.fuel:e10": "no",
     "tags.fuel:e85": "no",
@@ -102458,8 +102454,9 @@
     "tags.fuel:octane_95": "yes",
     "tags.fuel:octane_98": "no",
     "tags.operator": "Metano Maranello S.R.L.",
+    "tags.ref:mise": "24441",
     "tags.source:date": "2018-04-16",
-    "tags_changed.ref:mise": "24441 -> 24442"
+    "tags_changed.fuel:cng": "no -> yes"
    },
    "type": "Feature"
   },
@@ -106617,27 +106614,6 @@
   {
    "geometry": {
     "coordinates": [
-     9.60196,
-     44.91511
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "create",
-    "marker-color": "#11dd11",
-    "osm_id": -3772,
-    "osm_type": "node",
-    "ref_id": "41462",
-    "tags.brand": "Ego",
-    "tags.fuel:cng": "yes",
-    "tags.operator": "Enil Service di Myrtaj Kastriot",
-    "tags.ref:mise": "41462"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
      16.46661,
      39.33401
     ],
@@ -106646,7 +106622,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3773,
+    "osm_id": -3772,
     "osm_type": "node",
     "ref_id": "41491",
     "tags.brand": "Agip Eni",
@@ -106667,7 +106643,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3774,
+    "osm_id": -3773,
     "osm_type": "node",
     "ref_id": "41500",
     "tags.brand": "Agip Eni",
@@ -106688,7 +106664,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3775,
+    "osm_id": -3774,
     "osm_type": "node",
     "ref_id": "41511",
     "tags.brand": "Repsol",
@@ -106710,7 +106686,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3776,
+    "osm_id": -3775,
     "osm_type": "node",
     "ref_id": "41516",
     "tags.brand": "Api-Ip",
@@ -106731,7 +106707,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3777,
+    "osm_id": -3776,
     "osm_type": "node",
     "ref_id": "41528",
     "tags.fuel:lpg": "yes",
@@ -106751,7 +106727,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3778,
+    "osm_id": -3777,
     "osm_type": "node",
     "ref_id": "41534",
     "tags.brand": "Economy",
@@ -106772,7 +106748,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3779,
+    "osm_id": -3778,
     "osm_type": "node",
     "ref_id": "41566",
     "tags.fuel:lpg": "yes",
@@ -106792,7 +106768,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3780,
+    "osm_id": -3779,
     "osm_type": "node",
     "ref_id": "41578",
     "tags.brand": "Loro",
@@ -106813,7 +106789,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3781,
+    "osm_id": -3780,
     "osm_type": "node",
     "ref_id": "41581",
     "tags.brand": "Retitalia",
@@ -106834,7 +106810,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3782,
+    "osm_id": -3781,
     "osm_type": "node",
     "ref_id": "41583",
     "tags.brand": "Q8",
@@ -106855,7 +106831,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3783,
+    "osm_id": -3782,
     "osm_type": "node",
     "ref_id": "41586",
     "tags.fuel:cng": "yes",
@@ -106875,7 +106851,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3784,
+    "osm_id": -3783,
     "osm_type": "node",
     "ref_id": "41589",
     "tags.brand": "Harpoil",
@@ -106896,7 +106872,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3785,
+    "osm_id": -3784,
     "osm_type": "node",
     "ref_id": "41593",
     "tags.brand": "Retitalia",
@@ -106917,7 +106893,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3786,
+    "osm_id": -3785,
     "osm_type": "node",
     "ref_id": "41594",
     "tags.brand": "Agip Eni",
@@ -106939,7 +106915,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3787,
+    "osm_id": -3786,
     "osm_type": "node",
     "ref_id": "41595",
     "tags.fuel:cng": "yes",
@@ -106960,7 +106936,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3788,
+    "osm_id": -3787,
     "osm_type": "node",
     "ref_id": "4160",
     "tags.brand": "Esso",
@@ -106981,7 +106957,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3789,
+    "osm_id": -3788,
     "osm_type": "node",
     "ref_id": "41600",
     "tags.brand": "Socogas",
@@ -107002,7 +106978,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3790,
+    "osm_id": -3789,
     "osm_type": "node",
     "ref_id": "41602",
     "tags.brand": "Retitalia",
@@ -107023,7 +106999,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3791,
+    "osm_id": -3790,
     "osm_type": "node",
     "ref_id": "41623",
     "tags.brand": "Agip Eni",
@@ -107044,7 +107020,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3792,
+    "osm_id": -3791,
     "osm_type": "node",
     "ref_id": "41653",
     "tags.brand": "Repsol",
@@ -107066,7 +107042,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3793,
+    "osm_id": -3792,
     "osm_type": "node",
     "ref_id": "41654",
     "tags.fuel:lpg": "yes",
@@ -107086,7 +107062,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3794,
+    "osm_id": -3793,
     "osm_type": "node",
     "ref_id": "41655",
     "tags.fuel:lpg": "yes",
@@ -107106,7 +107082,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3795,
+    "osm_id": -3794,
     "osm_type": "node",
     "ref_id": "41656",
     "tags.fuel:lpg": "yes",
@@ -107126,7 +107102,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3796,
+    "osm_id": -3795,
     "osm_type": "node",
     "ref_id": "41657",
     "tags.brand": "Agip Eni",
@@ -107147,7 +107123,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3797,
+    "osm_id": -3796,
     "osm_type": "node",
     "ref_id": "41658",
     "tags.brand": "Total Erg",
@@ -107168,7 +107144,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3798,
+    "osm_id": -3797,
     "osm_type": "node",
     "ref_id": "41705",
     "tags.brand": "Api-Ip",
@@ -107189,7 +107165,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3799,
+    "osm_id": -3798,
     "osm_type": "node",
     "ref_id": "41706",
     "tags.brand": "San Marco Petroli",
@@ -107210,7 +107186,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3800,
+    "osm_id": -3799,
     "osm_type": "node",
     "ref_id": "41707",
     "tags.fuel:lpg": "yes",
@@ -107230,7 +107206,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3801,
+    "osm_id": -3800,
     "osm_type": "node",
     "ref_id": "41717",
     "tags.brand": "Q8",
@@ -107251,7 +107227,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3802,
+    "osm_id": -3801,
     "osm_type": "node",
     "ref_id": "41734",
     "tags.brand": "DIS-CAR",
@@ -107272,7 +107248,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3803,
+    "osm_id": -3802,
     "osm_type": "node",
     "ref_id": "41737",
     "tags.fuel:cng": "yes",
@@ -107292,7 +107268,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3804,
+    "osm_id": -3803,
     "osm_type": "node",
     "ref_id": "41744",
     "tags.fuel:lpg": "yes",
@@ -107312,7 +107288,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3805,
+    "osm_id": -3804,
     "osm_type": "node",
     "ref_id": "41745",
     "tags.fuel:lpg": "yes",
@@ -107332,7 +107308,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3806,
+    "osm_id": -3805,
     "osm_type": "node",
     "ref_id": "41746",
     "tags.brand": "Kerotris",
@@ -107353,7 +107329,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3807,
+    "osm_id": -3806,
     "osm_type": "node",
     "ref_id": "41753",
     "tags.brand": "Q8",
@@ -107374,7 +107350,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3808,
+    "osm_id": -3807,
     "osm_type": "node",
     "ref_id": "41763",
     "tags.brand": "Api-Ip",
@@ -107396,7 +107372,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3809,
+    "osm_id": -3808,
     "osm_type": "node",
     "ref_id": "41776",
     "tags.brand": "Agip Eni",
@@ -107417,7 +107393,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3810,
+    "osm_id": -3809,
     "osm_type": "node",
     "ref_id": "41787",
     "tags.brand": "Esso",
@@ -107438,7 +107414,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3811,
+    "osm_id": -3810,
     "osm_type": "node",
     "ref_id": "41799",
     "tags.fuel:lpg": "yes",
@@ -107458,7 +107434,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3812,
+    "osm_id": -3811,
     "osm_type": "node",
     "ref_id": "41808",
     "tags.brand": "Api-Ip",
@@ -107479,7 +107455,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3813,
+    "osm_id": -3812,
     "osm_type": "node",
     "ref_id": "41837",
     "tags.brand": "Tamoil",
@@ -107500,7 +107476,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3814,
+    "osm_id": -3813,
     "osm_type": "node",
     "ref_id": "41853",
     "tags.brand": "Sarni Oil",
@@ -107521,7 +107497,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3815,
+    "osm_id": -3814,
     "osm_type": "node",
     "ref_id": "41854",
     "tags.brand": "Retitalia",
@@ -107542,7 +107518,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3816,
+    "osm_id": -3815,
     "osm_type": "node",
     "ref_id": "41864",
     "tags.fuel:lpg": "yes",
@@ -107562,7 +107538,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3817,
+    "osm_id": -3816,
     "osm_type": "node",
     "ref_id": "41886",
     "tags.fuel:lpg": "yes",
@@ -107582,7 +107558,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3818,
+    "osm_id": -3817,
     "osm_type": "node",
     "ref_id": "41905",
     "tags.brand": "Agip Eni",
@@ -107603,7 +107579,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3819,
+    "osm_id": -3818,
     "osm_type": "node",
     "ref_id": "41909",
     "tags.fuel:cng": "yes",
@@ -107624,7 +107600,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3820,
+    "osm_id": -3819,
     "osm_type": "node",
     "ref_id": "41911",
     "tags.brand": "Retitalia",
@@ -107645,7 +107621,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3821,
+    "osm_id": -3820,
     "osm_type": "node",
     "ref_id": "41927",
     "tags.brand": "Petrol Gamma",
@@ -107666,7 +107642,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3822,
+    "osm_id": -3821,
     "osm_type": "node",
     "ref_id": "41938",
     "tags.fuel:cng": "yes",
@@ -107686,7 +107662,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3823,
+    "osm_id": -3822,
     "osm_type": "node",
     "ref_id": "41948",
     "tags.brand": "Api-Ip",
@@ -107707,7 +107683,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3824,
+    "osm_id": -3823,
     "osm_type": "node",
     "ref_id": "4195",
     "tags.brand": "Fiamma 2000",
@@ -107728,7 +107704,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3825,
+    "osm_id": -3824,
     "osm_type": "node",
     "ref_id": "41952",
     "tags.brand": "Api-Ip",
@@ -107749,7 +107725,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3826,
+    "osm_id": -3825,
     "osm_type": "node",
     "ref_id": "41976",
     "tags.fuel:cng": "yes",
@@ -107770,7 +107746,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3827,
+    "osm_id": -3826,
     "osm_type": "node",
     "ref_id": "41981",
     "tags.fuel:lpg": "yes",
@@ -107790,7 +107766,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3828,
+    "osm_id": -3827,
     "osm_type": "node",
     "ref_id": "41988",
     "tags.brand": "Repsol",
@@ -107811,7 +107787,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3829,
+    "osm_id": -3828,
     "osm_type": "node",
     "ref_id": "41990",
     "tags.fuel:cng": "yes",
@@ -107832,7 +107808,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3830,
+    "osm_id": -3829,
     "osm_type": "node",
     "ref_id": "42015",
     "tags.brand": "Giap",
@@ -107853,7 +107829,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3831,
+    "osm_id": -3830,
     "osm_type": "node",
     "ref_id": "42038",
     "tags.brand": "Api-Ip",
@@ -107874,7 +107850,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3832,
+    "osm_id": -3831,
     "osm_type": "node",
     "ref_id": "42043",
     "tags.fuel:lpg": "yes",
@@ -107894,7 +107870,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3833,
+    "osm_id": -3832,
     "osm_type": "node",
     "ref_id": "42072",
     "tags.fuel:lpg": "yes",
@@ -107914,7 +107890,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3834,
+    "osm_id": -3833,
     "osm_type": "node",
     "ref_id": "42074",
     "tags.brand": "Tamoil",
@@ -107936,7 +107912,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3835,
+    "osm_id": -3834,
     "osm_type": "node",
     "ref_id": "42089",
     "tags.brand": "Q8",
@@ -107957,7 +107933,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3836,
+    "osm_id": -3835,
     "osm_type": "node",
     "ref_id": "42093",
     "tags.fuel:lpg": "yes",
@@ -107977,7 +107953,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3837,
+    "osm_id": -3836,
     "osm_type": "node",
     "ref_id": "42105",
     "tags.brand": "Esso",
@@ -107998,7 +107974,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3838,
+    "osm_id": -3837,
     "osm_type": "node",
     "ref_id": "42119",
     "tags.fuel:lpg": "yes",
@@ -108018,7 +107994,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3839,
+    "osm_id": -3838,
     "osm_type": "node",
     "ref_id": "42121",
     "tags.brand": "Carrefour",
@@ -108039,7 +108015,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3840,
+    "osm_id": -3839,
     "osm_type": "node",
     "ref_id": "42164",
     "tags.fuel:lpg": "yes",
@@ -108059,7 +108035,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3841,
+    "osm_id": -3840,
     "osm_type": "node",
     "ref_id": "42180",
     "tags.brand": "Repsol",
@@ -108080,7 +108056,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3842,
+    "osm_id": -3841,
     "osm_type": "node",
     "ref_id": "42216",
     "tags.brand": "GasAuto",
@@ -108101,7 +108077,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3843,
+    "osm_id": -3842,
     "osm_type": "node",
     "ref_id": "42223",
     "tags.fuel:lpg": "yes",
@@ -108121,7 +108097,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3844,
+    "osm_id": -3843,
     "osm_type": "node",
     "ref_id": "42224",
     "tags.brand": "Api-Ip",
@@ -108143,7 +108119,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3845,
+    "osm_id": -3844,
     "osm_type": "node",
     "ref_id": "42226",
     "tags.brand": "Q8",
@@ -108164,7 +108140,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3846,
+    "osm_id": -3845,
     "osm_type": "node",
     "ref_id": "42235",
     "tags.brand": "Q8",
@@ -108185,7 +108161,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3847,
+    "osm_id": -3846,
     "osm_type": "node",
     "ref_id": "42238",
     "tags.brand": "Esso",
@@ -108206,7 +108182,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3848,
+    "osm_id": -3847,
     "osm_type": "node",
     "ref_id": "42251",
     "tags.fuel:lpg": "yes",
@@ -108226,7 +108202,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3849,
+    "osm_id": -3848,
     "osm_type": "node",
     "ref_id": "42259",
     "tags.brand": "KEROPETROL",
@@ -108247,7 +108223,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3850,
+    "osm_id": -3849,
     "osm_type": "node",
     "ref_id": "42276",
     "tags.brand": "Repsol",
@@ -108268,7 +108244,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3851,
+    "osm_id": -3850,
     "osm_type": "node",
     "ref_id": "42279",
     "tags.brand": "Agip Eni",
@@ -108289,7 +108265,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3852,
+    "osm_id": -3851,
     "osm_type": "node",
     "ref_id": "42284",
     "tags.brand": "Total Erg",
@@ -108310,7 +108286,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3853,
+    "osm_id": -3852,
     "osm_type": "node",
     "ref_id": "42321",
     "tags.fuel:lpg": "yes",
@@ -108330,7 +108306,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3854,
+    "osm_id": -3853,
     "osm_type": "node",
     "ref_id": "42353",
     "tags.brand": "Total Erg",
@@ -108351,7 +108327,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3855,
+    "osm_id": -3854,
     "osm_type": "node",
     "ref_id": "42363",
     "tags.fuel:lpg": "yes",
@@ -108371,7 +108347,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3856,
+    "osm_id": -3855,
     "osm_type": "node",
     "ref_id": "42373",
     "tags.brand": "Retitalia",
@@ -108392,7 +108368,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3857,
+    "osm_id": -3856,
     "osm_type": "node",
     "ref_id": "42393",
     "tags.brand": "Tamoil",
@@ -108414,7 +108390,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3858,
+    "osm_id": -3857,
     "osm_type": "node",
     "ref_id": "42412",
     "tags.brand": "Agip Eni",
@@ -108435,7 +108411,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3859,
+    "osm_id": -3858,
     "osm_type": "node",
     "ref_id": "42416",
     "tags.brand": "Q8",
@@ -108456,7 +108432,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3860,
+    "osm_id": -3859,
     "osm_type": "node",
     "ref_id": "42444",
     "tags.fuel:lpg": "yes",
@@ -108476,12 +108452,32 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -3861,
+    "osm_id": -3860,
     "osm_type": "node",
     "ref_id": "42448",
     "tags.fuel:lpg": "yes",
     "tags.operator": "P.F.M. S.A.S. di Licenza Paolo & C.",
     "tags.ref:mise": "42448"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     9.60196,
+     44.91511
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -3861,
+    "osm_type": "node",
+    "ref_id": "42459",
+    "tags.fuel:lpg": "yes",
+    "tags.operator": "Enil Service di Myrtaj Kastriot",
+    "tags.ref:mise": "42459"
    },
    "type": "Feature"
   },
