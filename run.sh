@@ -21,8 +21,12 @@ sed -i -e 's/"//g' $ANAGRAFICA.csv
 #awk -F ";" '{ printf("%s;%s;%s;%2.5f;%2.5f\n",$1,$2,$3,$9,$10) }' $ANAGRAFICA.csv > short_$ANAGRAFICA.csv
 # add provincia and other provincia filtered file
 awk -F ";" '{ printf("%s;%s;%s;%s;%2.5f;%2.5f\n",$1,$2,$3,$8,$9,$10) }' $ANAGRAFICA.csv  > short_$ANAGRAFICA.csv
-awk -v argomenti="$PROVINCIE" -F ";"  '{ if ( argomenti~$4 )  print $0 }' short_$ANAGRAFICA.csv  > short_$ANAGRAFICA_filtered.csv
+if  [ $# -ge 1  ] 
+   then 
+     awk -v argomenti="$PROVINCIE" -F ";"  '{ if ( argomenti~$4 )  print $0 }' short_$ANAGRAFICA.csv  > filtered_$ANAGRAFICA.csv
+fi
 sed -i '1 i\ref:mise;operator;brand;prov;lat;lon' short_$ANAGRAFICA.csv
+sed -i '1 i\ref:mise;operator;brand;prov;lat;lon' filtered_$ANAGRAFICA.csv
 ### esempio ottenuto:
 # ref:mise;operator;brand;lat;lon
 # 17720;A.NUARA E FIGLI SRL;Pompe Bianche;37.31493;13.57139
