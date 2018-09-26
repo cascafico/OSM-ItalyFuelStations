@@ -1,6 +1,10 @@
 #!/bin/bash
 
+PROVINCIE=$*
+echo "provincie scelte $PROVINCIE"
+
 # script lanciato periodicamente per aggiornare i dataset anagrafica e tipi di carburante    
+# argomento sigla provincia maiuscolo (p.es "UD") per filtrare
 
 cd tmp
 PREZZI=prezzi-`date +"%Y-%m-%d"`
@@ -14,8 +18,11 @@ wget -nc -O $ANAGRAFICA.csv "http://www.sviluppoeconomico.gov.it/images/exportCS
 # replacing headers, removing quotes, extracting useful columns, reducing coordinate floats
 sed -i -e '/^Estrazione/d' -e '/^idImpianto/d' $ANAGRAFICA.csv
 sed -i -e 's/"//g' $ANAGRAFICA.csv
-awk -F ";" '{ printf("%s;%s;%s;%2.5f;%2.5f\n",$1,$2,$3,$9,$10) }' $ANAGRAFICA.csv > short_$ANAGRAFICA.csv
-sed -i '1 i\ref:mise;operator;brand;lat;lon' short_$ANAGRAFICA.csv
+#awk -F ";" '{ printf("%s;%s;%s;%2.5f;%2.5f\n",$1,$2,$3,$9,$10) }' $ANAGRAFICA.csv > short_$ANAGRAFICA.csv
+# add provincia and other provincia filtered file
+awk -F ";" '{ printf("%s;%s;%s;%s;%2.5f;%2.5f\n",$1,$2,$3,$8,$9,$10) }' $ANAGRAFICA.csv  > short_$ANAGRAFICA.csv
+awk -v argomenti="$PROVINCIE" -F ";"  '{ if ( argomenti~$4 )  print $0 }' short_$ANAGRAFICA.csv  > short_$ANAGRAFICA_filtered.csv
+sed -i '1 i\ref:mise;operator;brand;prov;lat;lon' short_$ANAGRAFICA.csv
 ### esempio ottenuto:
 # ref:mise;operator;brand;lat;lon
 # 17720;A.NUARA E FIGLI SRL;Pompe Bianche;37.31493;13.57139
