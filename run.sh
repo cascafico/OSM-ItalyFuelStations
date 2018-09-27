@@ -1,6 +1,7 @@
 #!/bin/bash
 
 PROVINCIE=$*
+FILTERED=`echo $PROVINCIE | tr [:space:] '_'`
 echo "provincie scelte $PROVINCIE"
 
 # script lanciato periodicamente per aggiornare i dataset anagrafica e tipi di carburante    
@@ -23,10 +24,10 @@ sed -i -e 's/"//g' $ANAGRAFICA.csv
 awk -F ";" '{ printf("%s;%s;%s;%s;%2.5f;%2.5f\n",$1,$2,$3,$8,$9,$10) }' $ANAGRAFICA.csv  > short_$ANAGRAFICA.csv
 if  [ $# -ge 1  ] 
    then 
-     awk -v argomenti="$PROVINCIE" -F ";"  '{ if ( argomenti~$4 )  print $0 }' short_$ANAGRAFICA.csv  > filtered_$ANAGRAFICA.csv
+     awk -v argomenti="$PROVINCIE" -F ";"  '{ if ( argomenti~$4 )  print $0 }' short_$ANAGRAFICA.csv  > short_$FILTERED.csv
 fi
 sed -i '1 i\ref:mise;operator;brand;prov;lat;lon' short_$ANAGRAFICA.csv
-sed -i '1 i\ref:mise;operator;brand;prov;lat;lon' filtered_$ANAGRAFICA.csv
+sed -i '1 i\ref:mise;operator;brand;prov;lat;lon' short_$FILTERED.csv     
 ### esempio ottenuto:
 # ref:mise;operator;brand;lat;lon
 # 17720;A.NUARA E FIGLI SRL;Pompe Bianche;37.31493;13.57139
@@ -109,8 +110,8 @@ echo ""
 echo "usa operefine per esportare in json per la conflation"
 echo "per esportare in json applica il operefine_export.template"
 echo "ricorda di togliere i valori nulli prima della conflation:"
-echo "sed -i -e '/\"fuel:cng\" : null/d'  -e '/\"fuel:lpg\" : null/d'  <json esportato da openrefine>.json"
-# sed -i -e '/\"fuel:cng\" : null/d'  -e '/\"fuel:lpg\" : null/d' -e '/\"brand\" : \"\",/d' <json esportato da openrefine>         
+echo "sed -i -e '/\"fuel:cng\" : null/d'  -e '/\"fuel:lpg\" : null/d' -e '/\"brand\" : \"\",/d' <json esportato da openrefine>.json"
+#     sed -i -e '/\"fuel:cng\" : null/d'  -e '/\"fuel:lpg\" : null/d' -e '/\"brand\" : \"\",/d' <json esportato da openrefine>         
 
 #conflate -i <json esportato da openrefine> -v --changes changes_mise.json -o result-mise.osm -c preview.json profile-mise.py
 
