@@ -29,11 +29,9 @@ fi
 sed -i '1 i\ref:mise;operator;brand;prov;lat;lon' short_$ANAGRAFICA.csv
 sed -i '1 i\ref:mise;operator;brand;prov;lat;lon' short_$FILTERED.csv     
 ### esempio ottenuto:
-# ref:mise;operator;brand;lat;lon
-# 17720;A.NUARA E FIGLI SRL;Pompe Bianche;37.31493;13.57139
-# 23778;ALFONSO DI BENEDETTO CARBURANTI LUBRIFICANTI SRL;Pompe Bianche;37.31239;13.58591
-# 42421;EOS SERVICES S.R.L. A SOCIO UNICO;Q8;37.52366;13.07383
-# 20438;SERVIZI & GESTIONI ITALIA S.R.L.;Q8;37.27432;13.61424
+ref:mise;operator;brand;prov;lat;lon
+17720;A.NUARA E FIGLI SRL;Pompe Bianche;AG;37.31493;13.57139
+23778;ALFONSO DI BENEDETTO CARBURANTI LUBRIFICANTI SRL;Pompe Bianche;AG;37.31239;13.58591
 
 # PREZZI
 # rimuovo prime due linee (data estrazione e header originali)
@@ -102,13 +100,12 @@ awk -F ";" '{ if (match($2, "gpl") > 0 ) { print $1";yes" } }' $PREZZI.csv | sor
 echo ""
 echo "i file cng.csv, lpg.csv,  diesel.csv e benzina.csv sono pronti per essere joined a tmp/short_$ANAGRAFICA.csv con openrefine"
 echo ""
-echo "Comando openrefine: # Create new column fuel:cng based on column ref:mise by filling yyy rows with grel:cell.cross(\"cng\", \"ref:mise\").cells[\"fuel:cng\"].value[0]"
-echo "Comando openrefine: # Create new column fuel:lpg based on column ref:mise by filling xxx rows with grel:cell.cross(\"lpg\", \"ref:mise\").cells[\"fuel:lpg\"].value[0]"
-echo "... sono comnque inclusi nel file openrefine_operations.json da applicare a openrefine"
+echo "... il join e' incluso nel file openrefine_operations.json da applicare a openrefine"
 
 echo ""
 echo "usa operefine per esportare in json per la conflation"
 echo "per esportare in json applica il operefine_export.template"
+echo ""
 echo "ricorda di togliere i valori nulli prima della conflation:"
 echo "sed -i -e '/\"fuel:cng\" : null/d'  -e '/\"fuel:lpg\" : null/d' -e '/\"brand\" : \"\",/d' <json esportato da openrefine>.json"
 #     sed -i -e '/\"fuel:cng\" : null/d'  -e '/\"fuel:lpg\" : null/d' -e '/\"brand\" : \"\",/d' <json esportato da openrefine>         

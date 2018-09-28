@@ -121,7 +121,7 @@
   },
   {
     "op": "core/text-transform",
-    "description": "Text transform on cells in column operator using expression grel:replace(value, \"Spa\", \"S.p.A.\")",
+    "description": "Text transform on cells in column operator using expression grel:replace(value, \"Spa\", \"S.p.A.\")NOTA: problema Spadaro",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
