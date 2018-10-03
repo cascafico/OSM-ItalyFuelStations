@@ -28,10 +28,11 @@ if  [ $# -ge 1  ]
 fi
 sed -i '1 i\ref:mise;operator;brand;prov;lat;lon' short_$ANAGRAFICA.csv
 sed -i '1 i\ref:mise;operator;brand;prov;lat;lon' short_$FILTERED.csv     
+
 ### esempio ottenuto:
-ref:mise;operator;brand;prov;lat;lon
-17720;A.NUARA E FIGLI SRL;Pompe Bianche;AG;37.31493;13.57139
-23778;ALFONSO DI BENEDETTO CARBURANTI LUBRIFICANTI SRL;Pompe Bianche;AG;37.31239;13.58591
+#ref:mise;operator;brand;prov;lat;lon
+#7720;A.NUARA E FIGLI SRL;Pompe Bianche;AG;37.31493;13.57139
+#3778;ALFONSO DI BENEDETTO CARBURANTI LUBRIFICANTI SRL;Pompe Bianche;AG;37.31239;13.58591
 
 # PREZZI
 # rimuovo prime due linee (data estrazione e header originali)
@@ -89,6 +90,10 @@ awk -F ";" '{ if ( (match($2, "diesel") > 0) || (match($2, "gasolio")) > 0)  { p
 awk -F ";" '{ if (match($2, "metano") > 0 ) { print $1";yes" } }' $PREZZI.csv | sort -n -u -t";" -k1,1 > cng.csv
 awk -F ";" '{ if (match($2, "gpl") > 0 ) { print $1";yes" } }' $PREZZI.csv | sort -n -u -t";" -k1,1 > lpg.csv
 
+sed -i '1 i\ref:mise;fuel:cng' cng.csv     
+sed -i '1 i\ref:mise;fuel:lpg' lpg.csv     
+#sed -i '1 i\ref:mise;fuel:xxx' benzina.csv     
+#sed -i '1 i\ref:mise;fuel:xxx' diesel.csv     
 
 # SELF SERVICE - costo carburante self o meno (lasciamo perdere)
 # verificare causa 0/1 su ogni tipo di carburante awk -F ";" '{print $1";"$4}' $PREZZI.csv | grep 0 | sort -u -t";" -k1,1 > self.csv
