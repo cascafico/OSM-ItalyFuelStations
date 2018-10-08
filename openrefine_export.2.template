@@ -1,0 +1,30 @@
+###Template per esportare in json per conflator
+
+
+######Prefix
+
+[
+
+###### CONTOLLARE###### Row template
+
+    {
+      "id"  : {{(cells["ref:mise"].value)}},
+      "lat" : {{(cells["lat"].value)}},
+      "lon" : {{(cells["lon"].value)}},
+      "tags" : {
+          "operator" : {{jsonize(cells["operator"].value)}},
+           {{if((cells["brand"].value.length() > 0),"brand : " + jsonize(cells["brand"].value) + ",","")}}
+           {{if((cells["fuel:cng"].value.length() > 0),"fuel:cng : " + jsonize(cells["fuel:cng"].value) + ",","")}}
+           {{if((cells["fuel:lpg"].value.length() > 0),"fuel:lpg : " + jsonize(cells["fuel:lpg"].value) + ",","")}}
+          "ref:mise" : {{jsonize(cells["ref:mise"].value)}}
+          }
+    }
+
+
+######Row separator
+
+,
+
+######Suffix
+
+]

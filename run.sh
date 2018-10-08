@@ -87,11 +87,11 @@ echo "uniq solo sul campo id impianto"
 
 awk -F ";" '{ if (match($2, "benzina") > 0 ) { print $1";yes" } }' $PREZZI.csv | sort -n -u -t";" -k1,1 > benzina.csv
 awk -F ";" '{ if ( (match($2, "diesel") > 0) || (match($2, "gasolio")) > 0)  { print $1";yes" } }' $PREZZI.csv | sort -n -u -t";" -k1,1  > diesel.csv
-awk -F ";" '{ if (match($2, "metano") > 0 ) { print $1";yes" } }' $PREZZI.csv | sort -n -u -t";" -k1,1 > cng.csv
-awk -F ";" '{ if (match($2, "gpl") > 0 ) { print $1";yes" } }' $PREZZI.csv | sort -n -u -t";" -k1,1 > lpg.csv
+awk -F ";" '{ if (match($2, "metano") > 0 ) { print $1";yes;"$5 } }' $PREZZI.csv | sort -n -u -t";" -k1,1 > cng.csv
+awk -F ";" '{ if (match($2, "gpl") > 0 ) { print $1";yes;"$5 } }' $PREZZI.csv | sort -n -u -t";" -k1,1 > lpg.csv
 
-sed -i '1 i\ref:mise;fuel:cng' cng.csv     
-sed -i '1 i\ref:mise;fuel:lpg' lpg.csv     
+sed -i '1 i\ref:mise;fuel:cng;source:date' cng.csv     
+sed -i '1 i\ref:mise;fuel:lpg;source:date' lpg.csv     
 #sed -i '1 i\ref:mise;fuel:xxx' benzina.csv     
 #sed -i '1 i\ref:mise;fuel:xxx' diesel.csv     
 
