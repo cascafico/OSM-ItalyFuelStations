@@ -1,0 +1,653 @@
+[
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column lat using expression value.toNumber()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "lat",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column lon using expression value.toNumber()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "lon",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression value.trim()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression value.replace(/\\s+/,' ')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression grel:replace(value, \"*\", \"\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value, \"*\", \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression value.toTitlecase()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "lat",
+          "expression": "value",
+          "columnName": "lat",
+          "from": 0,
+          "to": 34,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "selectBlank": true
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "lon",
+          "expression": "value",
+          "columnName": "lon",
+          "from": -90,
+          "to": 0,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "selectBlank": true
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression grel:replace(value, \"Spa\", \"S.p.A.\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value, \"Spa\", \"S.p.A.\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression grel:replace(value, \"Srl\", \"S.R.L.\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value, \"Srl\", \"S.R.L.\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression grel:replace(value, \" Sas\", \" S.A.S.\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value, \" Sas\", \" S.A.S.\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression grel:replace(value, \"Snc\", \"S.N.C.\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value, \"Snc\", \"S.N.C.\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression grel:replace(value, \" Di \", \" di \")",
+    "engineConfig": {
+      "facets": [
+        {
+          "name": "operator",
+          "columnName": "operator",
+          "query": "\\w*(?<! di ) Di ",
+          "mode": "regex",
+          "caseSensitive": true,
+          "invert": false,
+          "type": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value, \" Di \", \" di \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression grel:replace(value, \"Societa' \", \"Società \")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value, \"Societa' \", \"Società \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression grel:replace(value, \"Società in Nome Collettivo\", \"S.N.C.\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value, \"Società in Nome Collettivo\", \"S.N.C.\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression grel:replace(value, \"Responsabilita' \", \"Responsabilità \")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value, \"Responsabilita' \", \"Responsabilità \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression grel:replace(value, \" In \", \" in \")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value, \" In \", \" in \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression grel:replace(value, \" A \", \" a \")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value, \" A \", \" a \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression grel:replace(value, \" E \", \" e \")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value, \" E \", \" e \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression grel:replace(value, \" Sigla \", \" sigla \")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value, \" Sigla \", \" sigla \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression grel:replace(value, \" Dei \", \" dei \")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value, \" Dei \", \" dei \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression grel:replace(value, \"S.P.A.\", \"S.p.A.\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value, \"S.P.A.\", \"S.p.A.\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column brand using expression grel:replace(value, \"Pompe Bianche\", \"\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "brand",
+    "expression": "grel:replace(value, \"Pompe Bianche\", \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column operator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Totalerg S.p.A.",
+          "Totalerg S.p.A.."
+        ],
+        "to": "Totalerg S.p.A."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "S.G. Petroli S.R.L.",
+          "Sg Petroli S.R.L."
+        ],
+        "to": "S.G. Petroli S.R.L."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Pegaso Carburanti - S.R.L.",
+          "Pegaso Carburanti S.R.L."
+        ],
+        "to": "Pegaso Carburanti S.R.L."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Pit Stop S.R.L.",
+          "Pit Stop - S.R.L."
+        ],
+        "to": "Pit Stop S.R.L."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Metanauto S.R.L.",
+          "Metanauto - S.R.L."
+        ],
+        "to": "Metanauto S.R.L."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Cucagas - S.R.L.",
+          "Cucagas S.R.L."
+        ],
+        "to": "Cucagas S.R.L."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Baiguera Marco & C S.N.C.",
+          "Baiguera Marco & C. S.N.C."
+        ],
+        "to": "Baiguera Marco & C S.N.C."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Metancar - S.R.L.",
+          "Metancar S.R.L."
+        ],
+        "to": "Metancar S.R.L."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "G.R. Carburanti S.R.L.",
+          "Gr Carburanti S.R.L."
+        ],
+        "to": "G.R. Carburanti S.R.L."
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Isola Gas Società a Responsabilità Limitata Con Denominazione Abbreviata Isola Gas S.R.L.",
+          "Isola Gas Societã? a Responsabilitã? Limitata Con Denominazione Abbreviata Isola Gas S.R.L."
+        ],
+        "to": "Isola Gas Società a Responsabilità Limitata Con Denominazione Abbreviata Isola Gas S.R.L."
+      }
+    ]
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column fuel:cng at index 1 based on column ref:mise using expression grel:cell.cross(\"cng\", \"ref:mise\").cells[\"fuel:cng\"].value[0]",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "fuel:cng",
+    "columnInsertIndex": 1,
+    "baseColumnName": "ref:mise",
+    "expression": "grel:cell.cross(\"cng\", \"ref:mise\").cells[\"fuel:cng\"].value[0]",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column fuel:lpg at index 1 based on column ref:mise using expression grel:cell.cross(\"lpg\", \"ref:mise\").cells[\"fuel:lpg\"].value[0]",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "fuel:lpg",
+    "columnInsertIndex": 1,
+    "baseColumnName": "ref:mise",
+    "expression": "grel:cell.cross(\"lpg\", \"ref:mise\").cells[\"fuel:lpg\"].value[0]",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression grel:replace(value, \"F.Lli \", \"f.lli \")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value, \"F.Lli \", \"f.lli \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column fuel:octane_95 at index 1 based on column ref:mise using expression grel:cell.cross(\"benzina\", \"ref:mise\").cells[\"fuel:octane_95\"].value[0]",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "fuel:octane_95",
+    "columnInsertIndex": 1,
+    "baseColumnName": "ref:mise",
+    "expression": "grel:cell.cross(\"benzina\", \"ref:mise\").cells[\"fuel:octane_95\"].value[0]",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column fuel:diesel at index 1 based on column ref:mise using expression grel:cell.cross(\"diesel\", \"ref:mise\").cells[\"fuel:diesel\"].value[0]",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "fuel:diesel",
+    "columnInsertIndex": 1,
+    "baseColumnName": "ref:mise",
+    "expression": "grel:cell.cross(\"diesel\", \"ref:mise\").cells[\"fuel:diesel\"].value[0]",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/row-star",
+    "description": "Star rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "fuel:diesel",
+          "expression": "value",
+          "columnName": "fuel:diesel",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "yes",
+                "l": "yes"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "starred": true
+  },
+  {
+    "op": "core/row-star",
+    "description": "Star rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "fuel:octane_95",
+          "expression": "value",
+          "columnName": "fuel:octane_95",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "yes",
+                "l": "yes"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "starred": true
+  },
+  {
+    "op": "core/row-star",
+    "description": "Star rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "fuel:lpg",
+          "expression": "value",
+          "columnName": "fuel:lpg",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "yes",
+                "l": "yes"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "starred": true
+  },
+  {
+    "op": "core/row-star",
+    "description": "Star rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "fuel:cng",
+          "expression": "value",
+          "columnName": "fuel:cng",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "yes",
+                "l": "yes"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "starred": true
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Starred Rows",
+          "expression": "row.starred.toString()",
+          "columnName": "",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "false",
+                "l": "false"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    }
+  }
+]

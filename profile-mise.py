@@ -30,14 +30,12 @@ query = [('amenity', 'fuel')]
 # vantaggio: fa richieste multiple ad overpass
 bbox = True
 
-# italia
-#bbox = [35.28,6.62,47.1,18.79]
 
 # tags to replace on matched OSM objects
-master_tags = ('ref:mise', 'operator', 'fuel:lpg', 'fuel:cng')
+master_tags = ('ref:mise', 'operator', 'fuel:diesel', 'fuel:octane_95','fuel:lpg', 'fuel:cng','brand')
 
 delete_unmatched = False
-#tag_unmatched = { 'fixme':'This object might have been dismantled, please check' }
+tag_unmatched = { 'fixme':'This object might have been dismantled, please check' }
 
 
 # max distance to search for a match in meters

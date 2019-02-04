@@ -26,3 +26,20 @@ file to be uploaded: preview/preview.json
    amenity="" and waterway=""
 - remove any reference to brand:en=Independent or brand=Pompe Bianche (JOSM)
 
+
+## example maintenance
+./run-incluso_prezzo.sh UD TS PN GO
+openrefine load diesel, benzina, lpg, cng 
+  transform todate 
+  facet timeline
+  remove old fuel stations
+openrefine load anagrafica and apply operations
+  several replaces 
+  star not blank fuels
+  remove not starred
+sed -i -e '/\"fuel:cng\" : null/d'  -e '/\"fuel:lpg\" : null/d' -e '/\"brand\" : \"\",/d' short_UD_TS_PN_GO.txt.json
+sed -i -e '/\"fuel:diesel\" : null/d'  -e '/\"fuel:octane_95\" : null/d' -e '/\"brand\" : \"\",/d' short_UD_TS_PN_GO.txt.json
+check result json: 
+  jsonlint short_UD_TS_PN_GO.txt.json
+conflate -i short_UD_TS_PN_GO.txt.json -v -c preview_UD_TS_PN_GO.json profile-mise.py
+
