@@ -16,6 +16,11 @@ Row template
                "brand" : {{jsonize(cells["brand"].value)}},
                "fuel:lpg" : {{jsonize(cells["fuel:lpg"].value)}},
                "fuel:cng" : {{jsonize(cells["fuel:cng"].value)}},
+               "fuel:diesel" : {{jsonize(cells["fuel:diesel"].value)}},
+               "fuel:octane_95" : {{jsonize(cells["fuel:octane_95"].value)}},
+               "fuel:octane_98" : {{jsonize(cells["fuel:octane_98"].value)}},
+               "fuel:octane_100" : {{jsonize(cells["fuel:octane_100"].value)}},
+               "fuel:octane_101" : {{jsonize(cells["fuel:octane_101"].value)}},
                "ref:mise" : {{jsonize(cells["ref:mise"].value)}},
                "amenity"  : "fuel"
                }

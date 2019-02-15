@@ -21,9 +21,9 @@ overpass_timeout = 300
 query = [('amenity', 'fuel')] 
 
 # parameter --osm will use indipendently generated queries, ie:
-# http://overpass-turbo.eu/s/BZq
-# http://overpass-turbo.eu/s/BZM (amenity=fuel and fuel:cng or fuel:lpg not "yes" 
+# http://overpass-turbo.eu/s/FOX
 # use wget -O manual-query.osm <http_addr obtained exporting compact query>
+# alternatively, run query and export raw data (export.osm)
 
 # attenzione, coord errate possono rendere enorme il bbox
 # use openrefine for lat lon ranges
@@ -32,7 +32,7 @@ bbox = True
 
 
 # tags to replace on matched OSM objects
-master_tags = ('ref:mise', 'operator', 'fuel:diesel', 'fuel:octane_95','fuel:lpg', 'fuel:cng','brand')
+master_tags = ('ref:mise', 'operator', 'fuel:diesel', 'fuel:octane_95', 'fuel:octane_98', 'fuel:octane_100', 'fuel:octane_101', 'fuel:lpg', 'fuel:cng','brand')
 
 delete_unmatched = False
 tag_unmatched = { 'fixme':'This object might have been dismantled, please check' }

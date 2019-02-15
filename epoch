@@ -1,0 +1,3 @@
+date -d "2 month ago" '+%s000'
+date -d "today" '+%s000'
+

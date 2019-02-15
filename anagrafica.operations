@@ -325,123 +325,8 @@
     "repeatCount": 10
   },
   {
-    "op": "core/mass-edit",
-    "description": "Mass edit cells in column operator",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "operator",
-    "expression": "value",
-    "edits": [
-      {
-        "fromBlank": false,
-        "fromError": false,
-        "from": [
-          "Totalerg S.p.A.",
-          "Totalerg S.p.A.."
-        ],
-        "to": "Totalerg S.p.A."
-      },
-      {
-        "fromBlank": false,
-        "fromError": false,
-        "from": [
-          "S.G. Petroli S.R.L.",
-          "Sg Petroli S.R.L."
-        ],
-        "to": "S.G. Petroli S.R.L."
-      },
-      {
-        "fromBlank": false,
-        "fromError": false,
-        "from": [
-          "Pegaso Carburanti - S.R.L.",
-          "Pegaso Carburanti S.R.L."
-        ],
-        "to": "Pegaso Carburanti S.R.L."
-      },
-      {
-        "fromBlank": false,
-        "fromError": false,
-        "from": [
-          "Pit Stop S.R.L.",
-          "Pit Stop - S.R.L."
-        ],
-        "to": "Pit Stop S.R.L."
-      },
-      {
-        "fromBlank": false,
-        "fromError": false,
-        "from": [
-          "Metanauto S.R.L.",
-          "Metanauto - S.R.L."
-        ],
-        "to": "Metanauto S.R.L."
-      },
-      {
-        "fromBlank": false,
-        "fromError": false,
-        "from": [
-          "Cucagas - S.R.L.",
-          "Cucagas S.R.L."
-        ],
-        "to": "Cucagas S.R.L."
-      },
-      {
-        "fromBlank": false,
-        "fromError": false,
-        "from": [
-          "Baiguera Marco & C S.N.C.",
-          "Baiguera Marco & C. S.N.C."
-        ],
-        "to": "Baiguera Marco & C S.N.C."
-      },
-      {
-        "fromBlank": false,
-        "fromError": false,
-        "from": [
-          "Metancar - S.R.L.",
-          "Metancar S.R.L."
-        ],
-        "to": "Metancar S.R.L."
-      },
-      {
-        "fromBlank": false,
-        "fromError": false,
-        "from": [
-          "G.R. Carburanti S.R.L.",
-          "Gr Carburanti S.R.L."
-        ],
-        "to": "G.R. Carburanti S.R.L."
-      },
-      {
-        "fromBlank": false,
-        "fromError": false,
-        "from": [
-          "Isola Gas Società a Responsabilità Limitata Con Denominazione Abbreviata Isola Gas S.R.L.",
-          "Isola Gas Societã? a Responsabilitã? Limitata Con Denominazione Abbreviata Isola Gas S.R.L."
-        ],
-        "to": "Isola Gas Società a Responsabilità Limitata Con Denominazione Abbreviata Isola Gas S.R.L."
-      }
-    ]
-  },
-  {
     "op": "core/column-addition",
-    "description": "Create column fuel:cng at index 1 based on column ref:mise using expression grel:cell.cross(\"cng\", \"ref:mise\").cells[\"fuel:cng\"].value[0]",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "newColumnName": "fuel:cng",
-    "columnInsertIndex": 1,
-    "baseColumnName": "ref:mise",
-    "expression": "grel:cell.cross(\"cng\", \"ref:mise\").cells[\"fuel:cng\"].value[0]",
-    "onError": "set-to-blank"
-  },
-  {
-    "op": "core/column-addition",
-    "description": "Create column fuel:lpg at index 1 based on column ref:mise using expression grel:cell.cross(\"lpg\", \"ref:mise\").cells[\"fuel:lpg\"].value[0]",
+    "description": "Create column fuel:lpg at index 1 based on column ref:mise using expression grel:if (length(cell.cross(\"prezzo_alle_8\",\"idImpianto\").cells[\"descCarburante\"].value[0].find(\"gpl\")[0])>0,\"yes\",null)",
     "engineConfig": {
       "facets": [],
       "mode": "row-based"
@@ -449,25 +334,25 @@
     "newColumnName": "fuel:lpg",
     "columnInsertIndex": 1,
     "baseColumnName": "ref:mise",
-    "expression": "grel:cell.cross(\"lpg\", \"ref:mise\").cells[\"fuel:lpg\"].value[0]",
+    "expression": "grel:if (length(cell.cross(\"prezzo_alle_8\",\"idImpianto\").cells[\"descCarburante\"].value[0].find(\"gpl\")[0])>0,\"yes\",null)",
     "onError": "set-to-blank"
   },
   {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column operator using expression grel:replace(value, \"F.Lli \", \"f.lli \")",
+    "op": "core/column-addition",
+    "description": "Create column fuel:cng at index 1 based on column ref:mise using expression grel:if (length(cell.cross(\"prezzo_alle_8\",\"idImpianto\").cells[\"descCarburante\"].value[0].find(\"metano\")[0])>0,\"yes\",null)",
     "engineConfig": {
       "facets": [],
       "mode": "row-based"
     },
-    "columnName": "operator",
-    "expression": "grel:replace(value, \"F.Lli \", \"f.lli \")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
+    "newColumnName": "fuel:cng",
+    "columnInsertIndex": 1,
+    "baseColumnName": "ref:mise",
+    "expression": "grel:if (length(cell.cross(\"prezzo_alle_8\",\"idImpianto\").cells[\"descCarburante\"].value[0].find(\"metano\")[0])>0,\"yes\",null)",
+    "onError": "set-to-blank"
   },
   {
     "op": "core/column-addition",
-    "description": "Create column fuel:octane_95 at index 1 based on column ref:mise using expression grel:cell.cross(\"benzina\", \"ref:mise\").cells[\"fuel:octane_95\"].value[0]",
+    "description": "Create column fuel:octane_95 at index 1 based on column ref:mise using expression grel:if (length(cell.cross(\"prezzo_alle_8\",\"idImpianto\").cells[\"descCarburante\"].value[0].find(\"octane_95\")[0])>0,\"yes\",null)",
     "engineConfig": {
       "facets": [],
       "mode": "row-based"
@@ -475,12 +360,51 @@
     "newColumnName": "fuel:octane_95",
     "columnInsertIndex": 1,
     "baseColumnName": "ref:mise",
-    "expression": "grel:cell.cross(\"benzina\", \"ref:mise\").cells[\"fuel:octane_95\"].value[0]",
+    "expression": "grel:if (length(cell.cross(\"prezzo_alle_8\",\"idImpianto\").cells[\"descCarburante\"].value[0].find(\"octane_95\")[0])>0,\"yes\",null)",
     "onError": "set-to-blank"
   },
   {
     "op": "core/column-addition",
-    "description": "Create column fuel:diesel at index 1 based on column ref:mise using expression grel:cell.cross(\"diesel\", \"ref:mise\").cells[\"fuel:diesel\"].value[0]",
+    "description": "Create column fuel:octane_98 at index 1 based on column ref:mise using expression grel:if (length(cell.cross(\"prezzo_alle_8\",\"idImpianto\").cells[\"descCarburante\"].value[0].find(\"octane_98\")[0])>0,\"yes\",null)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "fuel:octane_98",
+    "columnInsertIndex": 1,
+    "baseColumnName": "ref:mise",
+    "expression": "grel:if (length(cell.cross(\"prezzo_alle_8\",\"idImpianto\").cells[\"descCarburante\"].value[0].find(\"octane_98\")[0])>0,\"yes\",null)",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column fuel:octane_100 at index 1 based on column ref:mise using expression grel:if (length(cell.cross(\"prezzo_alle_8\",\"idImpianto\").cells[\"descCarburante\"].value[0].find(\"octane_100\")[0])>0,\"yes\",null)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "fuel:octane_100",
+    "columnInsertIndex": 1,
+    "baseColumnName": "ref:mise",
+    "expression": "grel:if (length(cell.cross(\"prezzo_alle_8\",\"idImpianto\").cells[\"descCarburante\"].value[0].find(\"octane_100\")[0])>0,\"yes\",null)",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column fuel:octane_101 at index 1 based on column ref:mise using expression grel:if (length(cell.cross(\"prezzo_alle_8\",\"idImpianto\").cells[\"descCarburante\"].value[0].find(\"octane_101\")[0])>0,\"yes\",null)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "fuel:octane_101",
+    "columnInsertIndex": 1,
+    "baseColumnName": "ref:mise",
+    "expression": "grel:if (length(cell.cross(\"prezzo_alle_8\",\"idImpianto\").cells[\"descCarburante\"].value[0].find(\"octane_101\")[0])>0,\"yes\",null)",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column fuel:diesel at index 1 based on column ref:mise using expression grel:if (length(cell.cross(\"prezzo_alle_8\",\"idImpianto\").cells[\"descCarburante\"].value[0].find(\"diesel\")[0])>0,\"yes\",null)",
     "engineConfig": {
       "facets": [],
       "mode": "row-based"
@@ -488,166 +412,20 @@
     "newColumnName": "fuel:diesel",
     "columnInsertIndex": 1,
     "baseColumnName": "ref:mise",
-    "expression": "grel:cell.cross(\"diesel\", \"ref:mise\").cells[\"fuel:diesel\"].value[0]",
+    "expression": "grel:if (length(cell.cross(\"prezzo_alle_8\",\"idImpianto\").cells[\"descCarburante\"].value[0].find(\"diesel\")[0])>0,\"yes\",null)",
     "onError": "set-to-blank"
   },
   {
-    "op": "core/row-star",
-    "description": "Star rows",
+    "op": "core/column-addition",
+    "description": "Create column noupdate at index 8 based on column fuel:lpg using expression grel:and(\nisNull(cells[\"fuel:lpg\"]),\nisNull(cells[\"fuel:cng\"]),\nisNull(cells[\"fuel:octane_95\"]),\nisNull(cells[\"fuel:octane_98\"]),\nisNull(cells[\"fuel:octane_100\"]),\nisNull(cells[\"fuel:octane_101\"]),\nisNull(cells[\"fuel:diesel\"])\n)",
     "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "fuel:diesel",
-          "expression": "value",
-          "columnName": "fuel:diesel",
-          "invert": false,
-          "selection": [
-            {
-              "v": {
-                "v": "yes",
-                "l": "yes"
-              }
-            }
-          ],
-          "selectNumber": false,
-          "selectDateTime": false,
-          "selectBoolean": false,
-          "omitBlank": false,
-          "selectBlank": false,
-          "omitError": false,
-          "selectError": false
-        }
-      ],
+      "facets": [],
       "mode": "row-based"
     },
-    "starred": true
-  },
-  {
-    "op": "core/row-star",
-    "description": "Star rows",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "fuel:octane_95",
-          "expression": "value",
-          "columnName": "fuel:octane_95",
-          "invert": false,
-          "selection": [
-            {
-              "v": {
-                "v": "yes",
-                "l": "yes"
-              }
-            }
-          ],
-          "selectNumber": false,
-          "selectDateTime": false,
-          "selectBoolean": false,
-          "omitBlank": false,
-          "selectBlank": false,
-          "omitError": false,
-          "selectError": false
-        }
-      ],
-      "mode": "row-based"
-    },
-    "starred": true
-  },
-  {
-    "op": "core/row-star",
-    "description": "Star rows",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "fuel:lpg",
-          "expression": "value",
-          "columnName": "fuel:lpg",
-          "invert": false,
-          "selection": [
-            {
-              "v": {
-                "v": "yes",
-                "l": "yes"
-              }
-            }
-          ],
-          "selectNumber": false,
-          "selectDateTime": false,
-          "selectBoolean": false,
-          "omitBlank": false,
-          "selectBlank": false,
-          "omitError": false,
-          "selectError": false
-        }
-      ],
-      "mode": "row-based"
-    },
-    "starred": true
-  },
-  {
-    "op": "core/row-star",
-    "description": "Star rows",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "fuel:cng",
-          "expression": "value",
-          "columnName": "fuel:cng",
-          "invert": false,
-          "selection": [
-            {
-              "v": {
-                "v": "yes",
-                "l": "yes"
-              }
-            }
-          ],
-          "selectNumber": false,
-          "selectDateTime": false,
-          "selectBoolean": false,
-          "omitBlank": false,
-          "selectBlank": false,
-          "omitError": false,
-          "selectError": false
-        }
-      ],
-      "mode": "row-based"
-    },
-    "starred": true
-  },
-  {
-    "op": "core/row-removal",
-    "description": "Remove rows",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "Starred Rows",
-          "expression": "row.starred.toString()",
-          "columnName": "",
-          "invert": false,
-          "selection": [
-            {
-              "v": {
-                "v": "false",
-                "l": "false"
-              }
-            }
-          ],
-          "selectNumber": false,
-          "selectDateTime": false,
-          "selectBoolean": false,
-          "omitBlank": false,
-          "selectBlank": false,
-          "omitError": false,
-          "selectError": false
-        }
-      ],
-      "mode": "row-based"
-    }
+    "newColumnName": "noupdate",
+    "columnInsertIndex": 8,
+    "baseColumnName": "fuel:lpg",
+    "expression": "grel:and(\nisNull(cells[\"fuel:lpg\"]),\nisNull(cells[\"fuel:cng\"]),\nisNull(cells[\"fuel:octane_95\"]),\nisNull(cells[\"fuel:octane_98\"]),\nisNull(cells[\"fuel:octane_100\"]),\nisNull(cells[\"fuel:octane_101\"]),\nisNull(cells[\"fuel:diesel\"])\n)",
+    "onError": "set-to-blank"
   }
 ]

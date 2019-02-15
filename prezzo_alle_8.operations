@@ -1,0 +1,705 @@
+[
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column dtComu using expression value.toDate()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "dtComu",
+    "expression": "value.toDate()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows; to calculate 2 months interval run ./epoch",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "timerange",
+          "name": "dtComu",
+          "expression": "value",
+          "columnName": "dtComu",
+          "selectTime": true,
+          "selectNonTime": true,
+          "selectBlank": true,
+          "selectError": true,
+          "from": 1550223921000,
+          "to": 1544867097000
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column dtComu",
+    "columnName": "dtComu"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column prezzo",
+    "columnName": "prezzo"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column descCarburante using expression value.toLowercase()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "descCarburante",
+    "expression": "value.toLowercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column descCarburante",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "descCarburante",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "benzina"
+        ],
+        "to": "octane_95"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column descCarburante",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "descCarburante",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "gasolio"
+        ],
+        "to": "diesel"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column descCarburante",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "descCarburante",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "excellium diesel"
+        ],
+        "to": "diesel"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column descCarburante",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "descCarburante",
+          "expression": "value",
+          "columnName": "descCarburante",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "benzina energy 98 ottani",
+                "l": "benzina energy 98 ottani"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "descCarburante",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "benzina energy 98 ottani"
+        ],
+        "to": "octane_98"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column descCarburante",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "descCarburante",
+          "expression": "value",
+          "columnName": "descCarburante",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "benzina plus 98",
+                "l": "benzina plus 98"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "descCarburante",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "benzina plus 98"
+        ],
+        "to": "octane_98"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column descCarburante",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "descCarburante",
+          "expression": "value",
+          "columnName": "descCarburante",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "benzina shell v power",
+                "l": "benzina shell v power"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "descCarburante",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "benzina shell v power"
+        ],
+        "to": "octane_100"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column descCarburante",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "descCarburante",
+          "expression": "value",
+          "columnName": "descCarburante",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "benzina wr 100",
+                "l": "benzina wr 100"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "descCarburante",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "benzina wr 100"
+        ],
+        "to": "octane_100"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column descCarburante",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "descCarburante",
+          "expression": "value",
+          "columnName": "descCarburante",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "blue super",
+                "l": "blue super"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "descCarburante",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "blue super"
+        ],
+        "to": "octane_100"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column descCarburante",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "descCarburante",
+          "expression": "value",
+          "columnName": "descCarburante",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "f101",
+                "l": "f101"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "descCarburante",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "f101"
+        ],
+        "to": "octane_101"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column descCarburante",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "descCarburante",
+          "expression": "value",
+          "columnName": "descCarburante",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "hiq perform+",
+                "l": "hiq perform+"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "descCarburante",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "hiq perform+"
+        ],
+        "to": "octane_100"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column descCarburante",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "descCarburante",
+          "expression": "value",
+          "columnName": "descCarburante",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "r100",
+                "l": "r100"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "descCarburante",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "r100"
+        ],
+        "to": "octane_100"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column descCarburante",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "descCarburante",
+          "expression": "value",
+          "columnName": "descCarburante",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "v-power",
+                "l": "v-power"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "descCarburante",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "v-power"
+        ],
+        "to": "octane_100"
+      }
+    ]
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column descCarburante using expression grel:\"diesel\"",
+    "engineConfig": {
+      "facets": [
+        {
+          "name": "descCarburante",
+          "columnName": "descCarburante",
+          "query": "diesel",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false,
+          "type": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "descCarburante",
+    "expression": "grel:\"diesel\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column descCarburante using expression grel:\"diesel\"",
+    "engineConfig": {
+      "facets": [
+        {
+          "name": "descCarburante",
+          "columnName": "descCarburante",
+          "query": "gasolio",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false,
+          "type": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "descCarburante",
+    "expression": "grel:\"diesel\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column descCarburante",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "descCarburante",
+          "expression": "value",
+          "columnName": "descCarburante",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "benzina speciale",
+                "l": "benzina speciale"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "descCarburante",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "benzina speciale"
+        ],
+        "to": "octane_100"
+      }
+    ]
+  },
+  {
+    "op": "core/row-reorder",
+    "description": "Reorder rows",
+    "mode": "row-based",
+    "sorting": {
+      "criteria": [
+        {
+          "errorPosition": 1,
+          "valueType": "number",
+          "column": "idImpianto",
+          "blankPosition": 2,
+          "reverse": false
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column isSelf",
+    "columnName": "isSelf"
+  },
+  {
+    "op": "core/row-reorder",
+    "description": "Reorder rows",
+    "mode": "row-based",
+    "sorting": {
+      "criteria": [
+        {
+          "errorPosition": 1,
+          "caseSensitive": false,
+          "valueType": "string",
+          "column": "descCarburante",
+          "blankPosition": 2,
+          "reverse": false
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/blank-down",
+    "description": "Blank down cells in column idImpianto",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "idImpianto"
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "idImpianto",
+          "expression": "isBlank(value).toString()",
+          "columnName": "idImpianto",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "true",
+                "l": "true"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/row-reorder",
+    "description": "Reorder rows",
+    "mode": "row-based",
+    "sorting": {
+      "criteria": [
+        {
+          "errorPosition": 1,
+          "valueType": "number",
+          "column": "idImpianto",
+          "blankPosition": 2,
+          "reverse": false
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/blank-down",
+    "description": "Blank down cells in column idImpianto",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "idImpianto"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column descCarburante",
+    "columnName": "descCarburante",
+    "keyColumnName": "idImpianto",
+    "separator": ", "
+  }
+]

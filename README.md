@@ -1,44 +1,51 @@
 # OSM-ItalyFuelStations
 Procedure to generate osm-changes maps and osm-ready files for importing fuel stations in Italy. Please refer to import wiki page: https://wiki.openstreetmap.org/wiki/Import/Catalogue/ItalyFuelStations
+## Requires
+openrefine http://openrefine.org/download.html
 
-## download and adapt source csv file
-run.sh
+## optional
+jsonlint tool (optional, to check json syntax)
 
-## convert to json for conflator
-openrefine
-### operations to be performed
-file: openrefine_operations.json
-### export template
-file: openrefine_export.template
-housekeeping: sed -i -e '/\"fuel:cng\" : null/d'  -e '/\"fuel:lpg\" : null/d' -e '/\"brand\" : \"\",/d' <json to be conflated>
+## Steps
+### download and manage source csv files
+./run.sh <province abbreviation(s) space separated, ie: UD GO PN TS>
+two files will be written: anagrafica (operator, addres, coordinates etc) and prezzi (prices, survey date, fuel types)
 
-## conflate profile
+### import in openrefine prezzi and anagrafica
+#### apply operations 
+via openrefine followionf the sequence:
+convert update day column in date format
+filter out old updates
+apply operations in file: prezzi.operations
+apply operations in file: anagrafica.operations
+#### convert to json for conflator
+export template
+file: anagrafica.export          
+
+### conflate & profile
 file: profile-mise.py used by... 
-conflate -i <input json file>  -v --changes osmchanges/changes.json -o osm/result.osm -c preview/preview.json profile-mise.py
+conflate -i <input json file>  -v -c preview.json profile-mise.py
+note: conflator approximate AOI with big squares: better use overpass-turbo manually, export data and run conflator with --osm option
 
-## Audit
-file to be uploaded: preview/preview.json 
+### Audit
+upload preview.json to http://audit.osmz.ru/ 
+wait for community checks...
 
-
-## audited adjustments
+### post-audited adjustments
 - source:date should be removed from nodes (JOSM) (added later in changeset upload)
-- new POIs don't have amenity=fuel tag (fix profile?), added by JOSM to the following selection:
-   amenity="" and waterway=""
 - remove any reference to brand:en=Independent or brand=Pompe Bianche (JOSM)
 
 
 ## example maintenance
-./run-incluso_prezzo.sh UD TS PN GO
-openrefine load diesel, benzina, lpg, cng 
+./run.sh UD TS PN GO
+openrefine load prezzi_alle_8.csv             
   transform todate 
   facet timeline
-  remove old fuel stations
+  remove old fuel stations (either via slide timeline facet and customizing epochs in prezzi.operationa)
 openrefine load anagrafica and apply operations
   several replaces 
-  star not blank fuels
-  remove not starred
-sed -i -e '/\"fuel:cng\" : null/d'  -e '/\"fuel:lpg\" : null/d' -e '/\"brand\" : \"\",/d' short_UD_TS_PN_GO.txt.json
-sed -i -e '/\"fuel:diesel\" : null/d'  -e '/\"fuel:octane_95\" : null/d' -e '/\"brand\" : \"\",/d' short_UD_TS_PN_GO.txt.json
+  facet and remove rows by noupdate=true
+sed -i -e '/\"fuel:diesel\" : null/d'  -e '/\"fuel:octane_95\" : null/d' -e '/\"fuel:octane_98\" : null/d' -e '/\"fuel:octane_100\" : null/d' -e '/\"fuel:octane_101\" : null/d' short_UD_TS_PN_GO.txt.json
 check result json: 
   jsonlint short_UD_TS_PN_GO.txt.json
 conflate -i short_UD_TS_PN_GO.txt.json -v -c preview_UD_TS_PN_GO.json profile-mise.py
