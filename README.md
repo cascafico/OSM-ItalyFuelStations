@@ -1,5 +1,5 @@
 # OSM-ItalyFuelStations
-Procedure to generate osm-changes maps and osm-ready files for importing fuel stations in Italy. Please refer to import wiki page: https://wiki.openstreetmap.org/wiki/Import/Catalogue/ItalyFuelStations
+Procedure to generate osm-changes maps and osm-ready files for importing/maintaining fuel stations in Italy. Please refer to import wiki page: https://wiki.openstreetmap.org/wiki/Import/Catalogue/ItalyFuelStations
 ## Requires
 openrefine http://openrefine.org/download.html
 
@@ -11,11 +11,10 @@ jsonlint tool (optional, to check json syntax)
 ./run.sh <province abbreviation(s) space separated, ie: UD GO PN TS>
 two files will be written: anagrafica (operator, addres, coordinates etc) and prezzi (prices, survey date, fuel types)
 
-### import in openrefine prezzi and anagrafica
+### openrefine
+#### create projects prezzi and anagrafica
 #### apply operations 
-via openrefine followionf the sequence:
-convert update day column in date format
-filter out old updates
+since anagrafica reads prezzi, follow the sequence:
 apply operations in file: prezzi.operations
 apply operations in file: anagrafica.operations
 #### convert to json for conflator
@@ -23,8 +22,8 @@ export template
 file: anagrafica.export          
 
 ### conflate & profile
-file: profile-mise.py used by... 
-conflate -i <input json file>  -v -c preview.json profile-mise.py
+file: profile-mise.py used by...    
+conflate -i <input json file>  -v -c preview.json profile-mise.py   
 note: conflator approximate AOI with big squares: better use overpass-turbo manually, export data and run conflator with --osm option
 
 ### Audit
