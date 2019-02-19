@@ -11,6 +11,8 @@ source = 'Mise'
 no_dataset_id = True
 dataset_id = 'mise'
 
+duplicate_distance = 30
+
 # Overpass query to use when searching OSM for data
 #overpass_timeout = 120 default
 overpass_timeout = 300
@@ -18,7 +20,8 @@ overpass_timeout = 300
 #query = [('amenity', 'fuel')],[('waterway', 'fuel')]  or condition
 #query = [('amenity', 'fuel'),('disused:amenity','fuel')]  namespace disused and abandoned are implicit
 #query = [('amenity', 'fuel'),('ref:mise','.*')] 
-query = [('amenity', 'fuel')] 
+#query = [('amenity', 'fuel')] 
+query = [('amenity', 'fuel')],[('waterway', 'fuel')]
 
 # parameter --osm will use indipendently generated queries, ie:
 # http://overpass-turbo.eu/s/FOX
@@ -32,7 +35,7 @@ bbox = True
 
 
 # tags to replace on matched OSM objects
-master_tags = ('ref:mise', 'operator', 'fuel:diesel', 'fuel:octane_95', 'fuel:octane_98', 'fuel:octane_100', 'fuel:octane_101', 'fuel:lpg', 'fuel:cng','brand')
+master_tags = ('name', 'ref:mise', 'operator', 'fuel:diesel', 'fuel:octane_95', 'fuel:octane_98', 'fuel:octane_100', 'fuel:octane_101', 'fuel:lpg', 'fuel:cng','brand')
 
 delete_unmatched = False
 tag_unmatched = { 'fixme':'This object might have been dismantled, please check' }

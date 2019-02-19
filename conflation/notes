@@ -1,0 +1,6 @@
+http://overpass-turbo.eu/s/GeL 
+export raw data to provinciaUD_con_refmise.osm
+
+conflate -i UD.json --osm provinciaUD_con_refmise.osm  -v -c preview_UD_.json ../profile-mise.py
+audit...
+conflate -i UD.json -a audit_FuelUD.json  -o readytoimportUD.osm ../profile-mise.py 

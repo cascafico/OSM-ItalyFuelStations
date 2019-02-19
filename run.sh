@@ -14,6 +14,8 @@ mkdir -p tmp
 cd tmp
 
 wget -nc -O $PREZZI.csv "http://www.sviluppoeconomico.gov.it/images/exportCSV/prezzo_alle_8.csv" --header="User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:23.0) Gecko/20100101 Firefox/23.0"
+cp $PREZZI.csv prezzo_alle_8.csv
+sed -i -e '/^Estrazione/d' prezzo_alle_8.csv
 
 wget -nc -O $ANAGRAFICA.csv "http://www.sviluppoeconomico.gov.it/images/exportCSV/anagrafica_impianti_attivi.csv" --header="User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:23.0) Gecko/20100101 Firefox/23.0"
 
@@ -39,6 +41,8 @@ echo "preprocessing finished"
 echo "please, apply prezzi and then anagrafica operations in openrefine"
 echo ""
 echo "optionally, clean null falues in resuting json before conflation:"
+#sed -i -e '/"fuel:cng" : null/d' -e '/"fuel:lpg" : null/d' -e '/"fuel:diesel" : null/d'  -e '/"fuel:octane_95" : null/d' -e '/"fuel:octane_98" : null/d' -e '/"fuel:octane_100" : null/d' -e '/"fuel:octane_101" : null/d' TV.json
+
 echo "sed -i -e '/\"fuel:cng\" : null/d'  -e '/\"fuel:lpg\" : null/d'   -e '/\"fuel:diesel\" : null/d'  -e '/\"fuel:octane_95\" : null/d'  -e '/\"fuel:octane_98\" : null/d'  -e '/\"fuel:octane_100\" : null/d'  -e '/\"fuel:octane_101\" : null/d' -e '/\"brand\" : \"\",/d' <json esportato da openrefine>.json"
 echo "optionally, check with jsonlint"
 echo ""

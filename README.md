@@ -15,6 +15,7 @@ two files will be written: anagrafica (operator, addres, coordinates etc) and pr
 #### create projects prezzi and anagrafica
 #### apply operations 
 since anagrafica reads prezzi, follow the sequence:
+prezzi.operations: check which timespan is to be removed (./epoch prints 2 months from today) and update prezzi.operations accordingly.
 apply operations in file: prezzi.operations
 apply operations in file: anagrafica.operations
 #### convert to json for conflator
@@ -24,7 +25,7 @@ file: anagrafica.export
 ### conflate & profile
 file: profile-mise.py used by...    
 conflate -i <input json file>  -v -c preview.json profile-mise.py   
-note: conflator approximate AOI with big squares: better use overpass-turbo manually, export data and run conflator with --osm option
+note: conflator approximate AOI with big squares: better use overpass-turbo manually, export data and run conflator with --osm option. Example query http://overpass-turbo.eu/s/FOX
 
 ### Audit
 upload preview.json to http://audit.osmz.ru/ 
