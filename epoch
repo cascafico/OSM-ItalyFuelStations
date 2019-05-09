@@ -1,3 +1,5 @@
+echo "2 mo ago:"
 date -d "2 month ago" '+%s000'
+echo "now":
 date -d "today" '+%s000'
 

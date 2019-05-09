@@ -5758,13 +5758,13 @@
      45.81146
     ],
     "ref_distance": 11.5,
-    "ref_id": "27995",
+    "ref_id": "41984",
     "tags.amenity": "fuel",
     "tags.brand": "Api-Ip",
     "tags.fuel:lpg": "yes",
     "tags.name": "IP",
     "tags.operator": "De Paoli Silvio & C. S.N.C.",
-    "tags_changed.ref:mise": "41984 -> 27995",
+    "tags.ref:mise": "41984",
     "tags_new.fuel:diesel": "yes",
     "tags_new.fuel:octane_95": "yes"
    },
@@ -7266,275 +7266,69 @@
   {
    "geometry": {
     "coordinates": [
-     13.3536673,
-     45.8881689
+     13.33081,
+     46.00887
     ],
     "type": "Point"
    },
    "properties": {
-    "action": "modify",
-    "marker-color": "#0000ee",
-    "osm_id": 76842571,
-    "osm_type": "way",
-    "ref_coords": [
-     13.35393,
-     45.8882
-    ],
-    "ref_distance": 20.6,
-    "ref_id": "34172",
-    "tags.amenity": "fuel",
-    "tags.name": "Drusian",
-    "tags.operator": "S.I.A. Engineering Construction S.R.L.",
-    "tags.ref:mise": "34172",
-    "tags.source:date": "2018-04-16",
-    "tags_changed.brand": "Sia Fuel -> Sia fuel",
-    "tags_new.fuel:diesel": "yes",
-    "tags_new.fuel:octane_95": "yes"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     12.954834,
-     45.964918
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#0000ee",
-    "osm_id": 228304284,
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -245,
     "osm_type": "node",
-    "ref_coords": [
-     12.95506,
-     45.96478
-    ],
-    "ref_distance": 23.3,
-    "ref_id": "9996",
+    "ref_id": "14073",
     "tags.amenity": "fuel",
-    "tags.brand": "Api-Ip",
-    "tags.name": "IP",
-    "tags.operator": "Faro Salvatore Andrea",
-    "tags.ref:mise": "9996",
-    "tags_new.fuel:diesel": "yes",
-    "tags_new.fuel:octane_95": "yes"
+    "tags.brand": "Total Erg",
+    "tags.fuel:diesel": "yes",
+    "tags.fuel:octane_95": "yes",
+    "tags.operator": "Gariup Emanuela",
+    "tags.ref:mise": "14073"
    },
    "type": "Feature"
   },
   {
    "geometry": {
     "coordinates": [
-     13.284326,
-     46.0296771
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#0000ee",
-    "osm_id": 630803105,
-    "osm_type": "node",
-    "ref_coords": [
-     13.28414,
-     46.0295
-    ],
-    "ref_distance": 24.4,
-    "ref_id": "35273",
-    "tags.amenity": "fuel",
-    "tags.brand": "Agip Eni",
-    "tags.fixme": "name",
-    "tags.fuel:lpg": "yes",
-    "tags.operator": "Auto Metano Udine di Rosso Cristian & C. S.A.S.",
-    "tags.ref:mise": "35273",
-    "tags_new.fuel:diesel": "yes",
-    "tags_new.fuel:octane_100": "yes",
-    "tags_new.fuel:octane_95": "yes"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     13.3909882,
-     45.8062286
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#0000ee",
-    "osm_id": 231899864,
-    "osm_type": "way",
-    "ref_coords": [
-     13.39089,
-     45.80645
-    ],
-    "ref_distance": 25.8,
-    "ref_id": "28059",
-    "tags.amenity": "fuel",
-    "tags.brand": "Esso",
-    "tags.building": "yes",
-    "tags.name": "Esso",
-    "tags.ref:mise": "28059",
-    "tags.source:date": "2018-04-16",
-    "tags_changed.operator": "A. & B. Sas di Alvaro Alessandro & C. -> A. & B. S.A.S. di Alvaro Alessandro & C.",
-    "tags_new.fuel:diesel": "yes",
-    "tags_new.fuel:octane_95": "yes"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     13.4423999,
-     46.1000861
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#0000ee",
-    "osm_id": 36163893,
-    "osm_type": "way",
-    "ref_coords": [
-     13.44261,
-     46.0999
-    ],
-    "ref_distance": 26.3,
-    "ref_id": "9002",
-    "tags.addr:city": "Cividale del Friuli",
-    "tags.addr:housenumber": "25",
-    "tags.addr:postcode": "33043",
-    "tags.addr:street": "Via Sanguarzo",
-    "tags.amenity": "fuel",
-    "tags.brand": "Q8",
-    "tags.building": "yes",
-    "tags.height": "4 m",
-    "tags.it:fvg:ctrn:code": "4AED",
-    "tags.it:fvg:ctrn:revision": "1AN",
-    "tags.name": "Presani Marco",
-    "tags.operator": "Servizi & Gestioni Italia S.R.L.",
-    "tags.ref:mise": "9002",
-    "tags.source:date": "2018-04-16",
-    "tags_new.fuel:diesel": "yes",
-    "tags_new.fuel:octane_95": "yes"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     13.257399,
-     45.9020222
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#0000ee",
-    "osm_id": 716689223,
-    "osm_type": "node",
-    "ref_coords": [
-     13.25775,
-     45.902
-    ],
-    "ref_distance": 27.3,
-    "ref_id": "28866",
-    "tags.amenity": "fuel",
-    "tags.brand": "Agip Eni",
-    "tags.operator": "Ghiraldo Monia",
-    "tags.ref:mise": "28866",
-    "tags_new.fuel:diesel": "yes",
-    "tags_new.fuel:octane_95": "yes"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     13.1923243,
-     46.0239505
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#0000ee",
-    "osm_id": 5401362376,
-    "osm_type": "node",
-    "ref_coords": [
-     13.19208,
-     46.0243
-    ],
-    "ref_distance": 43.2,
-    "ref_id": "24586",
-    "tags.amenity": "fuel",
-    "tags.brand": "Repsol",
-    "tags.opening_hours": "unknown",
-    "tags.operator": "Degano Luca",
-    "tags.ref:mise": "24586",
-    "tags_new.fuel:diesel": "yes",
-    "tags_new.fuel:octane_95": "yes"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     13.0883052,
-     45.6734704
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#0000ee",
-    "osm_id": 293072078,
-    "osm_type": "way",
-    "ref_coords": [
      13.08861,
      45.67385
     ],
-    "ref_distance": 48.5,
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -246,
+    "osm_type": "node",
     "ref_id": "16450",
     "tags.amenity": "fuel",
     "tags.brand": "Agip Eni",
-    "tags.name": "Eni",
+    "tags.fuel:diesel": "yes",
+    "tags.fuel:octane_95": "yes",
     "tags.operator": "Torresan Massimo",
-    "tags.ref:mise": "16450",
-    "tags.source:date": "2018-04-16",
-    "tags_new.fuel:diesel": "yes",
-    "tags_new.fuel:octane_95": "yes"
+    "tags.ref:mise": "16450"
    },
    "type": "Feature"
   },
   {
    "geometry": {
     "coordinates": [
-     13.1432953,
-     45.6979058
+     13.19208,
+     46.0243
     ],
     "type": "Point"
    },
    "properties": {
-    "action": "modify",
-    "marker-color": "#0000ee",
-    "osm_id": 3708669100,
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -247,
     "osm_type": "node",
-    "ref_coords": [
-     13.14279,
-     45.69728
-    ],
-    "ref_distance": 80.0,
-    "ref_id": "38395",
-    "tags.ref:mise": "38395",
-    "tags.waterway": "fuel",
-    "tags_changed.brand": "Af Petroli -> AF Petroli",
-    "tags_changed.operator": "A.F. Petroli S.P.A. -> A.F. Petroli S.p.A.",
-    "tags_new.amenity": "fuel",
-    "tags_new.fuel:diesel": "yes",
-    "tags_new.fuel:octane_95": "yes"
+    "ref_id": "24586",
+    "tags.amenity": "fuel",
+    "tags.brand": "Repsol",
+    "tags.fuel:diesel": "yes",
+    "tags.fuel:octane_95": "yes",
+    "tags.operator": "Degano Luca",
+    "tags.ref:mise": "24586"
    },
    "type": "Feature"
   },
@@ -7549,7 +7343,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -254,
+    "osm_id": -248,
     "osm_type": "node",
     "ref_id": "27651",
     "tags.amenity": "fuel",
@@ -7565,6 +7359,123 @@
   {
    "geometry": {
     "coordinates": [
+     13.39089,
+     45.80645
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -249,
+    "osm_type": "node",
+    "ref_id": "28059",
+    "tags.amenity": "fuel",
+    "tags.brand": "Esso",
+    "tags.fuel:diesel": "yes",
+    "tags.fuel:octane_95": "yes",
+    "tags.operator": "A. & B. S.A.S. di Alvaro Alessandro & C.",
+    "tags.ref:mise": "28059"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.25775,
+     45.902
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -250,
+    "osm_type": "node",
+    "ref_id": "28866",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip Eni",
+    "tags.fuel:diesel": "yes",
+    "tags.fuel:octane_95": "yes",
+    "tags.operator": "Ghiraldo Monia",
+    "tags.ref:mise": "28866"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.35393,
+     45.8882
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -251,
+    "osm_type": "node",
+    "ref_id": "34172",
+    "tags.amenity": "fuel",
+    "tags.brand": "Sia fuel",
+    "tags.fuel:diesel": "yes",
+    "tags.fuel:octane_95": "yes",
+    "tags.operator": "S.I.A. Engineering Construction S.R.L.",
+    "tags.ref:mise": "34172"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.28414,
+     46.0295
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -252,
+    "osm_type": "node",
+    "ref_id": "35273",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip Eni",
+    "tags.fuel:diesel": "yes",
+    "tags.fuel:lpg": "yes",
+    "tags.fuel:octane_100": "yes",
+    "tags.fuel:octane_95": "yes",
+    "tags.operator": "Auto Metano Udine di Rosso Cristian & C. S.A.S.",
+    "tags.ref:mise": "35273"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.14279,
+     45.69728
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -253,
+    "osm_type": "node",
+    "ref_id": "38395",
+    "tags.amenity": "fuel",
+    "tags.brand": "AF Petroli",
+    "tags.fuel:diesel": "yes",
+    "tags.fuel:octane_95": "yes",
+    "tags.operator": "A.F. Petroli S.p.A.",
+    "tags.ref:mise": "38395"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
      13.22762,
      45.80281
     ],
@@ -7573,7 +7484,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -255,
+    "osm_id": -254,
     "osm_type": "node",
     "ref_id": "42415",
     "tags.amenity": "fuel",
@@ -7581,29 +7492,6 @@
     "tags.fuel:octane_95": "yes",
     "tags.operator": "Cantieri Marina San Giorgio S.p.A.",
     "tags.ref:mise": "42415"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     13.33079,
-     46.00886
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "create",
-    "marker-color": "#11dd11",
-    "osm_id": -256,
-    "osm_type": "node",
-    "ref_id": "43151",
-    "tags.amenity": "fuel",
-    "tags.brand": "Total Erg",
-    "tags.fuel:diesel": "yes",
-    "tags.fuel:octane_95": "yes",
-    "tags.operator": "Ro.Ma S.N.C. di Adami Roberto & C.",
-    "tags.ref:mise": "43151"
    },
    "type": "Feature"
   },
@@ -7618,7 +7506,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -257,
+    "osm_id": -255,
     "osm_type": "node",
     "ref_id": "44237",
     "tags.amenity": "fuel",
@@ -7633,22 +7521,46 @@
   {
    "geometry": {
     "coordinates": [
-     12.978823,
-     46.144119
+     13.44261,
+     46.0999
     ],
     "type": "Point"
    },
    "properties": {
-    "action": "modify",
-    "marker-color": "#660000",
-    "osm_id": 2308268394,
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -256,
     "osm_type": "node",
+    "ref_id": "9002",
     "tags.amenity": "fuel",
-    "tags.brand": "Esso",
-    "tags.name": "Fly",
-    "tags.operator": "Arena Edoardo - Stazione di Servizio Esso",
-    "tags.ref:mise": "37251",
-    "tags_new.fixme": "This object might have been dismantled, please check"
+    "tags.brand": "Q8",
+    "tags.fuel:diesel": "yes",
+    "tags.fuel:octane_95": "yes",
+    "tags.operator": "Servizi & Gestioni Italia S.R.L.",
+    "tags.ref:mise": "9002"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.95506,
+     45.96478
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -257,
+    "osm_type": "node",
+    "ref_id": "9996",
+    "tags.amenity": "fuel",
+    "tags.brand": "Api-Ip",
+    "tags.fuel:diesel": "yes",
+    "tags.fuel:octane_95": "yes",
+    "tags.operator": "Faro Salvatore Andrea",
+    "tags.ref:mise": "9996"
    },
    "type": "Feature"
   },
@@ -7670,6 +7582,82 @@
     "tags.operator": "Degano Cesare",
     "tags.ref:mise": "27651",
     "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.3536673,
+     45.8881689
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 76842571,
+    "osm_type": "way",
+    "tags.amenity": "fuel",
+    "tags.brand": "Sia Fuel",
+    "tags.name": "Drusian",
+    "tags.operator": "S.I.A. Engineering Construction S.R.L.",
+    "tags.ref:mise": "34172",
+    "tags.source:date": "2018-04-16",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.4423999,
+     46.1000861
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 36163893,
+    "osm_type": "way",
+    "tags.addr:city": "Cividale del Friuli",
+    "tags.addr:housenumber": "25",
+    "tags.addr:postcode": "33043",
+    "tags.addr:street": "Via Sanguarzo",
+    "tags.amenity": "fuel",
+    "tags.brand": "Q8",
+    "tags.building": "yes",
+    "tags.height": "4 m",
+    "tags.it:fvg:ctrn:code": "4AED",
+    "tags.it:fvg:ctrn:revision": "1AN",
+    "tags.name": "Presani Marco",
+    "tags.operator": "Servizi & Gestioni Italia S.R.L.",
+    "tags.ref:mise": "9002",
+    "tags.source:date": "2018-04-16",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.284326,
+     46.0296771
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 630803105,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip Eni",
+    "tags.fuel:lpg": "yes",
+    "tags.operator": "Auto Metano Udine di Rosso Cristian & C. S.A.S.",
+    "tags.ref:mise": "35273",
+    "tags_changed.fixme": "name -> This object might have been dismantled, please check"
    },
    "type": "Feature"
   },
@@ -7708,6 +7696,117 @@
   {
    "geometry": {
     "coordinates": [
+     12.978823,
+     46.144119
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 2308268394,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Esso",
+    "tags.name": "Fly",
+    "tags.operator": "Arena Edoardo - Stazione di Servizio Esso",
+    "tags.ref:mise": "37251",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.257399,
+     45.9020222
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 716689223,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip Eni",
+    "tags.operator": "Ghiraldo Monia",
+    "tags.ref:mise": "28866",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.1432953,
+     45.6979058
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 3708669100,
+    "osm_type": "node",
+    "tags.brand": "Af Petroli",
+    "tags.operator": "A.F. Petroli S.P.A.",
+    "tags.ref:mise": "38395",
+    "tags.waterway": "fuel",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.0883052,
+     45.6734704
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 293072078,
+    "osm_type": "way",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip Eni",
+    "tags.name": "Eni",
+    "tags.operator": "Torresan Massimo",
+    "tags.ref:mise": "16450",
+    "tags.source:date": "2018-04-16",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.3909882,
+     45.8062286
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 231899864,
+    "osm_type": "way",
+    "tags.amenity": "fuel",
+    "tags.brand": "Esso",
+    "tags.building": "yes",
+    "tags.name": "Esso",
+    "tags.operator": "A. & B. Sas di Alvaro Alessandro & C.",
+    "tags.ref:mise": "28059",
+    "tags.source:date": "2018-04-16",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
      13.2011916,
      46.0558392
     ],
@@ -7723,6 +7822,50 @@
     "tags.name": "Agip",
     "tags.operator": "Gestioni Innovative Italia S.R.L.",
     "tags.ref:mise": "33288",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.954834,
+     45.964918
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 228304284,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Api-Ip",
+    "tags.name": "IP",
+    "tags.operator": "Faro Salvatore Andrea",
+    "tags.ref:mise": "9996",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.1923243,
+     46.0239505
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 5401362376,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Repsol",
+    "tags.opening_hours": "unknown",
+    "tags.operator": "Degano Luca",
+    "tags.ref:mise": "24586",
     "tags_new.fixme": "This object might have been dismantled, please check"
    },
    "type": "Feature"

@@ -1112,6 +1112,7 @@
   <node id='228305683' action='modify' visible='true' version='6' lat='46.5150276' lon='12.8657683'>
     <tag k='amenity' v='fuel' />
     <tag k='brand' v='Agip Eni' />
+    <tag k='fixme' v='name' />
     <tag k='fuel:diesel' v='yes' />
     <tag k='fuel:octane_100' v='yes' />
     <tag k='fuel:octane_95' v='yes' />
@@ -1918,9 +1919,8 @@
   </node>
   <node id='661026169' action='modify' visible='true' version='4' lat='45.6997821189' lon='13.14430959572'>
     <tag k='amenity' v='fuel' />
-    <tag k='contact:phone' v='+39 0431 73355' />
-    <tag k='fixme' v='This object might have been dismantled, please check' />
     <tag k='name' v='Api - nautico' />
+    <tag k='phone' v='+39 0431 73355' />
     <tag k='seamark:small_craft_facility:category' v='fuel_station' />
     <tag k='seamark:type' v='small_craft_facility' />
   </node>
@@ -1978,6 +1978,7 @@
   <node id='1604830614' action='modify' visible='true' version='3' lat='46.1536369' lon='13.2187371'>
     <tag k='amenity' v='fuel' />
     <tag k='brand' v='Agip Eni' />
+    <tag k='fixme' v='name' />
     <tag k='fuel:diesel' v='yes' />
     <tag k='fuel:octane_95' v='yes' />
     <tag k='name' v='IP' />

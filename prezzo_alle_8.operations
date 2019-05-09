@@ -26,8 +26,8 @@
           "selectNonTime": true,
           "selectBlank": true,
           "selectError": true,
-          "from": 1550223921000,
-          "to": 1544867097000
+          "to": 1551530021000,
+          "from": 1556800421000
         }
       ],
       "mode": "row-based"

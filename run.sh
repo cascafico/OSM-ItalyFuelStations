@@ -38,12 +38,12 @@ sed -i '1 i\ref:mise;operator;brand;prov;lat;lon' short_$FILTERED.csv
 
 
 echo "preprocessing finished"
-echo "please, apply prezzi and then anagrafica operations in openrefine"
+echo "please, apply prezzi (changing timespan with epoch tool) and then anagrafica operations in openrefine"
 echo ""
-echo "optionally, clean null falues in resuting json before conflation:"
-#sed -i -e '/"fuel:cng" : null/d' -e '/"fuel:lpg" : null/d' -e '/"fuel:diesel" : null/d'  -e '/"fuel:octane_95" : null/d' -e '/"fuel:octane_98" : null/d' -e '/"fuel:octane_100" : null/d' -e '/"fuel:octane_101" : null/d' TV.json
-
-echo "sed -i -e '/\"fuel:cng\" : null/d'  -e '/\"fuel:lpg\" : null/d'   -e '/\"fuel:diesel\" : null/d'  -e '/\"fuel:octane_95\" : null/d'  -e '/\"fuel:octane_98\" : null/d'  -e '/\"fuel:octane_100\" : null/d'  -e '/\"fuel:octane_101\" : null/d' -e '/\"brand\" : \"\",/d' <json esportato da openrefine>.json"
+echo "optionally, clean null values in resuting json before conflation:"
+echo "sed -i '/: null/d' infile.json"
+echo " sed -i '/"brand" : \"\"/d' infile.json"
+echo ""
 echo "optionally, check with jsonlint"
 echo ""
 echo "example conflation: $ conflate -i <exported from openrefine>.json -v -c <preview to be loaded in audit>.json profile-mise.py"

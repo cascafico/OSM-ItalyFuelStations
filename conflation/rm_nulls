@@ -1,1 +1,2 @@
-sed -i -e '/"brand" : "",/d' -e '/"fuel:diesel" : null/d'  -e '/"fuel:octane_95" : null/d' -e '/"fuel:octane_98" : null/d' -e '/"fuel:octane_100" : null/d' -e '/"fuel:octane_101" : null/d' UD.json
+#!/bin/bash
+sed -i -e '/"brand" : "",/d' -e '/"fuel:diesel" : null/d'  -e '/"fuel:octane_95" : null/d' -e '/"fuel:octane_98" : null/d' -e '/"fuel:octane_100" : null/d' -e '/"fuel:octane_101" : null/d' $1      

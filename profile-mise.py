@@ -11,7 +11,7 @@ source = 'Mise'
 no_dataset_id = True
 dataset_id = 'mise'
 
-duplicate_distance = 30
+duplicate_distance = 20
 
 # Overpass query to use when searching OSM for data
 #overpass_timeout = 120 default
@@ -42,4 +42,4 @@ tag_unmatched = { 'fixme':'This object might have been dismantled, please check'
 
 
 # max distance to search for a match in meters
-max_distance = 80
+max_distance = 50
