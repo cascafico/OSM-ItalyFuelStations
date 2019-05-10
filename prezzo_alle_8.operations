@@ -13,32 +13,6 @@
     "repeatCount": 10
   },
   {
-    "op": "core/row-removal",
-    "description": "Remove rows; to calculate 2 months interval run ./epoch",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "timerange",
-          "name": "dtComu",
-          "expression": "value",
-          "columnName": "dtComu",
-          "selectTime": true,
-          "selectNonTime": true,
-          "selectBlank": true,
-          "selectError": true,
-          "to": 1551530021000,
-          "from": 1556800421000
-        }
-      ],
-      "mode": "row-based"
-    }
-  },
-  {
-    "op": "core/column-removal",
-    "description": "Remove column dtComu",
-    "columnName": "dtComu"
-  },
-  {
     "op": "core/column-removal",
     "description": "Remove column prezzo",
     "columnName": "prezzo"
@@ -701,5 +675,57 @@
     "columnName": "descCarburante",
     "keyColumnName": "idImpianto",
     "separator": ", "
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "descCarburante",
+          "expression": "isBlank(value).toString()",
+          "columnName": "descCarburante",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "true",
+                "l": "true"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "timerange",
+          "name": "dtComu",
+          "expression": "value",
+          "columnName": "dtComu",
+          "selectTime": true,
+          "selectNonTime": true,
+          "selectBlank": true,
+          "selectError": true,
+          "from": 1483438875000,
+          "to": 1551817866000
+        }
+      ],
+      "mode": "row-based"
+    }
   }
 ]

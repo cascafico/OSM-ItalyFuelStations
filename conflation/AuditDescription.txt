@@ -1,0 +1,10 @@
+Check name-brand inconsistencies, latest has priority.
+
+Yellow field: proposed tag value substitution
+Green field: new tag
+
+Blue translucent pin: dataset position
+Blue pin: OSM fuel station position (centroid if polygon)
+Green pin: new POI, can be dragged in better position.
+
+Whatever doubt, skip or leave a fixme: will be inherited in OSM.
