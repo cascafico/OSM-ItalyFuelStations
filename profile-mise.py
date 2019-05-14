@@ -42,4 +42,5 @@ tag_unmatched = { 'fixme':'This object might have been dismantled, please check'
 
 
 # max distance to search for a match in meters
-max_distance = 50
+#max_distance = 50
+max_distance = 70

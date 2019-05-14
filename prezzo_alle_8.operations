@@ -7,7 +7,7 @@
       "mode": "row-based"
     },
     "columnName": "dtComu",
-    "expression": "value.toDate()",
+    "expression": "value.toDate('d/M/y H:m:s')",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10
