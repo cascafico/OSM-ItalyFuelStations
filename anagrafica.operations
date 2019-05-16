@@ -121,58 +121,6 @@
   },
   {
     "op": "core/text-transform",
-    "description": "Text transform on cells in column operator using expression grel:replace(value, \"Spa\", \"S.p.A.\")",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "operator",
-    "expression": "grel:replace(value, \"Spa\", \"S.p.A.\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column operator using expression grel:replace(value, \"Srl\", \"S.R.L.\")",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "operator",
-    "expression": "grel:replace(value, \"Srl\", \"S.R.L.\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column operator using expression grel:replace(value, \" Sas\", \" S.A.S.\")",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "operator",
-    "expression": "grel:replace(value, \" Sas\", \" S.A.S.\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column operator using expression grel:replace(value, \"Snc\", \"S.N.C.\")",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "operator",
-    "expression": "grel:replace(value, \"Snc\", \"S.N.C.\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
     "description": "Text transform on cells in column operator using expression grel:replace(value, \" Di \", \" di \")",
     "engineConfig": {
       "facets": [
@@ -300,19 +248,6 @@
   },
   {
     "op": "core/text-transform",
-    "description": "Text transform on cells in column operator using expression grel:replace(value, \"S.P.A.\", \"S.p.A.\")",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "operator",
-    "expression": "grel:replace(value, \"S.P.A.\", \"S.p.A.\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
     "description": "Text transform on cells in column brand using expression grel:replace(value, \"Pompe Bianche\", \"\")",
     "engineConfig": {
       "facets": [],
@@ -427,5 +362,98 @@
     "baseColumnName": "fuel:lpg",
     "expression": "grel:and(\nisNull(cells[\"fuel:lpg\"]),\nisNull(cells[\"fuel:cng\"]),\nisNull(cells[\"fuel:octane_95\"]),\nisNull(cells[\"fuel:octane_98\"]),\nisNull(cells[\"fuel:octane_100\"]),\nisNull(cells[\"fuel:octane_101\"]),\nisNull(cells[\"fuel:diesel\"])\n)",
     "onError": "set-to-blank"
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "name": "noupdate",
+          "columnName": "noupdate",
+          "query": "true",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false,
+          "type": "text"
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression grel:replace(value, /\\Spa[ $]/, \"S.p.A.\")\"",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value, /\\Spa[ $]/, \"S.p.A.\")\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression grel:replace(value, /\\Sas[ $]/, \"S.A.S.\")\"",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value, /\\Sas[ $]/, \"S.A.S.\")\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression grel:replace(value, /\\Srl[ $]/, \"S.R.L.\")\"",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value, /\\Srl[ $]/, \"S.R.L.\")\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression grel:replace(value, /\\Snc[ $]/, \"S.N.C.\")\"",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value, /\\Snc[ $]/, \"S.N.C.\")\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression grel:toTitlecase((split(value,\"'\"))[0])+\"'\"+toTitlecase((split(value,\"'\"))[1])",
+    "engineConfig": {
+      "facets": [
+        {
+          "name": "operator",
+          "columnName": "operator",
+          "query": "D'",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false,
+          "type": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "grel:toTitlecase((split(value,\"'\"))[0])+\"'\"+toTitlecase((split(value,\"'\"))[1])",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
   }
 ]
