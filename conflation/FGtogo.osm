@@ -73,10 +73,10 @@
     <tag k='amenity' v='fuel' />
     <tag k='brand' v='Agip Eni' />
     <tag k='fixme' v='This object might have been dismantled, please check' />
+    <tag k='fuel:GTL_diesel' v='yes' />
+    <tag k='fuel:HGV_diesel' v='yes' />
     <tag k='fuel:cng' v='yes' />
     <tag k='fuel:diesel' v='yes' />
-    <tag k='fuel:gtl_diesel' v='yes' />
-    <tag k='fuel:hgv_diesel' v='yes' />
     <tag k='fuel:lpg' v='yes' />
     <tag k='fuel:octane_95' v='yes' />
     <tag k='opening_hours' v='Mo-Su 05:30-22:00, Su 06:00-13:00' />
@@ -430,9 +430,9 @@
   </node>
   <node id='390068862' action='modify' visible='true' version='4' lat='41.5980204' lon='15.8487604'>
     <tag k='amenity' v='fuel' />
+    <tag k='fuel:HGV_diesel' v='yes' />
     <tag k='fuel:cng' v='yes' />
     <tag k='fuel:diesel' v='yes' />
-    <tag k='fuel:hgv_diesel' v='yes' />
     <tag k='fuel:octane_95' v='yes' />
     <tag k='fuel:octane_98' v='yes' />
     <tag k='opening_hours' v='24/7' />
@@ -1099,9 +1099,9 @@
   <node id='2149323029' action='modify' visible='true' version='2' lat='41.9208082' lon='15.1568772'>
     <tag k='amenity' v='fuel' />
     <tag k='brand' v='Agip Eni' />
+    <tag k='fuel:GTL_diesel' v='yes' />
+    <tag k='fuel:HGV_diesel' v='yes' />
     <tag k='fuel:diesel' v='yes' />
-    <tag k='fuel:gtl_diesel' v='yes' />
-    <tag k='fuel:hgv_diesel' v='yes' />
     <tag k='fuel:octane_100' v='yes' />
     <tag k='fuel:octane_95' v='yes' />
     <tag k='name' v='Eni 09315' />
@@ -1509,8 +1509,8 @@
     <tag k='amenity' v='fuel' />
     <tag k='brand' v='Agip' />
     <tag k='fixme' v='This object might have been dismantled, please check' />
+    <tag k='fuel:GTL_diesel' v='yes' />
     <tag k='fuel:diesel' v='yes' />
-    <tag k='fuel:gtl_diesel' v='yes' />
     <tag k='fuel:octane_95' v='yes' />
     <tag k='name' v='Agip' />
     <tag k='operator' v='Fucci' />
@@ -1577,8 +1577,8 @@
   <node id='4083641255' action='modify' visible='true' version='2' lat='41.6383486' lon='15.8966035'>
     <tag k='amenity' v='fuel' />
     <tag k='brand' v='Agip Eni' />
+    <tag k='fuel:GTL_diesel' v='yes' />
     <tag k='fuel:diesel' v='yes' />
-    <tag k='fuel:gtl_diesel' v='yes' />
     <tag k='fuel:lpg' v='yes' />
     <tag k='fuel:octane_98' v='yes' />
     <tag k='name' v='Agip' />
@@ -2451,8 +2451,8 @@
     <nd ref='656763079' />
     <tag k='amenity' v='fuel' />
     <tag k='fixme' v='This object might have been dismantled, please check' />
+    <tag k='fuel:GTL_diesel' v='yes' />
     <tag k='fuel:diesel' v='yes' />
-    <tag k='fuel:gtl_diesel' v='yes' />
     <tag k='fuel:octane_95' v='yes' />
     <tag k='name' v='Agip Mafrolla' />
     <tag k='operator' v='Agip' />
