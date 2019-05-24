@@ -1,0 +1,4628 @@
+{
+ "features": [
+  {
+   "geometry": {
+    "coordinates": [
+     15.8543497,
+     40.8567809
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5853344357,
+    "osm_type": "node",
+    "ref_coords": [
+     15.85435,
+     40.85678
+    ],
+    "ref_distance": 0.1,
+    "ref_id": "27067",
+    "ref_unused_tags.brand": "",
+    "tags.amenity": "fuel",
+    "tags.operator": "Ungaro Donato",
+    "tags.ref:mise": "27067",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.9257314,
+     40.0747297
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851830993,
+    "osm_type": "node",
+    "ref_coords": [
+     15.92573,
+     40.07473
+    ],
+    "ref_distance": 0.1,
+    "ref_id": "9461",
+    "tags.amenity": "fuel",
+    "tags.brand": "Q8",
+    "tags.operator": "Malfen - S.R.L.",
+    "tags.ref:mise": "9461",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8410594,
+     40.6900811
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851831919,
+    "osm_type": "node",
+    "ref_coords": [
+     15.84106,
+     40.69008
+    ],
+    "ref_distance": 0.1,
+    "ref_id": "40833",
+    "tags.amenity": "fuel",
+    "tags.brand": "Total Erg",
+    "tags.ref:mise": "40833",
+    "tags_changed.operator": "Elle2Bi di Barbato Salvatore & C. S.N.C. -> Elle2bi di Barbato Salvatore & C. S.N.C.",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:lpg": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.3759609,
+     40.8472011
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851837295,
+    "osm_type": "node",
+    "ref_coords": [
+     15.37596,
+     40.8472
+    ],
+    "ref_distance": 0.1,
+    "ref_id": "32639",
+    "tags.amenity": "fuel",
+    "tags.brand": "Api-Ip",
+    "tags.operator": "Cignarella Giuseppe",
+    "tags.ref:mise": "32639",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8094382,
+     40.6416303
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851845249,
+    "osm_type": "node",
+    "ref_coords": [
+     15.80944,
+     40.64163
+    ],
+    "ref_distance": 0.2,
+    "ref_id": "13417",
+    "tags.amenity": "fuel",
+    "tags.brand": "Api-Ip",
+    "tags.operator": "Lioi Clemente",
+    "tags.ref:mise": "13417",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.7472813,
+     40.3817512
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851845674,
+    "osm_type": "node",
+    "ref_coords": [
+     15.74728,
+     40.38175
+    ],
+    "ref_distance": 0.2,
+    "ref_id": "10385",
+    "tags.amenity": "fuel",
+    "tags.operator": "Paterno Petroli S.A.S. di Fortunato Michelina & C.",
+    "tags.ref:mise": "10385",
+    "tags_changed.brand": "Total Erg -> Api-Ip",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8273506,
+     40.3542684
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851831403,
+    "osm_type": "node",
+    "ref_coords": [
+     15.82735,
+     40.35427
+    ],
+    "ref_distance": 0.2,
+    "ref_id": "7338",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip Eni",
+    "tags.operator": "Petrol Station Val D'Agri S.N.C.",
+    "tags.ref:mise": "7338",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_100": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     16.0236077,
+     40.0600605
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851839907,
+    "osm_type": "node",
+    "ref_coords": [
+     16.02361,
+     40.06006
+    ],
+    "ref_distance": 0.2,
+    "ref_id": "27368",
+    "tags.amenity": "fuel",
+    "tags.brand": "Total Erg",
+    "tags.operator": "Gema S.N.C. di Germano Rosario Vincenzo e Marziale Maria",
+    "tags.ref:mise": "27368",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8697322,
+     40.6527492
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5853343389,
+    "osm_type": "node",
+    "ref_coords": [
+     15.86973,
+     40.65275
+    ],
+    "ref_distance": 0.2,
+    "ref_id": "39029",
+    "ref_unused_tags.brand": "",
+    "tags.amenity": "fuel",
+    "tags.operator": "Sergio Petroli S.R.L.",
+    "tags.ref:mise": "39029",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:lpg": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.796468,
+     40.6485611
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851836791,
+    "osm_type": "node",
+    "ref_coords": [
+     15.79647,
+     40.64856
+    ],
+    "ref_distance": 0.2,
+    "ref_id": "34885",
+    "tags.amenity": "fuel",
+    "tags.brand": "Esso",
+    "tags.ref:mise": "34885",
+    "tags_changed.operator": "F.lli Giordano - S.A.S. di Giordano Antonello & C. -> F.Lli Giordano - S.A.S. di Giordano Antonello & C.",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.9683624,
+     40.7636193
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851837764,
+    "osm_type": "node",
+    "ref_coords": [
+     15.96836,
+     40.76362
+    ],
+    "ref_distance": 0.2,
+    "ref_id": "30041",
+    "tags.amenity": "fuel",
+    "tags.brand": "Api-Ip",
+    "tags.operator": "Cn Petroli - S.R.L.",
+    "tags.ref:mise": "30041",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.5557327,
+     40.6934697
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851843024,
+    "osm_type": "node",
+    "ref_coords": [
+     15.55573,
+     40.69347
+    ],
+    "ref_distance": 0.2,
+    "ref_id": "21457",
+    "tags.amenity": "fuel",
+    "tags.brand": "Q8",
+    "tags.operator": "Distribuzione Carburanti Losasso di Losasso Vito e Figlia S.A.S.",
+    "tags.ref:mise": "21457",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:lpg": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.6233192,
+     40.636868
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5853343831,
+    "osm_type": "node",
+    "ref_coords": [
+     15.62332,
+     40.63687
+    ],
+    "ref_distance": 0.2,
+    "ref_id": "33979",
+    "ref_unused_tags.brand": "",
+    "tags.amenity": "fuel",
+    "tags.operator": "Energia Lucana S.R.L.",
+    "tags.ref:mise": "33979",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:lpg": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.9012696,
+     40.0145779
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851831529,
+    "osm_type": "node",
+    "ref_coords": [
+     15.90127,
+     40.01458
+    ],
+    "ref_distance": 0.2,
+    "ref_id": "6333",
+    "tags.amenity": "fuel",
+    "tags.operator": "Suanno 89 S.R.L.",
+    "tags.ref:mise": "6333",
+    "tags_changed.brand": "Conad -> CONAD",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:lpg": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.6882291,
+     40.7131678
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851843274,
+    "osm_type": "node",
+    "ref_coords": [
+     15.68823,
+     40.71317
+    ],
+    "ref_distance": 0.3,
+    "ref_id": "18652",
+    "tags.amenity": "fuel",
+    "tags.brand": "Ies",
+    "tags.operator": "F.G.S. Service di Sabatina Gentilesca & C. S.N.C.",
+    "tags.ref:mise": "18652",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.6546927,
+     40.8864688
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851837291,
+    "osm_type": "node",
+    "ref_coords": [
+     15.65469,
+     40.88647
+    ],
+    "ref_distance": 0.3,
+    "ref_id": "32671",
+    "tags.amenity": "fuel",
+    "tags.brand": "Api-Ip",
+    "tags.operator": "Ip Services S.R.L.",
+    "tags.ref:mise": "32671",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8557973,
+     40.2450687
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851837309,
+    "osm_type": "node",
+    "ref_coords": [
+     15.8558,
+     40.24507
+    ],
+    "ref_distance": 0.3,
+    "ref_id": "32576",
+    "tags.amenity": "fuel",
+    "tags.brand": "Api-Ip",
+    "tags.operator": "La Frontiera S.A.S. di Dandrea Rocco & Castelluccio Domenica",
+    "tags.ref:mise": "32576",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8994269,
+     40.3458691
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851837632,
+    "osm_type": "node",
+    "ref_coords": [
+     15.89943,
+     40.34587
+    ],
+    "ref_distance": 0.3,
+    "ref_id": "31045",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip Eni",
+    "tags.operator": "Gagliardi Oil di Gagliardi Maria Rossella",
+    "tags.ref:mise": "31045",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8020527,
+     40.6321515
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851844896,
+    "osm_type": "node",
+    "ref_coords": [
+     15.80205,
+     40.63215
+    ],
+    "ref_distance": 0.3,
+    "ref_id": "14465",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip Eni",
+    "tags.operator": "Garramone Antonio",
+    "tags.ref:mise": "14465",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_100": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     16.0393678,
+     39.9495219
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851836458,
+    "osm_type": "node",
+    "ref_coords": [
+     16.03937,
+     39.94952
+    ],
+    "ref_distance": 0.3,
+    "ref_id": "35022",
+    "tags.amenity": "fuel",
+    "tags.brand": "Api-Ip",
+    "tags.operator": "Ip Services S.R.L.",
+    "tags.ref:mise": "35022",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.6868029,
+     41.0796617
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5853343356,
+    "osm_type": "node",
+    "ref_coords": [
+     15.6868,
+     41.07966
+    ],
+    "ref_distance": 0.3,
+    "ref_id": "32716",
+    "ref_unused_tags.brand": "",
+    "tags.amenity": "fuel",
+    "tags.operator": "Service Area Montanarella S.R.L.",
+    "tags.ref:mise": "32716",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:lpg": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.9715328,
+     40.4593718
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851841840,
+    "osm_type": "node",
+    "ref_coords": [
+     15.97153,
+     40.45937
+    ],
+    "ref_distance": 0.3,
+    "ref_id": "24504",
+    "tags.amenity": "fuel",
+    "tags.brand": "Total Erg",
+    "tags.operator": "Fanelli Graziano Rocco",
+    "tags.ref:mise": "24504",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.773229,
+     41.0374127
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851831612,
+    "osm_type": "node",
+    "ref_coords": [
+     15.77323,
+     41.03741
+    ],
+    "ref_distance": 0.3,
+    "ref_id": "4830",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip Eni",
+    "tags.ref:mise": "4830",
+    "tags_changed.operator": "Metanauto Lavello di Bisceglia Giuseppe e C. Società In Nome Collettivo -> Metanauto Lavello di Bisceglia Giuseppe e C. Società in Nome Collettivo",
+    "tags_new.fuel:cng": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.6401217,
+     40.5280325
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851839975,
+    "osm_type": "node",
+    "ref_coords": [
+     15.64012,
+     40.52803
+    ],
+    "ref_distance": 0.3,
+    "ref_id": "27022",
+    "tags.amenity": "fuel",
+    "tags.brand": "Api-Ip",
+    "tags.operator": "Commerciale Melandro S.R.L.",
+    "tags.ref:mise": "27022",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     16.2182866,
+     40.1225615
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5853344487,
+    "osm_type": "node",
+    "ref_coords": [
+     16.21829,
+     40.12256
+    ],
+    "ref_distance": 0.3,
+    "ref_id": "23137",
+    "ref_unused_tags.brand": "",
+    "tags.amenity": "fuel",
+    "tags.operator": "Sergio Petroli S.R.L.",
+    "tags.ref:mise": "23137",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     16.2022096,
+     40.2116631
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851837491,
+    "osm_type": "node",
+    "ref_coords": [
+     16.20221,
+     40.21166
+    ],
+    "ref_distance": 0.3,
+    "ref_id": "32105",
+    "tags.amenity": "fuel",
+    "tags.brand": "Api-Ip",
+    "tags.operator": "Pluriservice di De Pierro Domenico Rosario & C. S.A.S.",
+    "tags.ref:mise": "32105",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8473469,
+     40.4760221
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851844659,
+    "osm_type": "node",
+    "ref_coords": [
+     15.84735,
+     40.47602
+    ],
+    "ref_distance": 0.4,
+    "ref_id": "14868",
+    "tags.amenity": "fuel",
+    "tags.brand": "Total Erg",
+    "tags.operator": "Camera Antonietta",
+    "tags.ref:mise": "14868",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.9881209,
+     40.2672069
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851834934,
+    "osm_type": "node",
+    "ref_coords": [
+     15.98812,
+     40.26721
+    ],
+    "ref_distance": 0.4,
+    "ref_id": "37692",
+    "tags.amenity": "fuel",
+    "tags.brand": "Toma Petroli",
+    "tags.operator": "Paladino Cristoforo",
+    "tags.ref:mise": "37692",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.7878356,
+     40.6396703
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851842849,
+    "osm_type": "node",
+    "ref_coords": [
+     15.78784,
+     40.63967
+    ],
+    "ref_distance": 0.4,
+    "ref_id": "22087",
+    "tags.amenity": "fuel",
+    "tags.brand": "Esso",
+    "tags.operator": "Eredi Ruggieri di Ruggieri Maria & C. - S.N.C.",
+    "tags.ref:mise": "22087",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     16.0363658,
+     39.954221
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851837322,
+    "osm_type": "node",
+    "ref_coords": [
+     16.03637,
+     39.95422
+    ],
+    "ref_distance": 0.4,
+    "ref_id": "32520",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip Eni",
+    "tags.operator": "Cavaliere Pietro",
+    "tags.ref:mise": "32520",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8157608,
+     41.0177566
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5853343176,
+    "osm_type": "node",
+    "ref_coords": [
+     15.81576,
+     41.01776
+    ],
+    "ref_distance": 0.4,
+    "ref_id": "39379",
+    "ref_unused_tags.brand": "",
+    "tags.amenity": "fuel",
+    "tags.operator": "Penta Petroli Srl",
+    "tags.ref:mise": "39379",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:lpg": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.7236061,
+     40.7326022
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851836790,
+    "osm_type": "node",
+    "ref_coords": [
+     15.72361,
+     40.7326
+    ],
+    "ref_distance": 0.4,
+    "ref_id": "34886",
+    "tags.amenity": "fuel",
+    "tags.brand": "Esso",
+    "tags.ref:mise": "34886",
+    "tags_changed.operator": "F.lli Giordano - S.A.S. di Giordano Antonello & C. -> F.Lli Giordano - S.A.S. di Giordano Antonello & C.",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8187847,
+     40.635649
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851832197,
+    "osm_type": "node",
+    "ref_coords": [
+     15.81878,
+     40.63565
+    ],
+    "ref_distance": 0.4,
+    "ref_id": "40329",
+    "tags.amenity": "fuel",
+    "tags.brand": "Total Erg",
+    "tags.operator": "Ra.C.O.M.A. Srl",
+    "tags.ref:mise": "40329",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     16.0506627,
+     40.0716069
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851831544,
+    "osm_type": "node",
+    "ref_coords": [
+     16.05066,
+     40.07161
+    ],
+    "ref_distance": 0.4,
+    "ref_id": "6043",
+    "tags.amenity": "fuel",
+    "tags.brand": "Total Erg",
+    "tags.operator": "Gema S.N.C. di Germano Rosario Vincenzo e Marziale Maria",
+    "tags.ref:mise": "6043",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:lpg": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.7638413,
+     40.1336364
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5853342989,
+    "osm_type": "node",
+    "ref_coords": [
+     15.76384,
+     40.13364
+    ],
+    "ref_distance": 0.4,
+    "ref_id": "9948",
+    "ref_unused_tags.brand": "",
+    "tags.amenity": "fuel",
+    "tags.operator": "Mavidil - S.R.L.",
+    "tags.ref:mise": "9948",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     16.0122246,
+     40.9414185
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851844363,
+    "osm_type": "node",
+    "ref_coords": [
+     16.01222,
+     40.94142
+    ],
+    "ref_distance": 0.4,
+    "ref_id": "15756",
+    "tags.amenity": "fuel",
+    "tags.brand": "Camer",
+    "tags.operator": "Cna di Cosentino Antonio & C. S.A.S.",
+    "tags.ref:mise": "15756",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.6032243,
+     40.443262
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5853343103,
+    "osm_type": "node",
+    "ref_coords": [
+     15.60322,
+     40.44326
+    ],
+    "ref_distance": 0.4,
+    "ref_id": "40611",
+    "ref_unused_tags.brand": "",
+    "tags.amenity": "fuel",
+    "tags.operator": "Opera Fuel S.R.L.",
+    "tags.ref:mise": "40611",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:lpg": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.7436684,
+     40.1030963
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851842786,
+    "osm_type": "node",
+    "ref_coords": [
+     15.74367,
+     40.1031
+    ],
+    "ref_distance": 0.4,
+    "ref_id": "22713",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip Eni",
+    "tags.operator": "Delta Carburanti di Palmieri Anna",
+    "tags.ref:mise": "22713",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:lpg": "yes",
+    "tags_new.fuel:octane_100": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8473907,
+     40.8615039
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5853343014,
+    "osm_type": "node",
+    "ref_coords": [
+     15.84739,
+     40.8615
+    ],
+    "ref_distance": 0.4,
+    "ref_id": "7606",
+    "ref_unused_tags.brand": "",
+    "tags.amenity": "fuel",
+    "tags.operator": "Pupino Carmela",
+    "tags.ref:mise": "7606",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8875615,
+     40.2513038
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851837308,
+    "osm_type": "node",
+    "ref_coords": [
+     15.88756,
+     40.2513
+    ],
+    "ref_distance": 0.4,
+    "ref_id": "32577",
+    "tags.amenity": "fuel",
+    "tags.brand": "Api-Ip",
+    "tags.operator": "La Frontiera S.A.S. di Dandrea Rocco & Castelluccio Domenica",
+    "tags.ref:mise": "32577",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8005905,
+     40.6360142
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851841493,
+    "osm_type": "node",
+    "ref_coords": [
+     15.80059,
+     40.63601
+    ],
+    "ref_distance": 0.5,
+    "ref_id": "25868",
+    "tags.amenity": "fuel",
+    "tags.brand": "Q8",
+    "tags.operator": "Servizi & Gestioni Italia S.R.L.",
+    "tags.ref:mise": "25868",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.9887432,
+     40.2972435
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5853344633,
+    "osm_type": "node",
+    "ref_coords": [
+     15.98874,
+     40.29724
+    ],
+    "ref_distance": 0.5,
+    "ref_id": "17935",
+    "ref_unused_tags.brand": "",
+    "tags.amenity": "fuel",
+    "tags.operator": "Friguglietti Vincezina",
+    "tags.ref:mise": "17935",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.5424839,
+     40.8195431
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851844941,
+    "osm_type": "node",
+    "ref_coords": [
+     15.54248,
+     40.81954
+    ],
+    "ref_distance": 0.5,
+    "ref_id": "14103",
+    "tags.amenity": "fuel",
+    "tags.brand": "Tamoil",
+    "tags.operator": "Del Monte Pasqualino",
+    "tags.ref:mise": "14103",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8842953,
+     40.6555024
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851831658,
+    "osm_type": "node",
+    "ref_coords": [
+     15.8843,
+     40.6555
+    ],
+    "ref_distance": 0.5,
+    "ref_id": "41166",
+    "tags.amenity": "fuel",
+    "tags.brand": "Esso",
+    "tags.operator": "Vaglio S.R.L.",
+    "tags.ref:mise": "41166",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:lpg": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8400336,
+     40.3561666
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851839922,
+    "osm_type": "node",
+    "ref_coords": [
+     15.84003,
+     40.35617
+    ],
+    "ref_distance": 0.5,
+    "ref_id": "27282",
+    "tags.amenity": "fuel",
+    "tags.brand": "Ies",
+    "tags.operator": "Damiano Francesco",
+    "tags.ref:mise": "27282",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.4932957,
+     40.7381793
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 3238766172,
+    "osm_type": "node",
+    "ref_coords": [
+     15.49329,
+     40.73818
+    ],
+    "ref_distance": 0.5,
+    "ref_id": "31072",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip Eni",
+    "tags.name": "Fuel Service S.R.L.",
+    "tags.operator": "Ercolani S.R.L.",
+    "tags.ref:mise": "31072",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_100": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.9383136,
+     40.0744366
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851830572,
+    "osm_type": "node",
+    "ref_coords": [
+     15.93831,
+     40.07444
+    ],
+    "ref_distance": 0.5,
+    "ref_id": "9626",
+    "tags.amenity": "fuel",
+    "tags.brand": "Api-Ip",
+    "tags.operator": "Re.Me.C. S.N.C. di Rega Giuseppina & C.",
+    "tags.ref:mise": "9626",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.7374778,
+     40.1339358
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851830581,
+    "osm_type": "node",
+    "ref_coords": [
+     15.73748,
+     40.13394
+    ],
+    "ref_distance": 0.5,
+    "ref_id": "9542",
+    "tags.amenity": "fuel",
+    "tags.brand": "Tamoil",
+    "tags.operator": "Falabella Nicola",
+    "tags.ref:mise": "9542",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8342218,
+     40.0530856
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851833987,
+    "osm_type": "node",
+    "ref_coords": [
+     15.83422,
+     40.05309
+    ],
+    "ref_distance": 0.5,
+    "ref_id": "38577",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip Eni",
+    "tags.operator": "Scaldaferri Giuseppe",
+    "tags.ref:mise": "38577",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_100": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8766375,
+     40.2603944
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851841508,
+    "osm_type": "node",
+    "ref_coords": [
+     15.87664,
+     40.26039
+    ],
+    "ref_distance": 0.5,
+    "ref_id": "25726",
+    "tags.amenity": "fuel",
+    "tags.brand": "Api-Ip",
+    "tags.operator": "Lo.Be. Bar di Cirigliano Rosa & C. Snc",
+    "tags.ref:mise": "25726",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8694021,
+     40.2434054
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5853344468,
+    "osm_type": "node",
+    "ref_coords": [
+     15.8694,
+     40.24341
+    ],
+    "ref_distance": 0.5,
+    "ref_id": "23678",
+    "ref_unused_tags.brand": "",
+    "tags.amenity": "fuel",
+    "tags.ref:mise": "23678",
+    "tags_changed.operator": "Val D'Agri Oil Italia S.A.S. di Cuomo P. e C. -> Val D'Agri Oil Italia S.A.S. Di Cuomo P. E C.",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     16.0729048,
+     40.6781033
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851840957,
+    "osm_type": "node",
+    "ref_coords": [
+     16.0729,
+     40.6781
+    ],
+    "ref_distance": 0.5,
+    "ref_id": "26225",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip Eni",
+    "tags.ref:mise": "26225",
+    "tags_changed.operator": "F.lli Raimondi Snc di Raimondi Biagino G. e Gaetano Snc -> F.Lli Raimondi S.N.C.di Raimondi Biagino G. e Gaetano Snc",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.7965146,
+     40.6231265
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851837631,
+    "osm_type": "node",
+    "ref_coords": [
+     15.79651,
+     40.62313
+    ],
+    "ref_distance": 0.6,
+    "ref_id": "31046",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip Eni",
+    "tags.operator": "Fuels Services S.R.L.",
+    "tags.ref:mise": "31046",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_100": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.7311324,
+     40.7360146
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851837321,
+    "osm_type": "node",
+    "ref_coords": [
+     15.73113,
+     40.73601
+    ],
+    "ref_distance": 0.6,
+    "ref_id": "32522",
+    "tags.amenity": "fuel",
+    "tags.brand": "Api-Ip",
+    "tags.operator": "Scotto di Santolo Antonio",
+    "tags.ref:mise": "32522",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.9340817,
+     40.7898152
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5853344527,
+    "osm_type": "node",
+    "ref_coords": [
+     15.93408,
+     40.78982
+    ],
+    "ref_distance": 0.6,
+    "ref_id": "21718",
+    "ref_unused_tags.brand": "",
+    "tags.amenity": "fuel",
+    "tags.operator": "Carburanti Cappiello & C. S.A.S.",
+    "tags.ref:mise": "21718",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.6885973,
+     40.8810646
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5853344539,
+    "osm_type": "node",
+    "ref_coords": [
+     15.6886,
+     40.88106
+    ],
+    "ref_distance": 0.6,
+    "ref_id": "21334",
+    "ref_unused_tags.brand": "",
+    "tags.amenity": "fuel",
+    "tags.operator": "Patto di Sviluppo S.R.L.",
+    "tags.ref:mise": "21334",
+    "tags_new.fuel:cng": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8090038,
+     40.6387958
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851837290,
+    "osm_type": "node",
+    "ref_coords": [
+     15.809,
+     40.6388
+    ],
+    "ref_distance": 0.6,
+    "ref_id": "32672",
+    "tags.amenity": "fuel",
+    "tags.brand": "Api-Ip",
+    "tags.operator": "Ip Services S.R.L.",
+    "tags.ref:mise": "32672",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.6261454,
+     41.0037662
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851837524,
+    "osm_type": "node",
+    "ref_coords": [
+     15.62615,
+     41.00377
+    ],
+    "ref_distance": 0.6,
+    "ref_id": "31874",
+    "tags.amenity": "fuel",
+    "tags.brand": "Q8",
+    "tags.operator": "Servizi & Gestioni Italia S.R.L.",
+    "tags.ref:mise": "31874",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8298777,
+     40.3447151
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851837552,
+    "osm_type": "node",
+    "ref_coords": [
+     15.82988,
+     40.34472
+    ],
+    "ref_distance": 0.6,
+    "ref_id": "31554",
+    "tags.amenity": "fuel",
+    "tags.brand": "Ies",
+    "tags.operator": "G. G. Petroli S.R.L.",
+    "tags.ref:mise": "31554",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:lpg": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.6251644,
+     40.4753541
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851835271,
+    "osm_type": "node",
+    "ref_coords": [
+     15.62516,
+     40.47535
+    ],
+    "ref_distance": 0.6,
+    "ref_id": "36153",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip Eni",
+    "tags.operator": "Cofin Consult S.R.L.",
+    "tags.ref:mise": "36153",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_100": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.6769672,
+     40.9757451
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851845242,
+    "osm_type": "node",
+    "ref_coords": [
+     15.67697,
+     40.97575
+    ],
+    "ref_distance": 0.6,
+    "ref_id": "13473",
+    "tags.amenity": "fuel",
+    "tags.brand": "Api-Ip",
+    "tags.operator": "Ambrosio Mario & C. S.N.C.",
+    "tags.ref:mise": "13473",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.5500337,
+     40.6553353
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851843345,
+    "osm_type": "node",
+    "ref_coords": [
+     15.55003,
+     40.65534
+    ],
+    "ref_distance": 0.6,
+    "ref_id": "19260",
+    "tags.amenity": "fuel",
+    "tags.brand": "Api-Ip",
+    "tags.operator": "Eurocarburanti di Pacella Rocco e C. - S.A.S.",
+    "tags.ref:mise": "19260",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8063151,
+     40.6340746
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851831450,
+    "osm_type": "node",
+    "ref_coords": [
+     15.80632,
+     40.63407
+    ],
+    "ref_distance": 0.7,
+    "ref_id": "6769",
+    "tags.amenity": "fuel",
+    "tags.brand": "Q8",
+    "tags.operator": "Servizi & Gestioni Italia Srl",
+    "tags.ref:mise": "6769",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.6894526,
+     40.9044073
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5586547570,
+    "osm_type": "node",
+    "ref_coords": [
+     15.68946,
+     40.90441
+    ],
+    "ref_distance": 0.7,
+    "ref_id": "32825",
+    "ref_unused_tags.brand": "",
+    "tags.amenity": "fuel",
+    "tags.name": "GPL",
+    "tags.nobrand": "yes",
+    "tags.ref:mise": "32825",
+    "tags_changed.operator": "Chieppa Aldo Gerardo -> ChieS.p.A.Aldo Gerardo",
+    "tags_new.fuel:lpg": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.7759507,
+     41.0401999
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 309292349,
+    "osm_type": "node",
+    "ref_coords": [
+     15.77596,
+     41.0402
+    ],
+    "ref_distance": 0.8,
+    "ref_id": "41532",
+    "ref_unused_tags.brand": "",
+    "tags.amenity": "fuel",
+    "tags.name": "Basile Petroli",
+    "tags_changed.operator": "Basile Petroli -> Gadaleta Giovanni",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes",
+    "tags_new.ref:mise": "41532"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8254069,
+     40.966537
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 562103932,
+    "osm_type": "node",
+    "ref_coords": [
+     15.8254,
+     40.96653
+    ],
+    "ref_distance": 1.0,
+    "ref_id": "4493",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip Eni",
+    "tags.name": "Agip",
+    "tags.operator": "Venusia Carburanti S.N.C. di Ciavatta Cesare e A.",
+    "tags.ref:mise": "4493",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.6698517,
+     40.9212073
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 360653970,
+    "osm_type": "node",
+    "ref_coords": [
+     15.66986,
+     40.9212
+    ],
+    "ref_distance": 1.1,
+    "ref_id": "33016",
+    "tags.amenity": "fuel",
+    "tags.brand": "Esso",
+    "tags.name": "Esso",
+    "tags.operator": "Carrieri Petroli di Assunta Gisella Carrieri & C. S.A.S.",
+    "tags.ref:mise": "33016",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8039818,
+     40.6350395
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 4960417103,
+    "osm_type": "node",
+    "ref_coords": [
+     15.80398,
+     40.63505
+    ],
+    "ref_distance": 1.2,
+    "ref_id": "13615",
+    "tags.addr:city": "Potenza",
+    "tags.addr:postcode": "85100",
+    "tags.addr:street": "Viale Guglielmo Marconi",
+    "tags.amenity": "fuel",
+    "tags.brand": "Tamoil",
+    "tags.name": "Tamoil",
+    "tags.operator": "Macrifugi Donato",
+    "tags.ref:mise": "13615",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.6776437,
+     40.9413406
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 508642112,
+    "osm_type": "node",
+    "ref_coords": [
+     15.67766,
+     40.94133
+    ],
+    "ref_distance": 1.8,
+    "ref_id": "40834",
+    "tags.amenity": "fuel",
+    "tags.brand": "Total Erg",
+    "tags.ref:mise": "40834",
+    "tags_changed.operator": "Elle2Bi di Barbato Salvatore & C. S.N.C. -> Elle2bi di Barbato Salvatore & C. S.N.C.",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8026441,
+     39.9902009
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851836407,
+    "osm_type": "node",
+    "ref_coords": [
+     15.80266,
+     39.99019
+    ],
+    "ref_distance": 1.8,
+    "ref_id": "44882",
+    "tags.amenity": "fuel",
+    "tags.brand": "Tamoil",
+    "tags_changed.operator": "Trazza - S.A.S. di Eupremio Rocco Trazza & C. -> T.D.M. S.R.L.",
+    "tags_changed.ref:mise": "35361 -> 44882",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.4845046,
+     40.8903048
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 1334021507,
+    "osm_type": "node",
+    "ref_coords": [
+     15.48452,
+     40.89029
+    ],
+    "ref_distance": 2.1,
+    "ref_id": "6148",
+    "tags.amenity": "fuel",
+    "tags.brand": "Api-Ip",
+    "tags.fuel:diesel": "yes",
+    "tags.fuel:octane_95": "yes",
+    "tags.operator": "Metallo Canio",
+    "tags.ref:mise": "6148",
+    "tags.shop": "yes",
+    "tags_changed.fuel:lpg": "no -> yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.7908162,
+     41.0475822
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 228078629,
+    "osm_type": "node",
+    "ref_coords": [
+     15.79084,
+     41.04759
+    ],
+    "ref_distance": 2.2,
+    "ref_id": "40543",
+    "tags.amenity": "fuel",
+    "tags.brand": "Total Erg",
+    "tags.fuel:diesel": "yes",
+    "tags.fuel:octane_80": "yes",
+    "tags.name": "erg",
+    "tags.operator": "Sinesi Costanza",
+    "tags.ref:mise": "40543",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.628368,
+     41.00767
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 228187683,
+    "osm_type": "node",
+    "ref_coords": [
+     15.62837,
+     41.00765
+    ],
+    "ref_distance": 2.2,
+    "ref_id": "23810",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip Eni",
+    "tags.name": "Agip",
+    "tags.operator": "Festino Vito",
+    "tags.ref:mise": "23810",
+    "tags.wheelchair": "no",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:lpg": "yes",
+    "tags_new.fuel:octane_100": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.4340287,
+     40.7902109
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 1470673824,
+    "osm_type": "node",
+    "ref_coords": [
+     15.43402,
+     40.79023
+    ],
+    "ref_distance": 2.2,
+    "ref_id": "41403",
+    "ref_unused_tags.brand": "",
+    "tags.amenity": "fuel",
+    "tags.fuel:diesel": "yes",
+    "tags.fuel:octane_95": "yes",
+    "tags.nobrand": "yes",
+    "tags_changed.operator": "Fiamma Lucana - S.R.L. -> D e a S.R.L.",
+    "tags_changed.ref:mise": "32644 -> 41403"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.6690877,
+     40.9202747
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 534569505,
+    "osm_type": "node",
+    "ref_coords": [
+     15.66909,
+     40.92025
+    ],
+    "ref_distance": 2.8,
+    "ref_id": "33053",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip Eni",
+    "tags.name": "Agip",
+    "tags.operator": "Euro Carburanti di Brienza A. e di Pierro G.D. & C. S.N.C.",
+    "tags.ref:mise": "33053",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_100": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     16.1639344,
+     40.2668752
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 1348195813,
+    "osm_type": "node",
+    "ref_coords": [
+     16.16393,
+     40.2669
+    ],
+    "ref_distance": 2.8,
+    "ref_id": "16703",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip Eni",
+    "tags.operator": "Di Bitetto Rosalba",
+    "tags.ref:mise": "16703",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_100": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     16.1360953,
+     40.022275
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 2506274450,
+    "osm_type": "node",
+    "ref_coords": [
+     16.13609,
+     40.02225
+    ],
+    "ref_distance": 2.8,
+    "ref_id": "26694",
+    "ref_unused_tags.brand": "",
+    "tags.amenity": "fuel",
+    "tags.building": "yes",
+    "tags.nobrand": "yes",
+    "tags.operator": "Fittipaldi Angelina",
+    "tags.ref:mise": "26694",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.7097359,
+     39.996926
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 3971637450,
+    "osm_type": "node",
+    "ref_coords": [
+     15.70975,
+     39.99695
+    ],
+    "ref_distance": 2.9,
+    "ref_id": "23646",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip Eni",
+    "tags.operator": "Limongi Giacomo",
+    "tags.ref:mise": "23646",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_100": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.6816058,
+     40.9135651
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 508495490,
+    "osm_type": "node",
+    "ref_coords": [
+     15.68164,
+     40.91356
+    ],
+    "ref_distance": 2.9,
+    "ref_id": "43627",
+    "tags.amenity": "fuel",
+    "tags.brand": "Api-Ip",
+    "tags.name": "API",
+    "tags_changed.operator": "P.D.G. Carburanti di Pierri Enrico e C. S.A.S. -> Trentottesimo Parallelo Società a Responsabilità Limitata Semplificata",
+    "tags_changed.ref:mise": "8405 -> 43627",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     16.3045467,
+     40.0367337
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 538992957,
+    "osm_type": "node",
+    "ref_coords": [
+     16.30453,
+     40.03671
+    ],
+    "ref_distance": 3.0,
+    "ref_id": "32729",
+    "tags.amenity": "fuel",
+    "tags.brand": "Api-Ip",
+    "tags.name": "IP",
+    "tags.operator": "Enfil di Lufrano Filomena & C. S.A.S.",
+    "tags.ref:mise": "32729",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.5078342,
+     40.5982353
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 459081886,
+    "osm_type": "way",
+    "ref_coords": [
+     15.5078,
+     40.59825
+    ],
+    "ref_distance": 3.3,
+    "ref_id": "41735",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip Eni",
+    "tags.fixme": "name",
+    "tags.fuel:diesel": "yes",
+    "tags.name": "Benzina",
+    "tags.opening_hours": "24/7",
+    "tags.source:date": "2018-04-16",
+    "tags_changed.operator": "Gestione Distributore Carburanti Fabio Roberto -> Impianto Distributore Carburanti di Casciano Pasquale",
+    "tags_changed.ref:mise": "25537 -> 41735",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.7644508,
+     40.1250792
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851837316,
+    "osm_type": "node",
+    "ref_coords": [
+     15.76448,
+     40.1251
+    ],
+    "ref_distance": 3.4,
+    "ref_id": "42952",
+    "tags.amenity": "fuel",
+    "tags.brand": "Tamoil",
+    "tags_changed.operator": "Pesce Nicola -> Mastroianni Davide",
+    "tags_changed.ref:mise": "32541 -> 42952",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8069,
+     40.9593208
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5804828257,
+    "osm_type": "node",
+    "ref_coords": [
+     15.80694,
+     40.95931
+    ],
+    "ref_distance": 3.6,
+    "ref_id": "11195",
+    "tags.amenity": "fuel",
+    "tags.brand": "Tamoil",
+    "tags.name": "Tamoil",
+    "tags.operator": "Selvatico Antonio",
+    "tags.ref:mise": "11195",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.7611337,
+     40.7882147
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 1325764609,
+    "osm_type": "node",
+    "ref_coords": [
+     15.76109,
+     40.78822
+    ],
+    "ref_distance": 3.7,
+    "ref_id": "32890",
+    "tags.amenity": "fuel",
+    "tags.brand": "Total Erg",
+    "tags.operator": "Petrol Maman S.A.S. di Santarsiero Giuseppe & C.",
+    "tags.ref:mise": "32890",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:lpg": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     16.3105313,
+     40.1380837
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 3129033756,
+    "osm_type": "node",
+    "ref_coords": [
+     16.31053,
+     40.13805
+    ],
+    "ref_distance": 3.8,
+    "ref_id": "19291",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip Eni",
+    "tags.name": "Agip",
+    "tags.operator": "Sinnica Carburanti di Miraglia Antonio & C. S.N.C.",
+    "tags.ref:mise": "19291",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8127448,
+     40.9654663
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5804828258,
+    "osm_type": "node",
+    "ref_coords": [
+     15.81277,
+     40.9655
+    ],
+    "ref_distance": 4.3,
+    "ref_id": "31276",
+    "tags.amenity": "fuel",
+    "tags.brand": "Esso",
+    "tags.name": "Esso",
+    "tags.operator": "Auto Minco di Martone Pasquale e Milco S.N.C.",
+    "tags.ref:mise": "31276",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.7394258,
+     40.4014124
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 980160121,
+    "osm_type": "node",
+    "ref_coords": [
+     15.7394,
+     40.40145
+    ],
+    "ref_distance": 4.7,
+    "ref_id": "42774",
+    "ref_unused_tags.brand": "",
+    "tags.amenity": "fuel",
+    "tags.nobrand": "yes",
+    "tags_changed.operator": "Marsicoil S.R.L. -> Opera Fuel S.R.L.",
+    "tags_changed.ref:mise": "38646 -> 42774",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     16.0544211,
+     40.7364842
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 1695155718,
+    "osm_type": "node",
+    "ref_coords": [
+     16.05437,
+     40.73651
+    ],
+    "ref_distance": 5.2,
+    "ref_id": "39397",
+    "ref_unused_tags.brand": "",
+    "tags.amenity": "fuel",
+    "tags.nobrand": "yes",
+    "tags.operator": "Rossi Fuell - Società a Responsabilità Limitata Semplificata",
+    "tags.ref:mise": "39397",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8169408,
+     40.9629907
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 562015140,
+    "osm_type": "node",
+    "ref_coords": [
+     15.81699,
+     40.96302
+    ],
+    "ref_distance": 5.3,
+    "ref_id": "30993",
+    "tags.amenity": "fuel",
+    "tags.brand": "Api-Ip",
+    "tags.name": "IP",
+    "tags.operator": "Ip Services S.R.L.",
+    "tags.ref:mise": "30993",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.7300454,
+     40.9134822
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851844302,
+    "osm_type": "node",
+    "ref_coords": [
+     15.7301,
+     40.91351
+    ],
+    "ref_distance": 5.5,
+    "ref_id": "16248",
+    "tags.amenity": "fuel",
+    "tags.brand": "Total Erg",
+    "tags.ref:mise": "16248",
+    "tags_changed.operator": "Pompa Donato Claudio -> PoS.p.A.Donato Claudio",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8296468,
+     40.6364301
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 250773079,
+    "osm_type": "node",
+    "ref_coords": [
+     15.82964,
+     40.63648
+    ],
+    "ref_distance": 5.6,
+    "ref_id": "31692",
+    "tags.amenity": "fuel",
+    "tags.brand": "Esso",
+    "tags.name": "Stazione di servizio",
+    "tags.operator": "Ferrara S.R.L.",
+    "tags.ref:mise": "31692",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.7490239,
+     40.7160361
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 1975802456,
+    "osm_type": "node",
+    "ref_coords": [
+     15.74909,
+     40.71604
+    ],
+    "ref_distance": 5.6,
+    "ref_id": "17137",
+    "tags.amenity": "fuel",
+    "tags.brand": "Ies",
+    "tags.operator": "Petrol.Bo S.R.L.",
+    "tags.ref:mise": "17137",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:lpg": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.798556,
+     40.0074997
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 3094261445,
+    "osm_type": "node",
+    "ref_coords": [
+     15.79855,
+     40.00755
+    ],
+    "ref_distance": 5.6,
+    "ref_id": "32221",
+    "tags.amenity": "fuel",
+    "tags.brand": "Esso",
+    "tags.operator": "Colombo Giandomenico",
+    "tags.ref:mise": "32221",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8514061,
+     41.0048651
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 667534055,
+    "osm_type": "node",
+    "ref_coords": [
+     15.85135,
+     41.00483
+    ],
+    "ref_distance": 6.1,
+    "ref_id": "28841",
+    "tags.amenity": "fuel",
+    "tags.brand": "Esso",
+    "tags.name": "Esso",
+    "tags.operator": "Penta Petroli Srl",
+    "tags.ref:mise": "28841",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:lpg": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     16.0418677,
+     40.383835
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 304139203,
+    "osm_type": "node",
+    "ref_coords": [
+     16.04191,
+     40.38388
+    ],
+    "ref_distance": 6.2,
+    "ref_id": "13894",
+    "tags.amenity": "fuel",
+    "tags.brand": "Esso",
+    "tags.fixme": "apostrophe in operator",
+    "tags.name": "Esso",
+    "tags.operator": "Mast di Donnoli Carmelo & C. - Società in Accomandita Semplice",
+    "tags.ref:mise": "13894",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8040363,
+     40.645738
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 2692563230,
+    "osm_type": "node",
+    "ref_coords": [
+     15.80411,
+     40.64575
+    ],
+    "ref_distance": 6.4,
+    "ref_id": "6770",
+    "tags.amenity": "fuel",
+    "tags.brand": "Q8",
+    "tags.operator": "Servizi & Gestioni Italia Srl",
+    "tags.ref:mise": "6770",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8414007,
+     40.0530277
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 361474302,
+    "osm_type": "way",
+    "ref_coords": [
+     15.84134,
+     40.05299
+    ],
+    "ref_distance": 6.7,
+    "ref_id": "27005",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip Eni",
+    "tags.building": "yes",
+    "tags.operator": "Scardino Annunziata",
+    "tags.ref:mise": "27005",
+    "tags.source:date": "2018-04-16",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_100": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.9995188,
+     40.0864722
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 547486716,
+    "osm_type": "way",
+    "ref_coords": [
+     15.99952,
+     40.08641
+    ],
+    "ref_distance": 6.9,
+    "ref_id": "9274",
+    "tags.amenity": "fuel",
+    "tags.brand": "Q8",
+    "tags.name": "Benzina",
+    "tags.operator": "Soc. P. & P. di Ponzo A. e Papaleo G. S.N.C.",
+    "tags.ref:mise": "9274",
+    "tags.source:date": "2018-04-16",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.7427805,
+     40.8185836
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 297377548,
+    "osm_type": "node",
+    "ref_coords": [
+     15.74271,
+     40.81855
+    ],
+    "ref_distance": 7.0,
+    "ref_id": "41787",
+    "tags.amenity": "fuel",
+    "tags.brand": "Esso",
+    "tags.ref": "Esso 1587",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:lpg": "yes",
+    "tags_new.fuel:octane_95": "yes",
+    "tags_new.operator": "Fimparma S.R.L.",
+    "tags_new.ref:mise": "41787"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.64782,
+     40.990621
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 228187680,
+    "osm_type": "node",
+    "ref_coords": [
+     15.64777,
+     40.99057
+    ],
+    "ref_distance": 7.1,
+    "ref_id": "25123",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip Eni",
+    "tags.name": "Agip",
+    "tags.operator": "Mossucca Michele",
+    "tags.ref:mise": "25123",
+    "tags.wheelchair": "no",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.6981163,
+     40.606803
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 2517176995,
+    "osm_type": "node",
+    "ref_coords": [
+     15.69817,
+     40.60686
+    ],
+    "ref_distance": 7.8,
+    "ref_id": "21931",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip Eni",
+    "tags.building": "yes",
+    "tags.operator": "Gatta Gerardo",
+    "tags.ref:mise": "21931",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     16.3106225,
+     40.1394785
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 3129037258,
+    "osm_type": "node",
+    "ref_coords": [
+     16.3107,
+     40.13944
+    ],
+    "ref_distance": 7.9,
+    "ref_id": "32623",
+    "tags.amenity": "fuel",
+    "tags.brand": "Esso",
+    "tags.operator": "M.G. di Marino Gennaro",
+    "tags.ref:mise": "32623",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:lpg": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8998212,
+     40.0168627
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5691903553,
+    "osm_type": "node",
+    "ref_coords": [
+     15.89989,
+     40.01691
+    ],
+    "ref_distance": 7.9,
+    "ref_id": "22090",
+    "tags.amenity": "fuel",
+    "tags.brand": "Esso",
+    "tags.name": "Galdo Ovest",
+    "tags.operator": "Di.Ma S.A.S. di Maria Rosaria Errichiello",
+    "tags.ref:mise": "22090",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.9729861,
+     41.0318141
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 699225936,
+    "osm_type": "node",
+    "ref_coords": [
+     15.97293,
+     41.03175
+    ],
+    "ref_distance": 8.6,
+    "ref_id": "20615",
+    "tags.amenity": "fuel",
+    "tags.brand": "Api-Ip",
+    "tags.operator": "Mennuti Donato",
+    "tags.ref:mise": "20615",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.6331194,
+     40.5141014
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 534580313,
+    "osm_type": "node",
+    "ref_coords": [
+     15.63319,
+     40.51416
+    ],
+    "ref_distance": 8.8,
+    "ref_id": "10246",
+    "ref_unused_tags.brand": "",
+    "tags.amenity": "fuel",
+    "tags.fuel:diesel": "yes",
+    "tags.fuel:lpg": "yes",
+    "tags.fuel:octane_95": "yes",
+    "tags.name": "Ies",
+    "tags.operator": "Md2 Carburanti di Muro Domenico",
+    "tags.ref:mise": "10246",
+    "tags.shop": "yes",
+    "tags_deleted.brand": "Ies"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.695544,
+     40.6031991
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 2996194653,
+    "osm_type": "node",
+    "ref_coords": [
+     15.69565,
+     40.60322
+    ],
+    "ref_distance": 9.3,
+    "ref_id": "27136",
+    "tags.amenity": "fuel",
+    "tags.brand": "Total Erg",
+    "tags.fixme": "name",
+    "tags.fuel:cng": "yes",
+    "tags.name": "Metano",
+    "tags.operator": "Gatta Giovanna",
+    "tags.ref:mise": "27136",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.79957,
+     40.627165
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 227547536,
+    "osm_type": "node",
+    "ref_coords": [
+     15.79957,
+     40.62708
+    ],
+    "ref_distance": 9.5,
+    "ref_id": "19991",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip Eni",
+    "tags.name": "Agip",
+    "tags.operator": "Acca Radiste di Lichinchi Giuseppe & C. - S.N.C.",
+    "tags.ref:mise": "19991",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_100": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.7896087,
+     40.6317401
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 502772837,
+    "osm_type": "way",
+    "ref_coords": [
+     15.78966,
+     40.63166
+    ],
+    "ref_distance": 9.9,
+    "ref_id": "35898",
+    "tags.addr:city": "Potenza",
+    "tags.addr:postcode": "85100",
+    "tags.addr:street": "Via del Gallitello",
+    "tags.amenity": "fuel",
+    "tags.brand": "Q8",
+    "tags.name": "Q8 Easy",
+    "tags.operator": "Servizi & Gestioni Italia S.R.L.",
+    "tags.ref:mise": "35898",
+    "tags.source:date": "2018-04-16",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8307518,
+     40.6437934
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 502644677,
+    "osm_type": "way",
+    "ref_coords": [
+     15.83076,
+     40.6437
+    ],
+    "ref_distance": 10.4,
+    "ref_id": "5428",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip Eni",
+    "tags.name": "Agip",
+    "tags.operator": "Eni Fuel S.P.A.",
+    "tags.ref:mise": "5428",
+    "tags.source:date": "2018-04-16",
+    "tags_new.fuel:cng": "yes",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8025135,
+     40.6487289
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 340597475,
+    "osm_type": "node",
+    "ref_coords": [
+     15.80264,
+     40.64874
+    ],
+    "ref_distance": 10.8,
+    "ref_id": "36982",
+    "tags.amenity": "fuel",
+    "tags.brand": "Esso",
+    "tags.name": "Esso",
+    "tags.operator": "B.D.C. Buccino Distribuzione Carburanti di Lupo Antonio & C. - S.A.S.",
+    "tags.ref:mise": "36982",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     16.2959464,
+     40.2609455
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 314769362,
+    "osm_type": "node",
+    "ref_coords": [
+     16.29607,
+     40.26098
+    ],
+    "ref_distance": 11.2,
+    "ref_id": "22812",
+    "tags.addr:city": "Sant'Arcangelo",
+    "tags.addr:country": "IT",
+    "tags.addr:street": "S.S. 598 Fondo Valle d'Agri Km. 83+180",
+    "tags.amenity": "fuel",
+    "tags.brand": "Esso",
+    "tags.contact:phone": "+39 0973 618207",
+    "tags.name": "Esso",
+    "tags.opening_hours": "24/7",
+    "tags.operator": "Stazione di Servizio Esso di Stigliano Michele",
+    "tags.ref": "Esso 7148",
+    "tags.ref:mise": "22812",
+    "tags.tenant": "Stigliano",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.7107077,
+     41.0639242
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 306285349,
+    "osm_type": "node",
+    "ref_coords": [
+     15.71071,
+     41.06403
+    ],
+    "ref_distance": 11.8,
+    "ref_id": "22967",
+    "tags.amenity": "fuel",
+    "tags.brand": "Q8",
+    "tags.name": "Q8 Montelungo",
+    "tags.operator": "Servizi & Gestioni Italia S.R.L.",
+    "tags.ref:mise": "22967",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:lpg": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     16.1921149,
+     40.0829066
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851837220,
+    "osm_type": "node",
+    "ref_coords": [
+     16.19204,
+     40.08281
+    ],
+    "ref_distance": 12.5,
+    "ref_id": "33040",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip Eni",
+    "tags.operator": "Iannibelli Nunzio Pasquale",
+    "tags.ref:mise": "33040",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:lpg": "yes",
+    "tags_new.fuel:octane_100": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.9752071,
+     40.0053581
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 1394101771,
+    "osm_type": "node",
+    "ref_coords": [
+     15.97535,
+     40.0054
+    ],
+    "ref_distance": 13.0,
+    "ref_id": "8644",
+    "tags.amenity": "fuel",
+    "tags.brand": "Q8",
+    "tags.operator": "Servizi & Gestioni Italia S.R.L.",
+    "tags.ref:mise": "8644",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.5940186,
+     41.0935251
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 306285366,
+    "osm_type": "node",
+    "ref_coords": [
+     15.5939,
+     41.09362
+    ],
+    "ref_distance": 14.5,
+    "ref_id": "25493",
+    "tags.amenity": "fuel",
+    "tags.name": "Esso",
+    "tags.operator": "Area Food S.R.L.",
+    "tags.ref:mise": "25493",
+    "tags.wheelchair": "limited",
+    "tags_changed.brand": "Esso -> Api-Ip",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     16.0492815,
+     40.3867563
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5851836850,
+    "osm_type": "node",
+    "ref_coords": [
+     16.04936,
+     40.38663
+    ],
+    "ref_distance": 15.6,
+    "ref_id": "44315",
+    "tags.amenity": "fuel",
+    "tags_changed.brand": "Total Erg -> Api-Ip",
+    "tags_changed.operator": "Petrol Rete S.R.L. -> Genol Oil S.R.L.",
+    "tags_changed.ref:mise": "34345 -> 44315",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.3957544,
+     40.8356064
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 1781726251,
+    "osm_type": "node",
+    "ref_coords": [
+     15.39557,
+     40.83559
+    ],
+    "ref_distance": 15.6,
+    "ref_id": "15270",
+    "tags.amenity": "fuel",
+    "tags.brand": "Total Erg",
+    "tags.operator": "Mescia Giuseppe Gerardo",
+    "tags.ref:mise": "15270",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8265576,
+     40.9102029
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 687138000,
+    "osm_type": "node",
+    "ref_coords": [
+     15.82658,
+     40.91035
+    ],
+    "ref_distance": 16.5,
+    "ref_id": "40916",
+    "ref_unused_tags.brand": "",
+    "tags.amenity": "fuel",
+    "tags.nobrand": "yes",
+    "tags.operator": "Grieco Donato",
+    "tags.ref:mise": "40916",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.7607287,
+     40.7877158
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 4066845089,
+    "osm_type": "node",
+    "ref_coords": [
+     15.76078,
+     40.78786
+    ],
+    "ref_distance": 16.6,
+    "ref_id": "44289",
+    "tags.amenity": "fuel",
+    "tags_changed.brand": "TotalErg -> Total Erg",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:lpg": "yes",
+    "tags_new.fuel:octane_95": "yes",
+    "tags_new.operator": "Fiviro Service di Loffredo Lucia",
+    "tags_new.ref:mise": "44289"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.7819641,
+     40.3646866
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 980160235,
+    "osm_type": "node",
+    "ref_coords": [
+     15.78176,
+     40.36469
+    ],
+    "ref_distance": 17.3,
+    "ref_id": "22131",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip Eni",
+    "tags.fixme": "name",
+    "tags.fuel:diesel": "yes",
+    "tags.fuel:gtl_diesel": "yes",
+    "tags.fuel:hgv_diesel": "yes",
+    "tags.fuel:octane_98": "yes",
+    "tags.name": "Esso",
+    "tags.opening_hours": "24/7",
+    "tags.operator": "G.M.C. S.N.C. di Berardone Prospero Giuseppe & C.",
+    "tags.ref:mise": "22131",
+    "tags_new.fuel:cng": "yes",
+    "tags_new.fuel:lpg": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.9681456,
+     40.9761577
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 391651573,
+    "osm_type": "node",
+    "ref_coords": [
+     15.96814,
+     40.976
+    ],
+    "ref_distance": 17.6,
+    "ref_id": "43221",
+    "tags.amenity": "fuel",
+    "tags.fuel:lpg": "yes",
+    "tags.fuel:octane_100": "no",
+    "tags.fuel:octane_91": "no",
+    "tags.fuel:octane_98": "no",
+    "tags_changed.fuel:diesel": "no -> yes",
+    "tags_changed.fuel:octane_95": "no -> yes",
+    "tags_new.brand": "Gatti carburanti",
+    "tags_new.operator": "EuroS.A.S.di Giovanni Gatti & C. S.A.S.",
+    "tags_new.ref:mise": "43221"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     16.0628709,
+     40.7623772
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 308140056,
+    "osm_type": "node",
+    "ref_coords": [
+     16.06286,
+     40.76254
+    ],
+    "ref_distance": 18.1,
+    "ref_id": "30040",
+    "tags.amenity": "fuel",
+    "tags.brand": "Api-Ip",
+    "tags.fixme": "name",
+    "tags.name": "Agip",
+    "tags.operator": "Cn Petroli - S.R.L.",
+    "tags.ref:mise": "30040",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:lpg": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.7004339,
+     40.8299254
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5853344384,
+    "osm_type": "node",
+    "ref_coords": [
+     15.70022,
+     40.82985
+    ],
+    "ref_distance": 19.9,
+    "ref_id": "26181",
+    "ref_unused_tags.brand": "",
+    "tags.amenity": "fuel",
+    "tags.operator": "Macchia Carburanti di Macchia Pasquale & C. - S.N.C.",
+    "tags.ref:mise": "26181",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:lpg": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.7934638,
+     40.770653
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 309296261,
+    "osm_type": "node",
+    "ref_coords": [
+     15.7932,
+     40.77059
+    ],
+    "ref_distance": 23.3,
+    "ref_id": "3989",
+    "tags.amenity": "fuel",
+    "tags.brand": "Esso",
+    "tags.name": "Esso",
+    "tags.ref": "Esso 1277",
+    "tags.ref:mise": "3989",
+    "tags_changed.operator": "Zaccagnino Service Station Snc di Zaccagnino Dina e Zaccagnino Leonardo -> Zaccagnino Service Station S.N.C.di Zaccagnino Dina e Zaccagnino Leonardo",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8988476,
+     40.0182975
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 5691903554,
+    "osm_type": "node",
+    "ref_coords": [
+     15.89901,
+     40.01847
+    ],
+    "ref_distance": 23.7,
+    "ref_id": "3995",
+    "tags.amenity": "fuel",
+    "tags.brand": "Esso",
+    "tags.name": "Galdo Est",
+    "tags_changed.operator": "Zaccagnino Service Station Snc di Zaccagnino Dina e Zaccagnino Leonardo -> Zaccagnino Service Station S.N.C.di Zaccagnino Dina e Zaccagnino Leonardo",
+    "tags_changed.ref:mise": "3988 -> 3995",
+    "tags_new.fuel:diesel": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.801113,
+     40.6485009
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 2692563231,
+    "osm_type": "node",
+    "ref_coords": [
+     15.80136,
+     40.6484
+    ],
+    "ref_distance": 23.7,
+    "ref_id": "13155",
+    "tags.amenity": "fuel",
+    "tags.brand": "Total Erg",
+    "tags.operator": "Zaccagnino Giuseppe",
+    "tags.ref:mise": "13155",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     16.2987968,
+     40.1400763
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 307619400,
+    "osm_type": "way",
+    "ref_coords": [
+     16.29851,
+     40.1403
+    ],
+    "ref_distance": 34.9,
+    "ref_id": "32636",
+    "tags.amenity": "fuel",
+    "tags.brand": "Ies",
+    "tags.building": "yes",
+    "tags.operator": "Se.Di.Ca. Srl",
+    "tags.ref:mise": "32636",
+    "tags.source:date": "2018-04-16",
+    "tags_new.fuel:diesel": "yes",
+    "tags_new.fuel:octane_95": "yes"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.83214,
+     40.0454
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -128,
+    "osm_type": "node",
+    "ref_id": "41628",
+    "tags.amenity": "fuel",
+    "tags.brand": "",
+    "tags.fuel:diesel": "yes",
+    "tags.fuel:octane_95": "yes",
+    "tags.operator": "Sergio Petroli S.R.L.",
+    "tags.ref:mise": "41628"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.82381,
+     40.64943
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -129,
+    "osm_type": "node",
+    "ref_id": "42306",
+    "tags.amenity": "fuel",
+    "tags.brand": "",
+    "tags.fuel:diesel": "yes",
+    "tags.fuel:lpg": "yes",
+    "tags.fuel:octane_95": "yes",
+    "tags.operator": "Mvs S.R.L. - Investimenti & Servizi",
+    "tags.ref:mise": "42306"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.88683,
+     40.02021
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -130,
+    "osm_type": "node",
+    "ref_id": "43800",
+    "tags.amenity": "fuel",
+    "tags.brand": "",
+    "tags.fuel:diesel": "yes",
+    "tags.fuel:octane_95": "yes",
+    "tags.operator": "Sergio Petroli S.R.L.",
+    "tags.ref:mise": "43800"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.5404,
+     40.84674
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -131,
+    "osm_type": "node",
+    "ref_id": "44306",
+    "tags.amenity": "fuel",
+    "tags.brand": "",
+    "tags.fuel:diesel": "yes",
+    "tags.fuel:octane_95": "yes",
+    "tags.operator": "Vodola Antonino",
+    "tags.ref:mise": "44306"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.7057513,
+     39.9942841
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 5851839910,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Tamoil",
+    "tags.operator": "Santi Settimio",
+    "tags.ref:mise": "27347",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.5022501,
+     40.7301375
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 5853343369,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.operator": "Agri Car S.R.L.",
+    "tags.ref:mise": "32477",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     16.0833127,
+     40.3530037
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 2022852350,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Ies",
+    "tags.name": "Stazione di Servizio di Luisi Vincenzo",
+    "tags.operator": "Distributore Ies-Enotria Cafe' di Luisi Vincenzo",
+    "tags.ref:mise": "12647",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8360624,
+     40.0349784
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 5851839895,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Ies",
+    "tags.operator": "Pesce Nicola",
+    "tags.ref:mise": "27484",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.5752297,
+     40.6931106
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 5851831078,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Api-Ip",
+    "tags.operator": "Cocina Vito Antonio",
+    "tags.ref:mise": "8792",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.5471877,
+     40.8166871
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 6247490959,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Tamoil",
+    "tags.brand:wikidata": "Q706793",
+    "tags.brand:wikipedia": "en:Tamoil",
+    "tags.name": "Tamoil",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.7903758,
+     40.3177257
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 5851841520,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Q8",
+    "tags.operator": "Bontempi Alfonso",
+    "tags.ref:mise": "25601",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.681757,
+     40.956426
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 1325786004,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Q8",
+    "tags.operator": "D&B di Dinoia Laura Tiziana",
+    "tags.ref:mise": "8945",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.6273559,
+     40.4765841
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 2350985526,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.6653237,
+     40.4514824
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 5851845684,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Ies",
+    "tags.operator": "Md2 Carburanti di Muro Domenico",
+    "tags.ref:mise": "10247",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8275706,
+     40.6357048
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 1279392962,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     16.0338096,
+     40.8458243
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 5851841494,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip Eni",
+    "tags.operator": "Loguercio Pasquale",
+    "tags.ref:mise": "25844",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8306475,
+     40.6440274
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 502644676,
+    "osm_type": "way",
+    "tags.amenity": "fuel",
+    "tags.name": "Agip",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     16.1606153,
+     40.2674775
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 1348195767,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Z Gas",
+    "tags.fuel:lpg": "yes",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.7684828,
+     39.9436026
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 5853344467,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.operator": "C F Gestioni - S.R.L.",
+    "tags.ref:mise": "23684",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.704627,
+     40.8236726
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 5853343108,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.operator": "S. N. S.R.L.",
+    "tags.ref:mise": "40529",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.5861463,
+     40.4609624
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 5851836472,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Q8",
+    "tags.operator": "Fabiano Energia S.R.L.",
+    "tags.ref:mise": "34972",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.7982619,
+     40.644291
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 2692523882,
+    "osm_type": "node",
+    "tags.addr:city": "Potenza",
+    "tags.addr:postcode": "85100",
+    "tags.addr:street": "Piazza Bologna",
+    "tags.amenity": "fuel",
+    "tags.name": "IP",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.4994481,
+     40.7326156
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 3238766173,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.name": "Megoil",
+    "tags.operator": "Pompa Bianca",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.7337791,
+     40.8024516
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 5851843623,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Q8",
+    "tags.operator": "Maio Salvatore",
+    "tags.ref:mise": "18052",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     16.1053307,
+     40.1866409
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 5851844954,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Api-Ip",
+    "tags.operator": "Gresia Umberto",
+    "tags.ref:mise": "14029",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.5445237,
+     40.7012786
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 5851843003,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Q8",
+    "tags.operator": "Sileo Giuseppe",
+    "tags.ref:mise": "21629",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     16.3484094,
+     40.0465697
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 5851837293,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Total Erg",
+    "tags.operator": "Tarantino Ferdinando",
+    "tags.ref:mise": "32645",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.7589881,
+     40.0788037
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 4043562526,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Api-Ip",
+    "tags.name": "IP",
+    "tags.operator": "Siervo Antonio",
+    "tags.ref:mise": "38700",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     16.0184587,
+     40.6950934
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 5851843039,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip Eni",
+    "tags.operator": "Carburanti F.lli Frontuto S.N.C. di Frontuto Vito & C.",
+    "tags.ref:mise": "21314",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.9739675,
+     40.9323986
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 5851836822,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip Eni",
+    "tags.operator": "Limitone Michele",
+    "tags.ref:mise": "34583",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.9211352,
+     40.3001007
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 1348195956,
+    "osm_type": "node",
+    "tags.addr:city": "Grumento Nova",
+    "tags.addr:street": "Strada Statale 598 Valle Agri",
+    "tags.amenity": "fuel",
+    "tags.brand": "Tamoil",
+    "tags.fuel:octane_95": "yes",
+    "tags.operator": "Agri Sud S.N.C. di Ielpo Domenico e Torraca Mimmo",
+    "tags.ref:mise": "26219",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     16.3010289,
+     40.2635628
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 1348195967,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Tamoil",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.781372,
+     40.5759646
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 228079845,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "api",
+    "tags.name": "Api",
+    "tags.operator": "Api",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.971502,
+     41.0302098
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 4101306534,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.name": "IP",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.983047,
+     40.943845
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 228112883,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Independent",
+    "tags.name": "Indipend.",
+    "tags.operator": "Indipend.",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.7011233,
+     40.8302299
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 610584997,
+    "osm_type": "way",
+    "tags.amenity": "fuel",
+    "tags.brand": "Macchia Carburanti",
+    "tags.name": "Macchia Carburanti di Macchia Pasquale & C. s.n.c.",
+    "tags.opening_hours": "Mo-Sa 07:00-13:00 Mo-Sa 15:00-19:30",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8994872,
+     40.5215233
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 5851844647,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Total Erg",
+    "tags.operator": "Petruzzi Rocco & Figli",
+    "tags.ref:mise": "15008",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     16.0096905,
+     40.8599378
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 5851834996,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Total Erg",
+    "tags.operator": "Giacomino Angela",
+    "tags.ref:mise": "37213",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     16.0375839,
+     40.5866364
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 3531006545,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Api-Ip",
+    "tags.name": "IP",
+    "tags.operator": "Appia Carburanti - S.A.S. di Francesco Santangelo & C.",
+    "tags.ref:mise": "40704",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.806902,
+     40.7319024
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 2246435700,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.7037109,
+     40.8495995
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 355006290,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Tamoil",
+    "tags.name": "Tamoil",
+    "tags.operator": "Valvano Rocchino",
+    "tags.ref:mise": "17729",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.541337,
+     40.7570425
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 5851843049,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Q8",
+    "tags.operator": "Carretta Cosimo",
+    "tags.ref:mise": "21150",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8308223,
+     40.6435788
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 333758536,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.name": "AGIP",
+    "tags.operator": "Agip",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     15.8781669,
+     41.1204619
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 309292355,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Loro",
+    "tags.name": "IP",
+    "tags.operator": "Perillo Domenico",
+    "tags.ref:mise": "33598",
+    "tags_changed.fixme": "Name -> This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     16.0822569,
+     39.9707287
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 1330960633,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  }
+ ],
+ "type": "FeatureCollection"
+}
