@@ -1,33 +1,29 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm version='0.6' generator='JOSM'>
-  <node id='-104516' visible='true' version='1' lat='40.0454' lon='15.83214'>
+  <node id='-104516' action='modify' visible='true' version='1' lat='40.0454' lon='15.83214'>
     <tag k='amenity' v='fuel' />
-    <tag k='brand' v='' />
     <tag k='fuel:diesel' v='yes' />
     <tag k='fuel:octane_95' v='yes' />
     <tag k='operator' v='Sergio Petroli S.R.L.' />
     <tag k='ref:mise' v='41628' />
   </node>
-  <node id='-104518' visible='true' version='1' lat='40.6488278' lon='15.8233353'>
+  <node id='-104518' action='modify' visible='true' version='1' lat='40.6488278' lon='15.8233353'>
     <tag k='amenity' v='fuel' />
-    <tag k='brand' v='' />
     <tag k='fuel:diesel' v='yes' />
     <tag k='fuel:lpg' v='yes' />
     <tag k='fuel:octane_95' v='yes' />
     <tag k='operator' v='Mvs S.R.L. - Investimenti &amp; Servizi' />
     <tag k='ref:mise' v='42306' />
   </node>
-  <node id='-104520' visible='true' version='1' lat='40.0201955' lon='15.8866087'>
+  <node id='-104520' action='modify' visible='true' version='1' lat='40.0201955' lon='15.8866087'>
     <tag k='amenity' v='fuel' />
-    <tag k='brand' v='' />
     <tag k='fuel:diesel' v='yes' />
     <tag k='fuel:octane_95' v='yes' />
     <tag k='operator' v='Sergio Petroli S.R.L.' />
     <tag k='ref:mise' v='43800' />
   </node>
-  <node id='-104522' visible='true' version='1' lat='40.84674' lon='15.5404'>
+  <node id='-104522' action='modify' visible='true' version='1' lat='40.84674' lon='15.5404'>
     <tag k='amenity' v='fuel' />
-    <tag k='brand' v='' />
     <tag k='fuel:diesel' v='yes' />
     <tag k='fuel:octane_95' v='yes' />
     <tag k='operator' v='Vodola Antonino' />
@@ -333,10 +329,10 @@
   <node id='980160235' action='modify' visible='true' version='2' lat='40.3646866' lon='15.7819641'>
     <tag k='amenity' v='fuel' />
     <tag k='brand' v='Agip Eni' />
+    <tag k='fuel:GTL_diesel' v='yes' />
+    <tag k='fuel:HGV_diesel' v='yes' />
     <tag k='fuel:cng' v='yes' />
     <tag k='fuel:diesel' v='yes' />
-    <tag k='fuel:gtl_diesel' v='yes' />
-    <tag k='fuel:hgv_diesel' v='yes' />
     <tag k='fuel:lpg' v='yes' />
     <tag k='fuel:octane_95' v='yes' />
     <tag k='fuel:octane_98' v='yes' />
@@ -1422,12 +1418,7 @@
     <tag k='operator' v='Scardino Annunziata' />
     <tag k='ref:mise' v='27005' />
   </way>
-  <way id='459081886' action='modify' visible='true' version='3'>
-    <nd ref='4549980906' />
-    <nd ref='4549980907' />
-    <nd ref='4549980908' />
-    <nd ref='4549980909' />
-    <nd ref='4549980906' />
+  <way id='459081886' action='delete' visible='true' version='3'>
     <tag k='amenity' v='fuel' />
     <tag k='brand' v='Agip Eni' />
     <tag k='fixme' v='name' />
