@@ -38,7 +38,7 @@ sed -i '1 i\ref:mise;operator;brand;prov;lat;lon' short_$FILTERED.csv
 
 
 echo "preprocessing finished"
-echo "please, apply prezzi (changing timespan with epoch tool) and then anagrafica operations in openrefine"
+echo "Openrefine: please, apply prezzi operation, then choose a last update timespan (ie 1 month), then apply anagrafica operations"
 echo ""
 echo "optionally, clean null values in resuting json before conflation:"
 echo "sed -i '/: null/d' infile.json"
