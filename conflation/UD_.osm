@@ -638,7 +638,7 @@
     <tag k='operator' v='Gariup Emanuela' />
     <tag k='ref:mise' v='14073' />
   </node>
-  <way id='36132884' visible='true' version='5'>
+  <way id='36132884' action='modify' visible='true' version='5'>
     <nd ref='421951494' />
     <nd ref='4692015480' />
     <nd ref='421951495' />
@@ -649,7 +649,6 @@
     <tag k='amenity' v='fuel' />
     <tag k='brand' v='Agip Eni' />
     <tag k='building' v='yes' />
-    <tag k='fixme' v='This object might have been dismantled, please check' />
     <tag k='height' v='4 m' />
     <tag k='it:fvg:ctrn:code' v='4AED' />
     <tag k='it:fvg:ctrn:revision' v='1AN' />
