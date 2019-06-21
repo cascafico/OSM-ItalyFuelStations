@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gpx version="1.1" creator="JOSM GPX export" xmlns="http://www.topografix.com/GPX/1/1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <desc>Distributori di carburante con nome da verificare</desc>
+    <author>
+      <email id="cascafico" domain="gmail.com"/>
+    </author>
+    <keywords>mise,fuel</keywords>
+    <bounds minlat="44.4258653" minlon="7.219376" maxlat="44.9979324" maxlon="8.2287126"/>
+  </metadata>
+  <wpt lat="44.77940523752038" lon="7.745751724190775">
+    <name>Centro Petroli</name>
+  </wpt>
+  <wpt lat="44.61156257528056" lon="8.053446024190777">
+    <name>IES</name>
+  </wpt>
+  <wpt lat="44.69446973175029" lon="7.402417924190775">
+    <name>IP</name>
+  </wpt>
+  <wpt lat="44.610519713078055" lon="7.567641524190775">
+    <name>IP</name>
+  </wpt>
+  <wpt lat="44.623237566436615" lon="7.783465524190774">
+    <name>Shell</name>
+  </wpt>
+  <wpt lat="44.629383464015504" lon="7.863479324190775">
+    <name>Shell</name>
+  </wpt>
+  <wpt lat="44.77105904712195" lon="7.740923924190776">
+    <name>Tamoil</name>
+  </wpt>
+  <wpt lat="44.617261110129" lon="7.851152724190776">
+    <name>Agip</name>
+  </wpt>
+  <wpt lat="44.576591835490206" lon="7.540853324190777">
+    <name>Shell</name>
+  </wpt>
+  <wpt lat="44.852873143006306" lon="7.395842324190775">
+    <name>TotalErg</name>
+  </wpt>
+  <wpt lat="44.65494424182253" lon="7.600487624190777">
+    <name>Metano</name>
+  </wpt>
+  <wpt lat="44.862318411987715" lon="7.530789324190776">
+    <name>IP</name>
+  </wpt>
+  <wpt lat="44.802916712896526" lon="7.219376024190776">
+    <name>IP</name>
+  </wpt>
+  <wpt lat="44.87459864710628" lon="7.717878324190775">
+    <name>Agip</name>
+  </wpt>
+  <wpt lat="44.76072716085725" lon="7.580447024190776">
+    <name>Distributore IP</name>
+  </wpt>
+  <wpt lat="44.6460248007671" lon="7.882870424190776">
+    <name>Mondovicino</name>
+  </wpt>
+  <wpt lat="44.768138387381406" lon="7.861575324190775">
+    <name>Shell</name>
+  </wpt>
+  <wpt lat="44.59850811467412" lon="7.555330324190775">
+    <name>ERG</name>
+  </wpt>
+  <wpt lat="44.703262760859204" lon="7.902681929010775">
+    <name>IP</name>
+  </wpt>
+  <wpt lat="44.917464834688225" lon="7.973150224190777">
+    <name>Q8</name>
+  </wpt>
+  <wpt lat="44.62374828856231" lon="7.856833324190776">
+    <name>Shell</name>
+  </wpt>
+  <wpt lat="44.77248520944366" lon="7.744651224190776">
+    <name>total Erg</name>
+  </wpt>
+  <wpt lat="44.79947637841747" lon="7.884291324190775">
+    <name>Distributore TOTAL-ERG</name>
+  </wpt>
+  <wpt lat="44.62973958471723" lon="7.578686424190776">
+    <name>Repsol</name>
+  </wpt>
+  <wpt lat="44.616373845829834" lon="7.603177624190775">
+  </wpt>
+  <wpt lat="44.425865280961354" lon="7.608049124190777">
+    <name>IP</name>
+  </wpt>
+  <wpt lat="44.87245618113231" lon="7.354763124190775">
+    <name>TotalErg</name>
+  </wpt>
+  <wpt lat="44.7869516295368" lon="7.429542324190775">
+    <name>IP</name>
+  </wpt>
+  <wpt lat="44.6141026402367" lon="7.571966324190776">
+    <name>IP</name>
+  </wpt>
+  <wpt lat="44.99793235716126" lon="7.713018324190777">
+    <name>Shell</name>
+  </wpt>
+  <wpt lat="44.78736542237287" lon="7.4304552241907755">
+    <name>Shell</name>
+  </wpt>
+  <wpt lat="44.88918689158334" lon="8.228712624190775">
+    <name>Erg</name>
+  </wpt>
+  <wpt lat="44.46862809434399" lon="7.567611024190776">
+    <name>Shell</name>
+  </wpt>
+  <trk>
+    <name>Eni</name>
+    <trkseg>
+      <trkpt lat="44.89183917132568" lon="7.849588424190775">
+      </trkpt>
+      <trkpt lat="44.89188479380031" lon="7.8496742241907755">
+      </trkpt>
+      <trkpt lat="44.89224389646148" lon="7.849526724190776">
+      </trkpt>
+      <trkpt lat="44.89245676813189" lon="7.850811524190775">
+      </trkpt>
+      <trkpt lat="44.89199496510313" lon="7.850977824190776">
+      </trkpt>
+      <trkpt lat="44.89197603874918" lon="7.850806124190775">
+      </trkpt>
+      <trkpt lat="44.8919645833244" lon="7.850626424190776">
+      </trkpt>
+      <trkpt lat="44.891977931384595" lon="7.850564724190775">
+      </trkpt>
+      <trkpt lat="44.8919592042554" lon="7.850547024190775">
+      </trkpt>
+      <trkpt lat="44.89193798681644" lon="7.850527124190777">
+      </trkpt>
+      <trkpt lat="44.891953227512" lon="7.850457424190775">
+      </trkpt>
+      <trkpt lat="44.891892364341956" lon="7.849843224190775">
+      </trkpt>
+      <trkpt lat="44.89186008992762" lon="7.849781524190775">
+      </trkpt>
+      <trkpt lat="44.89185092558772" lon="7.849697124190775">
+      </trkpt>
+      <trkpt lat="44.89183917132568" lon="7.849588424190775">
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Q8</name>
+    <trkseg>
+      <trkpt lat="44.89079622956302" lon="7.837880924190774">
+      </trkpt>
+      <trkpt lat="44.890338211752955" lon="7.838012324190776">
+      </trkpt>
+      <trkpt lat="44.890433241982684" lon="7.838910824190776">
+      </trkpt>
+      <trkpt lat="44.89087034118641" lon="7.8387740241907755">
+      </trkpt>
+      <trkpt lat="44.890853207854164" lon="7.838567524190776">
+      </trkpt>
+      <trkpt lat="44.890807087314286" lon="7.838011224190776">
+      </trkpt>
+      <trkpt lat="44.89079622956302" lon="7.837880924190774">
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
