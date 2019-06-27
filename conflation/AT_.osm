@@ -1,0 +1,1264 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='JOSM'>
+  <node id='-102327' visible='true' version='1' lat='44.77708' lon='8.28054'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Tamoil' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='operator' v='T.D.M. S.R.L.' />
+    <tag k='ref:mise' v='41965' />
+  </node>
+  <node id='-102329' visible='true' version='1' lat='45.02797' lon='7.96631'>
+    <tag k='amenity' v='fuel' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:lpg' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='operator' v='Magnone Piu&apos; S.R.L.' />
+    <tag k='ref:mise' v='43325' />
+  </node>
+  <node id='-102331' visible='true' version='1' lat='44.7208' lon='8.29602'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Api-Ip' />
+    <tag k='fuel:cng' v='yes' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='operator' v='Iacocarburanti di Iacomino Luigi' />
+    <tag k='ref:mise' v='45153' />
+  </node>
+  <node id='-102333' visible='true' version='1' lat='44.73196' lon='8.29526'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Tamoil' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='operator' v='T.D.M. S.R.L.' />
+    <tag k='ref:mise' v='45249' />
+  </node>
+  <node id='226952570' action='modify' visible='true' version='6' lat='44.9065201' lon='8.1865687'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Q8' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_100' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Q8' />
+    <tag k='operator' v='Servizi &amp; Gestioni Italia S.R.L.' />
+    <tag k='ref:mise' v='11473' />
+  </node>
+  <node id='226998591' action='modify' visible='true' version='4' lat='45.036762' lon='7.966504'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Agip Eni' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_100' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Agip' />
+    <tag k='operator' v='Marchisio Silvia' />
+    <tag k='ref:mise' v='6794' />
+  </node>
+  <node id='226998595' action='modify' visible='true' version='6' lat='44.9047674' lon='8.177874'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Agip Eni' />
+    <tag k='fuel:cng' v='yes' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_100' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Eni' />
+    <tag k='operator' v='Franco Giorgio' />
+    <tag k='ref:mise' v='35227' />
+  </node>
+  <node id='226998792' action='modify' visible='true' version='6' lat='44.911894' lon='8.040383'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Agip Eni' />
+    <tag k='fuel:biogas' v='no' />
+    <tag k='fuel:cng' v='yes' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:lpg' v='yes' />
+    <tag k='fuel:octane_100' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='fuel:octane_98' v='yes' />
+    <tag k='name' v='Eni' />
+    <tag k='operator' v='Linda&apos;s Caffe&apos; di Lukaj Lindite &amp; C. Società in Accomandita Semp Lice' />
+    <tag k='ref:mise' v='42671' />
+  </node>
+  <node id='226998796' action='modify' visible='true' version='4' lat='44.772056' lon='8.346069'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Agip Eni' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Agip' />
+    <tag k='operator' v='Gestioni Innovative Italia S.R.L.' />
+    <tag k='ref:mise' v='36683' />
+  </node>
+  <node id='227505344' action='modify' visible='true' version='6' lat='44.9366699' lon='7.9483366'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Esso' />
+    <tag k='fixme' v='name' />
+    <tag k='fuel:cng' v='yes' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:lpg' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Eni' />
+    <tag k='operator' v='Ristobar Del Sole S.R.L.Società a Responsabilità Limitata Semplificata' />
+    <tag k='ref:mise' v='43317' />
+  </node>
+  <node id='227553266' action='modify' visible='true' version='4' lat='44.9050615' lon='8.3631142'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Q8' />
+    <tag k='fixme' v='This object might have been dismantled, please check' />
+    <tag k='name' v='Q8' />
+    <tag k='operator' v='Q8' />
+  </node>
+  <node id='227553947' action='modify' visible='true' version='5' lat='44.950442' lon='7.9516769'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Api-Ip' />
+    <tag k='fixme' v='name' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:lpg' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Shell' />
+    <tag k='operator' v='Petrol Jolly S.R.L.' />
+    <tag k='ref:mise' v='40929' />
+  </node>
+  <node id='227554169' action='modify' visible='true' version='5' lat='44.903733' lon='8.364565'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Esso' />
+    <tag k='fixme' v='This object might have been dismantled, please check' />
+    <tag k='fuel:lpg' v='yes' />
+    <tag k='name' v='Esso' />
+    <tag k='operator' v='Ponassi S.N.C. di Ponassi Massimigliano &amp; C.' />
+    <tag k='ref:mise' v='7194' />
+  </node>
+  <node id='227557130' action='modify' visible='true' version='5' lat='44.9491736' lon='7.9519051'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Agip Eni' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:lpg' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Agip' />
+    <tag k='operator' v='Eni Fuel S.P.A.' />
+    <tag k='ref:mise' v='3843' />
+  </node>
+  <node id='227581940' action='modify' visible='true' version='5' lat='44.907031' lon='8.26151'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Retitalia' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Retitalia' />
+    <tag k='operator' v='Gestione Impianti di Besso Carla Vedova Amalberto e C. S.A.S.' />
+    <tag k='ref:mise' v='39138' />
+  </node>
+  <node id='227629395' action='modify' visible='true' version='4' lat='44.912927' lon='8.03828'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Total Erg' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Erg' />
+    <tag k='operator' v='Massasso Gianpiero' />
+    <tag k='ref:mise' v='42977' />
+  </node>
+  <node id='227636051' action='modify' visible='true' version='5' lat='44.9148247' lon='8.2219587'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Esso' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Esso' />
+    <tag k='operator' v='Ponassi S.N.C. di Ponassi Massimigliano &amp; C.' />
+    <tag k='ref:mise' v='10756' />
+  </node>
+  <node id='227636943' action='modify' visible='true' version='6' lat='44.9074037' lon='8.2810531'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Europam' />
+    <tag k='fixme' v='name' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='IP' />
+    <tag k='operator' v='Negrisolo Loris' />
+    <tag k='ref:mise' v='33695' />
+  </node>
+  <node id='227650700' action='modify' visible='true' version='4' lat='44.877921' lon='8.321629'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Tamoil' />
+    <tag k='fuel:cng' v='yes' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:lpg' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Tamoil' />
+    <tag k='operator' v='T.D.M. S.R.L.' />
+    <tag k='ref:mise' v='44834' />
+  </node>
+  <node id='227659009' action='modify' visible='true' version='5' lat='44.903862' lon='8.093335'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Total Erg' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:lpg' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='TotalErg' />
+    <tag k='operator' v='Toscano Enrico' />
+    <tag k='ref:mise' v='43262' />
+  </node>
+  <node id='227659410' action='modify' visible='true' version='6' lat='44.7507845' lon='8.1518899'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Q8' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_100' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Q8' />
+    <tag k='operator' v='Servizi &amp; Gestioni Italia S.R.L.' />
+    <tag k='ref:mise' v='11478' />
+  </node>
+  <node id='227659626' action='modify' visible='true' version='5' lat='44.8087104' lon='8.1461858'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Total Erg' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='TotalErg' />
+    <tag k='opening_hours' v='24/7' />
+    <tag k='operator' v='C.P.P. Compagnia Petrolifera Piemontese - S.R.L.' />
+    <tag k='ref:mise' v='38663' />
+  </node>
+  <node id='227659845' action='modify' visible='true' version='4' lat='44.92484' lon='7.970903'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Total Erg' />
+    <tag k='fixme' v='name' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Shell' />
+    <tag k='operator' v='Rutigliano Fabrizio' />
+    <tag k='ref:mise' v='36096' />
+  </node>
+  <node id='227660056' action='modify' visible='true' version='6' lat='45.0604417' lon='8.278454'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Q8' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='operator' v='Deambrogi Gianluca' />
+    <tag k='ref:mise' v='7916' />
+  </node>
+  <node id='227660269' action='modify' visible='true' version='5' lat='45.0589689' lon='8.2775622'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Q8' />
+    <tag k='fixme' v='name' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_100' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Shell' />
+    <tag k='operator' v='Servizi &amp; Gestioni Italia S.R.L.' />
+    <tag k='ref:mise' v='11470' />
+  </node>
+  <node id='227660270' action='modify' visible='true' version='7' lat='45.043024' lon='8.042443'>
+    <tag k='amenity' v='fuel' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Easy Fuel' />
+    <tag k='operator' v='D.A.R.M. Petroli S.R.L.' />
+    <tag k='ref:mise' v='37630' />
+  </node>
+  <node id='227746240' action='modify' visible='true' version='4' lat='44.958208' lon='7.946935'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Total Erg' />
+    <tag k='fixme' v='name' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:lpg' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Tamoil' />
+    <tag k='operator' v='Eredi Campidonico - S.P.A.' />
+    <tag k='ref:mise' v='30716' />
+  </node>
+  <node id='227797130' action='modify' visible='true' version='5' lat='44.815708' lon='8.1543188'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Retitalia' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Retitalia' />
+    <tag k='operator' v='Brixia Finanziaria S.R.L.' />
+    <tag k='ref:mise' v='28733' />
+  </node>
+  <node id='227799417' action='modify' visible='true' version='4' lat='44.943448' lon='7.931614'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Agip Eni' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Agip' />
+    <tag k='operator' v='Montanella &amp; C. S.N.C.di Montanella Luigi &amp; Franca &amp; C.' />
+    <tag k='ref:mise' v='37279' />
+  </node>
+  <node id='228042522' action='modify' visible='true' version='5' lat='44.98021815411' lon='8.05656605771'>
+    <tag k='amenity' v='fuel' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:lpg' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Esso' />
+    <tag k='operator' v='Romanato Paolo' />
+    <tag k='ref:mise' v='38695' />
+  </node>
+  <node id='228045132' action='modify' visible='true' version='4' lat='45.0395473' lon='7.9339749'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Repsol' />
+    <tag k='fixme' v='This object might have been dismantled, please check' />
+    <tag k='name' v='Repsol' />
+    <tag k='operator' v='Repsol' />
+  </node>
+  <node id='228045821' action='modify' visible='true' version='4' lat='44.996065' lon='8.1138715'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Esso' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='operator' v='Listauto S.N.C.di Lista Vincenzo e C.' />
+    <tag k='ref:mise' v='8958' />
+  </node>
+  <node id='228045827' action='modify' visible='true' version='6' lat='44.9319365' lon='8.1625367'>
+    <tag k='amenity' v='fuel' />
+    <tag k='fixme' v='name' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Esso' />
+    <tag k='operator' v='Argenta Marco' />
+    <tag k='ref:mise' v='39245' />
+  </node>
+  <node id='228116596' action='modify' visible='true' version='5' lat='45.0610686' lon='8.2788431'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Tamoil' />
+    <tag k='fixme' v='This object might have been dismantled, please check' />
+    <tag k='name' v='Tamoil' />
+    <tag k='operator' v='Pollina Calogero' />
+    <tag k='ref:mise' v='33403' />
+  </node>
+  <node id='228201756' action='modify' visible='true' version='4' lat='44.852182' lon='8.197318'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Q8' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Q8' />
+    <tag k='operator' v='Servizi &amp; Gestioni Italia Srl' />
+    <tag k='ref:mise' v='6402' />
+  </node>
+  <node id='228211361' action='modify' visible='true' version='4' lat='44.771249' lon='8.370209'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Retitalia' />
+    <tag k='fixme' v='name' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:lpg' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='IP' />
+    <tag k='operator' v='Brixia Finanziaria S.R.L.' />
+    <tag k='ref:mise' v='43807' />
+  </node>
+  <node id='228211597' action='modify' visible='true' version='4' lat='44.770929' lon='8.3689'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Q8' />
+    <tag k='fixme' v='This object might have been dismantled, please check' />
+    <tag k='name' v='Q8' />
+    <tag k='operator' v='Limardi Vincenzo' />
+    <tag k='ref:mise' v='38322' />
+  </node>
+  <node id='228211600' action='modify' visible='true' version='7' lat='44.77540751076' lon='8.36068333132'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Api-Ip' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='IP' />
+    <tag k='operator' v='Ip Services S.R.L.' />
+    <tag k='ref:mise' v='25342' />
+  </node>
+  <node id='228211605' action='modify' visible='true' version='4' lat='44.778911' lon='8.367591'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Total Erg' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Tamoil' />
+    <tag k='operator' v='Eredi Campidonico - S.P.A.' />
+    <tag k='ref:mise' v='36385' />
+  </node>
+  <node id='228211820' action='modify' visible='true' version='5' lat='44.7990521' lon='8.3762199'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Keropetrol' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='IES' />
+    <tag k='operator' v='Speed Oil Service S.N.C. di Pronzato Paolo e C.' />
+    <tag k='ref:mise' v='30847' />
+  </node>
+  <node id='229120143' action='modify' visible='true' version='4' lat='44.844478' lon='8.070493'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Tamoil' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Tamoil' />
+    <tag k='operator' v='T.D.M. S.R.L.' />
+    <tag k='ref:mise' v='41367' />
+  </node>
+  <node id='229120814' action='modify' visible='true' version='4' lat='44.9049669' lon='8.1812725'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Tamoil' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Tamoil' />
+    <tag k='operator' v='T.D.M. S.R.L.' />
+    <tag k='ref:mise' v='41748' />
+  </node>
+  <node id='229120818' action='modify' visible='true' version='5' lat='44.9049579' lon='8.1798131'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Q8' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Q8' />
+    <tag k='operator' v='Servizi &amp; Gestioni Italia S.R.L.' />
+    <tag k='ref:mise' v='22870' />
+  </node>
+  <node id='757485131' action='modify' visible='true' version='5' lat='44.9000278' lon='8.1936875'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Esso' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Esso' />
+    <tag k='operator' v='Binello Luciano' />
+    <tag k='ref:mise' v='17898' />
+  </node>
+  <node id='1364430486' action='modify' visible='true' version='3' lat='44.9491379' lon='7.9525678'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Agip' />
+    <tag k='fixme' v='This object might have been dismantled, please check' />
+    <tag k='fuel:lpg' v='yes' />
+    <tag k='name' v='Agip' />
+    <tag k='operator' v='Agip' />
+  </node>
+  <node id='1470617352' action='modify' visible='true' version='5' lat='44.9051298' lon='8.2007301'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Retitalia' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Retitalia' />
+    <tag k='operator' v='Dragus Liviu' />
+    <tag k='ref:mise' v='39058' />
+  </node>
+  <node id='1489425244' timestamp='2017-01-03T12:14:57Z' uid='417672' user='Guidus' visible='true' version='2' changeset='44869690' lat='44.9075665' lon='8.2174519' />
+  <node id='1489425245' timestamp='2017-01-03T12:14:57Z' uid='417672' user='Guidus' visible='true' version='2' changeset='44869690' lat='44.9077707' lon='8.2177747' />
+  <node id='1489425251' timestamp='2017-01-03T12:14:57Z' uid='417672' user='Guidus' visible='true' version='2' changeset='44869690' lat='44.9076801' lon='8.2173008' />
+  <node id='2250323949' action='modify' visible='true' version='2' lat='44.8836161' lon='7.9901574'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Go' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='operator' v='Go S.R.L.' />
+    <tag k='ref:mise' v='23186' />
+  </node>
+  <node id='2387242228' timestamp='2017-02-03T23:25:19Z' uid='417672' user='Guidus' visible='true' version='2' changeset='45793440' lat='44.911672' lon='8.2201268' />
+  <node id='2387242229' timestamp='2017-02-03T23:25:19Z' uid='417672' user='Guidus' visible='true' version='3' changeset='45793440' lat='44.9117019' lon='8.2197572' />
+  <node id='2387242230' timestamp='2017-02-03T23:25:19Z' uid='417672' user='Guidus' visible='true' version='2' changeset='45793440' lat='44.9119484' lon='8.2201713' />
+  <node id='2387242231' timestamp='2017-02-03T23:25:19Z' uid='417672' user='Guidus' visible='true' version='3' changeset='45793440' lat='44.9119782' lon='8.2198017' />
+  <node id='2928030741' action='modify' visible='true' version='3' lat='44.9052912' lon='8.1961856'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Q8' />
+    <tag k='fixme' v='This object might have been dismantled, please check' />
+    <tag k='name' v='Q8' />
+    <tag k='operator' v='Gaby di Michela Gabutti' />
+    <tag k='ref:mise' v='39154' />
+  </node>
+  <node id='2937675829' action='modify' visible='true' version='3' lat='44.902883' lon='8.1904307'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='TTP' />
+    <tag k='fixme' v='name' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Oil Italia' />
+    <tag k='operator' v='Tecno Petrol Srl' />
+    <tag k='ref:mise' v='43842' />
+  </node>
+  <node id='2959495847' action='modify' visible='true' version='5' lat='44.9927551' lon='8.2300465'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Agip Eni' />
+    <tag k='contact:phone' v='+39 0141 928 350' />
+    <tag k='fuel:cng' v='yes' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:metan' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Eni' />
+    <tag k='operator' v='Star Service S.R.L.' />
+    <tag k='ref:mise' v='25261' />
+  </node>
+  <node id='2995826439' action='modify' visible='true' version='2' lat='44.6481211' lon='8.3271424'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Keropetrol' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='operator' v='Keropetrol S.P.A.' />
+    <tag k='ref:mise' v='38412' />
+  </node>
+  <node id='3030887489' timestamp='2017-01-09T13:18:56Z' uid='417672' user='Guidus' visible='true' version='2' changeset='45026215' lat='44.9054691' lon='8.2318443' />
+  <node id='3030887491' timestamp='2017-01-09T13:18:56Z' uid='417672' user='Guidus' visible='true' version='2' changeset='45026215' lat='44.9054742' lon='8.2322294' />
+  <node id='3030887521' timestamp='2017-01-09T13:18:56Z' uid='417672' user='Guidus' visible='true' version='2' changeset='45026215' lat='44.9055299' lon='8.2316803' />
+  <node id='3030887525' timestamp='2017-01-09T13:18:56Z' uid='417672' user='Guidus' visible='true' version='2' changeset='45026215' lat='44.9055324' lon='8.2317947' />
+  <node id='3030887530' timestamp='2017-01-09T13:18:56Z' uid='417672' user='Guidus' visible='true' version='2' changeset='45026215' lat='44.9055617' lon='8.2322271' />
+  <node id='3030887734' timestamp='2014-08-20T23:00:49Z' uid='348712' user='lukasbrunner' visible='true' version='1' changeset='24898349' lat='44.9055502' lon='8.233713' />
+  <node id='3030887735' timestamp='2014-08-20T23:00:49Z' uid='348712' user='lukasbrunner' visible='true' version='1' changeset='24898349' lat='44.9055515' lon='8.2338327' />
+  <node id='3083503420' timestamp='2014-09-17T22:07:23Z' uid='893327' user='mcheckimport' visible='true' version='1' changeset='25510459' lat='44.8772852' lon='8.2147106' />
+  <node id='3083503425' timestamp='2014-09-17T22:07:24Z' uid='893327' user='mcheckimport' visible='true' version='1' changeset='25510459' lat='44.8773438' lon='8.214689' />
+  <node id='3085823201' action='modify' visible='true' version='2' lat='44.9048684' lon='8.3634399'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Q8' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Q8' />
+    <tag k='operator' v='Sacchi Seida' />
+    <tag k='ref:mise' v='38874' />
+  </node>
+  <node id='3429328942' timestamp='2015-03-31T20:26:13Z' uid='2783756' user='CatenaDiVoltri' visible='true' version='1' changeset='29890118' lat='44.7207572' lon='8.2921591' />
+  <node id='3429328943' timestamp='2015-03-31T20:26:13Z' uid='2783756' user='CatenaDiVoltri' visible='true' version='1' changeset='29890118' lat='44.720815' lon='8.2921049' />
+  <node id='3429328944' timestamp='2015-03-31T20:26:13Z' uid='2783756' user='CatenaDiVoltri' visible='true' version='1' changeset='29890118' lat='44.7208321' lon='8.2922766' />
+  <node id='3429328945' timestamp='2015-03-31T20:26:13Z' uid='2783756' user='CatenaDiVoltri' visible='true' version='1' changeset='29890118' lat='44.720875' lon='8.2920718' />
+  <node id='3429328946' timestamp='2015-03-31T20:26:13Z' uid='2783756' user='CatenaDiVoltri' visible='true' version='1' changeset='29890118' lat='44.7209199' lon='8.2920658' />
+  <node id='3429328947' timestamp='2015-03-31T20:26:13Z' uid='2783756' user='CatenaDiVoltri' visible='true' version='1' changeset='29890118' lat='44.7209777' lon='8.2920658' />
+  <node id='3429328948' timestamp='2015-03-31T20:26:13Z' uid='2783756' user='CatenaDiVoltri' visible='true' version='1' changeset='29890118' lat='44.7210226' lon='8.2920838' />
+  <node id='3429328949' timestamp='2015-03-31T20:26:13Z' uid='2783756' user='CatenaDiVoltri' visible='true' version='1' changeset='29890118' lat='44.7210997' lon='8.2924212' />
+  <node id='3429328950' timestamp='2015-03-31T20:26:13Z' uid='2783756' user='CatenaDiVoltri' visible='true' version='1' changeset='29890118' lat='44.7211425' lon='8.2919844' />
+  <node id='3429328951' timestamp='2015-03-31T20:26:13Z' uid='2783756' user='CatenaDiVoltri' visible='true' version='1' changeset='29890118' lat='44.7211532' lon='8.2919393' />
+  <node id='3429328952' timestamp='2015-03-31T20:26:13Z' uid='2783756' user='CatenaDiVoltri' visible='true' version='1' changeset='29890118' lat='44.7211853' lon='8.2919122' />
+  <node id='3429328953' timestamp='2015-03-31T20:26:13Z' uid='2783756' user='CatenaDiVoltri' visible='true' version='1' changeset='29890118' lat='44.7212238' lon='8.2918911' />
+  <node id='3429328958' timestamp='2015-03-31T20:26:13Z' uid='2783756' user='CatenaDiVoltri' visible='true' version='1' changeset='29890118' lat='44.721273' lon='8.291873' />
+  <node id='3429328962' timestamp='2015-03-31T20:26:13Z' uid='2783756' user='CatenaDiVoltri' visible='true' version='1' changeset='29890118' lat='44.7212966' lon='8.291864' />
+  <node id='3429328965' timestamp='2015-04-03T12:15:50Z' uid='2783756' user='CatenaDiVoltri' visible='true' version='2' changeset='29950526' lat='44.7213372' lon='8.2928008' />
+  <node id='3429328968' timestamp='2015-04-03T21:15:06Z' uid='2783756' user='CatenaDiVoltri' visible='true' version='3' changeset='29961294' lat='44.7215836' lon='8.2918537' />
+  <node id='3751491292' timestamp='2015-09-20T12:22:39Z' uid='417672' user='Guidus' visible='true' version='1' changeset='34139580' lat='44.9054734' lon='8.212091' />
+  <node id='3751491293' timestamp='2015-09-20T12:22:39Z' uid='417672' user='Guidus' visible='true' version='1' changeset='34139580' lat='44.9053138' lon='8.2122988' />
+  <node id='3751491294' timestamp='2015-09-20T12:22:39Z' uid='417672' user='Guidus' visible='true' version='1' changeset='34139580' lat='44.9053659' lon='8.2123782' />
+  <node id='3751491295' timestamp='2015-09-20T12:22:39Z' uid='417672' user='Guidus' visible='true' version='1' changeset='34139580' lat='44.905523' lon='8.2121622' />
+  <node id='4331512809' action='modify' visible='true' version='2' lat='44.8161192' lon='8.2410499'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Tamoil' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Tamoil' />
+    <tag k='operator' v='T.D.M. S.R.L.' />
+    <tag k='ref:mise' v='37621' />
+  </node>
+  <node id='4370054198' timestamp='2016-08-27T17:20:42Z' uid='417672' user='Guidus' visible='true' version='1' changeset='41740672' lat='44.9409202' lon='7.9206088' />
+  <node id='4370054199' timestamp='2016-08-27T17:20:42Z' uid='417672' user='Guidus' visible='true' version='1' changeset='41740672' lat='44.9410778' lon='7.9205497' />
+  <node id='4370054200' timestamp='2016-08-27T17:20:42Z' uid='417672' user='Guidus' visible='true' version='1' changeset='41740672' lat='44.9415723' lon='7.921404' />
+  <node id='4370054201' timestamp='2016-08-27T17:20:43Z' uid='417672' user='Guidus' visible='true' version='1' changeset='41740672' lat='44.9411053' lon='7.921522' />
+  <node id='4381350564' action='modify' visible='true' version='2' lat='44.7894772' lon='8.2611437'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Q8' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Q8easy' />
+    <tag k='operator' v='Servizi &amp; Gestioni Italia S.R.L.' />
+    <tag k='ref:mise' v='6403' />
+  </node>
+  <node id='4382771976' action='modify' visible='true' version='4' lat='44.8036651' lon='8.2539839'>
+    <tag k='amenity' v='fuel' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:lpg' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Dik Fuel' />
+    <tag k='operator' v='Maschio Renzo' />
+    <tag k='phone' v='+39 0141954720' />
+    <tag k='ref:mise' v='37832' />
+  </node>
+  <node id='4483039888' timestamp='2016-11-04T22:36:28Z' uid='417672' user='Guidus' visible='true' version='1' changeset='43411617' lat='44.8964056' lon='8.1940315' />
+  <node id='4483039989' timestamp='2016-11-04T22:36:28Z' uid='417672' user='Guidus' visible='true' version='1' changeset='43411617' lat='44.8965737' lon='8.1942194' />
+  <node id='4483039990' timestamp='2016-11-04T22:36:28Z' uid='417672' user='Guidus' visible='true' version='1' changeset='43411617' lat='44.8965849' lon='8.1943044' />
+  <node id='4483039991' timestamp='2016-11-04T22:36:28Z' uid='417672' user='Guidus' visible='true' version='1' changeset='43411617' lat='44.8963454' lon='8.194597' />
+  <node id='4483039992' timestamp='2016-11-04T22:36:28Z' uid='417672' user='Guidus' visible='true' version='1' changeset='43411617' lat='44.8962347' lon='8.1946919' />
+  <node id='4483039993' timestamp='2016-11-04T22:36:28Z' uid='417672' user='Guidus' visible='true' version='1' changeset='43411617' lat='44.8961605' lon='8.1944645' />
+  <node id='4483039994' timestamp='2016-11-04T22:36:28Z' uid='417672' user='Guidus' visible='true' version='1' changeset='43411617' lat='44.8961703' lon='8.1944151' />
+  <node id='4502670720' timestamp='2016-11-15T16:53:19Z' uid='2783756' user='CatenaDiVoltri' visible='true' version='1' changeset='43675275' lat='44.6610246' lon='8.3020788' />
+  <node id='4502670721' timestamp='2016-11-15T16:53:19Z' uid='2783756' user='CatenaDiVoltri' visible='true' version='1' changeset='43675275' lat='44.6612173' lon='8.3019635' />
+  <node id='4502670733' timestamp='2016-11-15T16:53:19Z' uid='2783756' user='CatenaDiVoltri' visible='true' version='1' changeset='43675275' lat='44.6608796' lon='8.3024168' />
+  <node id='4502670876' timestamp='2016-11-15T16:53:21Z' uid='2783756' user='CatenaDiVoltri' visible='true' version='1' changeset='43675275' lat='44.660934' lon='8.3026015' />
+  <node id='4504039090' action='modify' visible='true' version='3' lat='44.950712' lon='7.9692191'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Esso' />
+    <tag k='fixme' v='name' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='B+' />
+    <tag k='operator' v='Ruggiero Andrea' />
+    <tag k='ref:mise' v='45087' />
+  </node>
+  <node id='4583933575' timestamp='2017-01-01T15:13:13Z' uid='417672' user='Guidus' visible='true' version='1' changeset='44824362' lat='44.9058796' lon='8.2188019' />
+  <node id='4583933576' timestamp='2017-01-01T15:13:13Z' uid='417672' user='Guidus' visible='true' version='1' changeset='44824362' lat='44.9057726' lon='8.2185136' />
+  <node id='4583933577' timestamp='2017-01-01T15:13:13Z' uid='417672' user='Guidus' visible='true' version='1' changeset='44824362' lat='44.9054822' lon='8.2187451' />
+  <node id='4586939311' timestamp='2017-01-03T12:14:55Z' uid='417672' user='Guidus' visible='true' version='1' changeset='44869690' lat='44.9079226' lon='8.2176151' />
+  <node id='4586939312' timestamp='2017-01-03T12:14:55Z' uid='417672' user='Guidus' visible='true' version='1' changeset='44869690' lat='44.907922' lon='8.2176833' />
+  <node id='4598017193' timestamp='2017-01-09T13:18:53Z' uid='417672' user='Guidus' visible='true' version='1' changeset='45026215' lat='44.9055449' lon='8.2332487' />
+  <node id='4598017194' timestamp='2017-01-09T13:18:53Z' uid='417672' user='Guidus' visible='true' version='1' changeset='45026215' lat='44.9055505' lon='8.2338932' />
+  <node id='4598017195' timestamp='2017-01-09T13:18:53Z' uid='417672' user='Guidus' visible='true' version='1' changeset='45026215' lat='44.9057354' lon='8.2338774' />
+  <node id='4598017230' timestamp='2017-01-09T13:18:53Z' uid='417672' user='Guidus' visible='true' version='1' changeset='45026215' lat='44.9057338' lon='8.2332515' />
+  <node id='4598017231' timestamp='2017-01-09T13:18:53Z' uid='417672' user='Guidus' visible='true' version='1' changeset='45026215' lat='44.90575' lon='8.2338778' />
+  <node id='4598017235' timestamp='2017-01-09T13:18:53Z' uid='417672' user='Guidus' visible='true' version='1' changeset='45026215' lat='44.9055771' lon='8.2317004' />
+  <node id='4598017236' timestamp='2017-01-09T13:18:53Z' uid='417672' user='Guidus' visible='true' version='1' changeset='45026215' lat='44.9056219' lon='8.2317518' />
+  <node id='4598017237' timestamp='2017-01-09T13:18:53Z' uid='417672' user='Guidus' visible='true' version='1' changeset='45026215' lat='44.9056583' lon='8.2318012' />
+  <node id='4598017238' timestamp='2017-01-09T13:18:53Z' uid='417672' user='Guidus' visible='true' version='1' changeset='45026215' lat='44.9056863' lon='8.2318763' />
+  <node id='4598017239' timestamp='2017-01-09T13:18:53Z' uid='417672' user='Guidus' visible='true' version='1' changeset='45026215' lat='44.9057003' lon='8.2319554' />
+  <node id='4598017240' timestamp='2017-01-09T13:18:53Z' uid='417672' user='Guidus' visible='true' version='1' changeset='45026215' lat='44.9057073' lon='8.2322263' />
+  <node id='4598017241' timestamp='2017-01-09T13:18:53Z' uid='417672' user='Guidus' visible='true' version='1' changeset='45026215' lat='44.9054706' lon='8.2317974' />
+  <node id='4618731844' timestamp='2017-01-19T17:26:45Z' uid='417672' user='Guidus' visible='true' version='1' changeset='45303545' lat='44.8774988' lon='8.2146323' />
+  <node id='4618731845' timestamp='2017-01-19T17:26:45Z' uid='417672' user='Guidus' visible='true' version='1' changeset='45303545' lat='44.8772256' lon='8.214403' />
+  <node id='4618731846' timestamp='2017-01-19T17:26:45Z' uid='417672' user='Guidus' visible='true' version='1' changeset='45303545' lat='44.8770897' lon='8.2147252' />
+  <node id='4618731847' timestamp='2017-01-19T17:26:45Z' uid='417672' user='Guidus' visible='true' version='1' changeset='45303545' lat='44.8771486' lon='8.2147648' />
+  <node id='4668243838' timestamp='2017-02-06T13:37:28Z' uid='417672' user='Guidus' visible='true' version='1' changeset='45856388' lat='44.9055291' lon='8.2267938' />
+  <node id='4668243839' timestamp='2017-02-06T13:37:28Z' uid='417672' user='Guidus' visible='true' version='1' changeset='45856388' lat='44.905077' lon='8.2268152' />
+  <node id='4668243840' timestamp='2017-02-06T13:37:28Z' uid='417672' user='Guidus' visible='true' version='1' changeset='45856388' lat='44.9051644' lon='8.2273812' />
+  <node id='4668243841' timestamp='2017-02-06T13:37:28Z' uid='417672' user='Guidus' visible='true' version='1' changeset='45856388' lat='44.9055403' lon='8.2273573' />
+  <node id='4668243844' timestamp='2017-02-06T13:37:28Z' uid='417672' user='Guidus' visible='true' version='1' changeset='45856388' lat='44.9054854' lon='8.227361' />
+  <node id='4668330283' timestamp='2017-02-06T14:24:09Z' uid='417672' user='Guidus' visible='true' version='1' changeset='45857375' lat='44.9065415' lon='8.2149157' />
+  <node id='4668330284' timestamp='2017-02-06T14:24:09Z' uid='417672' user='Guidus' visible='true' version='1' changeset='45857375' lat='44.9068417' lon='8.214825' />
+  <node id='4668330285' timestamp='2017-02-06T14:24:09Z' uid='417672' user='Guidus' visible='true' version='1' changeset='45857375' lat='44.9068836' lon='8.2151266' />
+  <node id='4668330286' timestamp='2017-02-06T14:24:09Z' uid='417672' user='Guidus' visible='true' version='1' changeset='45857375' lat='44.9066644' lon='8.2151897' />
+  <node id='4668330611' timestamp='2017-02-06T14:24:10Z' uid='417672' user='Guidus' visible='true' version='1' changeset='45857375' lat='44.915993' lon='8.2224171' />
+  <node id='4668330612' timestamp='2017-02-06T14:24:10Z' uid='417672' user='Guidus' visible='true' version='1' changeset='45857375' lat='44.9161013' lon='8.222096' />
+  <node id='4668330613' timestamp='2017-02-06T14:24:10Z' uid='417672' user='Guidus' visible='true' version='1' changeset='45857375' lat='44.9157641' lon='8.2218448' />
+  <node id='4668330614' timestamp='2017-02-06T14:24:10Z' uid='417672' user='Guidus' visible='true' version='1' changeset='45857375' lat='44.9154826' lon='8.222037' />
+  <node id='5310471620' action='modify' visible='true' version='2' lat='44.8915609' lon='8.1955778'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Q8' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_100' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Q8' />
+    <tag k='operator' v='Servizi &amp; Gestioni Italia S.R.L.' />
+    <tag k='ref:mise' v='11474' />
+  </node>
+  <node id='5349615788' action='modify' visible='true' version='3' lat='44.9030075' lon='8.2145817'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Agip Eni' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Eni' />
+    <tag k='operator' v='Bochicchio Marco' />
+    <tag k='ref:mise' v='35208' />
+  </node>
+  <node id='5349646515' action='modify' visible='true' version='2' lat='44.9117879' lon='8.2044424'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Q8' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_100' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Q8' />
+    <tag k='operator' v='Servizi &amp; Gestioni Italia S.R.L.' />
+    <tag k='ref:mise' v='11476' />
+  </node>
+  <node id='5353404917' action='modify' visible='true' version='3' lat='44.9066926' lon='8.2513298'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Agip Eni' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:lpg' v='yes' />
+    <tag k='fuel:octane_100' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Eni' />
+    <tag k='operator' v='Montanella &amp; C. S.N.C.di Montanella Luigi &amp; Franca &amp; C.' />
+    <tag k='ref:mise' v='33220' />
+  </node>
+  <node id='5354117287' action='modify' visible='true' version='2' lat='45.0086984' lon='8.1832454'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Q8' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Q8' />
+    <tag k='operator' v='Gavi Service Società in Nome Collettivo di Apruzzese Giuseppe e Ieva Vincenzo' />
+    <tag k='ref:mise' v='44616' />
+  </node>
+  <node id='5387371545' action='modify' visible='true' version='3' lat='44.897249' lon='8.2112036'>
+    <tag k='amenity' v='fuel' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='StarOil' />
+    <tag k='operator' v='Gavi Service Società in Nome Collettivo di Apruzzese Giuseppe e Ieva Vincenzo' />
+    <tag k='ref:mise' v='44615' />
+  </node>
+  <node id='5434287999' action='modify' visible='true' version='2' lat='44.9031884' lon='8.2088791'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Q8' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_100' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Q8' />
+    <tag k='operator' v='Servizi &amp; Gestioni Italia S.R.L.' />
+    <tag k='ref:mise' v='11475' />
+  </node>
+  <node id='5466816801' action='modify' visible='true' version='2' lat='44.9060623' lon='8.2358484'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Q8' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_100' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Q8' />
+    <tag k='operator' v='Servizi &amp; Gestioni Italia S.R.L.' />
+    <tag k='ref:mise' v='11469' />
+  </node>
+  <node id='5778795808' action='modify' visible='true' version='3' lat='44.9073534' lon='8.1984275'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='B+' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='B+' />
+    <tag k='operator' v='Kurtalija Sead' />
+    <tag k='ref:mise' v='43611' />
+  </node>
+  <node id='5790030607' action='modify' visible='true' version='3' lat='44.89155' lon='8.2107952'>
+    <tag k='amenity' v='fuel' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Egea' />
+    <tag k='operator' v='F.lli Amalberto S.N.C. di Amalberto Dario &amp; C. Siglabile F.lli Amalberto S.N.C.' />
+    <tag k='ref:mise' v='32272' />
+  </node>
+  <node id='5790030625' action='modify' visible='true' version='2' lat='44.8899742' lon='8.2111716'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Q8' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_100' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Q8' />
+    <tag k='operator' v='Servizi &amp; Gestioni Italia S.R.L.' />
+    <tag k='ref:mise' v='11472' />
+  </node>
+  <node id='5835999412' action='modify' visible='true' version='2' lat='44.8652185' lon='8.2059888'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Total Erg' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='operator' v='Ip Services S.R.L.' />
+    <tag k='ref:mise' v='39883' />
+  </node>
+  <node id='5835999413' action='modify' visible='true' version='1' lat='44.8652045' lon='8.2051832'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Esso' />
+    <tag k='fixme' v='name' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:lpg' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Beta' />
+    <tag k='operator' v='A.M.P. S.A.S. di Delsanto Paola &amp; Dirasco Michele' />
+    <tag k='ref:mise' v='36693' />
+  </node>
+  <node id='5851830562' action='modify' visible='true' version='2' lat='45.086581' lon='8.0391349'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Tamoil' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Tamoil' />
+    <tag k='operator' v='Perotto Marco' />
+    <tag k='ref:mise' v='44015' />
+  </node>
+  <node id='5851830996' action='modify' visible='true' version='1' lat='45.0147208' lon='7.9358558'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Agip Eni' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_100' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='operator' v='Massimino Gianpiero' />
+    <tag k='ref:mise' v='9447' />
+  </node>
+  <node id='5851831054' action='modify' visible='true' version='1' lat='44.8983558' lon='8.193196'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Tamoil' />
+    <tag k='fixme' v='This object might have been dismantled, please check' />
+    <tag k='operator' v='Sandri Bruno' />
+    <tag k='ref:mise' v='9013' />
+  </node>
+  <node id='5851831418' action='modify' visible='true' version='1' lat='45.0927921' lon='8.0895297'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Tamoil' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='operator' v='Bigoni Marco' />
+    <tag k='ref:mise' v='7206' />
+  </node>
+  <node id='5851831606' action='modify' visible='true' version='2' lat='44.7659657' lon='8.3528736'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Api-Ip' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:lpg' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='fuel:octane_98' v='yes' />
+    <tag k='name' v='IP' />
+    <tag k='operator' v='Palmeri Giuseppe' />
+    <tag k='ref:mise' v='4944' />
+  </node>
+  <node id='5851834078' action='modify' visible='true' version='1' lat='44.8307877' lon='8.0624655'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Api-Ip' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='operator' v='Ip Services S.R.L.' />
+    <tag k='ref:mise' v='38103' />
+  </node>
+  <node id='5851834902' action='modify' visible='true' version='1' lat='44.8274247' lon='8.1905449'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Total Erg' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='operator' v='C.P.P. Compagnia Petrolifera Piemontese - S.R.L.' />
+    <tag k='ref:mise' v='37933' />
+  </node>
+  <node id='5851835240' action='modify' visible='true' version='1' lat='45.0454083' lon='8.2687201'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Agip Eni' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='operator' v='Gestioni Innovative Italia S.R.L.' />
+    <tag k='ref:mise' v='36342' />
+  </node>
+  <node id='5851836033' action='modify' visible='true' version='1' lat='44.7429173' lon='8.3866612'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Api-Ip' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='operator' v='Iacocarburanti di Iacomino Luigi' />
+    <tag k='ref:mise' v='35698' />
+  </node>
+  <node id='5851836034' action='modify' visible='true' version='1' lat='44.7569276' lon='8.2817113'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Api-Ip' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='operator' v='Iacocarburanti di Iacomino Luigi' />
+    <tag k='ref:mise' v='35697' />
+  </node>
+  <node id='5851837109' action='modify' visible='true' version='1' lat='44.7733433' lon='8.4488528'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Ratti' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_100' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='operator' v='So.Ge.Di di Ratti Francesco &amp; C. S.A.S.' />
+    <tag k='ref:mise' v='34019' />
+  </node>
+  <node id='5851837216' action='modify' visible='true' version='1' lat='44.8238918' lon='8.0553429'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Retitalia' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='operator' v='Retitalia S.P.A.' />
+    <tag k='ref:mise' v='33058' />
+  </node>
+  <node id='5851839932' action='modify' visible='true' version='1' lat='44.7200533' lon='8.294663'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Tamoil' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='operator' v='Bolle Blu di Maria Grazia Modeo' />
+    <tag k='ref:mise' v='27245' />
+  </node>
+  <node id='5851840978' action='modify' visible='true' version='1' lat='44.7210961' lon='8.2967377'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Api-Ip' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='operator' v='Pagliarino Massimo' />
+    <tag k='ref:mise' v='26056' />
+  </node>
+  <node id='5851841499' action='modify' visible='true' version='1' lat='44.7613889' lon='8.3523002'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Total Erg' />
+    <tag k='fixme' v='This object might have been dismantled, please check' />
+    <tag k='operator' v='Eridis S.R.L.' />
+    <tag k='ref:mise' v='25805' />
+  </node>
+  <node id='5851842364' action='modify' visible='true' version='1' lat='44.7176169' lon='8.295969'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Esso' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='operator' v='Di Marco Maria' />
+    <tag k='ref:mise' v='22968' />
+  </node>
+  <node id='5851842795' action='modify' visible='true' version='1' lat='44.8366443' lon='8.0678679'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Q8' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='operator' v='Berta Renato' />
+    <tag k='ref:mise' v='22585' />
+  </node>
+  <node id='5851842829' action='modify' visible='true' version='1' lat='44.7952742' lon='8.4389467'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Agip Eni' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='operator' v='Faraci Cataldo' />
+    <tag k='ref:mise' v='22234' />
+  </node>
+  <node id='5851842857' action='modify' visible='true' version='1' lat='44.7598235' lon='8.203541'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Esso' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='operator' v='Terzuolo Vincenza' />
+    <tag k='ref:mise' v='22005' />
+  </node>
+  <node id='5851843391' action='modify' visible='true' version='1' lat='44.8954709' lon='8.1951033'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Agip Eni' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='operator' v='B+b di Bonaldo Giancarlo e C. S.A.S.' />
+    <tag k='ref:mise' v='42458' />
+  </node>
+  <node id='5851843639' action='modify' visible='true' version='1' lat='44.7415058' lon='8.3429615'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Tamoil' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:lpg' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='operator' v='Gavrilova Jovanka' />
+    <tag k='ref:mise' v='17884' />
+  </node>
+  <node id='5851844661' action='modify' visible='true' version='2' lat='44.8230046' lon='8.2935015'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Api-Ip' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='IP' />
+    <tag k='operator' v='Nicola Ugo di Nicola Ugo &amp; C. S.N.C.' />
+    <tag k='ref:mise' v='14847' />
+  </node>
+  <node id='5851844673' action='modify' visible='true' version='1' lat='44.6445365' lon='8.2458025'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Ies' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='operator' v='Nicolotti Franco' />
+    <tag k='ref:mise' v='14776' />
+  </node>
+  <node id='5851844683' action='modify' visible='true' version='1' lat='44.7446013' lon='8.1456891'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Tamoil' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='operator' v='Giordano Silvia' />
+    <tag k='ref:mise' v='14624' />
+  </node>
+  <node id='5851845557' action='modify' visible='true' version='1' lat='44.7204277' lon='8.2952456'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Q8' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='operator' v='Servizi &amp; Gestioni Italia S.R.L.' />
+    <tag k='ref:mise' v='11477' />
+  </node>
+  <node id='5851845608' action='modify' visible='true' version='1' lat='44.7728425' lon='8.3497478'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Api-Ip' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='operator' v='Marasco Giuseppe' />
+    <tag k='ref:mise' v='11123' />
+  </node>
+  <node id='5851845654' action='modify' visible='true' version='1' lat='44.8761061' lon='8.0093242'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Q8' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='operator' v='Cherio Matteo' />
+    <tag k='ref:mise' v='10623' />
+  </node>
+  <node id='5853343164' action='modify' visible='true' version='2' lat='44.8266318' lon='8.2117809'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Dalle petroli' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:lpg' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='operator' v='Dalle S.A.S. di Dalle Alberto e C.' />
+    <tag k='ref:mise' v='39607' />
+  </node>
+  <node id='5853343494' action='modify' visible='true' version='2' lat='44.8886896' lon='8.194508'>
+    <tag k='amenity' v='fuel' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='operator' v='Noienergy S.R.L.' />
+    <tag k='ref:mise' v='36508' />
+  </node>
+  <node id='5853343528' action='modify' visible='true' version='3' lat='44.8228797' lon='8.2848743'>
+    <tag k='amenity' v='fuel' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Esso' />
+    <tag k='operator' v='Furlanetto Gianluca' />
+    <tag k='ref:mise' v='35913' />
+  </node>
+  <node id='5853344415' action='modify' visible='true' version='2' lat='44.8596476' lon='8.3466234'>
+    <tag k='amenity' v='fuel' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='operator' v='Bezzato Guido' />
+    <tag k='ref:mise' v='25414' />
+  </node>
+  <node id='5853344548' action='modify' visible='true' version='2' lat='44.768458' lon='8.2690673'>
+    <tag k='amenity' v='fuel' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:lpg' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='operator' v='Scaglione Marco Gian Piero' />
+    <tag k='ref:mise' v='21022' />
+  </node>
+  <node id='5922457479' action='modify' visible='true' version='1' lat='44.9057002' lon='8.2187323'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Costantin' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Costantin' />
+    <tag k='operator' v='Costantin Distribuzione e Servizi Srl' />
+    <tag k='ref:mise' v='38082' />
+  </node>
+  <node id='5923875285' action='modify' visible='true' version='2' lat='44.975484' lon='8.228334'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Tamoil' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:lpg' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Tamoil' />
+    <tag k='operator' v='Star Service S.R.L.' />
+    <tag k='ref:mise' v='32401' />
+  </node>
+  <node id='5924174117' action='modify' visible='true' version='1' lat='44.952752' lon='8.2230719'>
+    <tag k='amenity' v='fuel' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:lpg' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='B+' />
+    <tag k='operator' v='Lavagnino Luca' />
+    <tag k='ref:mise' v='42927' />
+  </node>
+  <node id='6034280931' timestamp='2018-11-03T16:02:17Z' uid='3756571' user='parvus' visible='true' version='1' changeset='64143849' lat='44.8724396' lon='8.2848827' />
+  <node id='6034280932' timestamp='2018-11-03T16:02:17Z' uid='3756571' user='parvus' visible='true' version='1' changeset='64143849' lat='44.8724251' lon='8.2849149' />
+  <node id='6034280933' timestamp='2018-11-03T16:02:17Z' uid='3756571' user='parvus' visible='true' version='1' changeset='64143849' lat='44.8723625' lon='8.2848589' />
+  <node id='6034280934' timestamp='2018-11-03T16:02:17Z' uid='3756571' user='parvus' visible='true' version='1' changeset='64143849' lat='44.8723769' lon='8.2848267' />
+  <node id='6071867429' timestamp='2018-11-18T23:52:19Z' uid='3756571' user='parvus' visible='true' version='1' changeset='64634333' lat='44.8724261' lon='8.2848706' />
+  <way id='230193837' action='modify' visible='true' version='3'>
+    <nd ref='2387242231' />
+    <nd ref='2387242229' />
+    <nd ref='2387242228' />
+    <nd ref='2387242230' />
+    <nd ref='2387242231' />
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Agip Eni' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_100' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Eni' />
+    <tag k='operator' v='Gambino Luigi' />
+    <tag k='ref:mise' v='14338' />
+    <tag k='shop' v='yes' />
+  </way>
+  <way id='335816293' action='modify' visible='true' version='1'>
+    <nd ref='3429328968' />
+    <nd ref='3429328965' />
+    <nd ref='3429328949' />
+    <nd ref='3429328944' />
+    <nd ref='3429328942' />
+    <nd ref='3429328943' />
+    <nd ref='3429328945' />
+    <nd ref='3429328946' />
+    <nd ref='3429328947' />
+    <nd ref='3429328948' />
+    <nd ref='3429328950' />
+    <nd ref='3429328951' />
+    <nd ref='3429328952' />
+    <nd ref='3429328953' />
+    <nd ref='3429328958' />
+    <nd ref='3429328962' />
+    <nd ref='3429328968' />
+    <tag k='amenity' v='fuel' />
+    <tag k='fixme' v='This object might have been dismantled, please check' />
+    <tag k='name' v='distributore carburanti' />
+  </way>
+  <way id='371585437' action='modify' visible='true' version='2'>
+    <nd ref='3751491292' />
+    <nd ref='3751491293' />
+    <nd ref='3751491294' />
+    <nd ref='3751491295' />
+    <nd ref='3751491292' />
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Q8' />
+    <tag k='building' v='yes' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Q8' />
+    <tag k='operator' v='Servizi &amp; Gestioni Italia Srl' />
+    <tag k='ref:mise' v='6546' />
+  </way>
+  <way id='439390254' action='modify' visible='true' version='2'>
+    <nd ref='4370054198' />
+    <nd ref='4370054199' />
+    <nd ref='4370054200' />
+    <nd ref='4370054201' />
+    <nd ref='4370054198' />
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Tamoil' />
+    <tag k='fixme' v='name' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:lpg' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='TotalErg' />
+    <tag k='operator' v='Sirtam S.P.A.' />
+    <tag k='ref:mise' v='29647' />
+  </way>
+  <way id='451470520' action='modify' visible='true' version='2'>
+    <nd ref='4483039888' />
+    <nd ref='4483039989' />
+    <nd ref='4483039990' />
+    <nd ref='4483039991' />
+    <nd ref='4483039992' />
+    <nd ref='4483039993' />
+    <nd ref='4483039994' />
+    <nd ref='4483039888' />
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Q8' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_100' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Q8' />
+    <tag k='operator' v='Servizi &amp; Gestioni Italia S.R.L.' />
+    <tag k='ref:mise' v='33176' />
+  </way>
+  <way id='453601851' action='modify' visible='true' version='2'>
+    <nd ref='4502670721' />
+    <nd ref='4502670720' />
+    <nd ref='4502670733' />
+    <nd ref='4502670876' />
+    <nd ref='4502670721' />
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Api-Ip' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='distributore carburanti' />
+    <tag k='operator' v='Iacocarburanti di Iacomino Luigi' />
+    <tag k='ref:mise' v='39651' />
+  </way>
+  <way id='463078570' action='modify' visible='true' version='3'>
+    <nd ref='4583933575' />
+    <nd ref='4583933576' />
+    <nd ref='4583933577' />
+    <nd ref='4583933575' />
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Costantin' />
+    <tag k='fixme' v='This object might have been dismantled, please check' />
+    <tag k='operator' v='Costantin Distribuzione e Servizi Srl' />
+    <tag k='ref:mise' v='38082' />
+  </way>
+  <way id='463427380' action='modify' visible='true' version='2'>
+    <nd ref='1489425251' />
+    <nd ref='4586939311' />
+    <nd ref='4586939312' />
+    <nd ref='1489425245' />
+    <nd ref='1489425244' />
+    <nd ref='1489425251' />
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Total Erg' />
+    <tag k='fixme' v='Check name' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='TE 24/24' />
+    <tag k='operator' v='Ip Services S.R.L.' />
+    <tag k='ref:mise' v='10079' />
+  </way>
+  <way id='464718235' action='modify' visible='true' version='2'>
+    <nd ref='4598017230' />
+    <nd ref='4598017193' />
+    <nd ref='3030887734' />
+    <nd ref='3030887735' />
+    <nd ref='4598017194' />
+    <nd ref='4598017195' />
+    <nd ref='4598017231' />
+    <nd ref='4598017230' />
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Q8' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Q8' />
+    <tag k='operator' v='Servizi &amp; Gestioni Italia Srl' />
+    <tag k='ref:mise' v='6401' />
+  </way>
+  <way id='464718237' action='modify' visible='true' version='2'>
+    <nd ref='3030887521' />
+    <nd ref='4598017235' />
+    <nd ref='4598017236' />
+    <nd ref='4598017237' />
+    <nd ref='4598017238' />
+    <nd ref='4598017239' />
+    <nd ref='4598017240' />
+    <nd ref='3030887530' />
+    <nd ref='3030887491' />
+    <nd ref='3030887489' />
+    <nd ref='4598017241' />
+    <nd ref='3030887525' />
+    <nd ref='3030887521' />
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Europam' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='operator' v='Europam S.P.A.' />
+    <tag k='ref:mise' v='41792' />
+  </way>
+  <way id='467226835' action='modify' visible='true' version='2'>
+    <nd ref='4618731844' />
+    <nd ref='4618731845' />
+    <nd ref='4618731846' />
+    <nd ref='4618731847' />
+    <nd ref='3083503420' />
+    <nd ref='3083503425' />
+    <nd ref='4618731844' />
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Agip Eni' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_100' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Eni' />
+    <tag k='operator' v='Gambino Luigi' />
+    <tag k='ref:mise' v='42467' />
+  </way>
+  <way id='472623171' action='modify' visible='true' version='2'>
+    <nd ref='4668243838' />
+    <nd ref='4668243839' />
+    <nd ref='4668243840' />
+    <nd ref='4668243844' />
+    <nd ref='4668243841' />
+    <nd ref='4668243838' />
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Esso' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Esso' />
+    <tag k='operator' v='Ponassi S.N.C. di Ponassi Massimigliano &amp; C.' />
+    <tag k='ref:mise' v='37623' />
+  </way>
+  <way id='472632369' action='modify' visible='true' version='1'>
+    <nd ref='4668330283' />
+    <nd ref='4668330284' />
+    <nd ref='4668330285' />
+    <nd ref='4668330286' />
+    <nd ref='4668330283' />
+    <tag k='amenity' v='fuel' />
+    <tag k='fixme' v='This object might have been dismantled, please check' />
+    <tag k='name' v='Tamoil' />
+  </way>
+  <way id='472632375' action='modify' visible='true' version='2'>
+    <nd ref='4668330611' />
+    <nd ref='4668330612' />
+    <nd ref='4668330613' />
+    <nd ref='4668330614' />
+    <nd ref='4668330611' />
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Tamoil' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:lpg' v='yes' />
+    <tag k='fuel:octane_100' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Tamoil' />
+    <tag k='operator' v='Baldi Alessandro' />
+    <tag k='ref:mise' v='4726' />
+  </way>
+  <way id='640552653' action='modify' visible='true' version='2'>
+    <nd ref='6034280931' />
+    <nd ref='6034280932' />
+    <nd ref='6034280933' />
+    <nd ref='6034280934' />
+    <nd ref='6071867429' />
+    <nd ref='6034280931' />
+    <tag k='amenity' v='fuel' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='operator' v='Sconfienza Roberta Mariangela' />
+    <tag k='ref:mise' v='43082' />
+  </way>
+</osm>

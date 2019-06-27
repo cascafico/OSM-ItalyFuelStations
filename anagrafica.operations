@@ -455,5 +455,31 @@
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression grel:replace(value,\"F.Lli\",\"F.lli\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value,\"F.Lli\",\"F.lli\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression grel:replace(value,\" Srl\",\" S.R.L.\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value,\" Srl\",\" S.R.L.\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
   }
 ]
