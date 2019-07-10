@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm version='0.6' generator='JOSM'>
-  <node id='-105249' visible='true' version='1' lat='45.88928' lon='13.30924'>
+  <node id='-102264' visible='true' version='1' lat='45.88928' lon='13.30924'>
     <tag k='amenity' v='fuel' />
     <tag k='brand' v='Api-Ip' />
     <tag k='fuel:diesel' v='yes' />
@@ -10,9 +10,10 @@
   </node>
   <node id='218404254' action='modify' visible='true' version='8' lat='46.0341325' lon='13.2665359'>
     <tag k='amenity' v='fuel' />
+    <tag k='fixme' v='name' />
     <tag k='fuel:cng' v='yes' />
     <tag k='name' v='Metano' />
-    <tag k='operator' v='Italmetano Srl' />
+    <tag k='operator' v='Italmetano S.R.L.' />
     <tag k='ref:mise' v='45161' />
   </node>
   <node id='226931300' action='modify' visible='true' version='6' lat='46.06455' lon='13.211961'>
@@ -154,6 +155,17 @@
     <tag k='operator' v='Esposito Luigi' />
     <tag k='ref:mise' v='44585' />
   </node>
+  <node id='227985730' action='modify' visible='true' version='7' lat='45.683512' lon='13.119543'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Total Erg' />
+    <tag k='brand:wikidata' v='Q154037' />
+    <tag k='brand:wikipedia' v='fr:Total (entreprise)' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='IP' />
+    <tag k='operator' v='Zamarian Mario S.A.S. di Zamarian Mario &amp; C.' />
+    <tag k='ref:mise' v='41120' />
+  </node>
   <node id='228060266' visible='true' version='5' lat='46.016304' lon='13.147934'>
     <tag k='amenity' v='fuel' />
     <tag k='brand' v='Total' />
@@ -169,16 +181,6 @@
     <tag k='name' v='Esso' />
     <tag k='operator' v='Geff S.R.L.' />
     <tag k='ref:mise' v='44979' />
-  </node>
-  <node id='228171660' action='modify' visible='true' version='7' lat='45.8114' lon='13.00528'>
-    <tag k='amenity' v='fuel' />
-    <tag k='brand' v='Api-Ip' />
-    <tag k='fuel:diesel' v='yes' />
-    <tag k='fuel:lpg' v='yes' />
-    <tag k='fuel:octane_95' v='yes' />
-    <tag k='name' v='IP' />
-    <tag k='operator' v='De Paoli Silvio &amp; C. S.N.C.' />
-    <tag k='ref:mise' v='27995' />
   </node>
   <node id='228275251' visible='true' version='5' lat='46.402592' lon='12.826324'>
     <tag k='amenity' v='fuel' />
@@ -210,6 +212,16 @@
     <tag k='fixme' v='This object might have been dismantled, please check' />
     <tag k='name' v='IP' />
     <tag k='operator' v='IP' />
+  </node>
+  <node id='228302439' action='modify' visible='true' version='6' lat='46.0248' lon='13.168573'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Agip Eni' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_100' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Agip' />
+    <tag k='operator' v='F.lli Rinaldi S.N.C. di Matteo e Paolo Rinaldi' />
+    <tag k='ref:mise' v='5633' />
   </node>
   <node id='228302612' action='modify' visible='true' version='5' lat='46.035519' lon='13.152673'>
     <tag k='amenity' v='fuel' />
@@ -279,16 +291,6 @@
     <tag k='name' v='Total' />
     <tag k='operator' v='Total' />
   </node>
-  <node id='228311787' action='modify' visible='true' version='6' lat='46.083873' lon='13.180751'>
-    <tag k='amenity' v='fuel' />
-    <tag k='brand' v='Agip Eni' />
-    <tag k='fixme' v='This object might have been dismantled, please check' />
-    <tag k='fuel:diesel' v='yes' />
-    <tag k='fuel:octane_95' v='yes' />
-    <tag k='name' v='Agip' />
-    <tag k='operator' v='Iper Montebello S.p.A.' />
-    <tag k='ref:mise' v='42442' />
-  </node>
   <node id='228311996' action='modify' visible='true' version='6' lat='46.082526' lon='13.173755'>
     <tag k='amenity' v='fuel' />
     <tag k='brand' v='Api-Ip' />
@@ -321,14 +323,13 @@
     <tag k='name' v='Agip' />
     <tag k='operator' v='Agip' />
   </node>
-  <node id='228314103' visible='true' version='7' lat='45.947611' lon='13.1786989'>
+  <node id='228314103' action='delete' visible='true' version='7' lat='45.947611' lon='13.1786989'>
     <tag k='amenity' v='fuel' />
     <tag k='brand' v='Esso' />
-    <tag k='fixme' v='This object might have been dismantled, please check' />
     <tag k='name' v='Esso' />
     <tag k='operator' v='Esso' />
   </node>
-  <node id='228314315' visible='true' version='5' lat='45.948852' lon='13.18'>
+  <node id='228314315' action='delete' visible='true' version='5' lat='45.948852' lon='13.18'>
     <tag k='amenity' v='fuel' />
     <tag k='brand' v='Q8' />
     <tag k='fixme' v='This object might have been dismantled, please check' />
@@ -352,12 +353,21 @@
     <tag k='name' v='IP' />
     <tag k='operator' v='IP' />
   </node>
-  <node id='228316104' visible='true' version='6' lat='46.5280265' lon='13.0149382'>
+  <node id='228316104' action='delete' visible='true' version='6' lat='46.5280265' lon='13.0149382'>
     <tag k='amenity' v='fuel' />
     <tag k='brand' v='IP' />
     <tag k='fixme' v='This object might have been dismantled, please check' />
     <tag k='name' v='IP' />
     <tag k='operator' v='IP' />
+  </node>
+  <node id='228318282' action='modify' visible='true' version='7' lat='46.033135' lon='13.301718'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Agip Eni' />
+    <tag k='fixme' v='This object might have been dismantled, please check' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='operator' v='Policella Daniele' />
+    <tag k='ref:mise' v='30322' />
   </node>
   <node id='228318707' action='modify' visible='true' version='6' lat='46.058596' lon='13.382914'>
     <tag k='amenity' v='fuel' />
@@ -453,11 +463,14 @@
     <tag k='operator' v='Chand Lal' />
     <tag k='ref:mise' v='41516' />
   </node>
-  <node id='1166466373' timestamp='2016-10-08T11:28:32Z' uid='3821761' user='Gabriele Dri' visible='true' version='2' changeset='42731087' lat='46.0837102' lon='13.1814383' />
-  <node id='1166466691' timestamp='2016-10-08T11:28:32Z' uid='3821761' user='Gabriele Dri' visible='true' version='2' changeset='42731087' lat='46.0838654' lon='13.1813212' />
-  <node id='1166466943' timestamp='2011-02-22T14:34:30Z' uid='75848' user='Luca Dorigo' visible='true' version='1' changeset='7363950' lat='46.0836896' lon='13.1803391' />
-  <node id='1166467000' timestamp='2011-02-22T14:34:32Z' uid='75848' user='Luca Dorigo' visible='true' version='1' changeset='7363950' lat='46.083921' lon='13.1812829' />
-  <node id='1166467161' timestamp='2011-02-22T14:34:43Z' uid='75848' user='Luca Dorigo' visible='true' version='1' changeset='7363950' lat='46.0839351' lon='13.180335' />
+  <node id='661026169' action='modify' visible='true' version='5' lat='45.6997821' lon='13.1443096'>
+    <tag k='amenity' v='fuel' />
+    <tag k='fixme' v='This object might have been dismantled, please check' />
+    <tag k='name' v='Api - nautico' />
+    <tag k='phone' v='+39 0431 73355' />
+    <tag k='seamark:small_craft_facility:category' v='fuel_station' />
+    <tag k='seamark:type' v='small_craft_facility' />
+  </node>
   <node id='1755943077' action='modify' visible='true' version='3' lat='45.9770955' lon='13.1983666'>
     <tag k='amenity' v='fuel' />
     <tag k='brand' v='Total Erg' />
@@ -497,6 +510,7 @@
   <node id='2308268394' action='modify' visible='true' version='3' lat='46.144119' lon='12.978823'>
     <tag k='amenity' v='fuel' />
     <tag k='brand' v='Esso' />
+    <tag k='fixme' v='ok' />
     <tag k='fuel:diesel' v='yes' />
     <tag k='fuel:octane_95' v='yes' />
     <tag k='name' v='Fly' />
@@ -516,12 +530,11 @@
   <node id='3042426133' action='modify' visible='true' version='3' lat='46.0160541' lon='13.2573201'>
     <tag k='amenity' v='fuel' />
     <tag k='brand' v='Repsol' />
-    <tag k='fixme' v='This object might have been dismantled, please check' />
     <tag k='fuel:diesel' v='yes' />
     <tag k='fuel:octane_95' v='yes' />
     <tag k='name' v='Repsol' />
-    <tag k='operator' v='Ilariucci Andrea' />
-    <tag k='ref:mise' v='22954' />
+    <tag k='operator' v='Auto Metano Udine di Rosso Cristian &amp; C. Sas' />
+    <tag k='ref:mise' v='45667' />
   </node>
   <node id='3044325627' action='modify' visible='true' version='5' lat='45.9357748' lon='13.1754332'>
     <tag k='amenity' v='fuel' />
@@ -535,6 +548,7 @@
   <node id='3067703462' action='modify' visible='true' version='5' lat='45.7596607' lon='13.0300079'>
     <tag k='amenity' v='fuel' />
     <tag k='brand' v='San Marco Petroli' />
+    <tag k='fixme' v='name' />
     <tag k='fuel:diesel' v='yes' />
     <tag k='fuel:lpg' v='yes' />
     <tag k='fuel:octane_101' v='yes' />
@@ -547,21 +561,15 @@
   <node id='3803601780' timestamp='2015-10-26T14:26:08Z' uid='1345232' user='paolozamp' visible='true' version='1' changeset='34883165' lat='46.0711164' lon='13.2276524' />
   <node id='3803601781' timestamp='2015-10-26T14:26:08Z' uid='1345232' user='paolozamp' visible='true' version='1' changeset='34883165' lat='46.0710527' lon='13.2277409' />
   <node id='3803601782' timestamp='2015-10-26T14:26:08Z' uid='1345232' user='paolozamp' visible='true' version='1' changeset='34883165' lat='46.071157' lon='13.227897' />
-  <node id='3824587890' timestamp='2015-11-08T14:44:44Z' uid='1345232' user='paolozamp' visible='true' version='1' changeset='35170686' lat='46.0594071' lon='13.2199998' />
-  <node id='3824587891' timestamp='2015-11-08T14:44:44Z' uid='1345232' user='paolozamp' visible='true' version='1' changeset='35170686' lat='46.059471' lon='13.2199467' />
-  <node id='3824587892' timestamp='2015-11-08T14:44:44Z' uid='1345232' user='paolozamp' visible='true' version='1' changeset='35170686' lat='46.0595471' lon='13.2201414' />
-  <node id='3824587893' timestamp='2015-11-08T14:44:44Z' uid='1345232' user='paolozamp' visible='true' version='1' changeset='35170686' lat='46.0594342' lon='13.2202405' />
-  <node id='3824587894' timestamp='2015-11-08T14:44:44Z' uid='1345232' user='paolozamp' visible='true' version='1' changeset='35170686' lat='46.0594022' lon='13.2201555' />
-  <node id='3824587895' timestamp='2015-11-08T14:44:44Z' uid='1345232' user='paolozamp' visible='true' version='1' changeset='35170686' lat='46.0594514' lon='13.220113' />
+  <node id='3813835757' timestamp='2015-11-02T13:47:20Z' uid='1345232' user='paolozamp' visible='true' version='1' changeset='35034782' lat='46.0907032' lon='13.2145365' />
+  <node id='3813835758' timestamp='2015-11-02T13:47:20Z' uid='1345232' user='paolozamp' visible='true' version='1' changeset='35034782' lat='46.0905291' lon='13.2145551' />
+  <node id='3813835759' timestamp='2015-11-02T13:47:20Z' uid='1345232' user='paolozamp' visible='true' version='1' changeset='35034782' lat='46.0905199' lon='13.2143783' />
+  <node id='3813835760' timestamp='2015-11-02T13:47:20Z' uid='1345232' user='paolozamp' visible='true' version='1' changeset='35034782' lat='46.0906941' lon='13.2143596' />
   <node id='3856472178' timestamp='2015-11-24T12:57:35Z' uid='1345232' user='paolozamp' visible='true' version='1' changeset='35549875' lat='46.1535073' lon='13.2186233' />
   <node id='3856472179' timestamp='2015-11-24T12:57:35Z' uid='1345232' user='paolozamp' visible='true' version='1' changeset='35549875' lat='46.1536172' lon='13.2188469' />
   <node id='3866676275' timestamp='2016-12-22T10:53:13Z' uid='3821761' user='Gabriele Dri' visible='true' version='2' changeset='44587917' lat='46.0545192' lon='13.2313313' />
   <node id='3866676276' timestamp='2018-01-24T17:26:23Z' uid='3821761' user='Gabriele Dri' visible='true' version='3' changeset='55718763' lat='46.0545101' lon='13.2316117' />
   <node id='3866676279' timestamp='2019-04-12T21:34:46Z' uid='3821761' user='Gabriele Dri' visible='true' version='4' changeset='69164343' lat='46.0544929' lon='13.2311299' />
-  <node id='4437556373' timestamp='2016-10-08T11:28:30Z' uid='3821761' user='Gabriele Dri' visible='true' version='1' changeset='42731087' lat='46.0837061' lon='13.1817487' />
-  <node id='4437556374' timestamp='2016-10-08T11:28:30Z' uid='3821761' user='Gabriele Dri' visible='true' version='1' changeset='42731087' lat='46.0837253' lon='13.1813455' />
-  <node id='4437556375' timestamp='2016-10-08T11:28:30Z' uid='3821761' user='Gabriele Dri' visible='true' version='1' changeset='42731087' lat='46.083777' lon='13.1813212' />
-  <node id='4437556376' timestamp='2016-10-08T11:28:30Z' uid='3821761' user='Gabriele Dri' visible='true' version='1' changeset='42731087' lat='46.0837131' lon='13.1813934' />
   <node id='4566695421' timestamp='2016-12-22T10:53:12Z' uid='3821761' user='Gabriele Dri' visible='true' version='1' changeset='44587917' lat='46.0544843' lon='13.2313271' />
   <node id='4692015479' timestamp='2017-02-18T11:47:44Z' uid='3821761' user='Gabriele Dri' visible='true' version='1' changeset='46190491' lat='46.0558075' lon='13.2011748' />
   <node id='4692015480' timestamp='2017-02-18T11:47:44Z' uid='3821761' user='Gabriele Dri' visible='true' version='1' changeset='46190491' lat='46.0558822' lon='13.2011191' />
@@ -587,6 +595,18 @@
   <node id='5359308045' timestamp='2018-01-24T17:26:21Z' uid='3821761' user='Gabriele Dri' visible='true' version='1' changeset='55718763' lat='46.0547221' lon='13.2311447' />
   <node id='5359308046' timestamp='2018-01-24T17:26:21Z' uid='3821761' user='Gabriele Dri' visible='true' version='1' changeset='55718763' lat='46.054513' lon='13.2315209' />
   <node id='5359308047' timestamp='2018-01-24T17:26:22Z' uid='3821761' user='Gabriele Dri' visible='true' version='1' changeset='55718763' lat='46.0547271' lon='13.2310204' />
+  <node id='5359308059' timestamp='2018-01-24T17:26:22Z' uid='3821761' user='Gabriele Dri' visible='true' version='1' changeset='55718763' lat='46.0568792' lon='13.2286075' />
+  <node id='5359308060' timestamp='2018-01-24T17:26:22Z' uid='3821761' user='Gabriele Dri' visible='true' version='1' changeset='55718763' lat='46.0567998' lon='13.2286188' />
+  <node id='5359308061' timestamp='2018-01-24T17:26:22Z' uid='3821761' user='Gabriele Dri' visible='true' version='1' changeset='55718763' lat='46.0566937' lon='13.2288267' />
+  <node id='5359308062' timestamp='2018-01-24T17:26:22Z' uid='3821761' user='Gabriele Dri' visible='true' version='1' changeset='55718763' lat='46.0564887' lon='13.2286944' />
+  <node id='5359308063' timestamp='2018-01-24T17:26:22Z' uid='3821761' user='Gabriele Dri' visible='true' version='1' changeset='55718763' lat='46.0563851' lon='13.2291026' />
+  <node id='5359308064' timestamp='2018-01-24T17:26:22Z' uid='3821761' user='Gabriele Dri' visible='true' version='1' changeset='55718763' lat='46.0565786' lon='13.2290948' />
+  <node id='5359308065' timestamp='2018-01-24T17:26:22Z' uid='3821761' user='Gabriele Dri' visible='true' version='1' changeset='55718763' lat='46.0568439' lon='13.2290431' />
+  <node id='5359308066' timestamp='2018-01-24T17:26:22Z' uid='3821761' user='Gabriele Dri' visible='true' version='1' changeset='55718763' lat='46.0569185' lon='13.2290262' />
+  <node id='5359308067' timestamp='2018-01-24T17:26:22Z' uid='3821761' user='Gabriele Dri' visible='true' version='1' changeset='55718763' lat='46.0563799' lon='13.2290557' />
+  <node id='5359308068' timestamp='2018-01-24T17:26:22Z' uid='3821761' user='Gabriele Dri' visible='true' version='1' changeset='55718763' lat='46.0564131' lon='13.2291215' />
+  <node id='5359308069' timestamp='2018-01-24T17:26:22Z' uid='3821761' user='Gabriele Dri' visible='true' version='1' changeset='55718763' lat='46.0563785' lon='13.229081' />
+  <node id='5359308070' timestamp='2018-01-24T17:26:22Z' uid='3821761' user='Gabriele Dri' visible='true' version='1' changeset='55718763' lat='46.0563942' lon='13.2291149' />
   <node id='5396033714' timestamp='2018-02-07T15:53:59Z' uid='1345232' user='paolozamp' visible='true' version='1' changeset='56153277' lat='46.083075' lon='13.1783018' />
   <node id='5396033715' timestamp='2018-02-07T15:53:59Z' uid='1345232' user='paolozamp' visible='true' version='1' changeset='56153277' lat='46.0822217' lon='13.178425' />
   <node id='5396033716' timestamp='2018-02-07T15:53:59Z' uid='1345232' user='paolozamp' visible='true' version='1' changeset='56153277' lat='46.0822614' lon='13.1789962' />
@@ -601,7 +621,7 @@
     <tag k='operator' v='Degano Luca' />
     <tag k='ref:mise' v='24586' />
   </node>
-  <node id='5401628126' action='modify' visible='true' version='4' lat='45.88934260538' lon='13.03544398037'>
+  <node id='5401628126' action='modify' visible='true' version='4' lat='45.8893447' lon='13.0354439'>
     <tag k='amenity' v='fuel' />
     <tag k='brand' v='Api-Ip' />
     <tag k='fuel:diesel' v='yes' />
@@ -610,16 +630,6 @@
     <tag k='operator' v='Degano Cesare' />
     <tag k='ref:mise' v='27651' />
   </node>
-  <node id='5443317497' timestamp='2018-02-28T17:08:50Z' uid='3821761' user='Gabriele Dri' visible='true' version='1' changeset='56761935' lat='46.0838941' lon='13.1813014' />
-  <node id='5443317499' timestamp='2018-02-28T17:08:50Z' uid='3821761' user='Gabriele Dri' visible='true' version='1' changeset='56761935' lat='46.0835329' lon='13.1803364' />
-  <node id='5443317500' timestamp='2018-02-28T17:08:50Z' uid='3821761' user='Gabriele Dri' visible='true' version='1' changeset='56761935' lat='46.0835329' lon='13.1804547' />
-  <node id='5443317501' timestamp='2018-02-28T17:08:50Z' uid='3821761' user='Gabriele Dri' visible='true' version='1' changeset='56761935' lat='46.0835366' lon='13.1806069' />
-  <node id='5443317502' timestamp='2018-02-28T17:08:50Z' uid='3821761' user='Gabriele Dri' visible='true' version='1' changeset='56761935' lat='46.0835427' lon='13.1807502' />
-  <node id='5443317503' timestamp='2018-02-28T17:08:50Z' uid='3821761' user='Gabriele Dri' visible='true' version='1' changeset='56761935' lat='46.083555' lon='13.180913' />
-  <node id='5443317504' timestamp='2018-02-28T17:08:50Z' uid='3821761' user='Gabriele Dri' visible='true' version='1' changeset='56761935' lat='46.0835709' lon='13.1810953' />
-  <node id='5443317505' timestamp='2018-02-28T17:08:50Z' uid='3821761' user='Gabriele Dri' visible='true' version='1' changeset='56761935' lat='46.0835992' lon='13.1813094' />
-  <node id='5443317506' timestamp='2018-02-28T17:08:50Z' uid='3821761' user='Gabriele Dri' visible='true' version='1' changeset='56761935' lat='46.0836325' lon='13.1814911' />
-  <node id='5443317507' timestamp='2018-02-28T17:08:50Z' uid='3821761' user='Gabriele Dri' visible='true' version='1' changeset='56761935' lat='46.0836609' lon='13.1816074' />
   <node id='5851837508' action='modify' visible='true' version='2' lat='46.165686' lon='13.2092794'>
     <tag k='amenity' v='fuel' />
     <tag k='brand' v='Api-Ip' />
@@ -638,7 +648,7 @@
     <tag k='operator' v='Gariup Emanuela' />
     <tag k='ref:mise' v='14073' />
   </node>
-  <way id='36132884' action='modify' visible='true' version='5'>
+  <way id='36132884' visible='true' version='5'>
     <nd ref='421951494' />
     <nd ref='4692015480' />
     <nd ref='421951495' />
@@ -649,6 +659,7 @@
     <tag k='amenity' v='fuel' />
     <tag k='brand' v='Agip Eni' />
     <tag k='building' v='yes' />
+    <tag k='fixme' v='This object might have been dismantled, please check' />
     <tag k='height' v='4 m' />
     <tag k='it:fvg:ctrn:code' v='4AED' />
     <tag k='it:fvg:ctrn:revision' v='1AN' />
@@ -699,6 +710,7 @@
     <tag k='name' v='Agip' />
     <tag k='operator' v='4R di Quattrer Robert' />
     <tag k='ref:mise' v='25602' />
+    <tag k='source:date' v='2018-04-16' />
   </way>
   <way id='231899871' action='modify' visible='true' version='3'>
     <nd ref='2402250533' />
@@ -714,8 +726,9 @@
     <tag k='fuel:octane_95' v='yes' />
     <tag k='operator' v='Geff S.R.L.' />
     <tag k='ref:mise' v='45246' />
+    <tag k='source:date' v='2018-04-16' />
   </way>
-  <way id='376989588' action='modify' visible='true' version='3'>
+  <way id='376989588' visible='true' version='3'>
     <nd ref='3803601779' />
     <nd ref='3803601780' />
     <nd ref='3803601781' />
@@ -727,25 +740,24 @@
     <tag k='fixme' v='This object might have been dismantled, please check' />
     <tag k='operator' v='Polli Valter' />
     <tag k='ref:mise' v='9866' />
+    <tag k='source:date' v='2018-04-16' />
   </way>
-  <way id='379089730' action='modify' visible='true' version='5'>
-    <nd ref='3824587890' />
-    <nd ref='3824587891' />
-    <nd ref='3824587892' />
-    <nd ref='3824587893' />
-    <nd ref='3824587894' />
-    <nd ref='3824587895' />
-    <nd ref='3824587890' />
+  <way id='377975224' action='modify' visible='true' version='4'>
+    <nd ref='3813835757' />
+    <nd ref='3813835758' />
+    <nd ref='3813835759' />
+    <nd ref='3813835760' />
+    <nd ref='3813835757' />
     <tag k='amenity' v='fuel' />
-    <tag k='brand' v='Q8' />
+    <tag k='brand' v='Agip Eni' />
     <tag k='building' v='yes' />
     <tag k='fixme' v='This object might have been dismantled, please check' />
     <tag k='fuel:diesel' v='yes' />
     <tag k='fuel:lpg' v='yes' />
+    <tag k='fuel:octane_100' v='yes' />
     <tag k='fuel:octane_95' v='yes' />
-    <tag k='name' v='Q8' />
-    <tag k='operator' v='Sclippa Lino' />
-    <tag k='ref:mise' v='6856' />
+    <tag k='operator' v='Mauro Andrea e Zuttion Catia S.N.C.' />
+    <tag k='ref:mise' v='19841' />
   </way>
   <way id='543992558' visible='true' version='2'>
     <nd ref='5258563562' />
@@ -778,6 +790,30 @@
     <tag k='fuel:octane_95' v='yes' />
     <tag k='operator' v='Servizio Erg di Marcovig Franco' />
     <tag k='ref:mise' v='16229' />
+    <tag k='source:date' v='2018-04-16' />
+  </way>
+  <way id='555487025' action='modify' visible='true' version='3'>
+    <nd ref='5359308059' />
+    <nd ref='5359308060' />
+    <nd ref='5359308061' />
+    <nd ref='5359308062' />
+    <nd ref='5359308067' />
+    <nd ref='5359308069' />
+    <nd ref='5359308063' />
+    <nd ref='5359308070' />
+    <nd ref='5359308068' />
+    <nd ref='5359308064' />
+    <nd ref='5359308065' />
+    <nd ref='5359308066' />
+    <nd ref='5359308059' />
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Agip Eni' />
+    <tag k='fixme' v='This object might have been dismantled, please check' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='Agip' />
+    <tag k='operator' v='Poci Hekuran' />
+    <tag k='ref:mise' v='38811' />
   </way>
   <way id='559474423' action='modify' visible='true' version='2'>
     <nd ref='5396033714' />
@@ -792,35 +828,5 @@
     <tag k='name' v='IPER' />
     <tag k='operator' v='S C S Group di Facca Antonio e C. Snc' />
     <tag k='ref:mise' v='44237' />
-  </way>
-  <way id='565103815' action='modify' visible='true' version='2'>
-    <nd ref='5443317499' />
-    <nd ref='5443317500' />
-    <nd ref='5443317501' />
-    <nd ref='5443317502' />
-    <nd ref='5443317503' />
-    <nd ref='5443317504' />
-    <nd ref='5443317505' />
-    <nd ref='5443317506' />
-    <nd ref='5443317507' />
-    <nd ref='4437556373' />
-    <nd ref='1166466373' />
-    <nd ref='4437556376' />
-    <nd ref='4437556374' />
-    <nd ref='4437556375' />
-    <nd ref='1166466691' />
-    <nd ref='5443317497' />
-    <nd ref='1166467000' />
-    <nd ref='1166467161' />
-    <nd ref='1166466943' />
-    <nd ref='5443317499' />
-    <tag k='amenity' v='fuel' />
-    <tag k='brand' v='Agip Eni' />
-    <tag k='fixme' v='This object might have been dismantled, please check' />
-    <tag k='fuel:diesel' v='yes' />
-    <tag k='fuel:octane_100' v='yes' />
-    <tag k='fuel:octane_95' v='yes' />
-    <tag k='operator' v='Emmevu di Pierro Vincenzo' />
-    <tag k='ref:mise' v='28686' />
   </way>
 </osm>

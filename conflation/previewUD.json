@@ -30,35 +30,6 @@
   {
    "geometry": {
     "coordinates": [
-     12.9684758,
-     45.9668497
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#0000ee",
-    "osm_id": 5851837912,
-    "osm_type": "node",
-    "ref_coords": [
-     12.96848,
-     45.96685
-    ],
-    "ref_distance": 0.3,
-    "ref_id": "29740",
-    "tags.amenity": "fuel",
-    "tags.brand": "BIG",
-    "tags.fuel:diesel": "yes",
-    "tags.fuel:lpg": "yes",
-    "tags.fuel:octane_95": "yes",
-    "tags.ref:mise": "29740",
-    "tags_changed.operator": "Big S.R.L. -> Big Srl"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
      13.3234364,
      45.9746479
     ],
@@ -112,36 +83,6 @@
     "tags.operator": "S.I.A. Engineering Construction S.R.L.",
     "tags.ref:mise": "33926",
     "tags_changed.brand": "Sia Fuel -> Sia fuel"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     13.0437591,
-     46.1791827
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#0000ee",
-    "osm_id": 219119897,
-    "osm_type": "way",
-    "ref_coords": [
-     13.04376,
-     46.17919
-    ],
-    "ref_distance": 0.8,
-    "ref_id": "15693",
-    "tags.amenity": "fuel",
-    "tags.brand": "Pompe Bianche",
-    "tags.building": "yes",
-    "tags.fuel:diesel": "yes",
-    "tags.fuel:octane_95": "yes",
-    "tags.ref:mise": "15693",
-    "tags.source:date": "2018-04-16",
-    "tags_changed.operator": "Venier S.N.C. di Venier Sonia & C. -> Venier S.N.C.di Venier Sonia & C."
    },
    "type": "Feature"
   },
@@ -240,6 +181,35 @@
   {
    "geometry": {
     "coordinates": [
+     13.2573201,
+     46.0160541
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 3042426133,
+    "osm_type": "node",
+    "ref_coords": [
+     13.25732,
+     46.01603
+    ],
+    "ref_distance": 2.7,
+    "ref_id": "45667",
+    "tags.amenity": "fuel",
+    "tags.brand": "Repsol",
+    "tags.fuel:diesel": "yes",
+    "tags.fuel:octane_95": "yes",
+    "tags.name": "Repsol",
+    "tags_changed.operator": "Ilariucci Andrea -> Auto Metano Udine di Rosso Cristian & C. Sas",
+    "tags_changed.ref:mise": "22954 -> 45667"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
      13.2375917,
      46.0755463
     ],
@@ -263,65 +233,6 @@
     "tags.name": "Esso",
     "tags_changed.operator": "Esso Multiservice di Simonin Andrea -> Geff S.R.L.",
     "tags_changed.ref:mise": "33088 -> 44979"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     13.308595,
-     45.883645
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#0000ee",
-    "osm_id": 228301511,
-    "osm_type": "node",
-    "ref_coords": [
-     13.30861,
-     45.88367
-    ],
-    "ref_distance": 3.0,
-    "ref_id": "43179",
-    "tags.amenity": "fuel",
-    "tags.brand": "Esso",
-    "tags.fuel:diesel": "yes",
-    "tags.fuel:octane_95": "yes",
-    "tags.name": "Esso",
-    "tags.ref:mise": "43179",
-    "tags_changed.operator": "A.T.G. S.A.S. di Marinig Andrea & C. -> A.T.G. S.A.S.di Marinig Andrea & C."
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     12.928011,
-     46.415538
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#0000ee",
-    "osm_id": 228275446,
-    "osm_type": "node",
-    "ref_coords": [
-     12.92797,
-     46.41555
-    ],
-    "ref_distance": 3.4,
-    "ref_id": "4595",
-    "tags.amenity": "fuel",
-    "tags.brand": "Agip Eni",
-    "tags.fuel:diesel": "yes",
-    "tags.fuel:octane_100": "yes",
-    "tags.fuel:octane_95": "yes",
-    "tags.name": "Agip",
-    "tags.ref:mise": "4595",
-    "tags_changed.operator": "Gesticarb S.N.C. di Lucchini Gian Pietro e Luca Sonia -> Gesticarb S.N.C.di Lucchini Gian Pietro e Luca Sonia"
    },
    "type": "Feature"
   },
@@ -484,64 +395,6 @@
   {
    "geometry": {
     "coordinates": [
-     12.964468,
-     45.965246
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#0000ee",
-    "osm_id": 228304078,
-    "osm_type": "node",
-    "ref_coords": [
-     12.96443,
-     45.96527
-    ],
-    "ref_distance": 4.0,
-    "ref_id": "9575",
-    "tags.amenity": "fuel",
-    "tags.brand": "Tamoil",
-    "tags.fuel:diesel": "yes",
-    "tags.fuel:octane_95": "yes",
-    "tags.name": "Tamoil",
-    "tags.ref:mise": "9575",
-    "tags_changed.operator": "Tigi S.A.S. di Tribos Giovanni & C. -> Tigi S.A.S.di Tribos Giovanni & C."
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     13.1354547,
-     46.3629018
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#0000ee",
-    "osm_id": 1995519428,
-    "osm_type": "node",
-    "ref_coords": [
-     13.13542,
-     46.36293
-    ],
-    "ref_distance": 4.1,
-    "ref_id": "26568",
-    "tags.amenity": "fuel",
-    "tags.brand": "Oil Italia",
-    "tags.fuel:diesel": "yes",
-    "tags.fuel:octane_95": "yes",
-    "tags.name": "Oil Italia",
-    "tags.ref:mise": "26568",
-    "tags_changed.operator": "Oil Italia S.R.L. -> Oil Italia Srl"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
      13.1974741,
      46.0970422
     ],
@@ -602,6 +455,39 @@
   {
    "geometry": {
     "coordinates": [
+     13.2478226,
+     46.0505803
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 36127643,
+    "osm_type": "way",
+    "ref_coords": [
+     13.24787,
+     46.05061
+    ],
+    "ref_distance": 4.9,
+    "ref_id": "43098",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip Eni",
+    "tags.building": "yes",
+    "tags.fuel:diesel": "yes",
+    "tags.fuel:octane_95": "yes",
+    "tags.height": "3 m",
+    "tags.it:fvg:ctrn:code": "4AED",
+    "tags.it:fvg:ctrn:revision": "1A0",
+    "tags.ref:mise": "43098",
+    "tags.source:date": "2018-04-16",
+    "tags_changed.operator": "Auto Metano Udine di Rosso Cristian & C. S.A.S. -> Auto Metano Udine di Rosso Cristian & C. Sas"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
      13.142783,
      45.6973279
     ],
@@ -625,36 +511,6 @@
     "tags.ref:mise": "38395",
     "tags.waterway": "fuel",
     "tags_changed.operator": "A.F. Petroli S.p.A. -> A.F. Petroli S.P.A."
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     13.0944883,
-     45.8078236
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#0000ee",
-    "osm_id": 1432841888,
-    "osm_type": "node",
-    "ref_coords": [
-     13.09443,
-     45.80785
-    ],
-    "ref_distance": 5.4,
-    "ref_id": "28891",
-    "tags.amenity": "fuel",
-    "tags.brand": "Q8",
-    "tags.fuel:diesel": "yes",
-    "tags.fuel:lpg": "yes",
-    "tags.fuel:octane_95": "yes",
-    "tags.name": "Q8",
-    "tags.ref:mise": "28891",
-    "tags_changed.operator": "Zu.Pe. S.N.C. di Zuliani Maurizio & C. -> Zu.Pe. S.N.C.di Zuliani Maurizio & C."
    },
    "type": "Feature"
   },
@@ -690,141 +546,6 @@
   {
    "geometry": {
     "coordinates": [
-     13.261839,
-     46.104896
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#0000ee",
-    "osm_id": 227715325,
-    "osm_type": "node",
-    "ref_coords": [
-     13.26181,
-     46.10485
-    ],
-    "ref_distance": 5.6,
-    "ref_id": "7366",
-    "tags.amenity": "fuel",
-    "tags.brand": "Total Erg",
-    "tags.fuel:diesel": "yes",
-    "tags.fuel:octane_95": "yes",
-    "tags.name": "Shell",
-    "tags.ref:mise": "7366",
-    "tags_changed.operator": "F.lli Giliberti S.N.C. di Giliberti Luca & Tiziano -> F.Lli Giliberti S.N.C. di Giliberti Luca & Tiziano"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     13.2478226,
-     46.0505803
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#0000ee",
-    "osm_id": 36127643,
-    "osm_type": "way",
-    "ref_coords": [
-     13.24787,
-     46.05062
-    ],
-    "ref_distance": 5.7,
-    "ref_id": "43098",
-    "tags.amenity": "fuel",
-    "tags.brand": "Agip Eni",
-    "tags.building": "yes",
-    "tags.fuel:diesel": "yes",
-    "tags.fuel:octane_95": "yes",
-    "tags.height": "3 m",
-    "tags.it:fvg:ctrn:code": "4AED",
-    "tags.it:fvg:ctrn:revision": "1A0",
-    "tags.ref:mise": "43098",
-    "tags.source:date": "2018-04-16",
-    "tags_changed.operator": "Auto Metano Udine di Rosso Cristian & C. S.A.S. -> Auto Metano Udine di Rosso Cristian & C. Sas"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     13.2107919,
-     46.1600694
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#0000ee",
-    "osm_id": 228737002,
-    "osm_type": "node",
-    "ref_coords": [
-     13.21073,
-     46.16004
-    ],
-    "ref_distance": 5.8,
-    "ref_id": "21028",
-    "tags.amenity": "fuel",
-    "tags.brand": "Esso",
-    "tags.fuel:1_25": "no",
-    "tags.fuel:1_50": "no",
-    "tags.fuel:biodiesel": "no",
-    "tags.fuel:biogas": "no",
-    "tags.fuel:cng": "no",
-    "tags.fuel:diesel": "yes",
-    "tags.fuel:e10": "no",
-    "tags.fuel:e85": "no",
-    "tags.fuel:electricity": "no",
-    "tags.fuel:gtl_diesel": "no",
-    "tags.fuel:hgv_diesel": "no",
-    "tags.fuel:lpg": "no",
-    "tags.fuel:octane_100": "no",
-    "tags.fuel:octane_91": "no",
-    "tags.fuel:octane_95": "yes",
-    "tags.fuel:octane_98": "yes",
-    "tags.name": "Esso",
-    "tags.ref:mise": "21028",
-    "tags_changed.operator": "Sostero F.lli S.N.C. di Sostero Marco & Massimo -> Sostero F.Lli S.N.C. di Sostero Marco & Massimo"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     13.2039611,
-     46.0495565
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#0000ee",
-    "osm_id": 377840207,
-    "osm_type": "way",
-    "ref_coords": [
-     13.2039,
-     46.04959
-    ],
-    "ref_distance": 6.0,
-    "ref_id": "26566",
-    "tags.amenity": "fuel",
-    "tags.brand": "Oil Italia",
-    "tags.building": "yes",
-    "tags.fuel:diesel": "yes",
-    "tags.fuel:octane_95": "yes",
-    "tags.ref:mise": "26566",
-    "tags.source:date": "2018-04-16",
-    "tags_changed.operator": "Oil Italia S.R.L. -> Oil Italia Srl"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
      13.2223628,
      46.1366005
     ],
@@ -848,7 +569,7 @@
     "tags.fuel:octane_95": "yes",
     "tags.name": "IP",
     "tags.ref:mise": "39018",
-    "tags_changed.operator": "Ghulam Kharian di Ahmed Waqas S.A.S. -> Ghulam Kharian di Ahmed WaS.A.S.Sas"
+    "tags_changed.operator": "Ghulam Kharian di Ahmed Waqas S.A.S. -> Ghulam Kharian di Ahmed Waqas Sas"
    },
    "type": "Feature"
   },
@@ -944,32 +665,31 @@
   {
    "geometry": {
     "coordinates": [
-     13.1223732,
-     46.2871495
+     13.119543,
+     45.683512
     ],
     "type": "Point"
    },
    "properties": {
     "action": "modify",
     "marker-color": "#0000ee",
-    "osm_id": 78627247,
-    "osm_type": "way",
+    "osm_id": 227985730,
+    "osm_type": "node",
     "ref_coords": [
-     13.12228,
-     46.28714
+     13.11958,
+     45.68357
     ],
-    "ref_distance": 7.2,
-    "ref_id": "14213",
+    "ref_distance": 7.1,
+    "ref_id": "41120",
     "tags.amenity": "fuel",
-    "tags.brand": "Agip Eni",
-    "tags.building": "yes",
+    "tags.brand:wikidata": "Q154037",
+    "tags.brand:wikipedia": "fr:Total (entreprise)",
     "tags.fuel:diesel": "yes",
-    "tags.fuel:octane_100": "yes",
     "tags.fuel:octane_95": "yes",
-    "tags.name": "Eni",
-    "tags.ref:mise": "14213",
-    "tags.source:date": "2018-04-16",
-    "tags_changed.operator": "Zamolo S.A.S. di Zamolo Giulio & C. -> Zamolo S.A.S.di Zamolo Giulio & C."
+    "tags.name": "IP",
+    "tags.operator": "Zamarian Mario S.A.S. di Zamarian Mario & C.",
+    "tags.ref:mise": "41120",
+    "tags_changed.brand": "Total -> Total Erg"
    },
    "type": "Feature"
   },
@@ -999,35 +719,6 @@
     "tags.name": "Esso",
     "tags.ref:mise": "19094",
     "tags_changed.operator": "Grattoni Nicola & C. S.A.S. -> Grattoni Nicola & C. Sas"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     13.238395,
-     46.052194
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#0000ee",
-    "osm_id": 228039912,
-    "osm_type": "node",
-    "ref_coords": [
-     13.23829,
-     46.05219
-    ],
-    "ref_distance": 8.1,
-    "ref_id": "15815",
-    "tags.amenity": "fuel",
-    "tags.brand": "Total Erg",
-    "tags.fuel:diesel": "yes",
-    "tags.fuel:octane_95": "yes",
-    "tags.name": "Total Erg",
-    "tags.ref:mise": "15815",
-    "tags_changed.operator": "Covacich Luciano S.N.C. di Covacich L. & C. -> Covacich Luciano S.N.C.di Covacich L. & C."
    },
    "type": "Feature"
   },
@@ -1083,38 +774,8 @@
     "tags.fixme": "name",
     "tags.fuel:cng": "yes",
     "tags.name": "Metano",
-    "tags_changed.operator": "Auto Metano Udine di Rosso Cristian & C. S.A.S. -> Italmetano Srl",
+    "tags_changed.operator": "Auto Metano Udine di Rosso Cristian & C. S.A.S. -> Italmetano S.R.L.",
     "tags_changed.ref:mise": "17020 -> 45161"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     13.331571,
-     45.829633
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#0000ee",
-    "osm_id": 228303011,
-    "osm_type": "node",
-    "ref_coords": [
-     13.33149,
-     45.82958
-    ],
-    "ref_distance": 8.6,
-    "ref_id": "26733",
-    "tags.amenity": "fuel",
-    "tags.brand": "Agip Eni",
-    "tags.fuel:diesel": "yes",
-    "tags.fuel:octane_100": "yes",
-    "tags.fuel:octane_95": "yes",
-    "tags.name": "Agip",
-    "tags.ref:mise": "26733",
-    "tags_changed.operator": "Veca S.A.S. di Caprioli Antonio & C. -> Veca S.A.S.di Caprioli Antonio & C."
    },
    "type": "Feature"
   },
@@ -1213,35 +874,6 @@
   {
    "geometry": {
     "coordinates": [
-     13.177017,
-     45.944473
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#0000ee",
-    "osm_id": 228313908,
-    "osm_type": "node",
-    "ref_coords": [
-     13.1771,
-     45.94455
-    ],
-    "ref_distance": 10.7,
-    "ref_id": "31152",
-    "tags.amenity": "fuel",
-    "tags.brand": "Esso",
-    "tags.fuel:diesel": "yes",
-    "tags.fuel:octane_95": "yes",
-    "tags.name": "Esso",
-    "tags.ref:mise": "31152",
-    "tags_changed.operator": "Gattesco F.lli di Gattesco Ferruccio e Fiorenzo Snc -> Gattesco F.Lli di Gattesco Ferruccio e Fiorenzo Snc"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
      13.117799,
      46.202917
     ],
@@ -1271,35 +903,6 @@
   {
    "geometry": {
     "coordinates": [
-     13.0234252,
-     45.7713341
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#0000ee",
-    "osm_id": 228171657,
-    "osm_type": "node",
-    "ref_coords": [
-     13.02355,
-     45.77138
-    ],
-    "ref_distance": 11.0,
-    "ref_id": "6502",
-    "tags.amenity": "fuel",
-    "tags.brand": "Q8",
-    "tags.fuel:diesel": "yes",
-    "tags.fuel:octane_95": "yes",
-    "tags.name": "Q8",
-    "tags.ref:mise": "6502",
-    "tags_changed.operator": "Servizi & Gestioni Italia S.R.L. -> Servizi & Gestioni Italia Srl"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
      13.382914,
      46.058596
     ],
@@ -1323,6 +926,36 @@
     "tags.name": "IP",
     "tags_changed.operator": "Full Service di Margutti Edi e Casella Lucia S.N.C. -> Kaur Davinderdeep",
     "tags_changed.ref:mise": "19170 -> 44451"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.00528,
+     45.8114
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#0000ee",
+    "osm_id": 228171660,
+    "osm_type": "node",
+    "ref_coords": [
+     13.0054,
+     45.81146
+    ],
+    "ref_distance": 11.5,
+    "ref_id": "27995",
+    "tags.amenity": "fuel",
+    "tags.brand": "Api-Ip",
+    "tags.fuel:diesel": "yes",
+    "tags.fuel:lpg": "yes",
+    "tags.fuel:octane_95": "yes",
+    "tags.name": "IP",
+    "tags.operator": "De Paoli Silvio & C. S.N.C.",
+    "tags_changed.ref:mise": "41984 -> 27995"
    },
    "type": "Feature"
   },
@@ -1527,7 +1160,7 @@
     "tags.fuel:octane_95": "yes",
     "tags.name": "Agip",
     "tags.ref:mise": "5633",
-    "tags_changed.operator": "F.lli Rinaldi Snc di Matteo e Paolo Rinaldi -> F.Lli Rinaldi S.N.C.di Matteo e Paolo Rinaldi"
+    "tags_changed.operator": "F.lli Rinaldi Snc di Matteo e Paolo Rinaldi -> F.lli Rinaldi S.N.C. di Matteo e Paolo Rinaldi"
    },
    "type": "Feature"
   },
@@ -1622,35 +1255,6 @@
   {
    "geometry": {
     "coordinates": [
-     13.10272,
-     46.21022
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#0000ee",
-    "osm_id": 228314502,
-    "osm_type": "node",
-    "ref_coords": [
-     13.10249,
-     46.21014
-    ],
-    "ref_distance": 19.8,
-    "ref_id": "37779",
-    "tags.amenity": "fuel",
-    "tags.brand": "Esso",
-    "tags.fuel:diesel": "yes",
-    "tags.fuel:octane_95": "yes",
-    "tags.name": "Esso",
-    "tags.ref:mise": "37779",
-    "tags_changed.operator": "Kan S.A.S. di Franco Nicola & C. -> Kan S.A.S.di Franco Nicola & C."
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
      12.8647991,
      46.4872916
     ],
@@ -1711,37 +1315,6 @@
   {
    "geometry": {
     "coordinates": [
-     13.3909882,
-     45.8062286
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#0000ee",
-    "osm_id": 231899864,
-    "osm_type": "way",
-    "ref_coords": [
-     13.39089,
-     45.80645
-    ],
-    "ref_distance": 25.8,
-    "ref_id": "28059",
-    "tags.amenity": "fuel",
-    "tags.brand": "Esso",
-    "tags.building": "yes",
-    "tags.fuel:diesel": "yes",
-    "tags.fuel:octane_95": "yes",
-    "tags.name": "Esso",
-    "tags.ref:mise": "28059",
-    "tags.source:date": "2018-04-16",
-    "tags_changed.operator": "A. & B. S.A.S. di Alvaro Alessandro & C. -> A. & B. S.A.S.di Alvaro Alessandro & C."
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
      13.03475,
      45.89021
     ],
@@ -1750,7 +1323,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -59,
+    "osm_id": -45,
     "osm_type": "node",
     "ref_id": "27651",
     "tags.amenity": "fuel",
@@ -1774,7 +1347,7 @@
    "properties": {
     "action": "create",
     "marker-color": "#11dd11",
-    "osm_id": -60,
+    "osm_id": -46,
     "osm_type": "node",
     "ref_id": "45355",
     "tags.amenity": "fuel",
@@ -1783,6 +1356,155 @@
     "tags.fuel:octane_95": "yes",
     "tags.operator": "Geff S.R.L.",
     "tags.ref:mise": "45355"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.065786,
+     45.850755
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 228735988,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "IP",
+    "tags.fixme": "This object might have been dismantled, please check",
+    "tags.name": "IP",
+    "tags.operator": "IP"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.0149382,
+     46.5280265
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 228316104,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "IP",
+    "tags.fixme": "This object might have been dismantled, please check",
+    "tags.name": "IP",
+    "tags.operator": "IP"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.13445,
+     45.821558
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 228312203,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "ERG",
+    "tags.fixme": "This object might have been dismantled, please check",
+    "tags.name": "Erg",
+    "tags.operator": "Erg"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.0354439,
+     45.8893447
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 5401628126,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Api-Ip",
+    "tags.fixme": "This object might have been dismantled, please check",
+    "tags.operator": "Degano Cesare",
+    "tags.ref:mise": "27651"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.1754332,
+     45.9357748
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 3044325627,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.fuel:diesel": "yes",
+    "tags.fuel:octane_95": "yes",
+    "tags.name": "Repsol",
+    "tags.operator": "Schiff Massimo",
+    "tags.ref:mise": "24015",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.2145216,
+     46.0907489
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 227714904,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Eni",
+    "tags.fixme": "This object might have been dismantled, please check",
+    "tags.name": "Eni",
+    "tags.operator": "Eni"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.826324,
+     46.402592
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 228275251,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Tamoil",
+    "tags.fixme": "This object might have been dismantled, please check",
+    "tags.name": "Tamoil",
+    "tags.operator": "Tamoil"
    },
    "type": "Feature"
   },
@@ -1813,23 +1535,64 @@
   {
    "geometry": {
     "coordinates": [
-     13.180751,
-     46.083873
+     12.963266,
+     45.962487
     ],
     "type": "Point"
    },
    "properties": {
     "action": "modify",
     "marker-color": "#660000",
-    "osm_id": 228311787,
+    "osm_id": 228303872,
     "osm_type": "node",
     "tags.amenity": "fuel",
-    "tags.brand": "Agip Eni",
+    "tags.brand": "Esso",
+    "tags.fixme": "This object might have been dismantled, please check",
+    "tags.name": "Esso",
+    "tags.operator": "Esso"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.045632,
+     45.8679905
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 227220459,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip",
+    "tags.fixme": "This object might have been dismantled, please check",
+    "tags.name": "Agip",
+    "tags.operator": "Agip"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.33081,
+     46.00887
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 6344728819,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Total Erg",
     "tags.fuel:diesel": "yes",
     "tags.fuel:octane_95": "yes",
-    "tags.name": "Agip",
-    "tags.operator": "Iper Montebello S.p.A.",
-    "tags.ref:mise": "42442",
+    "tags.operator": "Gariup Emanuela",
+    "tags.ref:mise": "14073",
     "tags_new.fixme": "This object might have been dismantled, please check"
    },
    "type": "Feature"
@@ -1852,6 +1615,100 @@
     "tags.fixme": "This object might have been dismantled, please check",
     "tags.name": "IP",
     "tags.operator": "IP"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.1923243,
+     46.0239505
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 5401362376,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Repsol",
+    "tags.fuel:diesel": "yes",
+    "tags.fuel:octane_95": "yes",
+    "tags.opening_hours": "unknown",
+    "tags.operator": "Degano Luca",
+    "tags.ref:mise": "24586",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.1945644,
+     46.4042954
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 228313698,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip",
+    "tags.fixme": "This object might have been dismantled, please check",
+    "tags.name": "Agip",
+    "tags.operator": "Agip"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.3458029,
+     46.1526217
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 228305688,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Api-Ip",
+    "tags.fuel:diesel": "yes",
+    "tags.fuel:octane_95": "yes",
+    "tags.name": "IP",
+    "tags.operator": "Emporio Fratelli Fioritto di Fioritto Flaminio & C. S.N.C.",
+    "tags.ref:mise": "15557",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.2215192,
+     46.0419574
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 227220812,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip Eni",
+    "tags.fuel:diesel": "yes",
+    "tags.fuel:octane_100": "yes",
+    "tags.fuel:octane_95": "yes",
+    "tags.name": "Agip",
+    "tags.operator": "Rub Nawaz Ahmed",
+    "tags.ref:mise": "37899",
+    "tags_new.fixme": "This object might have been dismantled, please check"
    },
    "type": "Feature"
   },
@@ -1890,201 +1747,6 @@
   {
    "geometry": {
     "coordinates": [
-     13.24455,
-     46.163983
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#660000",
-    "osm_id": 228319520,
-    "osm_type": "node",
-    "tags.amenity": "fuel",
-    "tags.brand": "Tamoil",
-    "tags.fixme": "This object might have been dismantled, please check",
-    "tags.name": "Tamoil",
-    "tags.operator": "Tamoil"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     12.826324,
-     46.402592
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#660000",
-    "osm_id": 228275251,
-    "osm_type": "node",
-    "tags.amenity": "fuel",
-    "tags.brand": "Tamoil",
-    "tags.fixme": "This object might have been dismantled, please check",
-    "tags.name": "Tamoil",
-    "tags.operator": "Tamoil"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     13.031008,
-     46.1118909
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#660000",
-    "osm_id": 227515927,
-    "osm_type": "node",
-    "tags.amenity": "fuel",
-    "tags.brand": "Agip Eni",
-    "tags.fuel:diesel": "yes",
-    "tags.fuel:lpg": "yes",
-    "tags.fuel:octane_95": "yes",
-    "tags.name": "Agip",
-    "tags.operator": "D'angelo Ivan",
-    "tags.ref:mise": "12383",
-    "tags_new.fixme": "This object might have been dismantled, please check"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     13.045632,
-     45.8679905
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#660000",
-    "osm_id": 227220459,
-    "osm_type": "node",
-    "tags.amenity": "fuel",
-    "tags.brand": "Agip",
-    "tags.fixme": "This object might have been dismantled, please check",
-    "tags.name": "Agip",
-    "tags.operator": "Agip"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     13.1945644,
-     46.4042954
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#660000",
-    "osm_id": 228313698,
-    "osm_type": "node",
-    "tags.amenity": "fuel",
-    "tags.brand": "Agip",
-    "tags.fixme": "This object might have been dismantled, please check",
-    "tags.name": "Agip",
-    "tags.operator": "Agip"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     13.065786,
-     45.850755
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#660000",
-    "osm_id": 228735988,
-    "osm_type": "node",
-    "tags.amenity": "fuel",
-    "tags.brand": "IP",
-    "tags.fixme": "This object might have been dismantled, please check",
-    "tags.name": "IP",
-    "tags.operator": "IP"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     13.18,
-     45.948852
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#660000",
-    "osm_id": 228314315,
-    "osm_type": "node",
-    "tags.amenity": "fuel",
-    "tags.brand": "Q8",
-    "tags.fixme": "This object might have been dismantled, please check",
-    "tags.name": "Q8",
-    "tags.operator": "Q8"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     13.193743,
-     45.834735
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#660000",
-    "osm_id": 228320926,
-    "osm_type": "node",
-    "tags.amenity": "fuel",
-    "tags.brand": "IP",
-    "tags.fixme": "This object might have been dismantled, please check",
-    "tags.name": "IP",
-    "tags.operator": "IP"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     13.0929175,
-     45.6498158
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#660000",
-    "osm_id": 5230336323,
-    "osm_type": "node",
-    "tags.amenity": "fuel",
-    "tags.brand": "Noaloil",
-    "tags.fuel:diesel": "yes",
-    "tags.fuel:octane_95": "yes",
-    "tags.seamark:small_craft_facility:category": "fuel_station",
-    "tags.seamark:type": "small_craft_facility",
-    "tags_new.fixme": "This object might have been dismantled, please check"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
      13.1660519,
      45.7619078
     ],
@@ -2103,110 +1765,21 @@
   {
    "geometry": {
     "coordinates": [
-     13.0354439,
-     45.8893447
+     13.228054,
+     45.954924
     ],
     "type": "Point"
    },
    "properties": {
     "action": "modify",
     "marker-color": "#660000",
-    "osm_id": 5401628126,
+    "osm_id": 227712938,
     "osm_type": "node",
     "tags.amenity": "fuel",
-    "tags.brand": "Api-Ip",
+    "tags.brand": "Total",
     "tags.fixme": "This object might have been dismantled, please check",
-    "tags.operator": "Degano Cesare",
-    "tags.ref:mise": "27651"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     13.2145216,
-     46.0907489
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#660000",
-    "osm_id": 227714904,
-    "osm_type": "node",
-    "tags.amenity": "fuel",
-    "tags.brand": "Eni",
-    "tags.fixme": "This object might have been dismantled, please check",
-    "tags.name": "Eni",
-    "tags.operator": "Eni"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     13.2186863,
-     46.1535669
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#660000",
-    "osm_id": 36182101,
-    "osm_type": "way",
-    "tags.amenity": "fuel",
-    "tags.building": "yes",
-    "tags.fixme": "This object might have been dismantled, please check",
-    "tags.height": "4 m",
-    "tags.it:fvg:ctrn:code": "4AED",
-    "tags.it:fvg:ctrn:revision": "1A0",
-    "tags.operator": "IP"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     12.8649368,
-     46.4883737
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#660000",
-    "osm_id": 228315117,
-    "osm_type": "node",
-    "tags.amenity": "fuel",
-    "tags.brand": "IP",
-    "tags.fixme": "This object might have been dismantled, please check",
-    "tags.name": "IP",
-    "tags.operator": "IP"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     13.0108276,
-     46.2246404
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#660000",
-    "osm_id": 228737436,
-    "osm_type": "node",
-    "tags.amenity": "fuel",
-    "tags.brand": "Api-Ip",
-    "tags.fuel:diesel": "yes",
-    "tags.fuel:octane_95": "yes",
-    "tags.name": "Api-Ip",
-    "tags.operator": "Atelier S.N.C. di Vincenti Christian e Patat Daniele",
-    "tags.ref:mise": "25713",
-    "tags_new.fixme": "This object might have been dismantled, please check"
+    "tags.name": "Total",
+    "tags.operator": "Total"
    },
    "type": "Feature"
   },
@@ -2234,23 +1807,73 @@
   {
    "geometry": {
     "coordinates": [
-     13.2311691,
-     46.0546117
+     13.1443096,
+     45.6997821
     ],
     "type": "Point"
    },
    "properties": {
     "action": "modify",
     "marker-color": "#660000",
-    "osm_id": 555487017,
+    "osm_id": 661026169,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.name": "Api - nautico",
+    "tags.phone": "+39 0431 73355",
+    "tags.seamark:small_craft_facility:category": "fuel_station",
+    "tags.seamark:type": "small_craft_facility",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.201215,
+     46.055869
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 36132884,
     "osm_type": "way",
     "tags.amenity": "fuel",
-    "tags.brand": "Total Erg",
+    "tags.brand": "Agip Eni",
+    "tags.building": "yes",
+    "tags.fixme": "This object might have been dismantled, please check",
+    "tags.height": "4 m",
+    "tags.it:fvg:ctrn:code": "4AED",
+    "tags.it:fvg:ctrn:revision": "1AN",
+    "tags.name": "Agip",
+    "tags.operator": "Gestioni Innovative Italia S.R.L.",
+    "tags.ref:mise": "33288"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.2144573,
+     46.0906116
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 377975224,
+    "osm_type": "way",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip Eni",
+    "tags.building": "yes",
     "tags.fuel:diesel": "yes",
+    "tags.fuel:lpg": "yes",
+    "tags.fuel:octane_100": "yes",
     "tags.fuel:octane_95": "yes",
-    "tags.operator": "Servizio Erg di Marcovig Franco",
-    "tags.ref:mise": "16229",
-    "tags.source:date": "2018-04-16",
+    "tags.operator": "Mauro Andrea e Zuttion Catia S.N.C.",
+    "tags.ref:mise": "19841",
     "tags_new.fixme": "This object might have been dismantled, please check"
    },
    "type": "Feature"
@@ -2306,23 +1929,240 @@
   {
    "geometry": {
     "coordinates": [
-     13.3458029,
-     46.1526217
+     12.993559,
+     45.841795
     ],
     "type": "Point"
    },
    "properties": {
     "action": "modify",
     "marker-color": "#660000",
-    "osm_id": 228305688,
+    "osm_id": 228737209,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "IP",
+    "tags.fixme": "This object might have been dismantled, please check",
+    "tags.name": "IP",
+    "tags.operator": "IP"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.16558,
+     46.230159
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 228310078,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Total",
+    "tags.fixme": "This object might have been dismantled, please check",
+    "tags.name": "Total",
+    "tags.operator": "Total"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.2288645,
+     46.0566485
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 555487025,
+    "osm_type": "way",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip Eni",
+    "tags.fuel:diesel": "yes",
+    "tags.fuel:octane_95": "yes",
+    "tags.name": "Agip",
+    "tags.operator": "Poci Hekuran",
+    "tags.ref:mise": "38811",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.193743,
+     45.834735
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 228320926,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "IP",
+    "tags.fixme": "This object might have been dismantled, please check",
+    "tags.name": "IP",
+    "tags.operator": "IP"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.937024,
+     46.029434
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 227714142,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Total",
+    "tags.fixme": "This object might have been dismantled, please check",
+    "tags.name": "Total",
+    "tags.operator": "Total"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.0929175,
+     45.6498158
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 5230336323,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Noaloil",
+    "tags.fuel:diesel": "yes",
+    "tags.fuel:octane_95": "yes",
+    "tags.seamark:small_craft_facility:category": "fuel_station",
+    "tags.seamark:type": "small_craft_facility",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.301718,
+     46.033135
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 228318282,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip Eni",
+    "tags.fuel:diesel": "yes",
+    "tags.fuel:octane_95": "yes",
+    "tags.operator": "Policella Daniele",
+    "tags.ref:mise": "30322",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.8649368,
+     46.4883737
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 228315117,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "IP",
+    "tags.fixme": "This object might have been dismantled, please check",
+    "tags.name": "IP",
+    "tags.operator": "IP"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.0241032,
+     46.4716281
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 228301133,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "IP",
+    "tags.name": "IP",
+    "tags.operator": "IP",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.147934,
+     46.016304
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 228060266,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Total",
+    "tags.fixme": "This object might have been dismantled, please check",
+    "tags.name": "Total",
+    "tags.operator": "Total"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.0108276,
+     46.2246404
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 228737436,
     "osm_type": "node",
     "tags.amenity": "fuel",
     "tags.brand": "Api-Ip",
     "tags.fuel:diesel": "yes",
     "tags.fuel:octane_95": "yes",
-    "tags.name": "IP",
-    "tags.operator": "Emporio Fratelli Fioritto di Fioritto Flaminio & C. S.N.C.",
-    "tags.ref:mise": "15557",
+    "tags.name": "Api-Ip",
+    "tags.operator": "Atelier S.N.C. di Vincenti Christian e Patat Daniele",
+    "tags.ref:mise": "25713",
     "tags_new.fixme": "This object might have been dismantled, please check"
    },
    "type": "Feature"
@@ -2330,63 +2170,43 @@
   {
    "geometry": {
     "coordinates": [
-     12.963266,
-     45.962487
+     13.2186863,
+     46.1535669
     ],
     "type": "Point"
    },
    "properties": {
     "action": "modify",
     "marker-color": "#660000",
-    "osm_id": 228303872,
-    "osm_type": "node",
+    "osm_id": 36182101,
+    "osm_type": "way",
     "tags.amenity": "fuel",
-    "tags.brand": "Esso",
+    "tags.building": "yes",
     "tags.fixme": "This object might have been dismantled, please check",
-    "tags.name": "Esso",
-    "tags.operator": "Esso"
+    "tags.height": "4 m",
+    "tags.it:fvg:ctrn:code": "4AED",
+    "tags.it:fvg:ctrn:revision": "1A0",
+    "tags.operator": "IP"
    },
    "type": "Feature"
   },
   {
    "geometry": {
     "coordinates": [
-     13.1754332,
-     45.9357748
+     12.939684,
+     45.901134
     ],
     "type": "Point"
    },
    "properties": {
     "action": "modify",
     "marker-color": "#660000",
-    "osm_id": 3044325627,
-    "osm_type": "node",
-    "tags.amenity": "fuel",
-    "tags.fuel:diesel": "yes",
-    "tags.fuel:octane_95": "yes",
-    "tags.name": "Repsol",
-    "tags.operator": "Schiff Massimo",
-    "tags.ref:mise": "24015",
-    "tags_new.fixme": "This object might have been dismantled, please check"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     13.2611834,
-     46.2789574
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#660000",
-    "osm_id": 2582226963,
+    "osm_id": 228302251,
     "osm_type": "node",
     "tags.amenity": "fuel",
     "tags.brand": "IP",
-    "tags.fuel:diesel": "no",
+    "tags.name": "IP",
+    "tags.operator": "IP",
     "tags_new.fixme": "This object might have been dismantled, please check"
    },
    "type": "Feature"
@@ -2417,21 +2237,44 @@
   {
    "geometry": {
     "coordinates": [
-     13.1443096,
-     45.6997821
+     13.24455,
+     46.163983
     ],
     "type": "Point"
    },
    "properties": {
     "action": "modify",
     "marker-color": "#660000",
-    "osm_id": 661026169,
+    "osm_id": 228319520,
     "osm_type": "node",
     "tags.amenity": "fuel",
-    "tags.name": "Api - nautico",
-    "tags.phone": "+39 0431 73355",
-    "tags.seamark:small_craft_facility:category": "fuel_station",
-    "tags.seamark:type": "small_craft_facility",
+    "tags.brand": "Tamoil",
+    "tags.fixme": "This object might have been dismantled, please check",
+    "tags.name": "Tamoil",
+    "tags.operator": "Tamoil"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.066966,
+     46.173783
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 227711567,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Total Erg",
+    "tags.fuel:diesel": "yes",
+    "tags.fuel:octane_95": "yes",
+    "tags.name": "Total",
+    "tags.operator": "Andreutti Riccardo",
+    "tags.ref:mise": "43126",
     "tags_new.fixme": "This object might have been dismantled, please check"
    },
    "type": "Feature"
@@ -2463,23 +2306,89 @@
   {
    "geometry": {
     "coordinates": [
-     13.2573201,
-     46.0160541
+     13.2611834,
+     46.2789574
     ],
     "type": "Point"
    },
    "properties": {
     "action": "modify",
     "marker-color": "#660000",
-    "osm_id": 3042426133,
+    "osm_id": 2582226963,
     "osm_type": "node",
     "tags.amenity": "fuel",
-    "tags.brand": "Repsol",
+    "tags.brand": "IP",
+    "tags.fuel:diesel": "no",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.031008,
+     46.1118909
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 227515927,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Agip Eni",
+    "tags.fuel:diesel": "yes",
+    "tags.fuel:lpg": "yes",
+    "tags.fuel:octane_95": "yes",
+    "tags.name": "Agip",
+    "tags.operator": "D'angelo Ivan",
+    "tags.ref:mise": "12383",
+    "tags_new.fixme": "This object might have been dismantled, please check"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.18,
+     45.948852
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 228314315,
+    "osm_type": "node",
+    "tags.amenity": "fuel",
+    "tags.brand": "Q8",
+    "tags.fixme": "This object might have been dismantled, please check",
+    "tags.name": "Q8",
+    "tags.operator": "Q8"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     13.2311691,
+     46.0546117
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "modify",
+    "marker-color": "#660000",
+    "osm_id": 555487017,
+    "osm_type": "way",
+    "tags.amenity": "fuel",
+    "tags.brand": "Total Erg",
     "tags.fuel:diesel": "yes",
     "tags.fuel:octane_95": "yes",
-    "tags.name": "Repsol",
-    "tags.operator": "Ilariucci Andrea",
-    "tags.ref:mise": "22954",
+    "tags.operator": "Servizio Erg di Marcovig Franco",
+    "tags.ref:mise": "16229",
+    "tags.source:date": "2018-04-16",
     "tags_new.fixme": "This object might have been dismantled, please check"
    },
    "type": "Feature"
@@ -2505,367 +2414,6 @@
     "tags.operator": "Agrofriul S.R.L.",
     "tags.ref:mise": "7000",
     "tags_new.fixme": "This object might have been dismantled, please check"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     12.993559,
-     45.841795
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#660000",
-    "osm_id": 228737209,
-    "osm_type": "node",
-    "tags.amenity": "fuel",
-    "tags.brand": "IP",
-    "tags.fixme": "This object might have been dismantled, please check",
-    "tags.name": "IP",
-    "tags.operator": "IP"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     13.13445,
-     45.821558
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#660000",
-    "osm_id": 228312203,
-    "osm_type": "node",
-    "tags.amenity": "fuel",
-    "tags.brand": "ERG",
-    "tags.fixme": "This object might have been dismantled, please check",
-    "tags.name": "Erg",
-    "tags.operator": "Erg"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     13.2215192,
-     46.0419574
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#660000",
-    "osm_id": 227220812,
-    "osm_type": "node",
-    "tags.amenity": "fuel",
-    "tags.brand": "Agip Eni",
-    "tags.fuel:diesel": "yes",
-    "tags.fuel:octane_100": "yes",
-    "tags.fuel:octane_95": "yes",
-    "tags.name": "Agip",
-    "tags.operator": "Rub Nawaz Ahmed",
-    "tags.ref:mise": "37899",
-    "tags_new.fixme": "This object might have been dismantled, please check"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     13.33081,
-     46.00887
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#660000",
-    "osm_id": 6344728819,
-    "osm_type": "node",
-    "tags.amenity": "fuel",
-    "tags.brand": "Total Erg",
-    "tags.fuel:diesel": "yes",
-    "tags.fuel:octane_95": "yes",
-    "tags.operator": "Gariup Emanuela",
-    "tags.ref:mise": "14073",
-    "tags_new.fixme": "This object might have been dismantled, please check"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     13.1923243,
-     46.0239505
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#660000",
-    "osm_id": 5401362376,
-    "osm_type": "node",
-    "tags.amenity": "fuel",
-    "tags.brand": "Repsol",
-    "tags.fuel:diesel": "yes",
-    "tags.fuel:octane_95": "yes",
-    "tags.opening_hours": "unknown",
-    "tags.operator": "Degano Luca",
-    "tags.ref:mise": "24586",
-    "tags_new.fixme": "This object might have been dismantled, please check"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     13.147934,
-     46.016304
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#660000",
-    "osm_id": 228060266,
-    "osm_type": "node",
-    "tags.amenity": "fuel",
-    "tags.brand": "Total",
-    "tags.fixme": "This object might have been dismantled, please check",
-    "tags.name": "Total",
-    "tags.operator": "Total"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     13.0241032,
-     46.4716281
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#660000",
-    "osm_id": 228301133,
-    "osm_type": "node",
-    "tags.amenity": "fuel",
-    "tags.brand": "IP",
-    "tags.name": "IP",
-    "tags.operator": "IP",
-    "tags_new.fixme": "This object might have been dismantled, please check"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     13.066966,
-     46.173783
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#660000",
-    "osm_id": 227711567,
-    "osm_type": "node",
-    "tags.amenity": "fuel",
-    "tags.brand": "Total Erg",
-    "tags.fuel:diesel": "yes",
-    "tags.fuel:octane_95": "yes",
-    "tags.name": "Total",
-    "tags.operator": "Andreutti Riccardo",
-    "tags.ref:mise": "43126",
-    "tags_new.fixme": "This object might have been dismantled, please check"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     12.939684,
-     45.901134
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#660000",
-    "osm_id": 228302251,
-    "osm_type": "node",
-    "tags.amenity": "fuel",
-    "tags.brand": "IP",
-    "tags.name": "IP",
-    "tags.operator": "IP",
-    "tags_new.fixme": "This object might have been dismantled, please check"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     13.16558,
-     46.230159
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#660000",
-    "osm_id": 228310078,
-    "osm_type": "node",
-    "tags.amenity": "fuel",
-    "tags.brand": "Total",
-    "tags.fixme": "This object might have been dismantled, please check",
-    "tags.name": "Total",
-    "tags.operator": "Total"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     13.201215,
-     46.055869
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#660000",
-    "osm_id": 36132884,
-    "osm_type": "way",
-    "tags.amenity": "fuel",
-    "tags.brand": "Agip Eni",
-    "tags.building": "yes",
-    "tags.fixme": "This object might have been dismantled, please check",
-    "tags.height": "4 m",
-    "tags.it:fvg:ctrn:code": "4AED",
-    "tags.it:fvg:ctrn:revision": "1AN",
-    "tags.name": "Agip",
-    "tags.operator": "Gestioni Innovative Italia S.R.L.",
-    "tags.ref:mise": "33288"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     13.1810418,
-     46.083734
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#660000",
-    "osm_id": 565103815,
-    "osm_type": "way",
-    "tags.amenity": "fuel",
-    "tags.brand": "Agip Eni",
-    "tags.fuel:diesel": "yes",
-    "tags.fuel:octane_100": "yes",
-    "tags.fuel:octane_95": "yes",
-    "tags.operator": "Emmevu di Pierro Vincenzo",
-    "tags.ref:mise": "28686",
-    "tags_new.fixme": "This object might have been dismantled, please check"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     12.937024,
-     46.029434
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#660000",
-    "osm_id": 227714142,
-    "osm_type": "node",
-    "tags.amenity": "fuel",
-    "tags.brand": "Total",
-    "tags.fixme": "This object might have been dismantled, please check",
-    "tags.name": "Total",
-    "tags.operator": "Total"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     13.2200936,
-     46.0594746
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#660000",
-    "osm_id": 379089730,
-    "osm_type": "way",
-    "tags.amenity": "fuel",
-    "tags.brand": "Q8",
-    "tags.building": "yes",
-    "tags.fuel:diesel": "yes",
-    "tags.fuel:lpg": "yes",
-    "tags.fuel:octane_95": "yes",
-    "tags.name": "Q8",
-    "tags.operator": "Sclippa Lino",
-    "tags.ref:mise": "6856",
-    "tags_new.fixme": "This object might have been dismantled, please check"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     13.228054,
-     45.954924
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#660000",
-    "osm_id": 227712938,
-    "osm_type": "node",
-    "tags.amenity": "fuel",
-    "tags.brand": "Total",
-    "tags.fixme": "This object might have been dismantled, please check",
-    "tags.name": "Total",
-    "tags.operator": "Total"
-   },
-   "type": "Feature"
-  },
-  {
-   "geometry": {
-    "coordinates": [
-     13.0149382,
-     46.5280265
-    ],
-    "type": "Point"
-   },
-   "properties": {
-    "action": "modify",
-    "marker-color": "#660000",
-    "osm_id": 228316104,
-    "osm_type": "node",
-    "tags.amenity": "fuel",
-    "tags.brand": "IP",
-    "tags.fixme": "This object might have been dismantled, please check",
-    "tags.name": "IP",
-    "tags.operator": "IP"
    },
    "type": "Feature"
   }

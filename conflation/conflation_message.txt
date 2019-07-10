@@ -1,0 +1,21 @@
+Fuel station update - <xxx> province, Italy
+
+Le operazioni che fai con questo strumento NON modificheranno alcun dato in OSM. L'obbiettivo è di eseguire un controllo condiviso tra mappatori registrati, al fine di ottenere un file da importare in un secondo momento. 
+
+Seguendo il link "validate the import" ti verrà chiesto di controllare: 
+
+- POSIZIONE (finestre sulla destra): che il pin blu opaco sia accettabile (almeno dentro l'area del distributore), se no, annotare in fixme; l'eventuale pin verde è un nuovo POI e la sua posizione può essere aggiustata trascinandolo. Se nella foto non vedi il POI, cambia zoom o sorgende fotografica (bing, esri, ecc). 
+
+- TAG (finestra a sinistra): nuovi da importare sono verdi, da aggiornare sono gialli; per questi ultimi, è possibile scegliere tra i valori originali ed i proposti per l'import. 
+
+Gli eventuali problemi che riscontri puoi scriverli nel campo sotto la didascalia "Value for the fixme tag if needed". 
+
+
+Per la validazione del POI hai 3 scelte: 
+
+- Good: la tua validazione viene accettata, compreso eventuale fixme 
+- Don't change: il POI originale è meglio di quello proposto per l'import 
+- Skip: non sei in grado di fare valutazioni, salta al successivo 
+
+Per qualsiasi info, contatta l'utente OSM Cascafico. 
+

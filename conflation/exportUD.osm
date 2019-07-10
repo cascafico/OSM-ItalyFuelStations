@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?><osm version="0.6" generator="Overpass API 0.7.55.7 8b86ff77">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2019-06-21T08:30:02Z" areas="2019-06-21T06:17:02Z"/>
+<meta osm_base="2019-07-05T06:59:02Z" areas="2019-07-05T05:58:02Z"/>
 
   <node id="5230336323" lat="45.6498158" lon="13.0929175" version="2" timestamp="2018-09-30T18:34:46Z" changeset="63072303" uid="361003" user="Cascafico">
     <tag k="amenity" v="fuel"/>
@@ -58,12 +58,14 @@
     <tag k="seamark:small_craft_facility:category" v="fuel_station"/>
     <tag k="seamark:type" v="small_craft_facility"/>
   </node>
-  <node id="227985730" lat="45.6835120" lon="13.1195430" version="6" timestamp="2019-03-18T10:56:11Z" changeset="68254150" uid="8727120" user="attilaimport">
+  <node id="227985730" lat="45.6835120" lon="13.1195430" version="7" timestamp="2019-06-26T11:29:34Z" changeset="71633211" uid="361003" user="Cascafico">
     <tag k="amenity" v="fuel"/>
-    <tag k="brand" v="Total Erg"/>
+    <tag k="brand" v="Total"/>
+    <tag k="brand:wikidata" v="Q154037"/>
+    <tag k="brand:wikipedia" v="fr:Total (entreprise)"/>
     <tag k="fuel:diesel" v="yes"/>
     <tag k="fuel:octane_95" v="yes"/>
-    <tag k="name" v="Total"/>
+    <tag k="name" v="IP"/>
     <tag k="operator" v="Zamarian Mario S.A.S. di Zamarian Mario &amp; C."/>
     <tag k="ref:mise" v="41120"/>
   </node>
@@ -985,15 +987,6 @@
     <tag k="name" v="IP"/>
     <tag k="operator" v="Kaur Amandeep"/>
     <tag k="ref:mise" v="36498"/>
-  </node>
-  <node id="228311787" lat="46.0838730" lon="13.1807510" version="6" timestamp="2019-03-18T10:56:19Z" changeset="68254150" uid="8727120" user="attilaimport">
-    <tag k="amenity" v="fuel"/>
-    <tag k="brand" v="Agip Eni"/>
-    <tag k="fuel:diesel" v="yes"/>
-    <tag k="fuel:octane_95" v="yes"/>
-    <tag k="name" v="Agip"/>
-    <tag k="operator" v="Iper Montebello S.p.A."/>
-    <tag k="ref:mise" v="42442"/>
   </node>
   <node id="5401356156" lat="46.1007380" lon="13.1728220" version="4" timestamp="2019-03-18T10:56:31Z" changeset="68254150" uid="8727120" user="attilaimport">
     <tag k="amenity" v="fuel"/>
@@ -2690,36 +2683,6 @@
     <tag k="fuel:octane_95" v="yes"/>
     <tag k="name" v="IPER"/>
     <tag k="operator" v="IPER"/>
-  </way>
-  <way id="565103815" version="2" timestamp="2019-03-18T10:56:38Z" changeset="68254150" uid="8727120" user="attilaimport">
-    <center lat="46.0837340" lon="13.1810418"/>
-    <nd ref="5443317499"/>
-    <nd ref="5443317500"/>
-    <nd ref="5443317501"/>
-    <nd ref="5443317502"/>
-    <nd ref="5443317503"/>
-    <nd ref="5443317504"/>
-    <nd ref="5443317505"/>
-    <nd ref="5443317506"/>
-    <nd ref="5443317507"/>
-    <nd ref="4437556373"/>
-    <nd ref="1166466373"/>
-    <nd ref="4437556376"/>
-    <nd ref="4437556374"/>
-    <nd ref="4437556375"/>
-    <nd ref="1166466691"/>
-    <nd ref="5443317497"/>
-    <nd ref="1166467000"/>
-    <nd ref="1166467161"/>
-    <nd ref="1166466943"/>
-    <nd ref="5443317499"/>
-    <tag k="amenity" v="fuel"/>
-    <tag k="brand" v="Agip Eni"/>
-    <tag k="fuel:diesel" v="yes"/>
-    <tag k="fuel:octane_100" v="yes"/>
-    <tag k="fuel:octane_95" v="yes"/>
-    <tag k="operator" v="Emmevu di Pierro Vincenzo"/>
-    <tag k="ref:mise" v="28686"/>
   </way>
   <way id="385408991" version="4" timestamp="2019-03-18T10:56:37Z" changeset="68254150" uid="8727120" user="attilaimport">
     <center lat="46.1000980" lon="13.2062988"/>

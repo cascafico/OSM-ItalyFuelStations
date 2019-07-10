@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='JOSM'>
+  <bounds minlat='46.1534711' minlon='13.2184893' maxlat='46.1537349' maxlon='13.2188112' origin='CGImap 0.7.5 (14587 thorn-01.openstreetmap.org)' />
+  <node id='227220459' timestamp='2019-03-18T10:56:04Z' uid='8727120' user='attilaimport' visible='true' version='6' changeset='68254150' lat='45.8679905' lon='13.045632'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Agip' />
+    <tag k='fixme' v='This object might have been dismantled, please check' />
+    <tag k='name' v='Agip' />
+    <tag k='operator' v='Agip' />
+  </node>
+  <node id='227712938' timestamp='2019-03-18T10:56:08Z' uid='8727120' user='attilaimport' visible='true' version='5' changeset='68254150' lat='45.954924' lon='13.228054'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Total' />
+    <tag k='fixme' v='This object might have been dismantled, please check' />
+    <tag k='name' v='Total' />
+    <tag k='operator' v='Total' />
+  </node>
+  <node id='227714142' timestamp='2019-03-18T10:56:08Z' uid='8727120' user='attilaimport' visible='true' version='5' changeset='68254150' lat='46.029434' lon='12.937024'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Total' />
+    <tag k='fixme' v='This object might have been dismantled, please check' />
+    <tag k='name' v='Total' />
+    <tag k='operator' v='Total' />
+  </node>
+  <node id='227714904' timestamp='2019-03-18T10:56:09Z' uid='8727120' user='attilaimport' visible='true' version='7' changeset='68254150' lat='46.0907489' lon='13.2145216'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Eni' />
+    <tag k='fixme' v='This object might have been dismantled, please check' />
+    <tag k='name' v='Eni' />
+    <tag k='operator' v='Eni' />
+  </node>
+  <node id='228060266' timestamp='2019-03-18T10:56:12Z' uid='8727120' user='attilaimport' visible='true' version='5' changeset='68254150' lat='46.016304' lon='13.147934'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Total' />
+    <tag k='fixme' v='This object might have been dismantled, please check' />
+    <tag k='name' v='Total' />
+    <tag k='operator' v='Total' />
+  </node>
+  <node id='228275251' action='delete' timestamp='2019-03-18T10:56:14Z' uid='8727120' user='attilaimport' visible='true' version='5' changeset='68254150' lat='46.402592' lon='12.826324'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Tamoil' />
+    <tag k='fixme' v='This object might have been dismantled, please check' />
+    <tag k='name' v='Tamoil' />
+    <tag k='operator' v='Tamoil' />
+  </node>
+  <node id='228302612' timestamp='2019-03-18T10:56:15Z' uid='8727120' user='attilaimport' visible='true' version='5' changeset='68254150' lat='46.035519' lon='13.152673'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='IP' />
+    <tag k='fixme' v='This object might have been dismantled, please check' />
+    <tag k='name' v='IP' />
+    <tag k='operator' v='IP' />
+  </node>
+  <node id='228303872' timestamp='2019-03-18T10:56:16Z' uid='8727120' user='attilaimport' visible='true' version='5' changeset='68254150' lat='45.962487' lon='12.963266'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Esso' />
+    <tag k='fixme' v='This object might have been dismantled, please check' />
+    <tag k='name' v='Esso' />
+    <tag k='operator' v='Esso' />
+  </node>
+  <node id='228310078' timestamp='2019-03-18T10:56:18Z' uid='8727120' user='attilaimport' visible='true' version='5' changeset='68254150' lat='46.230159' lon='13.16558'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Total' />
+    <tag k='fixme' v='This object might have been dismantled, please check' />
+    <tag k='name' v='Total' />
+    <tag k='operator' v='Total' />
+  </node>
+  <node id='228312203' timestamp='2019-03-18T10:56:19Z' uid='8727120' user='attilaimport' visible='true' version='5' changeset='68254150' lat='45.821558' lon='13.13445'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='ERG' />
+    <tag k='fixme' v='This object might have been dismantled, please check' />
+    <tag k='name' v='Erg' />
+    <tag k='operator' v='Erg' />
+  </node>
+  <node id='228313698' timestamp='2019-03-18T10:56:19Z' uid='8727120' user='attilaimport' visible='true' version='6' changeset='68254150' lat='46.4042954' lon='13.1945644'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Agip' />
+    <tag k='fixme' v='This object might have been dismantled, please check' />
+    <tag k='name' v='Agip' />
+    <tag k='operator' v='Agip' />
+  </node>
+  <node id='228314103' timestamp='2019-03-18T10:56:19Z' uid='8727120' user='attilaimport' visible='true' version='7' changeset='68254150' lat='45.947611' lon='13.1786989'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Esso' />
+    <tag k='fixme' v='This object might have been dismantled, please check' />
+    <tag k='name' v='Esso' />
+    <tag k='operator' v='Esso' />
+  </node>
+  <node id='228314315' timestamp='2019-03-18T10:56:19Z' uid='8727120' user='attilaimport' visible='true' version='5' changeset='68254150' lat='45.948852' lon='13.18'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Q8' />
+    <tag k='fixme' v='This object might have been dismantled, please check' />
+    <tag k='name' v='Q8' />
+    <tag k='operator' v='Q8' />
+  </node>
+  <node id='228315117' timestamp='2019-03-18T10:56:20Z' uid='8727120' user='attilaimport' visible='true' version='7' changeset='68254150' lat='46.4883737' lon='12.8649368'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='IP' />
+    <tag k='fixme' v='This object might have been dismantled, please check' />
+    <tag k='name' v='IP' />
+    <tag k='operator' v='IP' />
+  </node>
+  <node id='228316104' timestamp='2019-03-18T10:56:20Z' uid='8727120' user='attilaimport' visible='true' version='6' changeset='68254150' lat='46.5280265' lon='13.0149382'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='IP' />
+    <tag k='fixme' v='This object might have been dismantled, please check' />
+    <tag k='name' v='IP' />
+    <tag k='operator' v='IP' />
+  </node>
+  <node id='228319520' action='delete' timestamp='2019-03-18T10:56:22Z' uid='8727120' user='attilaimport' visible='true' version='5' changeset='68254150' lat='46.163983' lon='13.24455'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Tamoil' />
+    <tag k='fixme' v='This object might have been dismantled, please check' />
+    <tag k='name' v='Tamoil' />
+    <tag k='operator' v='Tamoil' />
+  </node>
+  <node id='228320344' timestamp='2019-03-18T10:56:22Z' uid='8727120' user='attilaimport' visible='true' version='5' changeset='68254150' lat='45.880322' lon='13.047863'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='IP' />
+    <tag k='fixme' v='This object might have been dismantled, please check' />
+    <tag k='name' v='IP' />
+    <tag k='operator' v='IP' />
+  </node>
+  <node id='228320926' timestamp='2019-03-18T10:56:23Z' uid='8727120' user='attilaimport' visible='true' version='5' changeset='68254150' lat='45.834735' lon='13.193743'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='IP' />
+    <tag k='fixme' v='This object might have been dismantled, please check' />
+    <tag k='name' v='IP' />
+    <tag k='operator' v='IP' />
+  </node>
+  <node id='228735988' timestamp='2019-03-18T10:56:24Z' uid='8727120' user='attilaimport' visible='true' version='5' changeset='68254150' lat='45.850755' lon='13.065786'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='IP' />
+    <tag k='fixme' v='This object might have been dismantled, please check' />
+    <tag k='name' v='IP' />
+    <tag k='operator' v='IP' />
+  </node>
+  <node id='228737209' timestamp='2019-03-18T10:56:24Z' uid='8727120' user='attilaimport' visible='true' version='5' changeset='68254150' lat='45.841795' lon='12.993559'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='IP' />
+    <tag k='fixme' v='This object might have been dismantled, please check' />
+    <tag k='name' v='IP' />
+    <tag k='operator' v='IP' />
+  </node>
+  <node id='422410205' timestamp='2015-11-24T12:57:35Z' uid='1345232' user='paolozamp' visible='true' version='2' changeset='35549875' lat='46.1536791' lon='13.2186273' />
+  <node id='422410206' timestamp='2015-11-24T12:57:35Z' uid='1345232' user='paolozamp' visible='true' version='2' changeset='35549875' lat='46.1535918' lon='13.2186477' />
+  <node id='422410207' timestamp='2015-11-24T12:57:35Z' uid='1345232' user='paolozamp' visible='true' version='2' changeset='35549875' lat='46.1535355' lon='13.2188631' />
+  <node id='422410208' timestamp='2009-06-17T03:06:54Z' uid='137' user='simone' visible='true' version='1' changeset='1541131' lat='46.1534624' lon='13.218634' />
+  <node id='422410209' timestamp='2009-06-17T03:06:54Z' uid='137' user='simone' visible='true' version='1' changeset='1541131' lat='46.1534546' lon='13.2185512' />
+  <node id='422410210' timestamp='2015-11-24T12:57:35Z' uid='1345232' user='paolozamp' visible='true' version='2' changeset='35549875' lat='46.153665' lon='13.2185094' />
+  <node id='1604830614' timestamp='2019-03-18T10:56:28Z' uid='8727120' user='attilaimport' visible='true' version='4' changeset='68254150' lat='46.1536369' lon='13.2187371'>
+    <tag k='amenity' v='fuel' />
+    <tag k='brand' v='Agip Eni' />
+    <tag k='fixme' v='name' />
+    <tag k='fuel:diesel' v='yes' />
+    <tag k='fuel:octane_95' v='yes' />
+    <tag k='name' v='IP' />
+    <tag k='operator' v='Gaidaros di Bonopera Andrea' />
+    <tag k='ref:mise' v='40409' />
+  </node>
+  <node id='3797968324' timestamp='2015-10-22T10:30:40Z' uid='2658983' user='RAFVG import' visible='true' version='1' changeset='34796319' lat='46.1536046' lon='13.2185678'>
+    <tag k='addr:city' v='Tricesimo' />
+    <tag k='addr:housenumber' v='208' />
+    <tag k='addr:postcode' v='33019' />
+    <tag k='addr:street' v='Via Roma' />
+  </node>
+  <node id='3856472178' timestamp='2015-11-24T12:57:35Z' uid='1345232' user='paolozamp' visible='true' version='1' changeset='35549875' lat='46.1535073' lon='13.2186233' />
+  <node id='3856472179' timestamp='2015-11-24T12:57:35Z' uid='1345232' user='paolozamp' visible='true' version='1' changeset='35549875' lat='46.1536172' lon='13.2188469' />
+  <node id='5258563562' timestamp='2019-03-27T07:52:59Z' uid='361003' user='Cascafico' visible='true' version='2' changeset='68575992' lat='45.7618698' lon='13.166002' />
+  <node id='5258563563' timestamp='2019-03-27T07:52:59Z' uid='361003' user='Cascafico' visible='true' version='2' changeset='68575992' lat='45.7619479' lon='13.1660105' />
+  <node id='5258563564' timestamp='2019-03-27T07:52:59Z' uid='361003' user='Cascafico' visible='true' version='2' changeset='68575992' lat='45.761943' lon='13.1661019' />
+  <node id='5258563565' timestamp='2019-03-27T07:52:59Z' uid='361003' user='Cascafico' visible='true' version='2' changeset='68575992' lat='45.7618972' lon='13.1660969' />
+  <node id='5258563566' timestamp='2019-03-27T07:52:59Z' uid='361003' user='Cascafico' visible='true' version='2' changeset='68575992' lat='45.7618999' lon='13.1660453' />
+  <node id='5258563567' timestamp='2019-03-27T07:52:59Z' uid='361003' user='Cascafico' visible='true' version='2' changeset='68575992' lat='45.7618677' lon='13.1660419' />
+  <way id='36182101' action='modify' timestamp='2019-03-18T10:56:33Z' uid='8727120' user='attilaimport' visible='true' version='3' changeset='68254150'>
+    <nd ref='422410205' />
+    <nd ref='422410206' />
+    <nd ref='3856472179' />
+    <nd ref='422410207' />
+    <nd ref='3856472178' />
+    <nd ref='422410208' />
+    <nd ref='422410209' />
+    <nd ref='422410210' />
+    <nd ref='422410205' />
+    <tag k='building' v='roof' />
+    <tag k='height' v='4 m' />
+    <tag k='it:fvg:ctrn:code' v='4AED' />
+    <tag k='it:fvg:ctrn:revision' v='1A0' />
+  </way>
+  <way id='543992558' timestamp='2019-03-18T10:56:37Z' uid='8727120' user='attilaimport' visible='true' version='2' changeset='68254150'>
+    <nd ref='5258563562' />
+    <nd ref='5258563563' />
+    <nd ref='5258563564' />
+    <nd ref='5258563565' />
+    <nd ref='5258563566' />
+    <nd ref='5258563567' />
+    <nd ref='5258563562' />
+    <tag k='fixme' v='This object might have been dismantled, please check' />
+    <tag k='waterway' v='fuel' />
+  </way>
+</osm>

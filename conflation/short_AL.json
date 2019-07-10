@@ -1,0 +1,3114 @@
+[
+    {
+      "id"  : 29421,
+      "lat" : 44.67314,
+      "lon" : 8.47737,
+      "tags" : {
+               "operator" : "T.D.M. S.R.L.",
+               "brand" : "Tamoil",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "29421",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 30244,
+      "lat" : 44.67309,
+      "lon" : 8.46631,
+      "tags" : {
+               "operator" : "Ip Services S.R.L.",
+               "brand" : "Api-Ip",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "30244",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 6407,
+      "lat" : 44.67637,
+      "lon" : 8.45973,
+      "tags" : {
+               "operator" : "Servizi & Gestioni Italia S.R.L.",
+               "brand" : "Q8",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "6407",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 39340,
+      "lat" : 44.6792,
+      "lon" : 8.45137,
+      "tags" : {
+               "operator" : "Bertora Cinzia",
+               "brand" : "Retitalia",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "39340",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 10022,
+      "lat" : 44.66896,
+      "lon" : 8.45892,
+      "tags" : {
+               "operator" : "Collino e C.- S.P.A.",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "10022",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 39625,
+      "lat" : 44.66494,
+      "lon" : 8.47287,
+      "tags" : {
+               "operator" : "L'oasi S.A.S. di Barone Salvatore & C.",
+               "brand" : "Agip Eni",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_100" : "yes",
+               "ref:mise" : "39625",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 32191,
+      "lat" : 44.66345,
+      "lon" : 8.46825,
+      "tags" : {
+               "operator" : "Fratelli Olivieri Bruno e Riccardo S.N.C.",
+               "brand" : "Api-Ip",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_98" : "yes",
+               "ref:mise" : "32191",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 39621,
+      "lat" : 44.66902,
+      "lon" : 8.48122,
+      "tags" : {
+               "operator" : "Barone Salvatore",
+               "brand" : "Agip Eni",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "39621",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 39620,
+      "lat" : 44.66902,
+      "lon" : 8.48122,
+      "tags" : {
+               "operator" : "Barone Salvatore",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : "yes",
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "39620",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 38859,
+      "lat" : 44.67633,
+      "lon" : 8.46322,
+      "tags" : {
+               "operator" : "Berry Service di Ponzano Maurizio",
+               "brand" : "Oil Italia",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "38859",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 25112,
+      "lat" : 44.6758,
+      "lon" : 8.44641,
+      "tags" : {
+               "operator" : "Beccaria S.R.L. - Società a Responsabilità Limitata",
+               "brand" : "Q8",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_100" : "yes",
+               "ref:mise" : "25112",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 34628,
+      "lat" : 44.68022,
+      "lon" : 8.47289,
+      "tags" : {
+               "operator" : "Severino Massimo",
+               "brand" : "Agip Eni",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_100" : "yes",
+               "ref:mise" : "34628",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 34629,
+      "lat" : 44.67657,
+      "lon" : 8.4647,
+      "tags" : {
+               "operator" : "Severino Massimo",
+               "brand" : "Agip Eni",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "34629",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 44432,
+      "lat" : 44.96713,
+      "lon" : 8.61048,
+      "tags" : {
+               "operator" : "T.D.M. S.R.L.",
+               "brand" : "Tamoil",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "44432",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 30525,
+      "lat" : 44.89692,
+      "lon" : 8.58731,
+      "tags" : {
+               "operator" : "T.D.M. S.R.L.",
+               "brand" : "Tamoil",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "30525",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 34364,
+      "lat" : 44.90697,
+      "lon" : 8.61146,
+      "tags" : {
+               "operator" : "T.D.M. S.R.L.",
+               "brand" : "Tamoil",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "34364",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 5512,
+      "lat" : 44.91993,
+      "lon" : 8.59504,
+      "tags" : {
+               "operator" : "Ip Services S.R.L.",
+               "brand" : "Total Erg",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "5512",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 7292,
+      "lat" : 44.9022,
+      "lon" : 8.63087,
+      "tags" : {
+               "operator" : "Servizi & Gestioni Italia S.R.L.",
+               "brand" : "Q8",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "7292",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 30831,
+      "lat" : 44.89381,
+      "lon" : 8.67209,
+      "tags" : {
+               "operator" : "Servizi & Gestioni Italia S.R.L.",
+               "brand" : "Q8",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "30831",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 38868,
+      "lat" : 44.88638,
+      "lon" : 8.61541,
+      "tags" : {
+               "operator" : "Ip Services S.R.L.",
+               "brand" : "Api-Ip",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "38868",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 20730,
+      "lat" : 44.89126,
+      "lon" : 8.58933,
+      "tags" : {
+               "operator" : "Ip Services S.R.L.",
+               "brand" : "Total Erg",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "20730",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 6405,
+      "lat" : 44.88843,
+      "lon" : 8.59852,
+      "tags" : {
+               "operator" : "Servizi & Gestioni Italia S.R.L.",
+               "brand" : "Q8",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "6405",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 34564,
+      "lat" : 44.91976,
+      "lon" : 8.61313,
+      "tags" : {
+               "operator" : "Servizi & Gestioni Italia S.R.L.",
+               "brand" : "Q8",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "34564",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 4636,
+      "lat" : 44.9193,
+      "lon" : 8.59658,
+      "tags" : {
+               "operator" : "Nuova Sidap S.R.L.",
+               "brand" : "Esso",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "4636",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 11454,
+      "lat" : 44.92146,
+      "lon" : 8.57931,
+      "tags" : {
+               "operator" : "Servizi & Gestioni Italia S.R.L.",
+               "brand" : "Q8",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_100" : "yes",
+               "ref:mise" : "11454",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 29187,
+      "lat" : 44.91248,
+      "lon" : 8.60801,
+      "tags" : {
+               "operator" : "Aci-servizi Alessandria S.R.L.",
+               "brand" : "Api-Ip",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "29187",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 40733,
+      "lat" : 44.92151,
+      "lon" : 8.55065,
+      "tags" : {
+               "operator" : "New Truck S.R.L.",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "40733",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 41907,
+      "lat" : 44.90708,
+      "lon" : 8.64128,
+      "tags" : {
+               "operator" : "New Truck S.R.L.",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "41907",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 38764,
+      "lat" : 44.90327,
+      "lon" : 8.60633,
+      "tags" : {
+               "operator" : "Gargantini Gianmario Vittorio",
+               "brand" : "Esso",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "38764",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 37821,
+      "lat" : 44.92227,
+      "lon" : 8.61504,
+      "tags" : {
+               "operator" : "AleS.A.S.Srl",
+               "fuel:lpg" : null,
+               "fuel:cng" : "yes",
+               "ref:mise" : "37821",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 31091,
+      "lat" : 44.90699,
+      "lon" : 8.68893,
+      "tags" : {
+               "operator" : "Spinnato Alessandro",
+               "brand" : "Tamoil",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "31091",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 6878,
+      "lat" : 44.90949,
+      "lon" : 8.63144,
+      "tags" : {
+               "operator" : "Mazzoleni Federico",
+               "brand" : "Agip Eni",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_100" : "yes",
+               "ref:mise" : "6878",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 6879,
+      "lat" : 44.92087,
+      "lon" : 8.59285,
+      "tags" : {
+               "operator" : "Mazzoleni Federico",
+               "brand" : "Agip Eni",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_100" : "yes",
+               "ref:mise" : "6879",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 42510,
+      "lat" : 44.89146,
+      "lon" : 8.6016,
+      "tags" : {
+               "operator" : "Erretre S.R.L.",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "42510",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 42511,
+      "lat" : 44.91899,
+      "lon" : 8.59725,
+      "tags" : {
+               "operator" : "Erretre S.R.L.",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "42511",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 15622,
+      "lat" : 44.90917,
+      "lon" : 8.63291,
+      "tags" : {
+               "operator" : "New Petrol S.N.C. di Pace Luigi e Sciommarello Salvatore",
+               "brand" : "Esso",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "15622",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 41694,
+      "lat" : 44.88479,
+      "lon" : 8.71361,
+      "tags" : {
+               "operator" : "Europam S.P.A.",
+               "brand" : "Europam",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "41694",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 44117,
+      "lat" : 44.9029,
+      "lon" : 8.60586,
+      "tags" : {
+               "operator" : "Europam S.P.A.",
+               "brand" : "Europam",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "44117",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 10587,
+      "lat" : 44.91049,
+      "lon" : 8.62814,
+      "tags" : {
+               "operator" : "Quinto Cabella di Massimo e Sergio Cabella - S.N.C.",
+               "brand" : "Agip Eni",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_100" : "yes",
+               "ref:mise" : "10587",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 10209,
+      "lat" : 44.93263,
+      "lon" : 8.62542,
+      "tags" : {
+               "operator" : "Carugia & Oddino e C. S.N.C. di Carugia Maurizio",
+               "brand" : "Api-Ip",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_98" : "yes",
+               "ref:mise" : "10209",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 25683,
+      "lat" : 44.91015,
+      "lon" : 8.62555,
+      "tags" : {
+               "operator" : "Malfatto Maurizio",
+               "brand" : "Api-Ip",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "25683",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 43402,
+      "lat" : 44.89612,
+      "lon" : 8.6663,
+      "tags" : {
+               "operator" : "Max Service di Max Stefano & C. S.N.C.",
+               "brand" : "Agip Eni",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_100" : "yes",
+               "ref:mise" : "43402",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 43076,
+      "lat" : 44.92088,
+      "lon" : 8.59285,
+      "tags" : {
+               "operator" : "Punto S.A.S.Carburanti di Marcuzzo Cristhian & C. S.N.C.",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "ref:mise" : "43076",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 27276,
+      "lat" : 44.90908,
+      "lon" : 8.63602,
+      "tags" : {
+               "operator" : "B+b di Bonaldo Giancarlo e C. S.A.S.",
+               "brand" : "Agip Eni",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_100" : "yes",
+               "ref:mise" : "27276",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 29129,
+      "lat" : 44.9036,
+      "lon" : 8.64923,
+      "tags" : {
+               "operator" : "R&c di Frontino Nunzio",
+               "brand" : "Esso",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "29129",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 36526,
+      "lat" : 44.88965,
+      "lon" : 8.68747,
+      "tags" : {
+               "operator" : "New Truck S.R.L.",
+               "brand" : "KEROPETROL",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "36526",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 39241,
+      "lat" : 44.90189,
+      "lon" : 8.61922,
+      "tags" : {
+               "operator" : "Stazione Andromeda di Vivian Luciano & C. - S.N.C.",
+               "brand" : "Agip Eni",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_100" : "yes",
+               "ref:mise" : "39241",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 22975,
+      "lat" : 44.9194,
+      "lon" : 8.61233,
+      "tags" : {
+               "operator" : "An.Gi di Antonio Lecce S.A.S.",
+               "brand" : "Api-Ip",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "22975",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 27453,
+      "lat" : 44.9322,
+      "lon" : 8.58518,
+      "tags" : {
+               "operator" : "New Energy di Rrushi Ermira e C. S.N.C.",
+               "brand" : "Agip Eni",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "27453",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 10739,
+      "lat" : 44.90749,
+      "lon" : 8.61848,
+      "tags" : {
+               "operator" : "Al. Be. di Costa Alessandro e C. S.N.C.",
+               "brand" : "Agip Eni",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_100" : "yes",
+               "ref:mise" : "10739",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 40820,
+      "lat" : 44.91796,
+      "lon" : 8.70028,
+      "tags" : {
+               "operator" : "Stoil S.R.L.",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "40820",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 40629,
+      "lat" : 44.8866,
+      "lon" : 8.61483,
+      "tags" : {
+               "operator" : "Cipriano Roberto",
+               "brand" : "Total Erg",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "40629",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 38685,
+      "lat" : 44.93864,
+      "lon" : 8.62482,
+      "tags" : {
+               "operator" : "Valfuel S.N.C. di Timpanaro Cristian e Russo Paolo Giuseppe",
+               "brand" : "Total Erg",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "38685",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 14428,
+      "lat" : 44.69143,
+      "lon" : 8.88328,
+      "tags" : {
+               "operator" : "Elta Alberto",
+               "brand" : "Agip Eni",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_100" : "yes",
+               "ref:mise" : "14428",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 38708,
+      "lat" : 44.69868,
+      "lon" : 8.88466,
+      "tags" : {
+               "operator" : "Cavanna Roberto",
+               "brand" : "Total Erg",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "38708",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 3766,
+      "lat" : 44.6703,
+      "lon" : 8.90602,
+      "tags" : {
+               "operator" : "Giemme S.A.S.di Lanza Luigi & C",
+               "brand" : "Total Erg",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "3766",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 44118,
+      "lat" : 44.76953,
+      "lon" : 8.70392,
+      "tags" : {
+               "operator" : "Europam S.P.A.",
+               "brand" : "Europam",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "44118",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 40641,
+      "lat" : 44.76911,
+      "lon" : 8.71439,
+      "tags" : {
+               "operator" : "Fasciolo Simonetta Maria",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_100" : "yes",
+               "ref:mise" : "40641",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 7298,
+      "lat" : 44.62794,
+      "lon" : 8.65241,
+      "tags" : {
+               "operator" : "Servizi & Gestioni Italia S.R.L.",
+               "brand" : "Q8",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "7298",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 3535,
+      "lat" : 44.59237,
+      "lon" : 8.66614,
+      "tags" : {
+               "operator" : "Vignolo e Garbarino S.N.C.",
+               "brand" : "Total Erg",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "3535",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 38882,
+      "lat" : 44.59159,
+      "lon" : 8.66451,
+      "tags" : {
+               "operator" : "Tiger S.R.L.",
+               "brand" : "Esso",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "38882",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 25114,
+      "lat" : 44.65863,
+      "lon" : 8.37517,
+      "tags" : {
+               "operator" : "Beccaria S.R.L. - Società a Responsabilità Limitata",
+               "brand" : "Q8",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "25114",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 34974,
+      "lat" : 44.72837,
+      "lon" : 8.93451,
+      "tags" : {
+               "operator" : "Keropetrol S.P.A.",
+               "brand" : "KEROPETROL",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "34974",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 38590,
+      "lat" : 44.83472,
+      "lon" : 8.7373,
+      "tags" : {
+               "operator" : "Easy Service S.R.L.",
+               "brand" : "Energas",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "38590",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 37888,
+      "lat" : 44.67405,
+      "lon" : 9.09422,
+      "tags" : {
+               "operator" : "Benzoil Società a Responsabilità Limitata Semplificata",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "37888",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 44114,
+      "lat" : 44.8781,
+      "lon" : 8.56993,
+      "tags" : {
+               "operator" : "Europam S.P.A.",
+               "brand" : "Europam",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "44114",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 8685,
+      "lat" : 44.72667,
+      "lon" : 9.03708,
+      "tags" : {
+               "operator" : "Morando Celestina",
+               "brand" : "Tamoil",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "8685",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 26208,
+      "lat" : 45.11101,
+      "lon" : 8.45149,
+      "tags" : {
+               "operator" : "Berta Gabriel",
+               "brand" : "Agip Eni",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_100" : "yes",
+               "ref:mise" : "26208",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 33254,
+      "lat" : 45.10823,
+      "lon" : 8.45165,
+      "tags" : {
+               "operator" : "3d S.R.L.",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "33254",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 43143,
+      "lat" : 45.12427,
+      "lon" : 8.44553,
+      "tags" : {
+               "operator" : "T.D.M. S.R.L.",
+               "brand" : "Tamoil",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "43143",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 5125,
+      "lat" : 45.1296,
+      "lon" : 8.47554,
+      "tags" : {
+               "operator" : "Trovato Giuseppe",
+               "brand" : "Agip Eni",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : "yes",
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_100" : "yes",
+               "ref:mise" : "5125",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 5511,
+      "lat" : 45.11832,
+      "lon" : 8.45573,
+      "tags" : {
+               "operator" : "Ip Services S.R.L.",
+               "brand" : "Total Erg",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "5511",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 6404,
+      "lat" : 45.14829,
+      "lon" : 8.44424,
+      "tags" : {
+               "operator" : "Servizi & Gestioni Italia S.R.L.",
+               "brand" : "Q8",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "6404",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 11452,
+      "lat" : 45.12377,
+      "lon" : 8.45124,
+      "tags" : {
+               "operator" : "Servizi & Gestioni Italia S.R.L.",
+               "brand" : "Q8",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_100" : "yes",
+               "ref:mise" : "11452",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 7288,
+      "lat" : 45.12286,
+      "lon" : 8.46431,
+      "tags" : {
+               "operator" : "Servizi & Gestioni Italia S.R.L.",
+               "brand" : "Q8",
+               "fuel:lpg" : null,
+               "fuel:cng" : "yes",
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "7288",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 37632,
+      "lat" : 45.1475,
+      "lon" : 8.44419,
+      "tags" : {
+               "operator" : "Costantin Distribuzione e Servizi S.R.L.",
+               "brand" : "Costantin",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "37632",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 39839,
+      "lat" : 45.1626,
+      "lon" : 8.46034,
+      "tags" : {
+               "operator" : "Riccobono Alessia",
+               "brand" : "Agip Eni",
+               "fuel:lpg" : null,
+               "fuel:cng" : "yes",
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "39839",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 31127,
+      "lat" : 45.10779,
+      "lon" : 8.43796,
+      "tags" : {
+               "operator" : "Casadei Massimo",
+               "brand" : "Esso",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "31127",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 39344,
+      "lat" : 45.14413,
+      "lon" : 8.44662,
+      "tags" : {
+               "operator" : "Farello Marco",
+               "brand" : "Esso",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "39344",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 33907,
+      "lat" : 45.14114,
+      "lon" : 8.45064,
+      "tags" : {
+               "operator" : "Europam S.P.A.",
+               "brand" : "Europam",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "33907",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 4973,
+      "lat" : 45.11382,
+      "lon" : 8.44395,
+      "tags" : {
+               "operator" : "Ravazzotto Sandra",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : "yes",
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "4973",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 10959,
+      "lat" : 45.13342,
+      "lon" : 8.44806,
+      "tags" : {
+               "operator" : "Palmeri Pietro",
+               "brand" : "Api-Ip",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "10959",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 10985,
+      "lat" : 45.14562,
+      "lon" : 8.44577,
+      "tags" : {
+               "operator" : "Rabagliati Gianni",
+               "brand" : "Api-Ip",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "10985",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 31488,
+      "lat" : 45.11976,
+      "lon" : 8.49221,
+      "tags" : {
+               "operator" : "Repsol Italia S.P.A.",
+               "brand" : "Repsol",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "31488",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 12387,
+      "lat" : 45.1312,
+      "lon" : 8.47198,
+      "tags" : {
+               "operator" : "Demaria Ivo",
+               "brand" : "Api-Ip",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "12387",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 39596,
+      "lat" : 44.76483,
+      "lon" : 8.86146,
+      "tags" : {
+               "operator" : "Ah.Ib di Ahmed Ibrahim Hassan",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "39596",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 38739,
+      "lat" : 44.77764,
+      "lon" : 8.53727,
+      "tags" : {
+               "operator" : "F.lli Aiachini di Simone e Carlo Aiachini S.N.C.",
+               "brand" : "KEROPETROL",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "38739",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 6897,
+      "lat" : 44.75224,
+      "lon" : 8.52859,
+      "tags" : {
+               "operator" : "Toselli Pierangelo",
+               "brand" : "Agip Eni",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_100" : "yes",
+               "ref:mise" : "6897",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 31339,
+      "lat" : 44.81959,
+      "lon" : 8.59493,
+      "tags" : {
+               "operator" : "Nuova Sidap S.R.L.",
+               "brand" : "Esso",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "31339",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 43358,
+      "lat" : 44.81719,
+      "lon" : 8.59393,
+      "tags" : {
+               "operator" : "Ads Bormida Ovest di Bosio Fabio & C. Sas",
+               "brand" : "Total Erg",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "43358",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 17274,
+      "lat" : 44.84855,
+      "lon" : 8.57422,
+      "tags" : {
+               "operator" : "F.lli Aiachini di Simone e Carlo Aiachini S.N.C.",
+               "brand" : "KEROPETROL",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "17274",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 13220,
+      "lat" : 44.85094,
+      "lon" : 8.61301,
+      "tags" : {
+               "operator" : "T.A.M. Petrol di Molina Giuseppe e Gianluca S.A.S",
+               "brand" : "Tamoil",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_100" : "yes",
+               "ref:mise" : "13220",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 40043,
+      "lat" : 44.68946,
+      "lon" : 8.6962,
+      "tags" : {
+               "operator" : "Tacchino Rita",
+               "brand" : "Esso",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "40043",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 34482,
+      "lat" : 44.97819,
+      "lon" : 8.56963,
+      "tags" : {
+               "operator" : "Mazzoleni Federico",
+               "brand" : "Agip Eni",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_100" : "yes",
+               "ref:mise" : "34482",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 3595,
+      "lat" : 44.93426,
+      "lon" : 8.85341,
+      "tags" : {
+               "operator" : "3 T S.N.C. di Tartaglione Sabatino e C.",
+               "brand" : "Tamoil",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_100" : "yes",
+               "ref:mise" : "3595",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 3606,
+      "lat" : 44.93391,
+      "lon" : 8.85219,
+      "tags" : {
+               "operator" : "Silla Fabio e C. - S.N.C.",
+               "brand" : "Agip Eni",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_100" : "yes",
+               "ref:mise" : "3606",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 9938,
+      "lat" : 44.97875,
+      "lon" : 8.88832,
+      "tags" : {
+               "operator" : "Trovamala Ezio",
+               "brand" : "Agip Eni",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "9938",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 42407,
+      "lat" : 44.97794,
+      "lon" : 8.89339,
+      "tags" : {
+               "operator" : "Bidone Barbara",
+               "brand" : "Total Erg",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "42407",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 31301,
+      "lat" : 44.63197,
+      "lon" : 8.61574,
+      "tags" : {
+               "operator" : "Kerotris - Società a Responsabilità Limitata",
+               "brand" : "Kerotris",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "31301",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 33913,
+      "lat" : 44.78615,
+      "lon" : 9.14642,
+      "tags" : {
+               "operator" : "Europam S.P.A.",
+               "brand" : "Europam",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "33913",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 38630,
+      "lat" : 44.90091,
+      "lon" : 8.43256,
+      "tags" : {
+               "operator" : "Full Energy S.A.S. di Costa Rosalia e C.",
+               "brand" : "Agip Eni",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "38630",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 10321,
+      "lat" : 44.96505,
+      "lon" : 8.42842,
+      "tags" : {
+               "operator" : "Fracchia Giovanni",
+               "brand" : "Agip Eni",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_100" : "yes",
+               "ref:mise" : "10321",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 11450,
+      "lat" : 44.69047,
+      "lon" : 8.81959,
+      "tags" : {
+               "operator" : "Benassi Roberto",
+               "brand" : "Agip Eni",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "11450",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 8875,
+      "lat" : 44.63587,
+      "lon" : 8.71457,
+      "tags" : {
+               "operator" : "Benzo Maurizio",
+               "brand" : "Api-Ip",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "8875",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 10825,
+      "lat" : 45.11912,
+      "lon" : 8.24623,
+      "tags" : {
+               "operator" : "Riccobono Alessia",
+               "brand" : "Agip Eni",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "10825",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 16764,
+      "lat" : 45.11634,
+      "lon" : 8.26109,
+      "tags" : {
+               "operator" : "Melia Giuseppe",
+               "brand" : "Tamoil",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_100" : "yes",
+               "ref:mise" : "16764",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 44998,
+      "lat" : 44.59836,
+      "lon" : 8.35302,
+      "tags" : {
+               "operator" : "Malfatto S.N.C.di Malfatto Angela & Alessandro",
+               "brand" : "Q8",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_100" : "yes",
+               "ref:mise" : "44998",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 4956,
+      "lat" : 44.83789,
+      "lon" : 8.95292,
+      "tags" : {
+               "operator" : "So.Ge.Di di Ratti Francesco & C. S.A.S.",
+               "brand" : "Ratti",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "4956",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 20605,
+      "lat" : 44.85599,
+      "lon" : 9.00521,
+      "tags" : {
+               "operator" : "Lugano Daniele",
+               "brand" : "Total Erg",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "20605",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 42151,
+      "lat" : 45.16319,
+      "lon" : 8.40355,
+      "tags" : {
+               "operator" : "Kerotris S.P.A.",
+               "brand" : "Kerotris",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "42151",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 30770,
+      "lat" : 44.77577,
+      "lon" : 8.78979,
+      "tags" : {
+               "operator" : "T.D.M. S.R.L.",
+               "brand" : "Tamoil",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "30770",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 19450,
+      "lat" : 44.76703,
+      "lon" : 8.81339,
+      "tags" : {
+               "operator" : "Traverso Andrea",
+               "fuel:lpg" : null,
+               "fuel:cng" : "yes",
+               "ref:mise" : "19450",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 44859,
+      "lat" : 44.76061,
+      "lon" : 8.83838,
+      "tags" : {
+               "operator" : "Autobar di Ginetti Giancarlo & C. S.R.L.",
+               "brand" : "Api-Ip",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "44859",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 44860,
+      "lat" : 44.7602,
+      "lon" : 8.83701,
+      "tags" : {
+               "operator" : "Autobar di Ginetti Giancarlo & C. S.R.L.",
+               "brand" : "Api-Ip",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "44860",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 40749,
+      "lat" : 44.76678,
+      "lon" : 8.76793,
+      "tags" : {
+               "operator" : "Max Service di Max Stefano & C. S.N.C.",
+               "brand" : "Agip Eni",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_100" : "yes",
+               "ref:mise" : "40749",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 41183,
+      "lat" : 44.75612,
+      "lon" : 8.79825,
+      "tags" : {
+               "operator" : "Stazione di Servizio Agip N. 11415 di Carano Enrico",
+               "brand" : "Agip Eni",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_100" : "yes",
+               "ref:mise" : "41183",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 43039,
+      "lat" : 44.76756,
+      "lon" : 8.76496,
+      "tags" : {
+               "operator" : "Ri.Al. S.A.S. di Lo Torto Michele e C.",
+               "brand" : "Esso",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "43039",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 6942,
+      "lat" : 44.75813,
+      "lon" : 8.79413,
+      "tags" : {
+               "operator" : "G.E. Carburanti S.N.C. di Sterpi Ezio & C.",
+               "brand" : "Api-Ip",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_98" : "yes",
+               "ref:mise" : "6942",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 44057,
+      "lat" : 44.74759,
+      "lon" : 8.81206,
+      "tags" : {
+               "operator" : "Keropetrol S.P.A.",
+               "brand" : "KEROPETROL",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "44057",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 3801,
+      "lat" : 44.80064,
+      "lon" : 8.74867,
+      "tags" : {
+               "operator" : "Autobar di Ginetti G. & C. S.R.L.",
+               "brand" : "Api-Ip",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "3801",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 43454,
+      "lat" : 44.8008,
+      "lon" : 8.75106,
+      "tags" : {
+               "operator" : "Sarni S.R.L.",
+               "brand" : "Sarni Oil",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_100" : "yes",
+               "ref:mise" : "43454",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 6406,
+      "lat" : 44.769,
+      "lon" : 8.80374,
+      "tags" : {
+               "operator" : "Servizi & Gestioni Italia S.R.L.",
+               "brand" : "Q8",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "6406",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 15868,
+      "lat" : 44.76882,
+      "lon" : 8.78859,
+      "tags" : {
+               "operator" : "F.P. - Oil S.N.C. di Verdona Fabio e Paolo",
+               "brand" : "Agip Eni",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_100" : "yes",
+               "ref:mise" : "15868",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 11458,
+      "lat" : 44.77033,
+      "lon" : 8.77283,
+      "tags" : {
+               "operator" : "Servizi & Gestioni Italia S.R.L.",
+               "brand" : "Q8",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "11458",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 4954,
+      "lat" : 44.77342,
+      "lon" : 8.76432,
+      "tags" : {
+               "operator" : "So.Ge.Di di Ratti Francesco & C. S.A.S.",
+               "brand" : "Ratti",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_100" : "yes",
+               "ref:mise" : "4954",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 36381,
+      "lat" : 44.75834,
+      "lon" : 8.80752,
+      "tags" : {
+               "operator" : "Nuova R.O.P. di Rosa Romolo & C. S.N.C.",
+               "brand" : "Retitalia",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "36381",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 13168,
+      "lat" : 44.76927,
+      "lon" : 8.78875,
+      "tags" : {
+               "operator" : "Pelizza Massimo",
+               "brand" : "Api-Ip",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "13168",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 20414,
+      "lat" : 45.05573,
+      "lon" : 8.51217,
+      "tags" : {
+               "operator" : "Brixia Finanziaria S.R.L.",
+               "brand" : "Retitalia",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "20414",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 38067,
+      "lat" : 45.07534,
+      "lon" : 8.51071,
+      "tags" : {
+               "operator" : "Nuova Sidap S.R.L.",
+               "brand" : "Tamoil",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "38067",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 23131,
+      "lat" : 45.07373,
+      "lon" : 8.50956,
+      "tags" : {
+               "operator" : "Servizi & Gestioni Italia S.R.L.",
+               "brand" : "Q8",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "23131",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 44323,
+      "lat" : 45.07375,
+      "lon" : 8.50957,
+      "tags" : {
+               "operator" : "Chef Express S.P.A.",
+               "brand" : "Q8",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "44323",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 10563,
+      "lat" : 44.65135,
+      "lon" : 8.65459,
+      "tags" : {
+               "operator" : "Pasqua Aldo",
+               "brand" : "Total Erg",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "10563",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 35057,
+      "lat" : 44.63801,
+      "lon" : 8.64911,
+      "tags" : {
+               "operator" : "Dimax di Max Marco",
+               "brand" : "Agip Eni",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "35057",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 39627,
+      "lat" : 44.6306,
+      "lon" : 8.64492,
+      "tags" : {
+               "operator" : "L'oasi S.A.S. di Barone Salvatore & C.",
+               "brand" : "Agip Eni",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_100" : "yes",
+               "ref:mise" : "39627",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 18146,
+      "lat" : 44.62264,
+      "lon" : 8.62451,
+      "tags" : {
+               "operator" : "Alloisio Fratelli di Alloisio Gian Lorenzo e Vania S.N.C.",
+               "brand" : "Esso",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "18146",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 15017,
+      "lat" : 44.6527,
+      "lon" : 8.65511,
+      "tags" : {
+               "operator" : "Rosso Giacinto",
+               "brand" : "Api-Ip",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "15017",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 11453,
+      "lat" : 44.63158,
+      "lon" : 8.64473,
+      "tags" : {
+               "operator" : "Servizi & Gestioni Italia S.R.L.",
+               "brand" : "Q8",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "11453",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 11246,
+      "lat" : 44.86081,
+      "lon" : 8.49323,
+      "tags" : {
+               "operator" : "Autoequipe di Pongoli Gabriele",
+               "brand" : "Q8",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "11246",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 20499,
+      "lat" : 45.10755,
+      "lon" : 8.36137,
+      "tags" : {
+               "operator" : "Meneghetti Alessandro",
+               "brand" : "Tamoil",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "20499",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 44045,
+      "lat" : 44.999,
+      "lon" : 8.6779,
+      "tags" : {
+               "operator" : "Lo Proto Alessandro",
+               "brand" : "Total Erg",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "44045",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 43686,
+      "lat" : 45.05784,
+      "lon" : 8.61017,
+      "tags" : {
+               "operator" : "Stazione Servizio Com.Pet di Michele Lo Torto",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : "yes",
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "43686",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 13830,
+      "lat" : 44.9436,
+      "lon" : 8.91504,
+      "tags" : {
+               "operator" : "Becojl S.R.L.",
+               "brand" : "Kerotris",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "13830",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 17787,
+      "lat" : 44.96296,
+      "lon" : 8.93491,
+      "tags" : {
+               "operator" : "Scapolan Paolo",
+               "brand" : "Esso",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "17787",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 36527,
+      "lat" : 44.78766,
+      "lon" : 8.78803,
+      "tags" : {
+               "operator" : "New Truck S.R.L.",
+               "brand" : "KEROPETROL",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "36527",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 36678,
+      "lat" : 44.78766,
+      "lon" : 8.78802,
+      "tags" : {
+               "operator" : "New Truck S.R.L.",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "36678",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 7194,
+      "lat" : 44.90375,
+      "lon" : 8.36453,
+      "tags" : {
+               "operator" : "Ponassi S.N.C. di Ponassi Massimigliano & C.",
+               "brand" : "Esso",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "7194",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 25988,
+      "lat" : 44.70496,
+      "lon" : 8.54645,
+      "tags" : {
+               "operator" : "Full And Drive S.A.S. di Navone Andrea Vincenzo, Peretta Franco & C.",
+               "brand" : "Esso",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "25988",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 41683,
+      "lat" : 44.87352,
+      "lon" : 8.82975,
+      "tags" : {
+               "operator" : "Servizi & Gestioni Italia S.R.L.",
+               "brand" : "Q8",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "41683",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 28336,
+      "lat" : 44.96852,
+      "lon" : 8.81327,
+      "tags" : {
+               "operator" : "Pensa Stefano",
+               "brand" : "Europam",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "28336",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 11127,
+      "lat" : 44.98298,
+      "lon" : 8.81264,
+      "tags" : {
+               "operator" : "Lamanna Maurizio",
+               "brand" : "Esso",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "11127",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 35696,
+      "lat" : 45.10177,
+      "lon" : 8.41861,
+      "tags" : {
+               "operator" : "Iacocarburanti di Iacomino Luigi",
+               "brand" : "Api-Ip",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "35696",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 32320,
+      "lat" : 45.01417,
+      "lon" : 8.54979,
+      "tags" : {
+               "operator" : "New Truck S.R.L.",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "32320",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 28443,
+      "lat" : 44.78984,
+      "lon" : 9.05464,
+      "tags" : {
+               "operator" : "Zambruno Monica e Ilaria Snc",
+               "brand" : "Tamoil",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "28443",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 42239,
+      "lat" : 44.73059,
+      "lon" : 8.84927,
+      "tags" : {
+               "operator" : "Dl S.N.C. di Lo Torto Michele e C.",
+               "brand" : "Esso",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "42239",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 35322,
+      "lat" : 44.74234,
+      "lon" : 8.84615,
+      "tags" : {
+               "operator" : "Eredi Campidonico - S.P.A.",
+               "brand" : "Total Erg",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "35322",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 10406,
+      "lat" : 44.73203,
+      "lon" : 8.8376,
+      "tags" : {
+               "operator" : "Blu di Manno Concetta & C. S.A.S.",
+               "brand" : "Agip Eni",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_100" : "yes",
+               "ref:mise" : "10406",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 7300,
+      "lat" : 44.73516,
+      "lon" : 8.8335,
+      "tags" : {
+               "operator" : "Servizi & Gestioni Italia S.R.L.",
+               "brand" : "Q8",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "7300",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 8341,
+      "lat" : 44.7273,
+      "lon" : 8.85421,
+      "tags" : {
+               "operator" : "Servizi & Gestioni Italia S.R.L.",
+               "brand" : "Q8",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_100" : "yes",
+               "ref:mise" : "8341",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 44646,
+      "lat" : 44.78554,
+      "lon" : 8.57113,
+      "tags" : {
+               "operator" : "Dis-car di Sarra Paolo & C. S.N.C.",
+               "brand" : "DIS-CAR",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "44646",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 7358,
+      "lat" : 44.67661,
+      "lon" : 8.66948,
+      "tags" : {
+               "operator" : "Setnicka Marco",
+               "brand" : "Q8",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "7358",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 28723,
+      "lat" : 44.54156,
+      "lon" : 8.33451,
+      "tags" : {
+               "operator" : "Garbarino Walter",
+               "brand" : "Retitalia",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "28723",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 42512,
+      "lat" : 44.71353,
+      "lon" : 8.53229,
+      "tags" : {
+               "operator" : "Erretre S.R.L.",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "42512",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 25111,
+      "lat" : 44.67548,
+      "lon" : 8.4205,
+      "tags" : {
+               "operator" : "Beccaria S.R.L. - Società a Responsabilità Limitata",
+               "brand" : "Q8",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "25111",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 11151,
+      "lat" : 45.09598,
+      "lon" : 8.54739,
+      "tags" : {
+               "operator" : "Rizzato Marco",
+               "brand" : "Tamoil",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "11151",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 35124,
+      "lat" : 44.9008,
+      "lon" : 8.8392,
+      "tags" : {
+               "operator" : "Pampuri Emiliano",
+               "brand" : "Agip Eni",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "35124",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 31896,
+      "lat" : 44.90852,
+      "lon" : 8.87973,
+      "tags" : {
+               "operator" : "Gestioni Innovative Italia S.R.L.",
+               "brand" : "Agip Eni",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "31896",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 4955,
+      "lat" : 44.85793,
+      "lon" : 8.87702,
+      "tags" : {
+               "operator" : "So.Ge.Di di Ratti Francesco & C. S.A.S.",
+               "brand" : "Ratti",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_100" : "yes",
+               "ref:mise" : "4955",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 29685,
+      "lat" : 44.9079,
+      "lon" : 8.86647,
+      "tags" : {
+               "operator" : "So.Ge.Di di Ratti Francesco & C. S.A.S.",
+               "brand" : "Ratti",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_100" : "yes",
+               "ref:mise" : "29685",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 4953,
+      "lat" : 44.90662,
+      "lon" : 8.86998,
+      "tags" : {
+               "operator" : "So.Ge.Di di Ratti Francesco & C. S.A.S.",
+               "brand" : "Ratti",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "4953",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 10308,
+      "lat" : 44.9054,
+      "lon" : 8.88675,
+      "tags" : {
+               "operator" : "Gravante Ferdinando",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "10308",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 34697,
+      "lat" : 44.87002,
+      "lon" : 8.85904,
+      "tags" : {
+               "operator" : "Rome S.N.C. di Ali A., Iqbal N. e Rome I.",
+               "fuel:lpg" : null,
+               "fuel:cng" : "yes",
+               "ref:mise" : "34697",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 25836,
+      "lat" : 44.88213,
+      "lon" : 8.85841,
+      "tags" : {
+               "operator" : "Sartor Fiorenzo",
+               "brand" : "Esso",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "25836",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 4968,
+      "lat" : 44.89379,
+      "lon" : 8.84057,
+      "tags" : {
+               "operator" : "Fracchetta Sandrino",
+               "brand" : "Retitalia",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "4968",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 7428,
+      "lat" : 44.87341,
+      "lon" : 8.85705,
+      "tags" : {
+               "operator" : "Persetti Armano Giovanna",
+               "brand" : "Tamoil",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "7428",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 10077,
+      "lat" : 44.88125,
+      "lon" : 8.8582,
+      "tags" : {
+               "operator" : "Ip Services S.R.L.",
+               "brand" : "Api-Ip",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "10077",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 15040,
+      "lat" : 44.89497,
+      "lon" : 8.84737,
+      "tags" : {
+               "operator" : "Vacchelli Giacomo Gaetano",
+               "brand" : "Api-Ip",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "15040",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 7108,
+      "lat" : 44.8826,
+      "lon" : 8.85555,
+      "tags" : {
+               "operator" : "S.S.C. Società Sviluppo Commerciale S.R.L. in sigla S.S.C. S. R.L.",
+               "brand" : "Carrefour",
+               "fuel:lpg" : null,
+               "fuel:cng" : "yes",
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "7108",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 28675,
+      "lat" : 44.90084,
+      "lon" : 8.87244,
+      "tags" : {
+               "operator" : "Ip Services S.R.L.",
+               "brand" : "Api-Ip",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "28675",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 23835,
+      "lat" : 44.88951,
+      "lon" : 8.85942,
+      "tags" : {
+               "operator" : "Servizi & Gestioni Italia S.R.L.",
+               "brand" : "Q8",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "23835",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 3798,
+      "lat" : 44.93517,
+      "lon" : 8.88367,
+      "tags" : {
+               "operator" : "Cogi di Corbetta Gigi e C. S.A.S.",
+               "brand" : "Q8",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_100" : "yes",
+               "ref:mise" : "3798",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 4638,
+      "lat" : 44.89498,
+      "lon" : 8.84833,
+      "tags" : {
+               "operator" : "Nuova Sidap S.R.L.",
+               "brand" : "Esso",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "4638",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 3529,
+      "lat" : 44.93521,
+      "lon" : 8.88557,
+      "tags" : {
+               "operator" : "VS.p.A.Oil S.N.C. dei F.lli Verdona Paolo e Fabio & C.",
+               "brand" : "Agip Eni",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_100" : "yes",
+               "ref:mise" : "3529",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 42410,
+      "lat" : 44.89554,
+      "lon" : 8.85396,
+      "tags" : {
+               "operator" : "Bidone Barbara",
+               "brand" : "Total Erg",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "42410",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 16328,
+      "lat" : 45.008,
+      "lon" : 8.63699,
+      "tags" : {
+               "operator" : "Aci-servizi Alessandria S.R.L.",
+               "brand" : "Api-Ip",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "fuel:octane_98" : "yes",
+               "ref:mise" : "16328",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 38931,
+      "lat" : 45.00453,
+      "lon" : 8.63473,
+      "tags" : {
+               "operator" : "Grigoletto Fabrizio Distributore Eni",
+               "brand" : "Agip Eni",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "38931",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 40913,
+      "lat" : 44.99672,
+      "lon" : 8.63914,
+      "tags" : {
+               "operator" : "Ri.Al. S.A.S. di Lo Torto Michele e C.",
+               "brand" : "Esso",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "40913",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 17209,
+      "lat" : 45.02207,
+      "lon" : 8.63021,
+      "tags" : {
+               "operator" : "Cabona Ezio Alessandro",
+               "brand" : "Api-Ip",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "17209",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 27635,
+      "lat" : 45.00448,
+      "lon" : 8.66183,
+      "tags" : {
+               "operator" : "Gestioni Innovative Italia S.R.L.",
+               "brand" : "Agip Eni",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "27635",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 30940,
+      "lat" : 45.0109,
+      "lon" : 8.64678,
+      "tags" : {
+               "operator" : "Capellino Sara",
+               "brand" : "Tamoil",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "30940",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 6408,
+      "lat" : 45.00365,
+      "lon" : 8.63856,
+      "tags" : {
+               "operator" : "Servizi & Gestioni Italia S.R.L.",
+               "brand" : "Q8",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "6408",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 33888,
+      "lat" : 45.00938,
+      "lon" : 8.39396,
+      "tags" : {
+               "operator" : "Emmepi di Pregnolato Michela",
+               "brand" : "Tamoil",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "33888",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 29320,
+      "lat" : 44.70632,
+      "lon" : 8.89261,
+      "tags" : {
+               "operator" : "New Truck S.R.L.",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "29320",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 27342,
+      "lat" : 45.17988,
+      "lon" : 8.47229,
+      "tags" : {
+               "operator" : "Demichelis Luisa",
+               "fuel:lpg" : null,
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "27342",
+               "amenity"  : "fuel"
+               }
+    }
+,
+    {
+      "id"  : 7297,
+      "lat" : 45.16693,
+      "lon" : 8.465,
+      "tags" : {
+               "operator" : "Servizi & Gestioni Italia S.R.L.",
+               "brand" : "Q8",
+               "fuel:lpg" : "yes",
+               "fuel:cng" : null,
+               "fuel:diesel" : "yes",
+               "fuel:octane_95" : "yes",
+               "ref:mise" : "7297",
+               "amenity"  : "fuel"
+               }
+    }
+]

@@ -35,12 +35,12 @@ bbox = True
 
 
 # tags to replace on matched OSM objects
-master_tags = ('name', 'ref:mise', 'operator', 'fuel:diesel', 'fuel:octane_95', 'fuel:octane_98', 'fuel:octane_100', 'fuel:octane_101', 'fuel:lpg', 'fuel:cng','brand')
+master_tags = ('name', 'fixme', 'ref:mise', 'operator', 'fuel:diesel', 'fuel:octane_95', 'fuel:octane_98', 'fuel:octane_100', 'fuel:octane_101', 'fuel:lpg', 'fuel:cng','brand')
 
 delete_unmatched = False
 tag_unmatched = { 'fixme':'This object might have been dismantled, please check' }
 
 
 # max distance to search for a match in meters
-#max_distance = 50
-max_distance = 70
+max_distance = 50
+#max_distance = 70

@@ -1,0 +1,389 @@
+[
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column lat using expression value.toNumber()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "lat",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column lon using expression value.toNumber()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "lon",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression value.trim()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression value.replace(/\\s+/,' ')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression grel:replace(value, \"*\", \"\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value, \"*\", \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression value.toTitlecase()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "lat",
+          "expression": "value",
+          "columnName": "lat",
+          "from": 0,
+          "to": 34,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "selectBlank": true
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "lon",
+          "expression": "value",
+          "columnName": "lon",
+          "from": -90,
+          "to": 0,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectError": true,
+          "selectBlank": true
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression grel:replace(value, \" Di \", \" di \")",
+    "engineConfig": {
+      "facets": [
+        {
+          "name": "operator",
+          "columnName": "operator",
+          "query": "\\w*(?<! di ) Di ",
+          "mode": "regex",
+          "caseSensitive": true,
+          "invert": false,
+          "type": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value, \" Di \", \" di \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression grel:replace(value, \"Societa' \", \"Società \")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value, \"Societa' \", \"Società \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression grel:replace(value, \"Società in Nome Collettivo\", \"S.N.C.\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value, \"Società in Nome Collettivo\", \"S.N.C.\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression grel:replace(value, \"Responsabilita' \", \"Responsabilità \")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value, \"Responsabilita' \", \"Responsabilità \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression grel:replace(value, \" In \", \" in \")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value, \" In \", \" in \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression grel:replace(value, \" A \", \" a \")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value, \" A \", \" a \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression grel:replace(value, \" E \", \" e \")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value, \" E \", \" e \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression grel:replace(value, \" Sigla \", \" sigla \")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value, \" Sigla \", \" sigla \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression grel:replace(value, \" Dei \", \" dei \")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "grel:replace(value, \" Dei \", \" dei \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column brand using expression grel:replace(value, \"Pompe Bianche\", \"\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "brand",
+    "expression": "grel:replace(value, \"Pompe Bianche\", \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column fuel:lpg at index 1 based on column ref:mise using expression grel:if (length(cell.cross(\"prezzo_alle_8\",\"idImpianto\").cells[\"descCarburante\"].value[0].find(\"gpl\")[0])>0,\"yes\",null)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "fuel:lpg",
+    "columnInsertIndex": 1,
+    "baseColumnName": "ref:mise",
+    "expression": "grel:if (length(cell.cross(\"prezzo_alle_8\",\"idImpianto\").cells[\"descCarburante\"].value[0].find(\"gpl\")[0])>0,\"yes\",null)",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column fuel:cng at index 1 based on column ref:mise using expression grel:if (length(cell.cross(\"prezzo_alle_8\",\"idImpianto\").cells[\"descCarburante\"].value[0].find(\"metano\")[0])>0,\"yes\",null)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "fuel:cng",
+    "columnInsertIndex": 1,
+    "baseColumnName": "ref:mise",
+    "expression": "grel:if (length(cell.cross(\"prezzo_alle_8\",\"idImpianto\").cells[\"descCarburante\"].value[0].find(\"metano\")[0])>0,\"yes\",null)",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column fuel:octane_95 at index 1 based on column ref:mise using expression grel:if (length(cell.cross(\"prezzo_alle_8\",\"idImpianto\").cells[\"descCarburante\"].value[0].find(\"octane_95\")[0])>0,\"yes\",null)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "fuel:octane_95",
+    "columnInsertIndex": 1,
+    "baseColumnName": "ref:mise",
+    "expression": "grel:if (length(cell.cross(\"prezzo_alle_8\",\"idImpianto\").cells[\"descCarburante\"].value[0].find(\"octane_95\")[0])>0,\"yes\",null)",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column fuel:octane_98 at index 1 based on column ref:mise using expression grel:if (length(cell.cross(\"prezzo_alle_8\",\"idImpianto\").cells[\"descCarburante\"].value[0].find(\"octane_98\")[0])>0,\"yes\",null)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "fuel:octane_98",
+    "columnInsertIndex": 1,
+    "baseColumnName": "ref:mise",
+    "expression": "grel:if (length(cell.cross(\"prezzo_alle_8\",\"idImpianto\").cells[\"descCarburante\"].value[0].find(\"octane_98\")[0])>0,\"yes\",null)",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column fuel:octane_100 at index 1 based on column ref:mise using expression grel:if (length(cell.cross(\"prezzo_alle_8\",\"idImpianto\").cells[\"descCarburante\"].value[0].find(\"octane_100\")[0])>0,\"yes\",null)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "fuel:octane_100",
+    "columnInsertIndex": 1,
+    "baseColumnName": "ref:mise",
+    "expression": "grel:if (length(cell.cross(\"prezzo_alle_8\",\"idImpianto\").cells[\"descCarburante\"].value[0].find(\"octane_100\")[0])>0,\"yes\",null)",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column fuel:octane_101 at index 1 based on column ref:mise using expression grel:if (length(cell.cross(\"prezzo_alle_8\",\"idImpianto\").cells[\"descCarburante\"].value[0].find(\"octane_101\")[0])>0,\"yes\",null)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "fuel:octane_101",
+    "columnInsertIndex": 1,
+    "baseColumnName": "ref:mise",
+    "expression": "grel:if (length(cell.cross(\"prezzo_alle_8\",\"idImpianto\").cells[\"descCarburante\"].value[0].find(\"octane_101\")[0])>0,\"yes\",null)",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column fuel:diesel at index 1 based on column ref:mise using expression grel:if (length(cell.cross(\"prezzo_alle_8\",\"idImpianto\").cells[\"descCarburante\"].value[0].find(\"diesel\")[0])>0,\"yes\",null)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "fuel:diesel",
+    "columnInsertIndex": 1,
+    "baseColumnName": "ref:mise",
+    "expression": "grel:if (length(cell.cross(\"prezzo_alle_8\",\"idImpianto\").cells[\"descCarburante\"].value[0].find(\"diesel\")[0])>0,\"yes\",null)",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression grel:toTitlecase((split(value,\"'\"))[0])+\"'\"+toTitlecase((split(value,\"'\"))[1])",
+    "engineConfig": {
+      "facets": [
+        {
+          "name": "operator",
+          "columnName": "operator",
+          "query": "D'",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false,
+          "type": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "grel:toTitlecase((split(value,\"'\"))[0])+\"'\"+toTitlecase((split(value,\"'\"))[1])",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column operator using expression grel:value.replace(/\\.*\\sSas(\\s|$)/,\" S.A.S.\").replace(/\\.*\\sSpa(\\s|$)/,\" S.p.A.\").replace(/\\.*\\sSrl(\\s|$)/,\" S.R.L.\").replace(/\\.*\\sSnc(\\s|$)/,\" S.N.C.\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "operator",
+    "expression": "grel:value.replace(/\\.*\\sSas(\\s|$)/,\" S.A.S.\").replace(/\\.*\\sSpa(\\s|$)/,\" S.p.A.\").replace(/\\.*\\sSrl(\\s|$)/,\" S.R.L.\").replace(/\\.*\\sSnc(\\s|$)/,\" S.N.C.\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  }
+]
