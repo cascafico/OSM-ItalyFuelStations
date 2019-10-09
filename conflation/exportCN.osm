@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?><osm version="0.6" generator="Overpass API 0.7.55.7 8b86ff77">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2019-06-06T06:43:03Z" areas="2019-06-06T05:56:04Z"/>
+<meta osm_base="2019-09-30T11:46:02Z" areas="2019-09-30T09:40:02Z"/>
 
   <node id="2444067634" lat="44.2435040" lon="7.3978006" version="1" timestamp="2013-09-03T08:57:41Z" changeset="17649871" uid="1732060" user="luc76">
     <tag k="amenity" v="fuel"/>
@@ -262,13 +262,12 @@
     <tag k="operator" v="Daniele Raimondo &amp; Busso Duilio S.N.C."/>
     <tag k="ref:mise" v="24366"/>
   </node>
-  <node id="227662386" lat="44.4001901" lon="7.5408867" version="6" timestamp="2018-12-12T21:49:51Z" changeset="65424012" uid="492756" user="Botaler">
+  <node id="227662386" lat="44.4001901" lon="7.5408867" version="7" timestamp="2019-08-25T10:18:10Z" changeset="73714032" uid="9006927" user="francians">
     <tag k="amenity" v="fuel"/>
     <tag k="brand" v="Q8"/>
     <tag k="fuel:lpg" v="yes"/>
     <tag k="operator" v="Rosano Valter"/>
     <tag k="ref:mise" v="5719"/>
-    <tag k="source:date" v="2018-04-16"/>
   </node>
   <node id="4548280732" lat="44.3985940" lon="7.5370172" version="2" timestamp="2018-08-25T13:28:35Z" changeset="61984835" uid="361003" user="Cascafico">
     <tag k="amenity" v="fuel"/>
@@ -597,21 +596,31 @@
     <tag k="operator" v="Alberto Pierpaolo"/>
     <tag k="ref:mise" v="4859"/>
   </node>
-  <node id="5851835045" lat="44.7490070" lon="7.3169509" version="1" timestamp="2018-08-23T16:34:46Z" changeset="61927015" uid="8727120" user="attilaimport">
+  <node id="5851835045" lat="44.7490070" lon="7.3169509" version="3" timestamp="2019-06-23T20:41:10Z" changeset="71541097" uid="488783" user="Gianluca67">
+    <tag k="addr:city" v="Bagnolo Piemonte"/>
+    <tag k="addr:country" v="IT"/>
+    <tag k="addr:housenumber" v="80a"/>
+    <tag k="addr:postcode" v="12031"/>
+    <tag k="addr:street" v="Via Barge"/>
     <tag k="amenity" v="fuel"/>
     <tag k="brand" v="Esso"/>
+    <tag k="fuel:GTL_diesel" v="yes"/>
+    <tag k="fuel:HGV_diesel" v="yes"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
     <tag k="operator" v="Comba Pierino"/>
     <tag k="ref:mise" v="36885"/>
   </node>
-  <node id="226910607" lat="44.7552970" lon="7.3149630" version="3" timestamp="2013-10-17T18:31:08Z" changeset="18408085" uid="454589" user="sabas88">
-    <tag k="amenity" v="fuel"/>
-    <tag k="brand" v="Esso"/>
-    <tag k="name" v="Esso"/>
-    <tag k="operator" v="Esso"/>
-  </node>
-  <node id="5851837352" lat="44.7671638" lon="7.3100107" version="1" timestamp="2018-08-23T16:35:36Z" changeset="61927015" uid="8727120" user="attilaimport">
+  <node id="5851837352" lat="44.7671638" lon="7.3100107" version="2" timestamp="2019-06-23T20:14:51Z" changeset="71540684" uid="488783" user="Gianluca67">
+    <tag k="addr:city" v="Bagnolo Piemonte"/>
+    <tag k="addr:country" v="IT"/>
+    <tag k="addr:housenumber" v="6"/>
+    <tag k="addr:postcode" v="12031"/>
+    <tag k="addr:street" v="Via Bibiana"/>
     <tag k="amenity" v="fuel"/>
     <tag k="brand" v="Api-Ip"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:octane_95" v="yes"/>
     <tag k="operator" v="Ip Services S.R.L."/>
     <tag k="ref:mise" v="32347"/>
   </node>
@@ -637,7 +646,7 @@
     <tag k="operator" v="Re Micaela"/>
     <tag k="ref:mise" v="34435"/>
   </node>
-  <node id="228116764" lat="44.7480900" lon="7.5296260" version="4" timestamp="2018-08-25T13:17:01Z" changeset="61983827" uid="361003" user="Cascafico">
+  <node id="228116764" lat="44.7480538" lon="7.5298218" version="5" timestamp="2019-09-20T16:47:23Z" changeset="74727691" uid="554973" user="dgitto">
     <tag k="amenity" v="fuel"/>
     <tag k="brand" v="Total Erg"/>
     <tag k="name" v="Erg"/>
@@ -651,10 +660,10 @@
     <tag k="operator" v="Pozza Roberto"/>
     <tag k="ref:mise" v="39941"/>
   </node>
-  <node id="226988270" lat="44.7636810" lon="7.5425380" version="4" timestamp="2018-08-25T13:11:20Z" changeset="61983827" uid="361003" user="Cascafico">
+  <node id="226988270" lat="44.7636867" lon="7.5426855" version="5" timestamp="2019-09-20T16:08:27Z" changeset="74725801" uid="554973" user="dgitto">
     <tag k="amenity" v="fuel"/>
     <tag k="brand" v="Agip Eni"/>
-    <tag k="name" v="Agip"/>
+    <tag k="name" v="Eni"/>
     <tag k="operator" v="Laurenti Maurizio"/>
     <tag k="ref:mise" v="10003"/>
   </node>
@@ -733,9 +742,10 @@
     <tag k="operator" v="Bertaina Mario"/>
     <tag k="ref:mise" v="36024"/>
   </node>
-  <node id="3246066914" lat="44.3868735" lon="7.5592803" version="2" timestamp="2018-08-25T13:26:44Z" changeset="61984835" uid="361003" user="Cascafico">
+  <node id="3246066914" lat="44.3868735" lon="7.5592803" version="3" timestamp="2019-08-18T09:05:33Z" changeset="73458815" uid="8703887" user="Giosanto">
+    <tag k="addr:street" v="Via Bisalta"/>
     <tag k="amenity" v="fuel"/>
-    <tag k="brand" v="Total Erg"/>
+    <tag k="brand" v="IP"/>
     <tag k="operator" v="Società Agricola Lubrificanti Carburanti ed Affini (Sigla S.A.L.C.A.) a Responsabilità Limitata"/>
     <tag k="ref:mise" v="34613"/>
   </node>
@@ -753,10 +763,11 @@
     <tag k="operator" v="Musso Pierfranco"/>
     <tag k="ref:mise" v="34058"/>
   </node>
-  <node id="1327905313" lat="44.3867639" lon="7.5694797" version="5" timestamp="2018-12-17T20:03:26Z" changeset="65561441" uid="492756" user="Botaler">
+  <node id="1327905313" lat="44.3867639" lon="7.5694797" version="6" timestamp="2019-08-22T19:11:35Z" changeset="73639172" uid="7113202" user="PaoloLombardi">
     <tag k="amenity" v="fuel"/>
     <tag k="brand" v="Q8"/>
     <tag k="fuel:lpg" v="no"/>
+    <tag k="name" v="Q8"/>
     <tag k="operator" v="Servizi &amp; Gestioni Italia S.R.L."/>
     <tag k="ref:mise" v="11558"/>
   </node>
@@ -769,11 +780,13 @@
     <tag k="operator" v="Oggero Piercarlo"/>
     <tag k="ref:mise" v="31364"/>
   </node>
-  <node id="3246066915" lat="44.3910720" lon="7.5702783" version="2" timestamp="2018-08-25T13:26:44Z" changeset="61984835" uid="361003" user="Cascafico">
+  <node id="3246066915" lat="44.3910720" lon="7.5702783" version="3" timestamp="2019-06-15T09:31:19Z" changeset="71275285" uid="10077781" user="Galunquetor">
     <tag k="amenity" v="fuel"/>
     <tag k="brand" v="Agip Eni"/>
+    <tag k="fuel:autolavaggio" v="yes"/>
     <tag k="operator" v="Cmg Snc di Caula Federica &amp; C."/>
     <tag k="ref:mise" v="37990"/>
+    <tag k="self_service" v="yes"/>
   </node>
   <node id="802819536" lat="44.3891345" lon="7.5787220" version="3" timestamp="2018-08-25T13:21:29Z" changeset="61984835" uid="361003" user="Cascafico">
     <tag k="amenity" v="fuel"/>
@@ -819,9 +832,9 @@
     <tag k="amenity" v="fuel"/>
     <tag k="brand" v="TotalErg"/>
   </node>
-  <node id="2902207242" lat="44.4297918" lon="7.5675883" version="5" timestamp="2018-08-28T11:09:21Z" changeset="62063333" uid="90379" user="Andrea Musuruane">
+  <node id="2902207242" lat="44.4297918" lon="7.5675883" version="6" timestamp="2019-09-08T16:51:11Z" changeset="74231513" uid="9006927" user="francians">
     <tag k="addr:city" v="Cuneo"/>
-    <tag k="addr:street" v="via Bra"/>
+    <tag k="addr:street" v="Via Bra"/>
     <tag k="amenity" v="fuel"/>
     <tag k="contact:phone" v="+39 0171 300708"/>
     <tag k="fixme" v="name"/>
@@ -861,10 +874,10 @@
     <tag k="operator" v="L'Arcobaleno Sas di Menna Alberto e Miscia Maurizio &amp; C."/>
     <tag k="ref:mise" v="40117"/>
   </node>
-  <node id="622089135" lat="44.3979623" lon="7.7505662" version="2" timestamp="2018-08-25T13:20:56Z" changeset="61984835" uid="361003" user="Cascafico">
+  <node id="622089135" lat="44.3980225" lon="7.7505743" version="3" timestamp="2019-08-22T19:11:35Z" changeset="73639172" uid="7113202" user="PaoloLombardi">
     <tag k="amenity" v="fuel"/>
     <tag k="brand" v="Total Erg"/>
-    <tag k="name" v="Shell"/>
+    <tag k="name" v="Total Erg"/>
     <tag k="operator" v="Mondino Claudio"/>
     <tag k="ref:mise" v="7402"/>
   </node>
@@ -908,7 +921,7 @@
     <tag k="operator" v="Gonella &amp; Soma' S.R.L."/>
     <tag k="ref:mise" v="24518"/>
   </node>
-  <node id="227806954" lat="44.3664240" lon="7.7973160" version="3" timestamp="2013-10-17T18:32:20Z" changeset="18408085" uid="454589" user="sabas88">
+  <node id="227806954" lat="44.3663887" lon="7.7972449" version="4" timestamp="2019-09-29T08:59:31Z" changeset="75056540" uid="7113202" user="PaoloLombardi">
     <tag k="amenity" v="fuel"/>
     <tag k="brand" v="Agip"/>
     <tag k="operator" v="AGIP"/>
@@ -941,7 +954,7 @@
     <tag k="operator" v="Cordischi Ivan"/>
     <tag k="ref:mise" v="27851"/>
   </node>
-  <node id="228288571" lat="44.4116470" lon="7.7884430" version="4" timestamp="2018-08-25T13:18:23Z" changeset="61984835" uid="361003" user="Cascafico">
+  <node id="228288571" lat="44.4114552" lon="7.7885412" version="5" timestamp="2019-08-22T19:11:35Z" changeset="73639172" uid="7113202" user="PaoloLombardi">
     <tag k="amenity" v="fuel"/>
     <tag k="brand" v="Api-Ip"/>
     <tag k="name" v="IP"/>
@@ -954,7 +967,7 @@
     <tag k="operator" v="Wira Car Service S.A.S. di Olivero Andrea &amp; C."/>
     <tag k="ref:mise" v="7098"/>
   </node>
-  <node id="227806765" lat="44.3919627" lon="7.8182534" version="5" timestamp="2018-08-25T13:14:23Z" changeset="61983827" uid="361003" user="Cascafico">
+  <node id="227806765" lat="44.3919787" lon="7.8182246" version="6" timestamp="2019-09-02T19:15:28Z" changeset="74010853" uid="7113202" user="PaoloLombardi">
     <tag k="amenity" v="fuel"/>
     <tag k="brand" v="Agip Eni"/>
     <tag k="name" v="Agip"/>
@@ -979,22 +992,22 @@
     <tag k="operator" v="En.Gi. di Garelli Sergio &amp; C. S.N.C. Siglabile En.Gi. S.N.C."/>
     <tag k="ref:mise" v="22559"/>
   </node>
-  <node id="227663473" lat="44.3984750" lon="7.8239340" version="4" timestamp="2018-08-25T13:13:09Z" changeset="61983827" uid="361003" user="Cascafico">
+  <node id="227663473" lat="44.3984654" lon="7.8238522" version="6" timestamp="2019-08-22T19:11:35Z" changeset="73639172" uid="7113202" user="PaoloLombardi">
     <tag k="amenity" v="fuel"/>
     <tag k="brand" v="Q8"/>
     <tag k="fixme" v="name"/>
-    <tag k="name" v="Shell"/>
+    <tag k="name" v="Q8"/>
     <tag k="operator" v="Mondoservice S.A.S. di D'Angelo Gabriele e C."/>
     <tag k="ref:mise" v="5028"/>
   </node>
-  <node id="227806951" lat="44.3977890" lon="7.8228290" version="4" timestamp="2018-08-25T13:14:23Z" changeset="61983827" uid="361003" user="Cascafico">
+  <node id="227806951" lat="44.3977383" lon="7.8227506" version="5" timestamp="2019-08-22T16:50:22Z" changeset="73634295" uid="7113202" user="PaoloLombardi">
     <tag k="amenity" v="fuel"/>
     <tag k="brand" v="Tamoil"/>
     <tag k="name" v="Tamoil"/>
     <tag k="operator" v="Fazio Giuseppe"/>
     <tag k="ref:mise" v="8598"/>
   </node>
-  <node id="227806953" lat="44.4022270" lon="7.8286760" version="4" timestamp="2018-08-25T13:14:23Z" changeset="61983827" uid="361003" user="Cascafico">
+  <node id="227806953" lat="44.4022086" lon="7.8286226" version="5" timestamp="2019-08-22T16:50:22Z" changeset="73634295" uid="7113202" user="PaoloLombardi">
     <tag k="amenity" v="fuel"/>
     <tag k="brand" v="Agip Eni"/>
     <tag k="name" v="Agip"/>
@@ -1313,7 +1326,7 @@
     <tag k="operator" v="Delpiano Gabriele"/>
     <tag k="ref:mise" v="17412"/>
   </node>
-  <node id="5851845549" lat="44.5922394" lon="7.6595078" version="1" timestamp="2018-08-23T16:38:30Z" changeset="61927015" uid="8727120" user="attilaimport">
+  <node id="5851845549" lat="44.5922404" lon="7.6594480" version="2" timestamp="2019-09-04T15:14:52Z" changeset="74093443" uid="7113202" user="PaoloLombardi">
     <tag k="amenity" v="fuel"/>
     <tag k="brand" v="Q8"/>
     <tag k="operator" v="Servizi &amp; Gestioni Italia S.R.L."/>
@@ -1428,9 +1441,10 @@
     <tag k="operator" v="Calo' Massimiliano"/>
     <tag k="ref:mise" v="29799"/>
   </node>
-  <node id="5851833477" lat="44.5055128" lon="7.8979388" version="1" timestamp="2018-08-23T16:34:24Z" changeset="61927015" uid="8727120" user="attilaimport">
+  <node id="5851833477" lat="44.5055128" lon="7.8979388" version="2" timestamp="2019-08-29T16:04:17Z" changeset="73890817" uid="492756" user="Botaler">
     <tag k="amenity" v="fuel"/>
     <tag k="brand" v="Socogas"/>
+    <tag k="fuel:lpg" v="yes"/>
     <tag k="operator" v="Fresia Davide"/>
     <tag k="ref:mise" v="38638"/>
   </node>
@@ -1867,9 +1881,14 @@
     <tag k="operator" v="Alessandria Roberta"/>
     <tag k="ref:mise" v="33260"/>
   </node>
-  <node id="877807605" lat="44.6764498" lon="7.9900296" version="3" timestamp="2018-08-25T13:21:36Z" changeset="61984835" uid="361003" user="Cascafico">
+  <node id="877807605" lat="44.6764415" lon="7.9900734" version="4" timestamp="2019-07-20T07:29:27Z" changeset="72453188" uid="3338651" user="Marco_Fix">
+    <tag k="addr:city" v="Alba"/>
+    <tag k="addr:postcode" v="12051"/>
     <tag k="amenity" v="fuel"/>
-    <tag k="brand" v="Total Erg"/>
+    <tag k="brand" v="TotalErg"/>
+    <tag k="brand:wikidata" v="Q3995933"/>
+    <tag k="brand:wikipedia" v="it:TotalErg"/>
+    <tag k="name" v="TotalErg"/>
     <tag k="operator" v="Nuova No.Al. S.N.C. di Allegranza Barbara &amp; C."/>
     <tag k="ref:mise" v="17925"/>
   </node>
@@ -2252,16 +2271,13 @@
     <tag k="source:date" v="2018-04-16"/>
     <tag k="wheelchair" v="yes"/>
   </way>
-  <way id="368901151" version="2" timestamp="2018-12-23T18:16:57Z" changeset="65721449" uid="7113202" user="PaoloLombardi">
-    <center lat="44.3843628" lon="7.8327859"/>
-    <nd ref="3727420100"/>
+  <way id="368901151" version="3" timestamp="2019-08-22T14:45:32Z" changeset="73628802" uid="7113202" user="PaoloLombardi">
+    <center lat="44.3843639" lon="7.8327844"/>
     <nd ref="3727420103"/>
     <nd ref="3727420069"/>
     <nd ref="3727420053"/>
     <nd ref="3727420084"/>
-    <nd ref="3727420095"/>
-    <nd ref="3727420097"/>
-    <nd ref="3727420100"/>
+    <nd ref="3727420103"/>
     <tag k="amenity" v="fuel"/>
   </way>
   <way id="178865651" version="5" timestamp="2018-08-25T13:31:50Z" changeset="61984835" uid="361003" user="Cascafico">
@@ -2408,7 +2424,7 @@
     <tag k="ref:mise" v="30170"/>
     <tag k="source:date" v="2018-04-16"/>
   </way>
-  <way id="368061012" version="4" timestamp="2018-08-25T13:35:47Z" changeset="61984835" uid="361003" user="Cascafico">
+  <way id="368061012" version="5" timestamp="2019-09-11T20:41:05Z" changeset="74371328" uid="492756" user="Botaler">
     <center lat="44.6965575" lon="7.8450518"/>
     <nd ref="3719221107"/>
     <nd ref="3719221104"/>
@@ -2418,7 +2434,7 @@
     <tag k="addr:city" v="Bra"/>
     <tag k="addr:housenumber" v="82"/>
     <tag k="addr:postcode" v="12042"/>
-    <tag k="addr:street" v="Piazza Giolitti"/>
+    <tag k="addr:street" v="Piazza Giovanni Giolitti"/>
     <tag k="amenity" v="fuel"/>
     <tag k="brand" v="Q8"/>
     <tag k="name" v="Q8"/>
