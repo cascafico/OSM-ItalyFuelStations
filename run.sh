@@ -13,13 +13,11 @@ ANAGRAFICA=anagrafica-`date +"%Y-%m-%d"`
 mkdir -p tmp
 cd tmp
 
-#wget -nc -O $PREZZI.csv "http://www.sviluppoeconomico.gov.it/images/exportCSV/prezzo_alle_8.csv" --header="User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:23.0) Gecko/20100101 Firefox/23.0"
-wget --no-check-certificate -nc -O $PREZZI.csv "https://sviluppoeconomico.gov.it/images/exportCSV/prezzo_alle_8.csv" --header="User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:23.0) Gecko/20100101 Firefox/23.0"
+wget --no-check-certificate -nc -O $PREZZI.csv "https://www.mise.gov.it/images/exportCSV/prezzo_alle_8.csv" --header="User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:23.0) Gecko/20100101 Firefox/23.0"
 cp $PREZZI.csv prezzo_alle_8.csv
 sed -i -e '/^Estrazione/d' prezzo_alle_8.csv
 
-#wget -nc -O $ANAGRAFICA.csv "http://www.sviluppoeconomico.gov.it/images/exportCSV/anagrafica_impianti_attivi.csv" --header="User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:23.0) Gecko/20100101 Firefox/23.0"
-wget --no-check-certificate -nc -O $ANAGRAFICA.csv "https://sviluppoeconomico.gov.it/images/exportCSV/anagrafica_impianti_attivi.csv" --header="User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:23.0) Gecko/20100101 Firefox/23.0"
+wget --no-check-certificate -nc -O $ANAGRAFICA.csv "https://www.mise.gov.it/images/exportCSV/anagrafica_impianti_attivi.csv" --header="User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:23.0) Gecko/20100101 Firefox/23.0"
 
 # ANAGRAFICA
 # replacing headers, removing quotes, extracting useful columns, reducing coordinate floats, filter province(s)
